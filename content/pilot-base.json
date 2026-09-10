@@ -1,0 +1,2004 @@
+{
+  "version": "pregnancy-pilot-1.0.0",
+  "reviewed": "2026-09-09",
+  "areas": {
+    "bleeding": "Placental bleeding & shock",
+    "ectopic": "Ectopic pregnancy",
+    "hypertension": "Hypertensive complications",
+    "glucose": "Glucose management",
+    "fetal": "Fetal assessment",
+    "followup": "Follow-up & prevention"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "area": "bleeding",
+      "difficulty": 2,
+      "kind": "MC",
+      "skills": [
+        "Care management",
+        "Priority",
+        "Safety"
+      ],
+      "stem": "A patient at 33 weeks has a first episode of painless, bright-red vaginal bleeding. The uterus is soft, BP is 114/72 mmHg, and the fetal heart rate is 140/min with moderate variability. Placental location is unknown. Which proposed action should the nurse stop and clarify?",
+      "clue": "Painless bleeding with unknown placental location.",
+      "rationale": "The immediate safety issue is avoiding a potentially hemorrhage-provoking examination. Reassuring findings allow assessment but do not rule out placenta previa.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Continue fetal monitoring while arranging an ultrasound.",
+          "correct": false,
+          "reason": "Monitoring and ultrasound support safe assessment of bleeding and placental location."
+        },
+        {
+          "id": "o1",
+          "text": "Measure ongoing blood loss and trend maternal vital signs.",
+          "correct": false,
+          "reason": "Stable initial vital signs do not eliminate the need for continued hemorrhage surveillance."
+        },
+        {
+          "id": "o2",
+          "text": "Establish IV access and obtain prescribed blood specimens.",
+          "correct": false,
+          "reason": "These prepare for deterioration and do not disturb the placenta."
+        },
+        {
+          "id": "o3",
+          "text": "Perform a digital cervical examination to determine whether labor has begun.",
+          "correct": true,
+          "reason": "Digital examination can disrupt a placenta covering the cervical opening and provoke major hemorrhage before previa is excluded."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Placenta previa."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 8."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Placenta previa."
+        }
+      ],
+      "origin": "PDF question 1"
+    },
+    {
+      "id": "q2",
+      "area": "ectopic",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Care management",
+        "Priority"
+      ],
+      "stem": "A patient with a known ectopic pregnancy suddenly develops shoulder pain and dizziness. BP has fallen from 116/74 to 84/48 mmHg, pulse is 132/min, and vaginal bleeding remains scant. A second nurse is contacting the obstetric team. Which action has the highest priority?",
+      "clue": "Hypotension, tachycardia, and shoulder pain despite scant vaginal bleeding.",
+      "rationale": "Prioritize the patient's perfusion and trend, not the visible bleeding. Emergency resuscitation and definitive treatment must proceed together.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reassess the amount of vaginal bleeding in 30 minutes before escalating.",
+          "correct": false,
+          "reason": "Major intraperitoneal bleeding may occur with little vaginal blood loss."
+        },
+        {
+          "id": "o1",
+          "text": "Prepare the scheduled methotrexate injection after checking the medication record.",
+          "correct": false,
+          "reason": "Methotrexate is for selected stable, unruptured cases, not a patient with suspected rupture and shock."
+        },
+        {
+          "id": "o2",
+          "text": "Obtain a clean-catch urine specimen before starting fluid therapy.",
+          "correct": false,
+          "reason": "Urine testing does not take priority over restoring perfusion."
+        },
+        {
+          "id": "o3",
+          "text": "Initiate the hemorrhage response, support circulation with large-bore IV access, and prepare urgent surgical care.",
+          "correct": true,
+          "reason": "Shock with referred shoulder pain suggests internal hemorrhage from rupture; resuscitation cannot await further routine testing."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Ectopic pregnancy."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 6."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Ectopic pregnancy."
+        },
+        {
+          "label": "ACOG — Ectopic pregnancy (follow-up and emergency signs).",
+          "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+        }
+      ],
+      "origin": "PDF question 2"
+    },
+    {
+      "id": "q3",
+      "area": "hypertension",
+      "difficulty": 2,
+      "kind": "SATA",
+      "skills": [
+        "Assessment",
+        "Teaching",
+        "Priority",
+        "Safety"
+      ],
+      "stem": "A patient with gestational hypertension is reviewing when to seek urgent evaluation. Which new findings should the nurse include as warning signs of progression or another serious pregnancy complication? Select all that apply.",
+      "clue": "New neurologic, hepatic, or respiratory symptoms.",
+      "rationale": "Teach organ-system warning signs, not just edema or a single BP threshold. Symptoms can justify urgent evaluation even before another BP is obtained.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Shortness of breath at rest.",
+          "correct": true,
+          "reason": "This may indicate pulmonary edema or another cardiopulmonary emergency."
+        },
+        {
+          "id": "o1",
+          "text": "A persistent severe headache that does not improve with the prescribed measures.",
+          "correct": true,
+          "reason": "Persistent severe headache may reflect neurologic involvement and increased seizure risk."
+        },
+        {
+          "id": "o2",
+          "text": "Blurred vision with flashing lights.",
+          "correct": true,
+          "reason": "Visual disturbance is a serious neurologic warning sign."
+        },
+        {
+          "id": "o3",
+          "text": "Symmetric ankle swelling that resolves after overnight rest, without other changes.",
+          "correct": false,
+          "reason": "This isolated pattern is common in pregnancy and is less urgent than the listed organ-dysfunction signs."
+        },
+        {
+          "id": "o4",
+          "text": "Brief irregular tightening that resolves with rest and has no bleeding or fluid leakage.",
+          "correct": false,
+          "reason": "This description alone does not indicate worsening hypertensive disease, although persistent or changing symptoms need assessment."
+        },
+        {
+          "id": "o5",
+          "text": "New right-upper-quadrant pain with nausea.",
+          "correct": true,
+          "reason": "Hepatic involvement, including HELLP syndrome, can produce this pattern."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Preeclampsia."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 13–15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Preeclampsia."
+        },
+        {
+          "label": "ACOG — Preeclampsia and high blood pressure during pregnancy (clinical clarification).",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ],
+      "origin": "PDF question 3"
+    },
+    {
+      "id": "q4",
+      "area": "bleeding",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Priority",
+        "Care management"
+      ],
+      "stem": "A patient at 35 weeks reports sudden constant abdominal pain. The uterus is firm between contractions, pulse is 122/min, BP is 92/56 mmHg, and recurrent late decelerations are present. Only a small amount of dark vaginal blood is visible. Which interpretation should guide care?",
+      "clue": "Persistent pain, a firm uterus, shock, and a deteriorating tracing.",
+      "rationale": "The combined maternal and fetal findings indicate an emergency. Notify the team, support circulation, monitor continuously, and prepare the indicated delivery response.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Concealed placental abruption may be causing substantial hemorrhage and fetal compromise.",
+          "correct": true,
+          "reason": "Pain, sustained uterine tone, shock, and late decelerations are consistent with a concealed abruption."
+        },
+        {
+          "id": "o1",
+          "text": "The small external blood loss indicates a mild bleed suitable for observation alone.",
+          "correct": false,
+          "reason": "External bleeding does not quantify concealed blood loss."
+        },
+        {
+          "id": "o2",
+          "text": "A painless placental bleeding process is more likely because the bleeding is dark.",
+          "correct": false,
+          "reason": "Color alone is not diagnostic; persistent pain and a firm uterus favor abruption."
+        },
+        {
+          "id": "o3",
+          "text": "The fetal pattern is expected from head compression and needs no intervention.",
+          "correct": false,
+          "reason": "Late decelerations suggest impaired oxygen transfer, not ordinary head compression."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Placental abruption."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 8."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Placental abruption."
+        }
+      ],
+      "origin": "PDF question 4"
+    },
+    {
+      "id": "q5",
+      "area": "bleeding",
+      "difficulty": 3,
+      "kind": "SATA",
+      "skills": [
+        "Care management",
+        "Safety",
+        "Priority"
+      ],
+      "stem": "A patient with severe abruption has oozing from venipuncture sites, falling platelets and fibrinogen, and a prolonged clotting time. The hemorrhage team is at the bedside. Which nursing actions are appropriate? Select all that apply.",
+      "clue": "Oozing at puncture sites with falling platelets and fibrinogen.",
+      "rationale": "This pattern suggests disseminated intravascular coagulation. Manage bleeding and the obstetric cause in parallel rather than waiting for perfect laboratory values.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Maintain large-bore IV access and prepare ordered blood components.",
+          "correct": true,
+          "reason": "Active bleeding with consumptive coagulopathy requires rapid access and component replacement as prescribed."
+        },
+        {
+          "id": "o1",
+          "text": "Minimize unnecessary punctures and apply sustained pressure after required sampling.",
+          "correct": true,
+          "reason": "Additional tissue trauma can worsen bleeding when clot formation is impaired."
+        },
+        {
+          "id": "o2",
+          "text": "Delay definitive obstetric treatment until all coagulation results have normalized.",
+          "correct": false,
+          "reason": "The underlying trigger must be treated while resuscitation and coagulopathy management continue."
+        },
+        {
+          "id": "o3",
+          "text": "Use the volume on vaginal pads as the sole measure of hemorrhage severity.",
+          "correct": false,
+          "reason": "Concealed bleeding and the patient's perfusion must be considered; pad counts alone underestimate the problem."
+        },
+        {
+          "id": "o4",
+          "text": "Give an intramuscular analgesic because the IV lines are occupied.",
+          "correct": false,
+          "reason": "Intramuscular injections create hematoma risk in coagulopathy; obtain a safer ordered route."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Disseminated intravascular coagulation."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 17."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Disseminated intravascular coagulation."
+        }
+      ],
+      "origin": "PDF question 5"
+    },
+    {
+      "id": "q6",
+      "area": "followup",
+      "difficulty": 2,
+      "kind": "MC",
+      "skills": [
+        "Teaching",
+        "Care management"
+      ],
+      "stem": "After evacuation of a hydatidiform mole, a patient says, \"The bleeding stopped, so I will cancel the blood tests and try to conceive next month.\" Which response best explains the priority follow-up need?",
+      "clue": "Stopped bleeding does not confirm resolution of trophoblastic disease.",
+      "rationale": "Symptom improvement does not prove complete resolution. Explain the purpose of surveillance and the individualized plan without imposing an unsupported universal duration.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pregnancy should be avoided permanently because every mole becomes cancerous.",
+          "correct": false,
+          "reason": "This falsely equates risk with certainty and unnecessarily rules out future pregnancy."
+        },
+        {
+          "id": "o1",
+          "text": "Follow-up is needed only if pelvic pain returns.",
+          "correct": false,
+          "reason": "Persistent trophoblastic disease may not cause early symptoms."
+        },
+        {
+          "id": "o2",
+          "text": "A single negative urine pregnancy test is enough if bleeding has stopped.",
+          "correct": false,
+          "reason": "Follow-up requires the prescribed serial testing plan, not one home test."
+        },
+        {
+          "id": "o3",
+          "text": "Serial hCG testing checks for persistent trophoblastic tissue; use the prescribed contraception until surveillance is complete.",
+          "correct": true,
+          "reason": "Persistent or rising hCG can indicate ongoing disease, and a new pregnancy makes surveillance harder to interpret."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Gestational trophoblastic disease."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 7."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Gestational trophoblastic disease."
+        }
+      ],
+      "origin": "PDF question 6"
+    },
+    {
+      "id": "q7",
+      "area": "glucose",
+      "difficulty": 2,
+      "kind": "SATA",
+      "skills": [
+        "Teaching",
+        "Pharmacology",
+        "Care management"
+      ],
+      "stem": "A patient newly diagnosed with gestational diabetes is prescribed glucose monitoring, nutrition therapy, and insulin. Which statements show correct understanding? Select all that apply.",
+      "clue": "Insulin treatment adds low-glucose risk as well as the need for glucose control.",
+      "rationale": "Effective teaching links the daily management plan to maternal safety, neonatal surveillance, and follow-up beyond birth.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "\"Once the placenta is delivered, I will never need diabetes screening again.\"",
+          "correct": false,
+          "reason": "Gestational diabetes increases later diabetes risk and requires postpartum and longer-term screening."
+        },
+        {
+          "id": "o1",
+          "text": "\"I should carry a fast-acting glucose source in case I develop hypoglycemia.\"",
+          "correct": true,
+          "reason": "Insulin can cause low glucose; a conscious patient able to swallow needs prompt treatment according to the plan."
+        },
+        {
+          "id": "o2",
+          "text": "\"Skipping breakfast is the safest way to correct a high fasting reading.\"",
+          "correct": false,
+          "reason": "Skipping meals can cause inadequate nutrition and hypoglycemia with insulin."
+        },
+        {
+          "id": "o3",
+          "text": "\"My newborn may need glucose checks even if the baby looks well.\"",
+          "correct": true,
+          "reason": "Fetal hyperinsulinemia can cause hypoglycemia after maternal glucose delivery stops."
+        },
+        {
+          "id": "o4",
+          "text": "\"I will record glucose readings and contact the team about a repeated pattern outside my targets.\"",
+          "correct": true,
+          "reason": "Trends guide treatment adjustments and are more useful than selectively reporting only favorable readings."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Diabetes mellitus."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 19."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Diabetes mellitus."
+        }
+      ],
+      "origin": "PDF question 7"
+    },
+    {
+      "id": "q8",
+      "area": "followup",
+      "difficulty": 1,
+      "kind": "MC",
+      "skills": [
+        "Teaching",
+        "Pharmacology",
+        "Safety"
+      ],
+      "stem": "A patient at 12 weeks has a negative rubella immunity result and no symptoms or known recent exposure. Which plan should the nurse reinforce?",
+      "clue": "Nonimmune means susceptible, not infected; the patient is pregnant.",
+      "rationale": "Separate susceptibility from infection. Exposure during pregnancy warrants prompt clinician contact, but routine prevention does not include prenatal MMR.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Give MMR today because the first trimester has the greatest fetal risk.",
+          "correct": false,
+          "reason": "Greater fetal vulnerability does not make a live vaccine safe during pregnancy."
+        },
+        {
+          "id": "o1",
+          "text": "Document that a negative immunity result confirms active fetal infection.",
+          "correct": false,
+          "reason": "Lack of immunity is not evidence of current maternal or fetal infection."
+        },
+        {
+          "id": "o2",
+          "text": "Start prophylactic antibiotics for the remainder of pregnancy.",
+          "correct": false,
+          "reason": "Antibiotics do not prevent rubella, a viral infection."
+        },
+        {
+          "id": "o3",
+          "text": "Avoid exposure and arrange MMR vaccination when eligible after pregnancy.",
+          "correct": true,
+          "reason": "MMR is live and is not administered during pregnancy; postpartum vaccination protects future pregnancies."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Rubella."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 23."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Rubella."
+        },
+        {
+          "label": "CDC — Guidelines for vaccinating pregnant women: MMR.",
+          "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html"
+        }
+      ],
+      "origin": "PDF question 8"
+    },
+    {
+      "id": "q9",
+      "area": "fetal",
+      "difficulty": 2,
+      "kind": "MC",
+      "skills": [
+        "Priority",
+        "Assessment"
+      ],
+      "stem": "The prenatal nurse receives four telephone messages. Which patient needs the most urgent callback and immediate evaluation?",
+      "clue": "A marked change from the patient’s usual fetal movement pattern.",
+      "rationale": "The highest-priority call identifies a potentially time-sensitive threat. Do not reassure the patient solely because there is no pain or bleeding.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A patient at 34 weeks with mild bilateral ankle swelling that improves with elevation.",
+          "correct": false,
+          "reason": "This isolated dependent swelling is lower priority than possible fetal compromise."
+        },
+        {
+          "id": "o1",
+          "text": "A patient at 24 weeks with heartburn after a spicy meal and no chest pain or dyspnea.",
+          "correct": false,
+          "reason": "An isolated meal-related symptom has lower immediate priority."
+        },
+        {
+          "id": "o2",
+          "text": "A patient at 10 weeks with morning nausea who is drinking fluids and urinating normally.",
+          "correct": false,
+          "reason": "This pattern is less concerning than reduced fetal movement without dehydration or instability."
+        },
+        {
+          "id": "o3",
+          "text": "A patient at 30 weeks who reports markedly reduced fetal movement compared with the usual pattern today.",
+          "correct": true,
+          "reason": "A clear change in fetal activity can indicate compromise and requires prompt assessment."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Fetal assessment."
+        },
+        {
+          "label": "Week 4 Exam 2 Assessment of High Risk Pregnancy, bonus lecture — slides 6, 15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Assessment of fetal well-being; fetal monitoring."
+        }
+      ],
+      "origin": "PDF question 9"
+    },
+    {
+      "id": "q10",
+      "area": "hypertension",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Care management",
+        "Priority",
+        "Safety"
+      ],
+      "stem": "A hospitalized patient with severe preeclampsia has urine output of 20 mL/hr for 2 hours, new crackles, RR 28/min, and oxygen saturation 91%. A standing order permits an IV fluid bolus for isolated low urine output. Which action is most appropriate now?",
+      "clue": "Low urine output now occurs with crackles and hypoxemia.",
+      "rationale": "Read the conditions attached to a standing order. A patient with hypoxemia and crackles no longer meets an isolated-oliguria scenario.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Encourage oral fluids and recheck the urine output at the end of the shift.",
+          "correct": false,
+          "reason": "Hypoxemia and new crackles require immediate intervention."
+        },
+        {
+          "id": "o1",
+          "text": "Give the full bolus immediately because all oliguria indicates dehydration.",
+          "correct": false,
+          "reason": "This assumption can worsen pulmonary edema."
+        },
+        {
+          "id": "o2",
+          "text": "Obtain urgent evaluation for pulmonary edema and support oxygenation rather than automatically giving the bolus.",
+          "correct": true,
+          "reason": "Oliguria with respiratory findings suggests organ dysfunction and fluid intolerance, not uncomplicated volume depletion."
+        },
+        {
+          "id": "o3",
+          "text": "Continue the current plan because oliguria is an expected harmless effect of pregnancy.",
+          "correct": false,
+          "reason": "The trend and respiratory deterioration are not benign pregnancy changes."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Severe preeclampsia."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 13–16."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Severe preeclampsia."
+        },
+        {
+          "label": "ACOG — Preeclampsia and high blood pressure during pregnancy (clinical clarification).",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ],
+      "origin": "PDF question 10"
+    },
+    {
+      "id": "q11",
+      "area": "fetal",
+      "difficulty": 3,
+      "kind": "SATA",
+      "skills": [
+        "Care management",
+        "Safety",
+        "Teaching"
+      ],
+      "stem": "A patient at 37 weeks is scheduled for external cephalic version. Which nursing actions support safe care? Select all that apply.",
+      "clue": "A planned procedure needs fetal assessment and emergency readiness.",
+      "rationale": "Safe version care includes screening, emergency readiness, and follow-up monitoring, not merely turning the fetus.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Verify the preprocedure fetal assessment and report a nonreassuring tracing before proceeding.",
+          "correct": true,
+          "reason": "The procedure requires assessment of fetal tolerance and eligibility."
+        },
+        {
+          "id": "o1",
+          "text": "Proceed without clarification when ultrasound shows a placenta completely covering the cervical opening.",
+          "correct": false,
+          "reason": "Placenta previa is a contraindication to planned vaginal birth and makes this proposed plan inappropriate."
+        },
+        {
+          "id": "o2",
+          "text": "Confirm that urgent cesarean birth can be performed if needed.",
+          "correct": true,
+          "reason": "Version can produce fetal compromise or other complications requiring rapid birth."
+        },
+        {
+          "id": "o3",
+          "text": "Tell the patient to ignore persistent pain or vaginal bleeding after discharge.",
+          "correct": false,
+          "reason": "These symptoms need urgent assessment rather than routine reassurance."
+        },
+        {
+          "id": "o4",
+          "text": "End fetal monitoring immediately once ultrasound confirms a head-down position.",
+          "correct": false,
+          "reason": "Successful repositioning does not rule out subsequent bradycardia, bleeding, or labor; prescribed observation continues."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — External version; placental abnormalities."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 8; Bonus 8, 15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Assessment of fetal well-being; fetal monitoring."
+        },
+        {
+          "label": "Week 5 Exam 2 High Risk Labor and Delivery Instructor Notes — External cephalic version."
+        }
+      ],
+      "origin": "PDF question 11"
+    },
+    {
+      "id": "q12",
+      "area": "fetal",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Care management",
+        "Priority"
+      ],
+      "stem": "During fetal surveillance, each deceleration begins after a contraction starts, reaches its lowest point after the contraction peak, and recovers after the contraction ends. Variability is now minimal. Which response is most appropriate?",
+      "clue": "Late deceleration timing plus minimal variability.",
+      "rationale": "Use the full tracing, its timing, and the clinical context. A mnemonic does not replace assessment and escalation of a deteriorating pattern.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Interpret the recovery after each contraction as proof that oxygenation is adequate.",
+          "correct": false,
+          "reason": "Recovery alone does not make a recurrent late pattern reassuring."
+        },
+        {
+          "id": "o1",
+          "text": "Encourage sustained pushing during the next three contractions.",
+          "correct": false,
+          "reason": "Pushing can further reduce oxygen delivery and is inappropriate as a response to this surveillance finding."
+        },
+        {
+          "id": "o2",
+          "text": "Document benign head-compression decelerations and continue routine observation.",
+          "correct": false,
+          "reason": "Early decelerations mirror contractions; this timing is late."
+        },
+        {
+          "id": "o3",
+          "text": "Reposition laterally, assess maternal status, and promptly escalate the recurrent late pattern.",
+          "correct": true,
+          "reason": "Late timing with reduced variability raises concern for inadequate uteroplacental oxygen transfer."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Fetal assessment and impaired placental perfusion."
+        },
+        {
+          "label": "Week 4 Exam 2 Assessment of High Risk Pregnancy, bonus lecture — slides 15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Assessment of fetal well-being; fetal monitoring."
+        }
+      ],
+      "origin": "PDF question 12"
+    },
+    {
+      "id": "q13",
+      "area": "glucose",
+      "difficulty": 2,
+      "kind": "MC",
+      "skills": [
+        "Pharmacology",
+        "Priority",
+        "Care management"
+      ],
+      "stem": "An insulin-treated pregnant patient is awake, diaphoretic, and shaky. Bedside glucose is 54 mg/dL. The patient can swallow safely. Which action should the nurse take first under the hypoglycemia protocol?",
+      "clue": "Glucose is low, and the patient is awake with safe swallowing.",
+      "rationale": "Treat the identified reversible threat promptly. Repeat treatment or escalate according to response and protocol; oral intake is not appropriate if consciousness or swallowing deteriorates.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Give a high-fat snack and wait one hour before retesting.",
+          "correct": false,
+          "reason": "Fat delays carbohydrate absorption, and an hour is too long to evaluate the immediate response."
+        },
+        {
+          "id": "o1",
+          "text": "Obtain a laboratory fasting glucose before treating the bedside result.",
+          "correct": false,
+          "reason": "Symptomatic low glucose should be treated without delaying for a fasting sample."
+        },
+        {
+          "id": "o2",
+          "text": "Give 15 g of fast-acting carbohydrate and recheck glucose in 15 minutes.",
+          "correct": true,
+          "reason": "A conscious patient with safe swallowing can receive prompt oral glucose treatment and reassessment."
+        },
+        {
+          "id": "o3",
+          "text": "Administer the scheduled rapid-acting insulin before offering food.",
+          "correct": false,
+          "reason": "Additional insulin can worsen the hypoglycemia."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Hypoglycemia."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 19."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Hypoglycemia."
+        },
+        {
+          "label": "ATI RN Pharmacology for Nursing, edition 8 — Hypoglycemia management."
+        }
+      ],
+      "origin": "PDF question 13"
+    },
+    {
+      "id": "q14",
+      "area": "followup",
+      "difficulty": 2,
+      "kind": "SATA",
+      "skills": [
+        "Teaching",
+        "Safety",
+        "Care management"
+      ],
+      "stem": "A patient with a cervical cerclage at 22 weeks is preparing for discharge. Which instructions should be included? Select all that apply.",
+      "clue": "A cerclage does not remove the need to recognize labor, rupture, or infection.",
+      "rationale": "The safety goal is early recognition of labor, infection, or membrane rupture. Teach the patient's actual activity and follow-up plan.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Wait until the next routine visit to report fever if fetal movement is unchanged.",
+          "correct": false,
+          "reason": "Fever can indicate infection even when movement has not changed and requires prompt contact."
+        },
+        {
+          "id": "o1",
+          "text": "Keep the stitch in place during active labor unless it falls out on its own.",
+          "correct": false,
+          "reason": "Leaving a cerclage unaddressed during labor can injure the cervix."
+        },
+        {
+          "id": "o2",
+          "text": "Begin strict bed rest for the rest of pregnancy even if it was not prescribed.",
+          "correct": false,
+          "reason": "Activity guidance is individualized; unprescribed prolonged bed rest is not a default preventive treatment."
+        },
+        {
+          "id": "o3",
+          "text": "Seek evaluation for fluid leakage or significant vaginal bleeding.",
+          "correct": true,
+          "reason": "These can indicate membrane rupture or another pregnancy complication."
+        },
+        {
+          "id": "o4",
+          "text": "Report regular cramping, pelvic pressure, or contractions promptly.",
+          "correct": true,
+          "reason": "Labor with a cerclage requires assessment and may require removal of the stitch."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Cervical insufficiency."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 5."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Cervical insufficiency."
+        }
+      ],
+      "origin": "PDF question 14"
+    },
+    {
+      "id": "q15",
+      "area": "hypertension",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Priority",
+        "Care management"
+      ],
+      "stem": "A patient at 32 weeks has BP 154/98 mmHg, severe right-upper-quadrant pain, platelets 72,000/mm3, and AST 186 units/L. A urine dipstick is negative for protein. Which conclusion should the nurse communicate?",
+      "clue": "Low platelets and hepatic findings despite a negative protein dipstick.",
+      "rationale": "Avoid anchoring on one absent finding or an extreme BP cutoff. Escalate the whole pattern and prepare coordinated maternal-fetal management.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The patient can wait until the BP reaches 180/120 mmHg before reassessment.",
+          "correct": false,
+          "reason": "Serious complications can occur below that value; symptoms and laboratory findings already demand urgent evaluation."
+        },
+        {
+          "id": "o1",
+          "text": "The platelet count is an expected dilutional change that needs no escalation.",
+          "correct": false,
+          "reason": "This degree of thrombocytopenia is clinically significant."
+        },
+        {
+          "id": "o2",
+          "text": "Preeclampsia is excluded because protein was not detected on the dipstick.",
+          "correct": false,
+          "reason": "A negative dipstick does not override serious organ-dysfunction findings."
+        },
+        {
+          "id": "o3",
+          "text": "The findings suggest severe disease with possible HELLP syndrome despite the negative urine dipstick.",
+          "correct": true,
+          "reason": "Thrombocytopenia and hepatic involvement can establish severe features; proteinuria is not required when qualifying organ dysfunction is present."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — HELLP syndrome."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 13–15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — HELLP syndrome."
+        },
+        {
+          "label": "ACOG — Preeclampsia and high blood pressure during pregnancy (clinical clarification).",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ],
+      "origin": "PDF question 15"
+    },
+    {
+      "id": "p101",
+      "area": "bleeding",
+      "difficulty": 1,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Priority"
+      ],
+      "stem": "A patient at 31 weeks reports sudden abdominal pain with vaginal bleeding. Which additional assessment finding most strongly supports placental abruption rather than uncomplicated placenta previa?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A tender uterus that stays firm between contractions.",
+          "correct": true,
+          "reason": "Abruption often causes pain and sustained uterine tone; previa more often produces painless bleeding with a soft uterus."
+        },
+        {
+          "id": "o1",
+          "text": "A placenta located near the cervical opening on a previous ultrasound.",
+          "correct": false,
+          "reason": "This location supports previa, although a prior diagnosis does not replace assessment of new symptoms."
+        },
+        {
+          "id": "o2",
+          "text": "Painless bleeding that first appeared during sleep.",
+          "correct": false,
+          "reason": "Painless bleeding is more characteristic of previa."
+        },
+        {
+          "id": "o3",
+          "text": "A soft, nontender uterus between contractions.",
+          "correct": false,
+          "reason": "This finding does not support the painful, hypertonic pattern of abruption."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Placenta previa and abruption."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 8."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Placenta previa and abruption."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Pain plus persistent uterine firmness matters more than blood color alone.",
+      "rationale": "Differentiate the bleeding patterns while continuing urgent maternal and fetal assessment. Neither condition is safely assessed by the volume on a pad alone."
+    },
+    {
+      "id": "p102",
+      "area": "bleeding",
+      "difficulty": 2,
+      "kind": "SATA",
+      "skills": [
+        "Care management",
+        "Safety"
+      ],
+      "stem": "A patient with ultrasound-confirmed placenta previa has a small painless bleed at 32 weeks. Maternal vital signs and the fetal tracing are currently reassuring. Which actions belong in the nursing plan? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Trend bleeding, maternal vital signs, and fetal status.",
+          "correct": true,
+          "reason": "Reassuring findings are a baseline for surveillance, not proof that further bleeding cannot occur."
+        },
+        {
+          "id": "o1",
+          "text": "Confirm IV access and readiness for the prescribed hemorrhage response.",
+          "correct": true,
+          "reason": "The patient can deteriorate quickly, so preparation supports timely treatment."
+        },
+        {
+          "id": "o2",
+          "text": "Report new dizziness, increasing bleeding, or a change in the tracing immediately.",
+          "correct": true,
+          "reason": "These changes may signal worsening maternal or fetal perfusion."
+        },
+        {
+          "id": "o3",
+          "text": "Perform a digital cervical check whenever bleeding increases.",
+          "correct": false,
+          "reason": "Digital examination can disturb the placenta and provoke hemorrhage."
+        },
+        {
+          "id": "o4",
+          "text": "Remove monitoring once the next pad is dry.",
+          "correct": false,
+          "reason": "A brief pause in visible bleeding does not establish sustained stability."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Placenta previa."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 8."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Placenta previa."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "The patient is stable now but has an ongoing hemorrhage risk.",
+      "rationale": "Expectant care requires surveillance and readiness. Avoid procedures that can disrupt the placenta, and escalate new findings promptly."
+    },
+    {
+      "id": "p103",
+      "area": "bleeding",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Priority",
+        "Care management"
+      ],
+      "stem": "A patient with abruption is receiving emergency resuscitation. Blood begins oozing around IV sites; platelets have fallen from 168,000 to 64,000/mm3 and fibrinogen from 390 to 110 mg/dL. Which communication to the obstetric team is most important?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Report suspected consumptive coagulopathy and request coordination of blood-component replacement and definitive obstetric treatment.",
+          "correct": true,
+          "reason": "The bleeding and rapidly worsening coagulation results suggest DIC, requiring treatment of both the bleeding and its trigger."
+        },
+        {
+          "id": "o1",
+          "text": "Recommend postponing obstetric treatment until all coagulation results have normalized.",
+          "correct": false,
+          "reason": "Waiting for normalization can leave the underlying trigger active."
+        },
+        {
+          "id": "o2",
+          "text": "Report that the low fibrinogen explains why additional assessment of perfusion is unnecessary.",
+          "correct": false,
+          "reason": "Laboratory abnormalities do not replace assessment of circulation, urine output, and ongoing blood loss."
+        },
+        {
+          "id": "o3",
+          "text": "Request a routine intramuscular medication for pain before addressing the new laboratory findings.",
+          "correct": false,
+          "reason": "An IM injection increases hematoma risk and does not address the life-threatening change."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Abruption and DIC."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 17."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Abruption and DIC."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Bleeding from multiple sites with falling platelets and fibrinogen.",
+      "rationale": "Identify a new complication during treatment. Resuscitation, coagulation support, and management of the obstetric cause must proceed together under the team’s plan."
+    },
+    {
+      "id": "p104",
+      "area": "ectopic",
+      "difficulty": 1,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Safety"
+      ],
+      "stem": "A patient with a positive pregnancy test reports unilateral lower abdominal pain and spotting. The pregnancy location has not been confirmed. Which assessment plan should the nurse anticipate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Assess stability and prepare for transvaginal ultrasound and quantitative hCG testing as ordered.",
+          "correct": true,
+          "reason": "These help locate the pregnancy and evaluate a possible ectopic pregnancy while maternal stability remains the priority."
+        },
+        {
+          "id": "o1",
+          "text": "Use the amount of spotting to exclude an ectopic pregnancy.",
+          "correct": false,
+          "reason": "Little vaginal bleeding does not exclude ectopic pregnancy or internal hemorrhage."
+        },
+        {
+          "id": "o2",
+          "text": "Reassure the patient that a positive pregnancy test confirms implantation in the uterus.",
+          "correct": false,
+          "reason": "A positive hCG result does not establish pregnancy location."
+        },
+        {
+          "id": "o3",
+          "text": "Recommend routine follow-up only after fetal movement begins.",
+          "correct": false,
+          "reason": "Pain and bleeding with an unlocated pregnancy warrant timely evaluation."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Ectopic pregnancy."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 6."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Ectopic pregnancy."
+        },
+        {
+          "label": "ACOG — Ectopic pregnancy (follow-up and emergency signs).",
+          "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "A positive pregnancy test does not tell you where implantation occurred.",
+      "rationale": "Recognize the need to establish location and assess for deterioration. If signs of shock appear, emergency stabilization takes precedence over routine diagnostic sequencing."
+    },
+    {
+      "id": "p105",
+      "area": "ectopic",
+      "difficulty": 2,
+      "kind": "SATA",
+      "skills": [
+        "Teaching",
+        "Pharmacology",
+        "Safety"
+      ],
+      "stem": "A stable patient is discharged after prescribed methotrexate for an unruptured ectopic pregnancy. Which statements indicate understanding of the plan? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "“I will keep the scheduled quantitative hCG blood tests even if I feel better.”",
+          "correct": true,
+          "reason": "Serial testing evaluates treatment response and confirms resolution."
+        },
+        {
+          "id": "o1",
+          "text": "“New severe abdominal pain, shoulder pain, or weakness means I need urgent evaluation.”",
+          "correct": true,
+          "reason": "These can indicate rupture, which remains possible during treatment."
+        },
+        {
+          "id": "o2",
+          "text": "“Once I have received methotrexate, rupture is no longer possible.”",
+          "correct": false,
+          "reason": "Treatment does not immediately remove the risk of rupture."
+        },
+        {
+          "id": "o3",
+          "text": "“A single negative home test can replace my remaining appointments.”",
+          "correct": false,
+          "reason": "The clinician’s surveillance plan cannot be replaced with a single home test."
+        },
+        {
+          "id": "o4",
+          "text": "“I can choose the date to stop follow-up based on when the spotting ends.”",
+          "correct": false,
+          "reason": "Symptoms alone do not establish resolution."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Ectopic pregnancy."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 6."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Ectopic pregnancy."
+        },
+        {
+          "label": "ACOG — Ectopic pregnancy (follow-up and emergency signs).",
+          "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Methotrexate begins treatment; it does not end the need for surveillance.",
+      "rationale": "Safe discharge depends on reliable follow-up and clear emergency instructions. The patient’s ability to return for testing is part of treatment safety."
+    },
+    {
+      "id": "p106",
+      "area": "ectopic",
+      "difficulty": 2,
+      "kind": "MC",
+      "skills": [
+        "Care management",
+        "Therapeutic communication"
+      ],
+      "stem": "A patient being considered for methotrexate says, “I cannot get to the clinic for blood tests because I have no transportation.” Vital signs are stable. What is the nurse’s best response?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Explore transportation support and tell the prescriber that reliable follow-up is not yet arranged.",
+          "correct": true,
+          "reason": "Follow-up is essential for safe medical management; the team must address barriers or reconsider the plan."
+        },
+        {
+          "id": "o1",
+          "text": "Explain the testing schedule again and assume the patient will find transportation.",
+          "correct": false,
+          "reason": "Repeating instructions does not resolve an identified access barrier."
+        },
+        {
+          "id": "o2",
+          "text": "Tell the patient that the first injection makes follow-up optional.",
+          "correct": false,
+          "reason": "Methotrexate requires monitoring for response and complications."
+        },
+        {
+          "id": "o3",
+          "text": "Require the patient to promise attendance before discussing available resources.",
+          "correct": false,
+          "reason": "A promise does not establish a workable safety plan and can discourage disclosure of barriers."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Ectopic pregnancy."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 6."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Ectopic pregnancy."
+        },
+        {
+          "label": "ACOG — Ectopic pregnancy (follow-up and emergency signs).",
+          "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "The treatment plan requires something the patient currently cannot access.",
+      "rationale": "Assess whether the plan can actually be carried out. Collaboration and practical support are nursing interventions, not substitutes for clinical monitoring."
+    },
+    {
+      "id": "p107",
+      "area": "ectopic",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Priority",
+        "Assessment"
+      ],
+      "stem": "Two days after methotrexate, a patient calls about rapidly worsening abdominal pain, new shoulder pain, and nearly fainting when standing. The patient asks whether to wait for tomorrow’s hCG test. Which response is best?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Direct the patient to emergency evaluation now; suspected internal bleeding cannot wait for the scheduled blood test.",
+          "correct": true,
+          "reason": "Worsening pain with presyncope and shoulder pain suggests possible rupture and hemorrhage."
+        },
+        {
+          "id": "o1",
+          "text": "Review the medication’s common adverse effects and keep tomorrow’s appointment.",
+          "correct": false,
+          "reason": "Mild discomfort can occur, but this combination of worsening symptoms requires urgent evaluation."
+        },
+        {
+          "id": "o2",
+          "text": "Ask the patient to take a home pregnancy test before deciding where to go.",
+          "correct": false,
+          "reason": "A home test cannot assess rupture or hemodynamic compromise."
+        },
+        {
+          "id": "o3",
+          "text": "Recommend oral fluids and reassessment after sleep.",
+          "correct": false,
+          "reason": "This delays evaluation of a potentially life-threatening complication."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Ectopic pregnancy."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 6."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Ectopic pregnancy."
+        },
+        {
+          "label": "ACOG — Ectopic pregnancy (follow-up and emergency signs).",
+          "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "New presyncope and shoulder pain change the urgency of post-treatment abdominal pain.",
+      "rationale": "Reassess risk when the clinical pattern changes. Scheduled surveillance does not replace emergency care for signs of rupture; advise emergency services if the patient is faint, unstable, or cannot travel safely."
+    },
+    {
+      "id": "p108",
+      "area": "ectopic",
+      "difficulty": 3,
+      "kind": "SATA",
+      "skills": [
+        "Care management",
+        "Priority",
+        "Safety"
+      ],
+      "stem": "A patient with a suspected ruptured ectopic pregnancy is pale and confused, with BP 78/44 mmHg and pulse 142/min. The emergency team has been activated. Which nursing actions are appropriate within orders and protocol? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Establish or maintain large-bore IV access and prepare prescribed fluids and blood products.",
+          "correct": true,
+          "reason": "Rapid circulatory support is needed for suspected hemorrhagic shock."
+        },
+        {
+          "id": "o1",
+          "text": "Maintain NPO status and prepare for urgent operative management.",
+          "correct": true,
+          "reason": "Suspected rupture requires definitive treatment, and oral intake increases perioperative aspiration risk."
+        },
+        {
+          "id": "o2",
+          "text": "Continue frequent assessment of mental status, vital signs, and response to resuscitation.",
+          "correct": true,
+          "reason": "Trends in perfusion help the team judge deterioration and treatment response."
+        },
+        {
+          "id": "o3",
+          "text": "Use scant vaginal bleeding as evidence that blood replacement is unnecessary.",
+          "correct": false,
+          "reason": "Substantial bleeding can collect internally."
+        },
+        {
+          "id": "o4",
+          "text": "Delay stabilization until a second hCG sample confirms a specific trend.",
+          "correct": false,
+          "reason": "The patient is unstable now; serial diagnostic testing cannot take priority over resuscitation."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Ectopic pregnancy."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 6."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Ectopic pregnancy."
+        },
+        {
+          "label": "ACOG — Ectopic pregnancy (follow-up and emergency signs).",
+          "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Hypotension and altered mental status indicate severely impaired perfusion.",
+      "rationale": "Stabilize circulation and prepare definitive treatment at the same time. Visible blood loss and a planned laboratory schedule must not distract from current shock."
+    },
+    {
+      "id": "p109",
+      "area": "hypertension",
+      "difficulty": 1,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Priority"
+      ],
+      "stem": "A patient with gestational hypertension reports a headache that does not improve with the prescribed measures and new flashing lights in the visual field. Which interpretation should guide the nurse’s response?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Possible neurologic involvement requiring prompt evaluation.",
+          "correct": true,
+          "reason": "Persistent headache and visual changes can signal progression of hypertensive disease."
+        },
+        {
+          "id": "o1",
+          "text": "A normal consequence of pregnancy that only requires reassurance.",
+          "correct": false,
+          "reason": "This combination should not be dismissed as a routine discomfort."
+        },
+        {
+          "id": "o2",
+          "text": "A finding that is important only when generalized edema is also present.",
+          "correct": false,
+          "reason": "The absence of edema does not make neurologic warning signs safe."
+        },
+        {
+          "id": "o3",
+          "text": "A finding that can wait until the next scheduled urine test.",
+          "correct": false,
+          "reason": "Concerning symptoms warrant evaluation without waiting for another routine test."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Preeclampsia."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 13–15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Preeclampsia."
+        },
+        {
+          "label": "ACOG — Preeclampsia and high blood pressure during pregnancy (clinical clarification).",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Persistent headache with a new visual disturbance.",
+      "rationale": "Teach and recognize organ-system warning signs. A patient does not need every classic finding before the nurse escalates concern."
+    },
+    {
+      "id": "p110",
+      "area": "hypertension",
+      "difficulty": 2,
+      "kind": "SATA",
+      "skills": [
+        "Pharmacology",
+        "Safety",
+        "Assessment"
+      ],
+      "stem": "A patient with severe preeclampsia is receiving magnesium sulfate. Which assessments or preparations directly support safe administration? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Monitor respiratory rate and level of consciousness.",
+          "correct": true,
+          "reason": "Excess magnesium can depress the central nervous system and ventilation."
+        },
+        {
+          "id": "o1",
+          "text": "Assess deep tendon reflexes and trend urine output.",
+          "correct": true,
+          "reason": "Diminished reflexes can precede respiratory depression; reduced renal clearance increases toxicity risk."
+        },
+        {
+          "id": "o2",
+          "text": "Ensure prescribed calcium gluconate and emergency support are readily available.",
+          "correct": true,
+          "reason": "Calcium gluconate is used for magnesium toxicity, while respiratory support may also be needed."
+        },
+        {
+          "id": "o3",
+          "text": "Use disappearance of deep tendon reflexes as the desired therapeutic endpoint.",
+          "correct": false,
+          "reason": "Absent reflexes are a toxicity warning, not the treatment goal."
+        },
+        {
+          "id": "o4",
+          "text": "Increase the infusion automatically when urine output decreases.",
+          "correct": false,
+          "reason": "Reduced urine output can increase magnesium accumulation and calls for assessment and protocol-based action."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Severe preeclampsia and magnesium sulfate."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 14."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Severe preeclampsia and magnesium sulfate."
+        },
+        {
+          "label": "ACOG — Preeclampsia and high blood pressure during pregnancy (clinical clarification).",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Magnesium safety depends on neurologic, respiratory, and renal assessment.",
+      "rationale": "The goal is seizure prevention without toxicity. Follow the unit’s infusion parameters and respond promptly to concerning findings rather than relying on the infusion rate alone."
+    },
+    {
+      "id": "p111",
+      "area": "hypertension",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Priority",
+        "Safety",
+        "Care management"
+      ],
+      "stem": "A patient with severe preeclampsia begins a generalized seizure. Another nurse is activating the emergency response. Which action should this nurse prioritize during the seizure?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Protect the patient from injury, position laterally when feasible, and support airway and oxygenation with the team.",
+          "correct": true,
+          "reason": "Immediate seizure care centers on safety and airway protection while emergency treatment is prepared."
+        },
+        {
+          "id": "o1",
+          "text": "Insert a rigid oral airway through clenched teeth before taking other action.",
+          "correct": false,
+          "reason": "Forcing an object into the mouth can cause injury and should not be attempted."
+        },
+        {
+          "id": "o2",
+          "text": "Hold the patient’s arms and legs firmly to stop the convulsions.",
+          "correct": false,
+          "reason": "Restraint does not stop the seizure and can cause injury."
+        },
+        {
+          "id": "o3",
+          "text": "Leave the bedside to obtain a urine specimen for protein testing.",
+          "correct": false,
+          "reason": "Diagnostic testing cannot take priority over immediate safety and airway needs."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Eclampsia."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 14–15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Eclampsia."
+        },
+        {
+          "label": "ACOG — Preeclampsia and high blood pressure during pregnancy (clinical clarification).",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "An active seizure changes the priority to immediate airway and injury prevention.",
+      "rationale": "Respond to the emergency that is happening now. After initial stabilization, continue prescribed seizure treatment, maternal reassessment, and fetal evaluation."
+    },
+    {
+      "id": "p112",
+      "area": "glucose",
+      "difficulty": 1,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Pharmacology"
+      ],
+      "stem": "An insulin-treated pregnant patient suddenly becomes sweaty and shaky before lunch. Which bedside assessment should the nurse obtain promptly while assessing overall stability?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A blood glucose measurement.",
+          "correct": true,
+          "reason": "The symptoms can reflect hypoglycemia and require timely assessment and treatment."
+        },
+        {
+          "id": "o1",
+          "text": "A fundal height measurement.",
+          "correct": false,
+          "reason": "This does not evaluate the immediate suspected glucose disturbance."
+        },
+        {
+          "id": "o2",
+          "text": "A routine urine culture.",
+          "correct": false,
+          "reason": "Infection testing does not answer the time-sensitive concern."
+        },
+        {
+          "id": "o3",
+          "text": "A weight measurement compared with the first prenatal visit.",
+          "correct": false,
+          "reason": "Long-term weight trends do not establish the cause of acute sweating and shakiness."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Diabetes and hypoglycemia."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 19."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Diabetes and hypoglycemia."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Insulin use with acute sweating and shakiness.",
+      "rationale": "Identify a reversible metabolic threat promptly. If consciousness or airway safety deteriorates, emergency support takes priority while glucose is assessed and treated."
+    },
+    {
+      "id": "p113",
+      "area": "glucose",
+      "difficulty": 2,
+      "kind": "MC",
+      "skills": [
+        "Teaching",
+        "Care management"
+      ],
+      "stem": "A patient’s 1-hour glucose challenge result exceeds the clinic’s screening cutoff. The patient asks, “Does this prove my baby has diabetes?” Which response is best?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "“This is your screening result. It means you need the ordered diagnostic glucose testing; it does not diagnose diabetes in the baby.”",
+          "correct": true,
+          "reason": "An abnormal screening result prompts further maternal assessment and does not establish a fetal diagnosis."
+        },
+        {
+          "id": "o1",
+          "text": "“Yes. Any abnormal glucose result confirms diabetes in both you and the fetus.”",
+          "correct": false,
+          "reason": "This incorrectly treats screening as a definitive diagnosis and makes an unsupported fetal claim."
+        },
+        {
+          "id": "o2",
+          "text": "“No further testing is needed if you feel well.”",
+          "correct": false,
+          "reason": "Gestational diabetes may have few symptoms, so an abnormal screen still needs follow-up."
+        },
+        {
+          "id": "o3",
+          "text": "“Repeat the screen at home after skipping meals for two days.”",
+          "correct": false,
+          "reason": "Unprescribed food restriction is unsafe and does not replace the ordered diagnostic process."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Gestational diabetes screening."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 19."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Gestational diabetes screening."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Screening, diagnosis, and the person being tested are different issues.",
+      "rationale": "Explain what the result does and does not establish. Reinforce the actual test preparation and appointment instructions rather than inventing a fasting regimen."
+    },
+    {
+      "id": "p114",
+      "area": "glucose",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Priority",
+        "Care management"
+      ],
+      "stem": "A pregnant patient with type 1 diabetes reports persistent vomiting and cannot keep fluids down. Glucose is 268 mg/dL, urine ketones are large, and respirations are deep and rapid. Which response has priority?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Arrange urgent evaluation for ketoacidosis and dehydration, with maternal stabilization and fetal assessment.",
+          "correct": true,
+          "reason": "Vomiting, ketones, and abnormal breathing indicate possible metabolic decompensation requiring urgent monitored care."
+        },
+        {
+          "id": "o1",
+          "text": "Recommend exercise to lower glucose before seeking further care.",
+          "correct": false,
+          "reason": "Exercise is inappropriate with suspected ketosis, dehydration, and acute illness."
+        },
+        {
+          "id": "o2",
+          "text": "Advise stopping all insulin until the patient can eat a full meal.",
+          "correct": false,
+          "reason": "Withholding basal insulin in type 1 diabetes can worsen ketosis; changes require urgent clinical guidance."
+        },
+        {
+          "id": "o3",
+          "text": "Schedule nutrition teaching at the next routine prenatal visit.",
+          "correct": false,
+          "reason": "Long-term teaching does not address the acute deterioration."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Diabetes and ketoacidosis."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 19."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Diabetes and ketoacidosis."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Ketones plus vomiting and deep, rapid breathing are more important than an isolated glucose number.",
+      "rationale": "Recognize a metabolic emergency and escalate. Treatment requires close monitoring of fluids, electrolytes, and insulin under the team’s protocol, not a home correction based only on the glucose value."
+    },
+    {
+      "id": "p115",
+      "area": "glucose",
+      "difficulty": 3,
+      "kind": "SATA",
+      "skills": [
+        "Teaching",
+        "Pharmacology",
+        "Safety"
+      ],
+      "stem": "A pregnant patient using prescribed insulin brings a log with repeated fasting readings above the individualized target and occasional shakiness after skipping lunch. Which nursing actions are appropriate? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Review the timing of insulin, meals, symptoms, and glucose readings together.",
+          "correct": true,
+          "reason": "The pattern may contain both fasting hyperglycemia and meal-related hypoglycemia; assessment should not focus on only one."
+        },
+        {
+          "id": "o1",
+          "text": "Communicate the repeated out-of-target readings to the prescribing team for a treatment review.",
+          "correct": true,
+          "reason": "Medication changes should follow the clinical plan and the full glucose pattern."
+        },
+        {
+          "id": "o2",
+          "text": "Reinforce regular meals and the prescribed hypoglycemia treatment plan.",
+          "correct": true,
+          "reason": "Skipping meals can increase hypoglycemia risk with insulin."
+        },
+        {
+          "id": "o3",
+          "text": "Advise doubling every insulin dose because the fasting readings are elevated.",
+          "correct": false,
+          "reason": "A blanket increase can worsen low glucose at other times and exceeds an appropriate independent nursing adjustment."
+        },
+        {
+          "id": "o4",
+          "text": "Explain that a high fasting value makes later hypoglycemia impossible.",
+          "correct": false,
+          "reason": "High and low glucose episodes can occur in the same patient."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Diabetes management."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 19."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Diabetes management."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Two different glucose patterns can coexist.",
+      "rationale": "Match care to the whole pattern. Review technique and timing, reinforce safety, and collaborate on individualized adjustments rather than making a global dose change."
+    },
+    {
+      "id": "p116",
+      "area": "fetal",
+      "difficulty": 1,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Teaching"
+      ],
+      "stem": "A patient asks what a nonstress test assesses. Which explanation is most accurate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "“It records the fetal heart rate and its response to fetal movement.”",
+          "correct": true,
+          "reason": "An NST evaluates fetal heart rate reactivity without deliberately producing contractions."
+        },
+        {
+          "id": "o1",
+          "text": "“It confirms the fetal chromosomes are normal.”",
+          "correct": false,
+          "reason": "Chromosomal assessment requires other screening or diagnostic methods."
+        },
+        {
+          "id": "o2",
+          "text": "“It proves the fetus will tolerate every future labor contraction.”",
+          "correct": false,
+          "reason": "An NST describes current findings; it cannot guarantee future tolerance of labor."
+        },
+        {
+          "id": "o3",
+          "text": "“It requires oxytocin to produce contractions.”",
+          "correct": false,
+          "reason": "Inducing contractions describes a contraction stress test, not a nonstress test."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Fetal assessment and movement."
+        },
+        {
+          "label": "Week 4 Exam 2 Assessment of High Risk Pregnancy, bonus lecture — slides 6, 15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Assessment of fetal well-being; fetal monitoring."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "A nonstress test observes reactivity without deliberately stressing the fetus with contractions.",
+      "rationale": "Accurate preparation helps the patient understand the procedure and its limits. Reassuring surveillance is time-specific, not a permanent guarantee."
+    },
+    {
+      "id": "p117",
+      "area": "fetal",
+      "difficulty": 2,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Care management"
+      ],
+      "stem": "At 34 weeks, a nonstress tracing has a baseline of 140/min, moderate variability, no decelerations, and two accelerations that rise 20/min above baseline and last 20 seconds within 20 minutes. Which interpretation is appropriate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The tracing meets the usual reactive NST acceleration criteria for this gestational age.",
+          "correct": true,
+          "reason": "At 32 weeks or later, two accelerations of at least 15/min for at least 15 seconds within 20 minutes meet the usual reactivity criterion."
+        },
+        {
+          "id": "o1",
+          "text": "It is nonreactive because the baseline remains below 160/min.",
+          "correct": false,
+          "reason": "Reactivity depends on qualifying accelerations, not baseline tachycardia."
+        },
+        {
+          "id": "o2",
+          "text": "It demonstrates recurrent late decelerations.",
+          "correct": false,
+          "reason": "The described changes are accelerations; no decelerations are present."
+        },
+        {
+          "id": "o3",
+          "text": "It proves that no further surveillance will be needed during pregnancy.",
+          "correct": false,
+          "reason": "A reactive test does not eliminate future monitoring required by the care plan."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Nonstress testing."
+        },
+        {
+          "label": "Week 4 Exam 2 Assessment of High Risk Pregnancy, bonus lecture — slides 15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Assessment of fetal well-being; fetal monitoring."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Evaluate the rise, duration, number, and gestational age together.",
+      "rationale": "Apply the full definition to the described tracing. Document the findings and continue the prescribed surveillance plan without making a guarantee about future fetal status."
+    },
+    {
+      "id": "p118",
+      "area": "fetal",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Assessment",
+        "Priority"
+      ],
+      "stem": "A patient at 33 weeks with chronic hypertension reports substantially less fetal movement today. Yesterday’s NST was reactive. Which response is most appropriate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Arrange prompt assessment of the current change despite yesterday’s reassuring test.",
+          "correct": true,
+          "reason": "A prior test describes a prior time; a meaningful new change requires reassessment."
+        },
+        {
+          "id": "o1",
+          "text": "Reassure the patient that a reactive NST guarantees normal status for one week.",
+          "correct": false,
+          "reason": "Surveillance does not provide that guarantee."
+        },
+        {
+          "id": "o2",
+          "text": "Wait for vaginal bleeding before requesting evaluation.",
+          "correct": false,
+          "reason": "Reduced movement can be significant without bleeding."
+        },
+        {
+          "id": "o3",
+          "text": "Tell the patient to rely on a home Doppler heartbeat and cancel assessment if one is heard.",
+          "correct": false,
+          "reason": "A home heartbeat check does not establish fetal well-being or explain the change in movement."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Fetal movement and surveillance."
+        },
+        {
+          "label": "Week 4 Exam 2 Assessment of High Risk Pregnancy, bonus lecture — slides 6, 15."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Assessment of fetal well-being; fetal monitoring."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "New clinical information can outweigh yesterday’s reassuring result.",
+      "rationale": "Avoid anchoring on a prior test. Use the current report to guide triage and follow the obstetric assessment protocol."
+    },
+    {
+      "id": "p119",
+      "area": "followup",
+      "difficulty": 1,
+      "kind": "MC",
+      "skills": [
+        "Teaching",
+        "Care management"
+      ],
+      "stem": "After evacuation of a molar pregnancy, which follow-up test is most directly used to monitor for persistent trophoblastic activity?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Serial quantitative hCG measurements as prescribed.",
+          "correct": true,
+          "reason": "The trend helps detect persistent trophoblastic tissue after treatment."
+        },
+        {
+          "id": "o1",
+          "text": "A single urine dipstick for protein.",
+          "correct": false,
+          "reason": "This does not measure trophoblastic activity."
+        },
+        {
+          "id": "o2",
+          "text": "A daily home temperature log alone.",
+          "correct": false,
+          "reason": "Temperature monitoring cannot establish resolution of trophoblastic disease."
+        },
+        {
+          "id": "o3",
+          "text": "A fetal movement count each evening.",
+          "correct": false,
+          "reason": "Fetal movement counting is not the surveillance method after evacuation of a molar pregnancy."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Gestational trophoblastic disease."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 7."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Gestational trophoblastic disease."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "Follow the hormone produced by trophoblastic tissue over time.",
+      "rationale": "Understand the purpose behind follow-up rather than memorizing an unsupported universal duration. The treating team determines the surveillance schedule and contraception plan."
+    },
+    {
+      "id": "p120",
+      "area": "followup",
+      "difficulty": 2,
+      "kind": "SATA",
+      "skills": [
+        "Teaching",
+        "Safety"
+      ],
+      "stem": "A patient with a cervical cerclage calls the clinic. Which reports require prompt clinical evaluation? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A persistent trickle of clear fluid from the vagina.",
+          "correct": true,
+          "reason": "This may indicate membrane rupture and needs assessment."
+        },
+        {
+          "id": "o1",
+          "text": "New regular pelvic cramping with pressure.",
+          "correct": true,
+          "reason": "These can be symptoms of preterm labor despite the cerclage."
+        },
+        {
+          "id": "o2",
+          "text": "Fever with new abnormal vaginal discharge.",
+          "correct": true,
+          "reason": "This raises concern for infection."
+        },
+        {
+          "id": "o3",
+          "text": "A request to clarify the individualized activity instructions, with no symptoms.",
+          "correct": false,
+          "reason": "The question deserves a response, but without symptoms it is less urgent than possible rupture, labor, or infection."
+        },
+        {
+          "id": "o4",
+          "text": "A question about the date of the next routine appointment, with no change in condition.",
+          "correct": false,
+          "reason": "Scheduling alone does not indicate an acute complication."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Cervical insufficiency and cerclage."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 5."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Cervical insufficiency and cerclage."
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "A cerclage does not prevent every cause of preterm birth or infection.",
+      "rationale": "Teach early recognition and escalation of complications. Do not assume the stitch makes new fluid leakage, contractions, or fever harmless."
+    },
+    {
+      "id": "p121",
+      "area": "followup",
+      "difficulty": 3,
+      "kind": "MC",
+      "skills": [
+        "Teaching",
+        "Pharmacology",
+        "Safety"
+      ],
+      "stem": "A rubella-nonimmune patient at 18 weeks says, “My relative had rubella exposure, so I scheduled an MMR vaccine for tomorrow.” The patient is not sure whether direct exposure occurred. Which response is best?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Clarify and stop the prenatal MMR plan, assess the possible exposure, and arrange clinician guidance.",
+          "correct": true,
+          "reason": "MMR is contraindicated in pregnancy; a possible exposure needs assessment rather than an unplanned live vaccination."
+        },
+        {
+          "id": "o1",
+          "text": "Recommend an extra MMR dose because pregnancy increases the consequences of infection.",
+          "correct": false,
+          "reason": "Increased fetal risk does not make prenatal MMR appropriate."
+        },
+        {
+          "id": "o2",
+          "text": "Reassure the patient that being nonimmune proves the fetus is already infected.",
+          "correct": false,
+          "reason": "Susceptibility does not establish current infection or fetal involvement."
+        },
+        {
+          "id": "o3",
+          "text": "Advise waiting until postpartum to report any possible exposure.",
+          "correct": false,
+          "reason": "Exposure assessment should not be delayed simply because vaccination is deferred."
+        }
+      ],
+      "refs": [
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy Instructor Notes — Rubella prevention."
+        },
+        {
+          "label": "Week 4 Exam 2 High Risk Pregnancy lecture — slide(s) 23."
+        },
+        {
+          "label": "ATI RN Maternal Newborn Nursing, edition 11 — Rubella prevention."
+        },
+        {
+          "label": "CDC — Guidelines for vaccinating pregnant women: MMR.",
+          "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html"
+        }
+      ],
+      "origin": "New pilot scenario",
+      "clue": "The vaccine plan and the exposure assessment require separate decisions.",
+      "rationale": "Prevent an unsafe medication intervention while still addressing the patient’s immediate concern. Arrange vaccination when eligible after pregnancy and follow the clinician’s exposure plan."
+    }
+  ]
+}

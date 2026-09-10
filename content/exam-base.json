@@ -1,0 +1,3647 @@
+[
+  {
+    "id": 1,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A patient at 33 weeks has a first episode of painless, bright-red vaginal bleeding. The uterus is soft, BP is 114/72 mmHg, and the fetal heart rate is 140/min with moderate variability. Placental location is unknown. Which proposed action should the nurse stop and clarify?",
+    "options": [
+      {
+        "text": "Continue fetal monitoring while arranging an ultrasound.",
+        "correct": false,
+        "reason": "Monitoring and ultrasound support safe assessment of bleeding and placental location.",
+        "label": "A"
+      },
+      {
+        "text": "Measure ongoing blood loss and trend maternal vital signs.",
+        "correct": false,
+        "reason": "Stable initial vital signs do not eliminate the need for continued hemorrhage surveillance.",
+        "label": "B"
+      },
+      {
+        "text": "Establish IV access and obtain prescribed blood specimens.",
+        "correct": false,
+        "reason": "These prepare for deterioration and do not disturb the placenta.",
+        "label": "C"
+      },
+      {
+        "text": "Perform a digital cervical examination to determine whether labor has begun.",
+        "correct": true,
+        "reason": "Digital examination can disrupt a placenta covering the cervical opening and provoke major hemorrhage before previa is excluded.",
+        "label": "D"
+      }
+    ],
+    "rationale": "The immediate safety issue is avoiding a potentially hemorrhage-provoking examination. Reassuring findings allow assessment but do not rule out placenta previa.",
+    "answer": "D"
+  },
+  {
+    "id": 2,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Priority"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A patient with a known ectopic pregnancy suddenly develops shoulder pain and dizziness. BP has fallen from 116/74 to 84/48 mmHg, pulse is 132/min, and vaginal bleeding remains scant. A second nurse is contacting the obstetric team. Which action has the highest priority?",
+    "options": [
+      {
+        "text": "Reassess the amount of vaginal bleeding in 30 minutes before escalating.",
+        "correct": false,
+        "reason": "Major intraperitoneal bleeding may occur with little vaginal blood loss.",
+        "label": "A"
+      },
+      {
+        "text": "Prepare the scheduled methotrexate injection after checking the medication record.",
+        "correct": false,
+        "reason": "Methotrexate is for selected stable, unruptured cases, not a patient with suspected rupture and shock.",
+        "label": "B"
+      },
+      {
+        "text": "Obtain a clean-catch urine specimen before starting fluid therapy.",
+        "correct": false,
+        "reason": "Urine testing does not take priority over restoring perfusion.",
+        "label": "C"
+      },
+      {
+        "text": "Initiate the hemorrhage response, support circulation with large-bore IV access, and prepare urgent surgical care.",
+        "correct": true,
+        "reason": "Shock with referred shoulder pain suggests internal hemorrhage from rupture; resuscitation cannot await further routine testing.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Prioritize the patient's perfusion and trend, not the visible bleeding. Emergency resuscitation and definitive treatment must proceed together.",
+    "answer": "D"
+  },
+  {
+    "id": 3,
+    "category": "Pregnancy",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Teaching",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A patient with gestational hypertension is reviewing when to seek urgent evaluation. Which new findings should the nurse include as warning signs of progression or another serious pregnancy complication? Select all that apply.",
+    "options": [
+      {
+        "text": "Shortness of breath at rest.",
+        "correct": true,
+        "reason": "This may indicate pulmonary edema or another cardiopulmonary emergency.",
+        "label": "A"
+      },
+      {
+        "text": "A persistent severe headache that does not improve with the prescribed measures.",
+        "correct": true,
+        "reason": "Persistent severe headache may reflect neurologic involvement and increased seizure risk.",
+        "label": "B"
+      },
+      {
+        "text": "Blurred vision with flashing lights.",
+        "correct": true,
+        "reason": "Visual disturbance is a serious neurologic warning sign.",
+        "label": "C"
+      },
+      {
+        "text": "Symmetric ankle swelling that resolves after overnight rest, without other changes.",
+        "correct": false,
+        "reason": "This isolated pattern is common in pregnancy and is less urgent than the listed organ-dysfunction signs.",
+        "label": "D"
+      },
+      {
+        "text": "Brief irregular tightening that resolves with rest and has no bleeding or fluid leakage.",
+        "correct": false,
+        "reason": "This description alone does not indicate worsening hypertensive disease, although persistent or changing symptoms need assessment.",
+        "label": "E"
+      },
+      {
+        "text": "New right-upper-quadrant pain with nausea.",
+        "correct": true,
+        "reason": "Hepatic involvement, including HELLP syndrome, can produce this pattern.",
+        "label": "F"
+      }
+    ],
+    "rationale": "Teach organ-system warning signs, not just edema or a single BP threshold. Symptoms can justify urgent evaluation even before another BP is obtained.",
+    "answer": "A, B, C, F"
+  },
+  {
+    "id": 4,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A patient at 35 weeks reports sudden constant abdominal pain. The uterus is firm between contractions, pulse is 122/min, BP is 92/56 mmHg, and recurrent late decelerations are present. Only a small amount of dark vaginal blood is visible. Which interpretation should guide care?",
+    "options": [
+      {
+        "text": "Concealed placental abruption may be causing substantial hemorrhage and fetal compromise.",
+        "correct": true,
+        "reason": "Pain, sustained uterine tone, shock, and late decelerations are consistent with a concealed abruption.",
+        "label": "A"
+      },
+      {
+        "text": "The small external blood loss indicates a mild bleed suitable for observation alone.",
+        "correct": false,
+        "reason": "External bleeding does not quantify concealed blood loss.",
+        "label": "B"
+      },
+      {
+        "text": "A painless placental bleeding process is more likely because the bleeding is dark.",
+        "correct": false,
+        "reason": "Color alone is not diagnostic; persistent pain and a firm uterus favor abruption.",
+        "label": "C"
+      },
+      {
+        "text": "The fetal pattern is expected from head compression and needs no intervention.",
+        "correct": false,
+        "reason": "Late decelerations suggest impaired oxygen transfer, not ordinary head compression.",
+        "label": "D"
+      }
+    ],
+    "rationale": "The combined maternal and fetal findings indicate an emergency. Notify the team, support circulation, monitor continuously, and prepare the indicated delivery response.",
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "category": "Pregnancy",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Safety",
+      "Priority"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A patient with severe abruption has oozing from venipuncture sites, falling platelets and fibrinogen, and a prolonged clotting time. The hemorrhage team is at the bedside. Which nursing actions are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Maintain large-bore IV access and prepare ordered blood components.",
+        "correct": true,
+        "reason": "Active bleeding with consumptive coagulopathy requires rapid access and component replacement as prescribed.",
+        "label": "A"
+      },
+      {
+        "text": "Minimize unnecessary punctures and apply sustained pressure after required sampling.",
+        "correct": true,
+        "reason": "Additional tissue trauma can worsen bleeding when clot formation is impaired.",
+        "label": "B"
+      },
+      {
+        "text": "Delay definitive obstetric treatment until all coagulation results have normalized.",
+        "correct": false,
+        "reason": "The underlying trigger must be treated while resuscitation and coagulopathy management continue.",
+        "label": "C"
+      },
+      {
+        "text": "Use the volume on vaginal pads as the sole measure of hemorrhage severity.",
+        "correct": false,
+        "reason": "Concealed bleeding and the patient's perfusion must be considered; pad counts alone underestimate the problem.",
+        "label": "D"
+      },
+      {
+        "text": "Give an intramuscular analgesic because the IV lines are occupied.",
+        "correct": false,
+        "reason": "Intramuscular injections create hematoma risk in coagulopathy; obtain a safer ordered route.",
+        "label": "E"
+      }
+    ],
+    "rationale": "This pattern suggests disseminated intravascular coagulation. Manage bleeding and the obstetric cause in parallel rather than waiting for perfect laboratory values.",
+    "answer": "A, B"
+  },
+  {
+    "id": 6,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Teaching",
+      "Care management"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "After evacuation of a hydatidiform mole, a patient says, \"The bleeding stopped, so I will cancel the blood tests and try to conceive next month.\" Which response best explains the priority follow-up need?",
+    "options": [
+      {
+        "text": "Pregnancy should be avoided permanently because every mole becomes cancerous.",
+        "correct": false,
+        "reason": "This falsely equates risk with certainty and unnecessarily rules out future pregnancy.",
+        "label": "A"
+      },
+      {
+        "text": "Follow-up is needed only if pelvic pain returns.",
+        "correct": false,
+        "reason": "Persistent trophoblastic disease may not cause early symptoms.",
+        "label": "B"
+      },
+      {
+        "text": "A single negative urine pregnancy test is enough if bleeding has stopped.",
+        "correct": false,
+        "reason": "Follow-up requires the prescribed serial testing plan, not one home test.",
+        "label": "C"
+      },
+      {
+        "text": "Serial hCG testing checks for persistent trophoblastic tissue; use the prescribed contraception until surveillance is complete.",
+        "correct": true,
+        "reason": "Persistent or rising hCG can indicate ongoing disease, and a new pregnancy makes surveillance harder to interpret.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Symptom improvement does not prove complete resolution. Explain the purpose of surveillance and the individualized plan without imposing an unsupported universal duration.",
+    "answer": "D"
+  },
+  {
+    "id": 7,
+    "category": "Pregnancy",
+    "kind": "SATA",
+    "domains": [
+      "Teaching",
+      "Pharmacology",
+      "Care management"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A patient newly diagnosed with gestational diabetes is prescribed glucose monitoring, nutrition therapy, and insulin. Which statements show correct understanding? Select all that apply.",
+    "options": [
+      {
+        "text": "\"Once the placenta is delivered, I will never need diabetes screening again.\"",
+        "correct": false,
+        "reason": "Gestational diabetes increases later diabetes risk and requires postpartum and longer-term screening.",
+        "label": "A"
+      },
+      {
+        "text": "\"I should carry a fast-acting glucose source in case I develop hypoglycemia.\"",
+        "correct": true,
+        "reason": "Insulin can cause low glucose; a conscious patient able to swallow needs prompt treatment according to the plan.",
+        "label": "B"
+      },
+      {
+        "text": "\"Skipping breakfast is the safest way to correct a high fasting reading.\"",
+        "correct": false,
+        "reason": "Skipping meals can cause inadequate nutrition and hypoglycemia with insulin.",
+        "label": "C"
+      },
+      {
+        "text": "\"My newborn may need glucose checks even if the baby looks well.\"",
+        "correct": true,
+        "reason": "Fetal hyperinsulinemia can cause hypoglycemia after maternal glucose delivery stops.",
+        "label": "D"
+      },
+      {
+        "text": "\"I will record glucose readings and contact the team about a repeated pattern outside my targets.\"",
+        "correct": true,
+        "reason": "Trends guide treatment adjustments and are more useful than selectively reporting only favorable readings.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Effective teaching links the daily management plan to maternal safety, neonatal surveillance, and follow-up beyond birth.",
+    "answer": "B, D, E"
+  },
+  {
+    "id": 8,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Teaching",
+      "Pharmacology",
+      "Safety"
+    ],
+    "refs": [
+      "N1",
+      "AM",
+      "C1"
+    ],
+    "stem": "A patient at 12 weeks has a negative rubella immunity result and no symptoms or known recent exposure. Which plan should the nurse reinforce?",
+    "options": [
+      {
+        "text": "Give MMR today because the first trimester has the greatest fetal risk.",
+        "correct": false,
+        "reason": "Greater fetal vulnerability does not make a live vaccine safe during pregnancy.",
+        "label": "A"
+      },
+      {
+        "text": "Document that a negative immunity result confirms active fetal infection.",
+        "correct": false,
+        "reason": "Lack of immunity is not evidence of current maternal or fetal infection.",
+        "label": "B"
+      },
+      {
+        "text": "Start prophylactic antibiotics for the remainder of pregnancy.",
+        "correct": false,
+        "reason": "Antibiotics do not prevent rubella, a viral infection.",
+        "label": "C"
+      },
+      {
+        "text": "Avoid exposure and arrange MMR vaccination when eligible after pregnancy.",
+        "correct": true,
+        "reason": "MMR is live and is not administered during pregnancy; postpartum vaccination protects future pregnancies.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Separate susceptibility from infection. Exposure during pregnancy warrants prompt clinician contact, but routine prevention does not include prenatal MMR.",
+    "answer": "D"
+  },
+  {
+    "id": 9,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Priority",
+      "Assessment"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "The prenatal nurse receives four telephone messages. Which patient needs the most urgent callback and immediate evaluation?",
+    "options": [
+      {
+        "text": "A patient at 34 weeks with mild bilateral ankle swelling that improves with elevation.",
+        "correct": false,
+        "reason": "This isolated dependent swelling is lower priority than possible fetal compromise.",
+        "label": "A"
+      },
+      {
+        "text": "A patient at 24 weeks with heartburn after a spicy meal and no chest pain or dyspnea.",
+        "correct": false,
+        "reason": "An isolated meal-related symptom has lower immediate priority.",
+        "label": "B"
+      },
+      {
+        "text": "A patient at 10 weeks with morning nausea who is drinking fluids and urinating normally.",
+        "correct": false,
+        "reason": "This pattern is less concerning than reduced fetal movement without dehydration or instability.",
+        "label": "C"
+      },
+      {
+        "text": "A patient at 30 weeks who reports markedly reduced fetal movement compared with the usual pattern today.",
+        "correct": true,
+        "reason": "A clear change in fetal activity can indicate compromise and requires prompt assessment.",
+        "label": "D"
+      }
+    ],
+    "rationale": "The highest-priority call identifies a potentially time-sensitive threat. Do not reassure the patient solely because there is no pain or bleeding.",
+    "answer": "D"
+  },
+  {
+    "id": 10,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A hospitalized patient with severe preeclampsia has urine output of 20 mL/hr for 2 hours, new crackles, RR 28/min, and oxygen saturation 91%. A standing order permits an IV fluid bolus for isolated low urine output. Which action is most appropriate now?",
+    "options": [
+      {
+        "text": "Encourage oral fluids and recheck the urine output at the end of the shift.",
+        "correct": false,
+        "reason": "Hypoxemia and new crackles require immediate intervention.",
+        "label": "A"
+      },
+      {
+        "text": "Give the full bolus immediately because all oliguria indicates dehydration.",
+        "correct": false,
+        "reason": "This assumption can worsen pulmonary edema.",
+        "label": "B"
+      },
+      {
+        "text": "Obtain urgent evaluation for pulmonary edema and support oxygenation rather than automatically giving the bolus.",
+        "correct": true,
+        "reason": "Oliguria with respiratory findings suggests organ dysfunction and fluid intolerance, not uncomplicated volume depletion.",
+        "label": "C"
+      },
+      {
+        "text": "Continue the current plan because oliguria is an expected harmless effect of pregnancy.",
+        "correct": false,
+        "reason": "The trend and respiratory deterioration are not benign pregnancy changes.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Read the conditions attached to a standing order. A patient with hypoxemia and crackles no longer meets an isolated-oliguria scenario.",
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "category": "Pregnancy",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Safety",
+      "Teaching"
+    ],
+    "refs": [
+      "N1",
+      "N2",
+      "AM"
+    ],
+    "stem": "A patient at 37 weeks is scheduled for external cephalic version. Which nursing actions support safe care? Select all that apply.",
+    "options": [
+      {
+        "text": "Verify the preprocedure fetal assessment and report a nonreassuring tracing before proceeding.",
+        "correct": true,
+        "reason": "The procedure requires assessment of fetal tolerance and eligibility.",
+        "label": "A"
+      },
+      {
+        "text": "Proceed without clarification when ultrasound shows a placenta completely covering the cervical opening.",
+        "correct": false,
+        "reason": "Placenta previa is a contraindication to planned vaginal birth and makes this proposed plan inappropriate.",
+        "label": "B"
+      },
+      {
+        "text": "Confirm that urgent cesarean birth can be performed if needed.",
+        "correct": true,
+        "reason": "Version can produce fetal compromise or other complications requiring rapid birth.",
+        "label": "C"
+      },
+      {
+        "text": "Tell the patient to ignore persistent pain or vaginal bleeding after discharge.",
+        "correct": false,
+        "reason": "These symptoms need urgent assessment rather than routine reassurance.",
+        "label": "D"
+      },
+      {
+        "text": "End fetal monitoring immediately once ultrasound confirms a head-down position.",
+        "correct": false,
+        "reason": "Successful repositioning does not rule out subsequent bradycardia, bleeding, or labor; prescribed observation continues.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Safe version care includes screening, emergency readiness, and follow-up monitoring, not merely turning the fetus.",
+    "answer": "A, C"
+  },
+  {
+    "id": 12,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority"
+    ],
+    "refs": [
+      "N1",
+      "L1",
+      "AM"
+    ],
+    "stem": "During fetal surveillance, each deceleration begins after a contraction starts, reaches its lowest point after the contraction peak, and recovers after the contraction ends. Variability is now minimal. Which response is most appropriate?",
+    "options": [
+      {
+        "text": "Interpret the recovery after each contraction as proof that oxygenation is adequate.",
+        "correct": false,
+        "reason": "Recovery alone does not make a recurrent late pattern reassuring.",
+        "label": "A"
+      },
+      {
+        "text": "Encourage sustained pushing during the next three contractions.",
+        "correct": false,
+        "reason": "Pushing can further reduce oxygen delivery and is inappropriate as a response to this surveillance finding.",
+        "label": "B"
+      },
+      {
+        "text": "Document benign head-compression decelerations and continue routine observation.",
+        "correct": false,
+        "reason": "Early decelerations mirror contractions; this timing is late.",
+        "label": "C"
+      },
+      {
+        "text": "Reposition laterally, assess maternal status, and promptly escalate the recurrent late pattern.",
+        "correct": true,
+        "reason": "Late timing with reduced variability raises concern for inadequate uteroplacental oxygen transfer.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Use the full tracing, its timing, and the clinical context. A mnemonic does not replace assessment and escalation of a deteriorating pattern.",
+    "answer": "D"
+  },
+  {
+    "id": 13,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Pharmacology",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N1",
+      "AP"
+    ],
+    "stem": "An insulin-treated pregnant patient is awake, diaphoretic, and shaky. Bedside glucose is 54 mg/dL. The patient can swallow safely. Which action should the nurse take first under the hypoglycemia protocol?",
+    "options": [
+      {
+        "text": "Give a high-fat snack and wait one hour before retesting.",
+        "correct": false,
+        "reason": "Fat delays carbohydrate absorption, and an hour is too long to evaluate the immediate response.",
+        "label": "A"
+      },
+      {
+        "text": "Obtain a laboratory fasting glucose before treating the bedside result.",
+        "correct": false,
+        "reason": "Symptomatic low glucose should be treated without delaying for a fasting sample.",
+        "label": "B"
+      },
+      {
+        "text": "Give 15 g of fast-acting carbohydrate and recheck glucose in 15 minutes.",
+        "correct": true,
+        "reason": "A conscious patient with safe swallowing can receive prompt oral glucose treatment and reassessment.",
+        "label": "C"
+      },
+      {
+        "text": "Administer the scheduled rapid-acting insulin before offering food.",
+        "correct": false,
+        "reason": "Additional insulin can worsen the hypoglycemia.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Treat the identified reversible threat promptly. Repeat treatment or escalate according to response and protocol; oral intake is not appropriate if consciousness or swallowing deteriorates.",
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "category": "Pregnancy",
+    "kind": "SATA",
+    "domains": [
+      "Teaching",
+      "Safety",
+      "Care management"
+    ],
+    "refs": [
+      "N1",
+      "AM"
+    ],
+    "stem": "A patient with a cervical cerclage at 22 weeks is preparing for discharge. Which instructions should be included? Select all that apply.",
+    "options": [
+      {
+        "text": "Wait until the next routine visit to report fever if fetal movement is unchanged.",
+        "correct": false,
+        "reason": "Fever can indicate infection even when movement has not changed and requires prompt contact.",
+        "label": "A"
+      },
+      {
+        "text": "Keep the stitch in place during active labor unless it falls out on its own.",
+        "correct": false,
+        "reason": "Leaving a cerclage unaddressed during labor can injure the cervix.",
+        "label": "B"
+      },
+      {
+        "text": "Begin strict bed rest for the rest of pregnancy even if it was not prescribed.",
+        "correct": false,
+        "reason": "Activity guidance is individualized; unprescribed prolonged bed rest is not a default preventive treatment.",
+        "label": "C"
+      },
+      {
+        "text": "Seek evaluation for fluid leakage or significant vaginal bleeding.",
+        "correct": true,
+        "reason": "These can indicate membrane rupture or another pregnancy complication.",
+        "label": "D"
+      },
+      {
+        "text": "Report regular cramping, pelvic pressure, or contractions promptly.",
+        "correct": true,
+        "reason": "Labor with a cerclage requires assessment and may require removal of the stitch.",
+        "label": "E"
+      }
+    ],
+    "rationale": "The safety goal is early recognition of labor, infection, or membrane rupture. Teach the patient's actual activity and follow-up plan.",
+    "answer": "D, E"
+  },
+  {
+    "id": 15,
+    "category": "Pregnancy",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N1",
+      "AM",
+      "C14"
+    ],
+    "stem": "A patient at 32 weeks has BP 154/98 mmHg, severe right-upper-quadrant pain, platelets 72,000/mm3, and AST 186 units/L. A urine dipstick is negative for protein. Which conclusion should the nurse communicate?",
+    "options": [
+      {
+        "text": "The patient can wait until the BP reaches 180/120 mmHg before reassessment.",
+        "correct": false,
+        "reason": "Serious complications can occur below that value; symptoms and laboratory findings already demand urgent evaluation.",
+        "label": "A"
+      },
+      {
+        "text": "The platelet count is an expected dilutional change that needs no escalation.",
+        "correct": false,
+        "reason": "This degree of thrombocytopenia is clinically significant.",
+        "label": "B"
+      },
+      {
+        "text": "Preeclampsia is excluded because protein was not detected on the dipstick.",
+        "correct": false,
+        "reason": "A negative dipstick does not override serious organ-dysfunction findings.",
+        "label": "C"
+      },
+      {
+        "text": "The findings suggest severe disease with possible HELLP syndrome despite the negative urine dipstick.",
+        "correct": true,
+        "reason": "Thrombocytopenia and hepatic involvement can establish severe features; proteinuria is not required when qualifying organ dysfunction is present.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Avoid anchoring on one absent finding or an extreme BP cutoff. Escalate the whole pattern and prepare coordinated maternal-fetal management.",
+    "answer": "D"
+  },
+  {
+    "id": 16,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Pharmacology",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AM",
+      "C2"
+    ],
+    "stem": "A patient receiving oxytocin has six contractions per 10 minutes averaged over 30 minutes, recurrent late decelerations, and minimal variability. Maternal oxygen saturation is 99%. Which action should the nurse take first?",
+    "options": [
+      {
+        "text": "Continue the rate and reassess after another 30-minute averaging period.",
+        "correct": false,
+        "reason": "The concerning fetal pattern makes delay unsafe.",
+        "label": "A"
+      },
+      {
+        "text": "Stop the oxytocin infusion.",
+        "correct": true,
+        "reason": "Removing the uterine stimulant addresses a reversible cause of tachysystole and reduced placental perfusion.",
+        "label": "B"
+      },
+      {
+        "text": "Increase oxytocin because the cervix has not changed in one hour.",
+        "correct": false,
+        "reason": "Increasing the stimulant worsens the excessive contraction pattern.",
+        "label": "C"
+      },
+      {
+        "text": "Apply oxygen at 10 L/min while maintaining the current oxytocin rate.",
+        "correct": false,
+        "reason": "Routine oxygen is not recommended without maternal hypoxia and does not remove the uterine stimulus.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Stop the harmful infusion promptly, then reposition, assess maternal status, notify the team, and implement further ordered measures. Actions may occur concurrently with team help.",
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Pharmacology",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AP"
+    ],
+    "stem": "A patient receiving magnesium sulfate has become difficult to arouse. RR is 8/min, deep tendon reflexes are absent, and urine output was 15 mL during the last hour. Which response has priority?",
+    "options": [
+      {
+        "text": "Administer another magnesium bolus because absent reflexes predict a seizure.",
+        "correct": false,
+        "reason": "Absent reflexes suggest toxicity, not a need for more magnesium.",
+        "label": "A"
+      },
+      {
+        "text": "Reduce the infusion by half and repeat the assessment in 30 minutes.",
+        "correct": false,
+        "reason": "Severe respiratory depression requires stopping the drug and immediate support, not slow observation.",
+        "label": "B"
+      },
+      {
+        "text": "Stop magnesium, call urgent assistance, support ventilation, and prepare prescribed calcium gluconate.",
+        "correct": true,
+        "reason": "Respiratory depression and absent reflexes indicate toxicity; oliguria reduces magnesium clearance.",
+        "label": "C"
+      },
+      {
+        "text": "Obtain a serum magnesium level before changing the infusion.",
+        "correct": false,
+        "reason": "Laboratory confirmation must not delay treatment of clinical toxicity.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Breathing is already compromised. The toxicity response must begin immediately while laboratory testing and further evaluation occur.",
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "category": "Labor",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Interprofessional collaboration",
+      "Priority",
+      "Pharmacology"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "A patient with PPROM at 31 weeks now has temperature 39 C, uterine tenderness, foul-smelling fluid, and fetal heart rate 180/min. Which actions should the nurse anticipate or initiate within orders and protocol? Select all that apply.",
+    "options": [
+      {
+        "text": "Notify the obstetric team promptly about suspected intraamniotic infection.",
+        "correct": true,
+        "reason": "This cluster requires reassessment of continued expectant management.",
+        "label": "A"
+      },
+      {
+        "text": "Postpone escalation until the next scheduled white blood cell count.",
+        "correct": false,
+        "reason": "Clinical evidence of infection already warrants action.",
+        "label": "B"
+      },
+      {
+        "text": "Alert the neonatal team and prepare for the indicated birth plan.",
+        "correct": true,
+        "reason": "Prematurity and suspected infection require coordinated neonatal readiness.",
+        "label": "C"
+      },
+      {
+        "text": "Request maintenance tocolysis to ensure another week of pregnancy.",
+        "correct": false,
+        "reason": "Continuing pregnancy by suppressing labor is inappropriate when infection makes delay unsafe.",
+        "label": "D"
+      },
+      {
+        "text": "Administer prescribed IV antibiotics without avoidable delay.",
+        "correct": true,
+        "reason": "Prompt antimicrobial treatment addresses maternal and fetal infection risk.",
+        "label": "E"
+      },
+      {
+        "text": "Obtain ordered cultures and laboratory tests promptly without delaying antibiotic administration.",
+        "correct": true,
+        "reason": "Testing supports evaluation, but antimicrobial treatment should not be postponed for avoidable delays.",
+        "label": "F"
+      }
+    ],
+    "rationale": "Infection changes the management priorities in PPROM. Do not preserve latency at the expense of maternal-fetal safety.",
+    "answer": "A, C, E, F"
+  },
+  {
+    "id": 19,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "A laboring patient has polyhydramnios and a high, unengaged presenting part. Immediately after the membranes rupture spontaneously, which assessment is most urgent?",
+    "options": [
+      {
+        "text": "Obtain the patient's current pain rating before touching the monitor.",
+        "correct": false,
+        "reason": "Pain matters but is not the first assessment for this acute cord risk.",
+        "label": "A"
+      },
+      {
+        "text": "Complete the intake record for the previous shift.",
+        "correct": false,
+        "reason": "Documentation must not delay immediate fetal assessment.",
+        "label": "B"
+      },
+      {
+        "text": "Assess the fetal heart rate for sudden bradycardia or variable decelerations.",
+        "correct": true,
+        "reason": "Sudden decompression with an unengaged part increases cord-prolapse risk; an abnormal FHR may be the first clue.",
+        "label": "C"
+      },
+      {
+        "text": "Estimate whether the fluid volume exceeds one liter.",
+        "correct": false,
+        "reason": "Fluid characteristics are documented after immediate fetal status is assessed.",
+        "label": "D"
+      }
+    ],
+    "rationale": "The risk created by membrane rupture determines the first check. If cord prolapse is suspected, call for help and relieve compression while preparing urgent birth.",
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "Two hours after cesarean birth with neuraxial opioid analgesia, a patient is difficult to awaken and has RR 7/min and oxygen saturation 88%. The fundus is firm and lochia is scant. Which action takes priority?",
+    "options": [
+      {
+        "text": "Administer an additional analgesic before encouraging deep breathing.",
+        "correct": false,
+        "reason": "More opioid could worsen respiratory depression.",
+        "label": "A"
+      },
+      {
+        "text": "Activate urgent assistance, support the airway and ventilation, and prepare the prescribed opioid-reversal treatment.",
+        "correct": true,
+        "reason": "Sedation with hypoventilation is an immediate airway and breathing threat after opioid exposure.",
+        "label": "B"
+      },
+      {
+        "text": "Massage the fundus until the lochia increases.",
+        "correct": false,
+        "reason": "A firm fundus and scant lochia do not explain the respiratory emergency.",
+        "label": "C"
+      },
+      {
+        "text": "Assist the patient to walk to reduce postoperative clot risk.",
+        "correct": false,
+        "reason": "Ambulation is unsafe in a hypoventilating, poorly responsive patient.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Apply postoperative priorities to actual findings. Respiratory compromise outranks routine recovery tasks and reassuring uterine findings.",
+    "answer": "B"
+  },
+  {
+    "id": 21,
+    "category": "Labor",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Interprofessional collaboration",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "A patient arrives reporting contractions for 90 minutes. The fetal head is crowning, and the birth clinician has been called. Which nursing actions are appropriate while birth is imminent? Select all that apply.",
+    "options": [
+      {
+        "text": "Delay drying and warming the newborn until the placenta has delivered.",
+        "correct": false,
+        "reason": "Thermal protection begins promptly; team members can support the newborn while maternal care continues.",
+        "label": "A"
+      },
+      {
+        "text": "Push the presenting head back into the vagina until the clinician arrives.",
+        "correct": false,
+        "reason": "Attempting to prevent birth this way can injure the patient and newborn.",
+        "label": "B"
+      },
+      {
+        "text": "Transfer the patient to a wheelchair to complete admission paperwork elsewhere.",
+        "correct": false,
+        "reason": "Moving a patient with a crowning head risks an uncontrolled birth.",
+        "label": "C"
+      },
+      {
+        "text": "Remain with the patient and summon additional birth and newborn assistance.",
+        "correct": true,
+        "reason": "Rapid birth requires immediate support; leaving to gather help alone creates risk.",
+        "label": "D"
+      },
+      {
+        "text": "Prepare to support a controlled birth using the emergency-birth protocol.",
+        "correct": true,
+        "reason": "Organized assistance reduces uncontrolled expulsion and trauma.",
+        "label": "E"
+      }
+    ],
+    "rationale": "In an unavoidable imminent birth, prioritize safe delivery, team activation, newborn support, and maternal hemorrhage surveillance.",
+    "answer": "D, E"
+  },
+  {
+    "id": 22,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "After membrane rupture, the fetal heart rate falls to 70/min. During examination, the nurse feels a pulsating cord below the presenting part. Another nurse has activated the obstetric emergency response. What should the examining nurse do immediately?",
+    "options": [
+      {
+        "text": "Apply firm fundal pressure to move the fetus past the cord.",
+        "correct": false,
+        "reason": "Fundal pressure worsens compression.",
+        "label": "A"
+      },
+      {
+        "text": "Gently replace the cord above the presenting part.",
+        "correct": false,
+        "reason": "Manipulating or replacing the cord can cause trauma and vasospasm.",
+        "label": "B"
+      },
+      {
+        "text": "Remove the hand and ask the patient to walk to the operating room.",
+        "correct": false,
+        "reason": "Removing relief and walking can increase compression and delay safe transfer.",
+        "label": "C"
+      },
+      {
+        "text": "Elevate the presenting part off the cord with the gloved hand and maintain relief of compression.",
+        "correct": true,
+        "reason": "Mechanical relief helps restore cord blood flow while urgent birth is arranged.",
+        "label": "D"
+      }
+    ],
+    "rationale": "The first lifesaving bedside intervention after help is activated is to relieve pressure on the cord. Maintain that relief through transfer until the birth team directs a safe handoff.",
+    "answer": "D"
+  },
+  {
+    "id": 23,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Pharmacology",
+      "Assessment",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AP"
+    ],
+    "stem": "A patient receiving short-term terbutaline for uterine relaxation reports chest tightness. Pulse has increased from 96 to 138/min, and new crackles are present. Which action is most appropriate?",
+    "options": [
+      {
+        "text": "Give the next dose because some increase in pulse is expected.",
+        "correct": false,
+        "reason": "Expected mild effects do not justify continuing with this concerning combination.",
+        "label": "A"
+      },
+      {
+        "text": "Withhold further terbutaline and obtain urgent cardiopulmonary evaluation.",
+        "correct": true,
+        "reason": "Marked tachycardia, chest symptoms, and crackles suggest serious adverse effects, including pulmonary edema.",
+        "label": "B"
+      },
+      {
+        "text": "Reassure the patient and assess again after the next dose.",
+        "correct": false,
+        "reason": "This delays evaluation of potentially serious toxicity.",
+        "label": "C"
+      },
+      {
+        "text": "Encourage rapid oral fluid intake to reduce the pulse.",
+        "correct": false,
+        "reason": "Additional fluid may worsen pulmonary edema and does not address the medication risk.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Distinguish a tolerable side effect from deterioration. New respiratory findings and chest symptoms require stopping further exposure and escalating care.",
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "One hour after forceps-assisted birth, a patient reports severe rectal pressure and unilateral perineal pain despite analgesia. The fundus is firm, lochia is scant, and pulse has risen to 118/min. What should the nurse do next?",
+    "options": [
+      {
+        "text": "Encourage walking to relieve pressure from normal postpartum swelling.",
+        "correct": false,
+        "reason": "Activity does not treat concealed bleeding and may delay care.",
+        "label": "A"
+      },
+      {
+        "text": "Inspect the perineum and urgently report suspected vaginal or vulvar hematoma.",
+        "correct": true,
+        "reason": "Severe localized pain and pressure with tachycardia suggest concealed tissue bleeding despite scant lochia.",
+        "label": "B"
+      },
+      {
+        "text": "Repeat fundal massage for presumed uterine atony.",
+        "correct": false,
+        "reason": "A firm fundus and focal perineal symptoms do not fit atony as the main problem.",
+        "label": "C"
+      },
+      {
+        "text": "Document expected forceps discomfort and wait for the oral medication to peak.",
+        "correct": false,
+        "reason": "Disproportionate pain and a rising pulse require reassessment rather than routine reassurance.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Look beyond the uterus when postpartum bleeding may be concealed. Operative vaginal birth increases laceration and hematoma risk.",
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "category": "Labor",
+    "kind": "SATA",
+    "domains": [
+      "Teaching",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "A patient who had cesarean birth after preeclampsia is discussing discharge precautions. Which statements identify symptoms requiring urgent medical evaluation? Select all that apply.",
+    "options": [
+      {
+        "text": "\"A severe headache with visual changes still matters after the baby is born.\"",
+        "correct": true,
+        "reason": "Preeclampsia-related complications can occur or persist postpartum.",
+        "label": "A"
+      },
+      {
+        "text": "\"Mild cramping only while breastfeeding means I am hemorrhaging.\"",
+        "correct": false,
+        "reason": "Brief breastfeeding-associated afterpains can be expected without heavy bleeding or instability.",
+        "label": "B"
+      },
+      {
+        "text": "\"I will seek emergency help for sudden chest pain or difficulty breathing.\"",
+        "correct": true,
+        "reason": "These symptoms may indicate pulmonary embolism, pulmonary edema, or another emergency.",
+        "label": "C"
+      },
+      {
+        "text": "\"Bleeding that soaks a pad in an hour, especially with dizziness, needs immediate attention.\"",
+        "correct": true,
+        "reason": "Heavy bleeding and symptoms of reduced perfusion are hemorrhage warnings.",
+        "label": "D"
+      },
+      {
+        "text": "\"Incisional soreness that improves with prescribed medicine means the incision is infected.\"",
+        "correct": false,
+        "reason": "Improving soreness alone is not evidence of infection; worsening pain, redness, drainage, or fever needs assessment.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Discharge teaching must cover life-threatening postpartum complications while distinguishing expected recovery findings.",
+    "answer": "A, C, D"
+  },
+  {
+    "id": 26,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Pharmacology",
+      "Teaching",
+      "Care management"
+    ],
+    "refs": [
+      "N2",
+      "AP"
+    ],
+    "stem": "A patient at 30 weeks with preterm labor asks why betamethasone is ordered when contractions have already decreased. Which response is best?",
+    "options": [
+      {
+        "text": "\"Its main purpose is to lower your blood glucose before birth.\"",
+        "correct": false,
+        "reason": "Corticosteroids may raise glucose, requiring monitoring rather than being used to lower it.",
+        "label": "A"
+      },
+      {
+        "text": "\"It prevents neonatal infection after membrane rupture.\"",
+        "correct": false,
+        "reason": "Betamethasone is not an antibiotic.",
+        "label": "B"
+      },
+      {
+        "text": "\"It guarantees that the baby will not need respiratory support.\"",
+        "correct": false,
+        "reason": "Benefit does not eliminate all consequences of prematurity.",
+        "label": "C"
+      },
+      {
+        "text": "\"It promotes fetal lung maturation if birth occurs early; it is not the drug used to stop contractions.\"",
+        "correct": true,
+        "reason": "Corticosteroids improve fetal readiness for preterm birth independently of current contraction frequency.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Explain the purpose of each medication rather than assuming all preterm-labor drugs have the same role. Do not delay an urgently indicated birth solely to finish a steroid course.",
+    "answer": "D"
+  },
+  {
+    "id": 27,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Pharmacology",
+      "Safety",
+      "Care management"
+    ],
+    "refs": [
+      "N2",
+      "AP"
+    ],
+    "stem": "Oxytocin 30 units is mixed in 500 mL of lactated Ringer's. The prescribed dose is 6 milliunits/min. The fetal and contraction assessments permit starting therapy. Which pump rate should the nurse independently calculate before the required medication check?",
+    "options": [
+      {
+        "text": "100 mL/hr.",
+        "correct": false,
+        "reason": "This would deliver 100 milliunits/min and is not supported by the concentration calculation.",
+        "label": "A"
+      },
+      {
+        "text": "0.1 mL/hr.",
+        "correct": false,
+        "reason": "This is the calculated volume per minute, not per hour.",
+        "label": "B"
+      },
+      {
+        "text": "6 mL/hr.",
+        "correct": true,
+        "reason": "30 units = 30,000 milliunits; 30,000/500 = 60 milliunits/mL. Then 6 x 60/60 = 6 mL/hr.",
+        "label": "C"
+      },
+      {
+        "text": "60 mL/hr.",
+        "correct": false,
+        "reason": "This would deliver 60 milliunits/min, ten times the prescribed dose.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Convert units to milliunits and minutes to hours explicitly. Use the pump and independent verification required for this high-alert medication.",
+    "answer": "C"
+  },
+  {
+    "id": 28,
+    "category": "Labor",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Safety",
+      "Teaching"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "A stable patient at 29 weeks with confirmed PPROM is admitted for expectant management. There is no fever, bleeding, labor, or nonreassuring fetal pattern. Which nursing measures are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Teach that a normal temperature rules out every complication of membrane rupture.",
+        "correct": false,
+        "reason": "Cord problems, abruption, or evolving infection may occur without initial fever.",
+        "label": "A"
+      },
+      {
+        "text": "Perform a digital cervical examination every two hours to establish a trend.",
+        "correct": false,
+        "reason": "Repeated digital examinations increase infection risk and are not routine in stable PPROM.",
+        "label": "B"
+      },
+      {
+        "text": "Monitor temperature and assess for uterine tenderness and changes in fluid odor.",
+        "correct": true,
+        "reason": "These findings can signal infection during expectant management.",
+        "label": "C"
+      },
+      {
+        "text": "Administer prescribed latency antibiotics and antenatal corticosteroids.",
+        "correct": true,
+        "reason": "These support the planned expectant-management strategy when continued pregnancy remains safe.",
+        "label": "D"
+      },
+      {
+        "text": "Continue prescribed fetal surveillance and promptly report reduced fetal movement.",
+        "correct": true,
+        "reason": "Fetal compromise can change the management plan.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Expectant management requires active surveillance and prevention, not simply waiting. New maternal or fetal findings may require immediate reassessment of the birth plan.",
+    "answer": "C, D, E"
+  },
+  {
+    "id": 29,
+    "category": "Labor",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Interprofessional collaboration",
+      "Safety"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "After the fetal head delivers, it retracts against the perineum and the shoulders do not deliver. The birth clinician announces shoulder dystocia. Which actions should the nurse perform or assist with? Select all that apply.",
+    "options": [
+      {
+        "text": "Call the additional obstetric and neonatal team members specified by protocol.",
+        "correct": true,
+        "reason": "Extra personnel and newborn resuscitation readiness are needed for this time-critical emergency.",
+        "label": "A"
+      },
+      {
+        "text": "Apply suprapubic pressure when directed by the birth clinician.",
+        "correct": true,
+        "reason": "Correctly directed suprapubic pressure can help dislodge the impacted shoulder.",
+        "label": "B"
+      },
+      {
+        "text": "Apply fundal pressure to increase the expulsive force.",
+        "correct": false,
+        "reason": "Fundal pressure can worsen impaction and injury.",
+        "label": "C"
+      },
+      {
+        "text": "Assist with McRoberts positioning as directed.",
+        "correct": true,
+        "reason": "Hyperflexing the patient's thighs can improve the pelvic relationship for shoulder release.",
+        "label": "D"
+      },
+      {
+        "text": "Pull forcefully on the delivered head between maneuvers.",
+        "correct": false,
+        "reason": "Excessive traction increases brachial plexus and other birth-injury risks.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Coordinated maneuvers, not forceful pushing or traction, address shoulder impaction. Follow the clinician's directions and document the sequence accurately.",
+    "answer": "A, B, D"
+  },
+  {
+    "id": 30,
+    "category": "Labor",
+    "kind": "MC",
+    "domains": [
+      "Interprofessional collaboration",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N2",
+      "AM"
+    ],
+    "stem": "A patient attempting vaginal birth after cesarean has sudden persistent fetal bradycardia, loss of fetal station, abdominal pain, and BP 86/50 mmHg. Oxytocin has been stopped and emergency assistance is arriving. Which handoff best conveys the priority?",
+    "options": [
+      {
+        "text": "\"Possible uterine rupture with maternal shock and fetal compromise; we need immediate surgical and resuscitation readiness.\"",
+        "correct": true,
+        "reason": "This identifies the suspected emergency and the time-critical resources required.",
+        "label": "A"
+      },
+      {
+        "text": "\"The epidural may be wearing off; please reassess analgesia when available.\"",
+        "correct": false,
+        "reason": "Pain treatment alone does not address the loss of station, shock, and fetal deterioration.",
+        "label": "B"
+      },
+      {
+        "text": "\"The patient is anxious about the tracing; counseling is the main need.\"",
+        "correct": false,
+        "reason": "Anxiety is not the primary explanation for objective maternal-fetal instability.",
+        "label": "C"
+      },
+      {
+        "text": "\"Labor progress has slowed; consider restarting oxytocin after a brief rest.\"",
+        "correct": false,
+        "reason": "Further stimulation is unsafe in suspected rupture.",
+        "label": "D"
+      }
+    ],
+    "rationale": "An effective emergency handoff states the pattern, the immediate threat, and the needed response. Do not bury critical information beneath routine labor details.",
+    "answer": "A"
+  },
+  {
+    "id": 31,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Pharmacology",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N3",
+      "AM",
+      "AC"
+    ],
+    "stem": "A 2-hour-old newborn of a patient with diabetes is lethargic, has a weak suck and intermittent apnea, and has a bedside glucose of 26 mg/dL. The nurse is supporting the airway and has called the neonatal team. Which intervention should be anticipated next?",
+    "options": [
+      {
+        "text": "A full bottle feeding before any other glucose treatment is considered.",
+        "correct": false,
+        "reason": "Lethargy, weak suck, and apnea make oral feeding unsafe and inadequate as the first treatment.",
+        "label": "A"
+      },
+      {
+        "text": "Insulin administration to stabilize the newborn's glucose regulation.",
+        "correct": false,
+        "reason": "Insulin would further lower glucose.",
+        "label": "B"
+      },
+      {
+        "text": "A repeat glucose in one hour before initiating treatment.",
+        "correct": false,
+        "reason": "Delay risks neurologic injury and continued apnea.",
+        "label": "C"
+      },
+      {
+        "text": "Prompt IV dextrose treatment under the neonatal hypoglycemia protocol.",
+        "correct": true,
+        "reason": "Severe symptomatic hypoglycemia with unsafe oral feeding needs rapid parenteral treatment and reassessment.",
+        "label": "D"
+      }
+    ],
+    "rationale": "The least invasive route is not always the safest route. Symptoms and feeding safety determine urgency and treatment, not the glucose value alone.",
+    "answer": "D"
+  },
+  {
+    "id": 32,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Interprofessional collaboration"
+    ],
+    "refs": [
+      "N3",
+      "AM"
+    ],
+    "stem": "Four hours after vacuum-assisted birth, a newborn has expanding diffuse scalp swelling crossing sutures, pallor, pulse 190/min, and increasing head circumference. Which action is most appropriate?",
+    "options": [
+      {
+        "text": "Schedule bilirubin testing for tomorrow as the only follow-up.",
+        "correct": false,
+        "reason": "Jaundice monitoring does not address current shock risk.",
+        "label": "A"
+      },
+      {
+        "text": "Aspirate the swelling at the bedside to reduce pressure.",
+        "correct": false,
+        "reason": "Aspiration is not a nursing treatment and can cause injury or infection.",
+        "label": "B"
+      },
+      {
+        "text": "Activate urgent neonatal evaluation for suspected subgaleal hemorrhage and prepare circulatory support.",
+        "correct": true,
+        "reason": "Expanding swelling with tachycardia and pallor suggests potentially life-threatening blood loss.",
+        "label": "C"
+      },
+      {
+        "text": "Reassure the parents that all swelling crossing sutures is benign caput.",
+        "correct": false,
+        "reason": "Crossing sutures does not distinguish benign edema from subgaleal hemorrhage.",
+        "label": "D"
+      }
+    ],
+    "rationale": "The trend in swelling and systemic findings makes this an emergency. Do not classify a scalp lesion using one anatomic feature alone.",
+    "answer": "C"
+  },
+  {
+    "id": 33,
+    "category": "Newborn",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Safety",
+      "Interprofessional collaboration"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "An infant has confirmed phenylketonuria. The metabolic team has prescribed a measured feeding plan using medical formula and an individualized amount of other milk. Which actions belong in the nursing plan? Select all that apply.",
+    "options": [
+      {
+        "text": "Eliminate every source of protein without consulting the team.",
+        "correct": false,
+        "reason": "Infants still require adequate protein and essential nutrients through a specialized plan.",
+        "label": "A"
+      },
+      {
+        "text": "Coordinate feeding adjustments with the metabolic dietitian and monitor ordered phenylalanine levels.",
+        "correct": true,
+        "reason": "Nutrition must support growth while keeping phenylalanine in the prescribed range.",
+        "label": "B"
+      },
+      {
+        "text": "Teach caregivers to avoid products containing aspartame.",
+        "correct": true,
+        "reason": "Aspartame is a source of phenylalanine.",
+        "label": "C"
+      },
+      {
+        "text": "Use weight gain alone to judge metabolic control once feeding is established.",
+        "correct": false,
+        "reason": "Good growth does not prove that phenylalanine is in range; prescribed blood monitoring remains necessary.",
+        "label": "D"
+      },
+      {
+        "text": "Stop the medical formula once the infant has no visible symptoms.",
+        "correct": false,
+        "reason": "Early absence of symptoms does not remove the need for ongoing metabolic management.",
+        "label": "E"
+      }
+    ],
+    "rationale": "PKU management balances prevention of neurotoxicity with adequate growth. It requires precise, individualized nutrition rather than indiscriminate food elimination.",
+    "answer": "B, C"
+  },
+  {
+    "id": 34,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N3",
+      "AM"
+    ],
+    "stem": "A nurse receives reports on four postterm newborns. Which newborn should be assessed first?",
+    "options": [
+      {
+        "text": "A newborn with long fingernails and no visible vernix who remains alert.",
+        "correct": false,
+        "reason": "These appearance findings alone are not the priority.",
+        "label": "A"
+      },
+      {
+        "text": "A newborn with a glucose of 62 mg/dL who is due for the next scheduled feeding.",
+        "correct": false,
+        "reason": "This stable situation is lower priority than respiratory compromise.",
+        "label": "B"
+      },
+      {
+        "text": "A newborn with meconium-stained fluid at birth who now has grunting, retractions, and oxygen saturation of 86%.",
+        "correct": true,
+        "reason": "Active respiratory distress and hypoxemia require immediate evaluation and support.",
+        "label": "C"
+      },
+      {
+        "text": "A newborn with dry peeling skin who feeds effectively and has normal vital signs.",
+        "correct": false,
+        "reason": "This can be a postmaturity finding without acute instability.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Identify a current physiologic threat rather than selecting a newborn solely because of expected postterm appearance.",
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority"
+    ],
+    "refs": [
+      "N3",
+      "AM"
+    ],
+    "stem": "A term newborn below the 10th weight percentile has an axillary temperature of 35.8 C after an examination. The infant is awake but jittery. Which plan is most appropriate?",
+    "options": [
+      {
+        "text": "Begin controlled warming, promptly check glucose, and assess respiratory status.",
+        "correct": true,
+        "reason": "SGA infants have limited reserves; cold stress increases oxygen and glucose demand and can coexist with hypoglycemia.",
+        "label": "A"
+      },
+      {
+        "text": "Delay glucose screening because only large newborns are at risk.",
+        "correct": false,
+        "reason": "SGA newborns also have significant hypoglycemia risk.",
+        "label": "B"
+      },
+      {
+        "text": "Observe for several hours because term gestation eliminates thermal instability.",
+        "correct": false,
+        "reason": "Term gestation does not prevent cold stress, especially with low body reserves.",
+        "label": "C"
+      },
+      {
+        "text": "Complete the bath before rechecking the temperature.",
+        "correct": false,
+        "reason": "Bathing increases heat loss in an already cold infant.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Treat the thermal problem and assess linked metabolic and respiratory consequences together. Do not let one risk label exclude another.",
+    "answer": "A"
+  },
+  {
+    "id": 36,
+    "category": "Newborn",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Safety",
+      "Interprofessional collaboration"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "A newborn with an open myelomeningocele is awaiting surgical evaluation. Which measures should the nurse include? Select all that apply.",
+    "options": [
+      {
+        "text": "Position prone or side-lying as ordered to avoid pressure on the sac.",
+        "correct": true,
+        "reason": "Mechanical pressure can damage exposed neural tissue.",
+        "label": "A"
+      },
+      {
+        "text": "Place the diaper edge directly across the lesion to hold the covering in place.",
+        "correct": false,
+        "reason": "This increases pressure and contamination risk.",
+        "label": "B"
+      },
+      {
+        "text": "Apply a dry adhesive dressing tightly over the sac.",
+        "correct": false,
+        "reason": "Adherence, drying, and pressure can injure the lesion.",
+        "label": "C"
+      },
+      {
+        "text": "Protect the lesion with the prescribed sterile, moist, nonadherent covering.",
+        "correct": true,
+        "reason": "Protection reduces drying and contamination without adhering to tissue.",
+        "label": "D"
+      },
+      {
+        "text": "Use latex precautions and assess lower-extremity movement, elimination, and head circumference.",
+        "correct": true,
+        "reason": "Associated neurologic, bladder, bowel, and hydrocephalus concerns require baseline and ongoing assessment.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Before repair, priorities are tissue protection, infection prevention, and assessment of associated deficits. Coordinate handling and positioning with the surgical team.",
+    "answer": "A, D, E"
+  },
+  {
+    "id": 37,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Safety"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "An infant wearing a Pavlik harness has a newly cool, pale right foot and less movement on that side. The caregiver asks whether to tighten the straps to improve the hip position. What is the nurse's best response?",
+    "options": [
+      {
+        "text": "Tighten both leg straps equally and recheck the foot tomorrow.",
+        "correct": false,
+        "reason": "Further constriction may worsen compromise, and delayed reassessment is unsafe.",
+        "label": "A"
+      },
+      {
+        "text": "Explain that a cool foot is expected while the hip is being corrected.",
+        "correct": false,
+        "reason": "This is not an expected finding to dismiss.",
+        "label": "B"
+      },
+      {
+        "text": "Massage the foot vigorously while keeping all concerns for the next routine visit.",
+        "correct": false,
+        "reason": "Massage does not correct a potentially compressive device problem and delays evaluation.",
+        "label": "C"
+      },
+      {
+        "text": "Assess neurovascular status immediately and obtain urgent orthopedic direction about the harness.",
+        "correct": true,
+        "reason": "A new perfusion or movement change requires prompt evaluation and a clinician-directed adjustment or release plan.",
+        "label": "D"
+      }
+    ],
+    "rationale": "A device intended to treat a deformity must not compromise circulation or nerve function. Routine strap changes are not a caregiver task.",
+    "answer": "D"
+  },
+  {
+    "id": 38,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Interprofessional collaboration"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "An infant with a ventriculoperitoneal shunt is unusually sleepy, has repeated vomiting, and has a tense fontanel when calm and upright. Which action takes priority?",
+    "options": [
+      {
+        "text": "Wait for the next head-circumference measurement before reporting.",
+        "correct": false,
+        "reason": "Acute neurologic changes warrant escalation even without a documented growth trend.",
+        "label": "A"
+      },
+      {
+        "text": "Compress the shunt reservoir repeatedly to test patency.",
+        "correct": false,
+        "reason": "Unprescribed reservoir manipulation can be harmful and is not a substitute for evaluation.",
+        "label": "B"
+      },
+      {
+        "text": "Obtain urgent evaluation for shunt malfunction or increased intracranial pressure.",
+        "correct": true,
+        "reason": "The combination of neurologic change, vomiting, and a tense fontanel suggests impaired CSF drainage or another serious complication.",
+        "label": "C"
+      },
+      {
+        "text": "Give an oral feeding to determine whether hunger explains the irritability.",
+        "correct": false,
+        "reason": "Feeding does not address possible increased intracranial pressure and may be unsafe with vomiting and lethargy.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Clinical deterioration can signal shunt failure before a dramatic head-size change. Protect the infant and promptly involve the responsible team.",
+    "answer": "C"
+  },
+  {
+    "id": 39,
+    "category": "Newborn",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Safety"
+    ],
+    "refs": [
+      "N3",
+      "AM",
+      "C3"
+    ],
+    "stem": "A 38-week newborn, now 10 hours old, has visible jaundice and a positive direct antiglobulin test. Which actions or interpretations are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Obtain and trend prescribed bilirubin measurements using age in hours and risk factors.",
+        "correct": true,
+        "reason": "Early jaundice and possible hemolysis require timely, age-specific evaluation.",
+        "label": "A"
+      },
+      {
+        "text": "Treat the positive test alone as proof that an exchange transfusion is required.",
+        "correct": false,
+        "reason": "The test supports antibody coating of red cells; treatment depends on the clinical and bilirubin assessment.",
+        "label": "B"
+      },
+      {
+        "text": "Discontinue ordered phototherapy as soon as the skin looks less yellow, before the ordered bilirubin reassessment.",
+        "correct": false,
+        "reason": "Visual appearance cannot replace bilirubin measurement or the prescribed discontinuation criteria.",
+        "label": "C"
+      },
+      {
+        "text": "Apply the same bilirubin threshold used for every 3-day-old newborn.",
+        "correct": false,
+        "reason": "Age, gestational age, and neurotoxicity risk change treatment thresholds.",
+        "label": "D"
+      },
+      {
+        "text": "Assess for anemia and feeding or neurologic changes.",
+        "correct": true,
+        "reason": "Hemolysis can cause anemia, and worsening bilirubin toxicity may affect behavior or tone.",
+        "label": "E"
+      }
+    ],
+    "rationale": "A positive direct antiglobulin test identifies a possible hemolytic mechanism, not an automatic treatment level. Jaundice in the first day is not routine physiologic jaundice.",
+    "answer": "A, E"
+  },
+  {
+    "id": 40,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Priority",
+      "Interprofessional collaboration"
+    ],
+    "refs": [
+      "N3",
+      "AM"
+    ],
+    "stem": "A newborn with opioid withdrawal is unable to sleep for an hour after feeding and remains difficult to console despite swaddling and a quiet environment. The caregiver is present and asks to help. Which plan is best?",
+    "options": [
+      {
+        "text": "Give naloxone to reverse the withdrawal symptoms.",
+        "correct": false,
+        "reason": "Naloxone does not treat withdrawal and can precipitate severe withdrawal in an opioid-dependent infant.",
+        "label": "A"
+      },
+      {
+        "text": "Separate the newborn from all caregiver contact to reduce stimulation.",
+        "correct": false,
+        "reason": "Familiar, supported caregiver contact can be therapeutic; separation is not the default withdrawal treatment.",
+        "label": "B"
+      },
+      {
+        "text": "Involve the caregiver in the structured eat-sleep-console plan and report persistent functional impairment for treatment reassessment.",
+        "correct": true,
+        "reason": "Supportive care and caregiver participation continue while the team determines whether additional treatment is needed.",
+        "label": "C"
+      },
+      {
+        "text": "Delay reassessment until weight loss becomes severe.",
+        "correct": false,
+        "reason": "Persistent inability to eat, sleep, or be consoled already indicates inadequate symptom control.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Treat the newborn's function and support the family without stigma. Failure of optimized nonpharmacologic care warrants team reassessment, not abandonment of caregiver involvement.",
+    "answer": "C"
+  },
+  {
+    "id": 41,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "During an oral feeding, a 34-week newborn becomes dusky, coughs, and has oxygen saturation fall to 82%. What should the nurse do first?",
+    "options": [
+      {
+        "text": "Stop the feeding and support airway and breathing according to the neonatal protocol.",
+        "correct": true,
+        "reason": "The infant is showing feeding-related respiratory compromise and cannot safely continue oral intake.",
+        "label": "A"
+      },
+      {
+        "text": "Continue feeding while waiting to see whether the oxygen saturation recovers.",
+        "correct": false,
+        "reason": "Continuing oral intake prolongs the immediate threat.",
+        "label": "B"
+      },
+      {
+        "text": "Document the amount taken before interrupting the feeding.",
+        "correct": false,
+        "reason": "Documentation follows stabilization.",
+        "label": "C"
+      },
+      {
+        "text": "Increase the nipple flow so the infant finishes before becoming more tired.",
+        "correct": false,
+        "reason": "A faster flow worsens suck-swallow-breathe mismatch and aspiration risk.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Physiologic stability takes priority over reaching a volume goal. After recovery, reassess feeding readiness and collaborate on pacing or an alternate feeding route.",
+    "answer": "A"
+  },
+  {
+    "id": 42,
+    "category": "Newborn",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Pharmacology",
+      "Priority"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "A preterm infant receiving tube feeds develops a larger abdominal girth, bloody stool, lethargy, and temperature instability. Necrotizing enterocolitis is suspected. Which actions are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Notify the neonatal team and prepare ordered gastric decompression.",
+        "correct": true,
+        "reason": "Bowel rest and decompression are central early measures.",
+        "label": "A"
+      },
+      {
+        "text": "Perform repeated rectal stimulation to empty the bowel.",
+        "correct": false,
+        "reason": "This can injure compromised tissue and does not address the disease process.",
+        "label": "B"
+      },
+      {
+        "text": "Prepare IV support, prescribed antibiotics, and serial abdominal and perfusion assessments.",
+        "correct": true,
+        "reason": "NEC can progress to sepsis, perforation, and shock.",
+        "label": "C"
+      },
+      {
+        "text": "Stop enteral feeds and maintain NPO status.",
+        "correct": true,
+        "reason": "Continued feeding can worsen the compromised bowel and aspiration risk.",
+        "label": "D"
+      },
+      {
+        "text": "Dilute the formula and resume feeding at half the rate.",
+        "correct": false,
+        "reason": "A formula adjustment is not adequate treatment for suspected NEC.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Treat this cluster as an evolving emergency, not simple feeding intolerance. Stabilization and close reassessment accompany diagnostic and surgical evaluation.",
+    "answer": "A, C, D"
+  },
+  {
+    "id": 43,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Safety"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "After a birth complicated by shoulder dystocia, a newborn has reduced movement of one shoulder and elbow but an intact hand grasp on that side. Which initial nursing plan is best?",
+    "options": [
+      {
+        "text": "Protect the affected arm, assess for associated fracture or injury, and obtain the prescribed evaluation.",
+        "correct": true,
+        "reason": "The pattern suggests an upper brachial plexus injury, but associated trauma must be assessed before a handling and therapy plan is finalized.",
+        "label": "A"
+      },
+      {
+        "text": "Lift the newborn under the affected arm to prevent stiffness.",
+        "correct": false,
+        "reason": "Traction and unsupported handling can aggravate injury.",
+        "label": "B"
+      },
+      {
+        "text": "Reassure the family that intact grasp excludes birth injury.",
+        "correct": false,
+        "reason": "Upper plexus injury can preserve hand grasp while limiting shoulder and elbow movement.",
+        "label": "C"
+      },
+      {
+        "text": "Begin forceful range-of-motion exercises to restore symmetry immediately.",
+        "correct": false,
+        "reason": "Aggressive movement can worsen an acute injury or unrecognized fracture.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Recognize the pattern without assuming that one preserved reflex rules out injury. Protect the limb and follow the ordered therapy timeline.",
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "category": "Newborn",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "Following cleft palate repair, an infant has repeated swallowing, fresh blood in the mouth, and a rising pulse. Which action is the priority?",
+    "options": [
+      {
+        "text": "Assess airway and bleeding immediately and notify the surgical team.",
+        "correct": true,
+        "reason": "Repeated swallowing may conceal bleeding; blood can threaten airway safety and circulation.",
+        "label": "A"
+      },
+      {
+        "text": "Wait until the next scheduled pain assessment because swallowing is expected.",
+        "correct": false,
+        "reason": "Fresh bleeding and tachycardia are not explained by ordinary swallowing.",
+        "label": "B"
+      },
+      {
+        "text": "Perform deep, blind oral suction across the repair.",
+        "correct": false,
+        "reason": "This risks disrupting the repair and worsening bleeding; airway interventions must follow the emergency and surgical plan.",
+        "label": "C"
+      },
+      {
+        "text": "Offer a bottle to determine whether the infant can swallow effectively.",
+        "correct": false,
+        "reason": "Feeding during active bleeding can increase aspiration risk and may violate the repair-specific plan.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Postoperative airway protection and hemorrhage recognition outrank feeding goals. Feeding devices and oral-care restrictions are procedure-specific.",
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "category": "Newborn",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Safety",
+      "Interprofessional collaboration"
+    ],
+    "refs": [
+      "N3",
+      "AC"
+    ],
+    "stem": "A newborn has exposed bowel beside the umbilicus without a covering sac. Which nursing measures are appropriate while the surgical team evaluates the infant? Select all that apply.",
+    "options": [
+      {
+        "text": "Apply dry gauze directly to the bowel and let it adhere.",
+        "correct": false,
+        "reason": "Dry adherent material can desiccate and injure exposed tissue.",
+        "label": "A"
+      },
+      {
+        "text": "Protect the bowel with the prescribed sterile bowel bag or protective covering and prevent twisting or compression.",
+        "correct": true,
+        "reason": "Exposed bowel is vulnerable to injury, contamination, and impaired perfusion.",
+        "label": "B"
+      },
+      {
+        "text": "Push the bowel back into the abdomen before applying a diaper.",
+        "correct": false,
+        "reason": "Bedside manual reduction by the nurse can damage bowel and compromise circulation.",
+        "label": "C"
+      },
+      {
+        "text": "Maintain thermal support and prepare ordered IV fluid replacement.",
+        "correct": true,
+        "reason": "Exposed viscera create substantial heat and fluid losses.",
+        "label": "D"
+      },
+      {
+        "text": "Keep the infant NPO and prepare ordered gastric decompression.",
+        "correct": true,
+        "reason": "Decompression limits bowel distention while awaiting definitive care.",
+        "label": "E"
+      }
+    ],
+    "rationale": "The priorities in gastroschisis are protecting perfusion and tissue while preventing heat and fluid loss. Reduction and closure belong to the surgical plan.",
+    "answer": "B, D, E"
+  },
+  {
+    "id": 46,
+    "category": "GYN",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Pharmacology",
+      "Safety"
+    ],
+    "refs": [
+      "N4",
+      "AM",
+      "C4"
+    ],
+    "stem": "The nurse is reviewing histories before a combined estrogen-progestin contraceptive is prescribed. Which findings require stopping the routine initiation process and clarifying eligibility with the prescriber? Select all that apply.",
+    "options": [
+      {
+        "text": "A current deep vein thrombosis in a patient not yet treated.",
+        "correct": true,
+        "reason": "Estrogen increases thrombotic risk and is inappropriate in this setting.",
+        "label": "A"
+      },
+      {
+        "text": "Migraine headaches preceded by visual aura.",
+        "correct": true,
+        "reason": "Estrogen-containing contraception is contraindicated with migraine with aura because of stroke risk.",
+        "label": "B"
+      },
+      {
+        "text": "Current breast cancer.",
+        "correct": true,
+        "reason": "Current breast cancer is a contraindication to combined hormonal contraception.",
+        "label": "C"
+      },
+      {
+        "text": "A treated chlamydia infection two years ago without current symptoms.",
+        "correct": false,
+        "reason": "A remote treated STI does not by itself prohibit combined hormonal contraception.",
+        "label": "D"
+      },
+      {
+        "text": "Age 22 years and no previous pregnancies.",
+        "correct": false,
+        "reason": "Young age and nulliparity are not contraindications.",
+        "label": "E"
+      },
+      {
+        "text": "BP 168/106 mmHg on repeated measurements.",
+        "correct": true,
+        "reason": "Severe hypertension makes combined hormonal contraception unsafe.",
+        "label": "F"
+      }
+    ],
+    "rationale": "Assess method-specific risks rather than assuming every contraceptive has the same contraindications. A safer alternative should be selected through individualized counseling.",
+    "answer": "A, B, C, F"
+  },
+  {
+    "id": 47,
+    "category": "GYN",
+    "kind": "SATA",
+    "domains": [
+      "Teaching",
+      "Pharmacology",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM",
+      "C5"
+    ],
+    "stem": "A patient using a standard 21-active-pill combined oral contraceptive missed the first two active pills after the seven-day hormone-free interval. It is now day 3, and unprotected intercourse occurred two days ago. Which instructions are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Assume the previous pack continues to protect against pregnancy throughout any missed-pill interval.",
+        "correct": false,
+        "reason": "An extended hormone-free interval can permit ovulation.",
+        "label": "A"
+      },
+      {
+        "text": "Contact the clinician or pharmacist today to consider emergency contraception and the appropriate method-specific plan.",
+        "correct": true,
+        "reason": "First-week missed pills with intercourse in the previous five days warrant consideration of emergency contraception.",
+        "label": "B"
+      },
+      {
+        "text": "Take the most recently missed active pill now, discard the earlier missed pill, and continue the pack on schedule.",
+        "correct": true,
+        "reason": "Management of two or more missed active pills resumes hormone use promptly rather than taking every missed pill.",
+        "label": "C"
+      },
+      {
+        "text": "Stop the pack completely and wait for the next menstrual period before restarting.",
+        "correct": false,
+        "reason": "Further extending the hormone-free interval increases pregnancy risk.",
+        "label": "D"
+      },
+      {
+        "text": "Use condoms or abstain until seven consecutive active pills have been taken.",
+        "correct": true,
+        "reason": "Backup is required while ovulation suppression is reestablished.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Timing within the pack changes the risk. Emergency contraceptive choice can affect when hormonal pills resume, so the patient needs the specific plan rather than mixing instructions for different products.",
+    "answer": "B, C, E"
+  },
+  {
+    "id": 48,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Therapeutic communication",
+      "Teaching",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "A 17-year-old says, \"I forget pills, do not want pregnancy, and do not want my partner to decide my method.\" Which nursing response best supports safe care?",
+    "options": [
+      {
+        "text": "\"Let's talk privately about your preferences, methods that do not require daily action, and protection against STIs.\"",
+        "correct": true,
+        "reason": "This supports autonomy, assesses needs, and permits individualized discussion of long-acting methods and condoms.",
+        "label": "A"
+      },
+      {
+        "text": "\"An IUD is the only responsible choice, so we should arrange it now.\"",
+        "correct": false,
+        "reason": "This coerces a specific method instead of supporting informed choice.",
+        "label": "B"
+      },
+      {
+        "text": "\"Your partner should choose because daily pills have not worked for you.\"",
+        "correct": false,
+        "reason": "The patient's autonomy is not transferred to a partner.",
+        "label": "C"
+      },
+      {
+        "text": "\"We cannot discuss contraception until you have had a pelvic examination.\"",
+        "correct": false,
+        "reason": "A pelvic examination is not universally required for contraceptive counseling or initiation of every method.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Effective counseling is confidential within applicable limits, nonjudgmental, and patient-directed. Explain privacy limits rather than promising absolute secrecy.",
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority"
+    ],
+    "refs": [
+      "N4",
+      "MC"
+    ],
+    "stem": "A patient on the first postoperative day after mastectomy reports increasing tightness under the incision. One drain that had been collecting sanguineous fluid has stopped, and the operative side appears more swollen. BP is unchanged. What is the best next action?",
+    "options": [
+      {
+        "text": "Strip the drain forcefully several times without checking the device instructions.",
+        "correct": false,
+        "reason": "Manipulation must follow orders and the device protocol; unapproved force can damage tissue or the system.",
+        "label": "A"
+      },
+      {
+        "text": "Reassure the patient that a stable BP rules out postoperative bleeding.",
+        "correct": false,
+        "reason": "Local bleeding or a developing collection can occur before hypotension.",
+        "label": "B"
+      },
+      {
+        "text": "Assess the operative site and drain tubing and promptly report possible obstruction or accumulating blood.",
+        "correct": true,
+        "reason": "A sudden stop in output with expanding swelling suggests that fluid may be collecting internally.",
+        "label": "C"
+      },
+      {
+        "text": "Remove the drain because no output indicates that drainage is complete.",
+        "correct": false,
+        "reason": "Removal requires a clinical decision; the swelling makes completion an unsafe assumption.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Interpret output together with the wound and trend. A decrease in measured drainage is not automatically improvement.",
+    "answer": "C"
+  },
+  {
+    "id": 50,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "A patient with a history of chlamydia has worsening lower abdominal pain, fever, purulent discharge, vomiting, and a late menstrual period. Which nursing plan is most appropriate?",
+    "options": [
+      {
+        "text": "Obtain urgent evaluation, including pregnancy assessment, and prepare the prescribed treatment for possible serious pelvic infection.",
+        "correct": true,
+        "reason": "Severe illness may require inpatient treatment, and pregnancy-related emergencies must be excluded.",
+        "label": "A"
+      },
+      {
+        "text": "Schedule infertility testing after the current symptoms resolve on their own.",
+        "correct": false,
+        "reason": "Acute infection and possible pregnancy complications require timely care first.",
+        "label": "B"
+      },
+      {
+        "text": "Teach that this is expected primary dysmenorrhea and suggest heat alone.",
+        "correct": false,
+        "reason": "Fever, purulent discharge, vomiting, and a late period are not an uncomplicated menstrual-cramp pattern.",
+        "label": "C"
+      },
+      {
+        "text": "Delay treatment decisions until the next menstrual cycle establishes pregnancy status.",
+        "correct": false,
+        "reason": "This risks progression of infection or an unrecognized ectopic pregnancy.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Do not anchor on a prior STI or one presumed diagnosis. Stabilize and evaluate acute illness while considering pregnancy and the severity of infection.",
+    "answer": "A"
+  },
+  {
+    "id": 51,
+    "category": "GYN",
+    "kind": "SATA",
+    "domains": [
+      "Teaching",
+      "Pharmacology",
+      "Safety"
+    ],
+    "refs": [
+      "N4",
+      "AM",
+      "C6"
+    ],
+    "stem": "A nonpregnant patient is prescribed doxycycline for chlamydia for seven days. Which discharge instructions are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Stop follow-up because an asymptomatic partner cannot transmit infection.",
+        "correct": false,
+        "reason": "Chlamydia is frequently asymptomatic and remains transmissible.",
+        "label": "A"
+      },
+      {
+        "text": "Arrange partner evaluation and treatment.",
+        "correct": true,
+        "reason": "Untreated partners can sustain transmission even without symptoms.",
+        "label": "B"
+      },
+      {
+        "text": "Complete the entire prescribed regimen even if symptoms resolve early.",
+        "correct": true,
+        "reason": "Symptom resolution does not establish eradication before the course is completed.",
+        "label": "C"
+      },
+      {
+        "text": "Avoid intercourse until the course is complete, symptoms have resolved, and partners have been treated.",
+        "correct": true,
+        "reason": "This reduces transmission and immediate reinfection.",
+        "label": "D"
+      },
+      {
+        "text": "Use leftover vaginal antifungal cream instead of completing the antibiotic.",
+        "correct": false,
+        "reason": "Antifungals do not treat chlamydia.",
+        "label": "E"
+      },
+      {
+        "text": "Return for repeat testing in about three months.",
+        "correct": true,
+        "reason": "Repeat infection is common; retesting is recommended even when treatment was completed.",
+        "label": "F"
+      }
+    ],
+    "rationale": "Treatment, prevention of reinfection, and later retesting are separate needs. Pregnancy would change medication selection and add a test-of-cure plan.",
+    "answer": "B, C, D, F"
+  },
+  {
+    "id": 52,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Pharmacology",
+      "Teaching"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "A patient reports thin gray discharge and a fishy odor without the intense itching experienced during a previous yeast infection. The patient asks to reuse an old antifungal prescription. Which response is best?",
+    "options": [
+      {
+        "text": "Diagnose an STI from the odor alone and ask the patient to inform the partner of confirmed transmission.",
+        "correct": false,
+        "reason": "Symptoms alone neither confirm a pathogen nor establish how it was acquired.",
+        "label": "A"
+      },
+      {
+        "text": "Arrange assessment because this pattern may reflect bacterial vaginosis and needs treatment matched to the cause.",
+        "correct": true,
+        "reason": "Different vaginal conditions can overlap, and an antifungal does not treat bacterial vaginosis.",
+        "label": "B"
+      },
+      {
+        "text": "Recommend frequent douching until the odor disappears.",
+        "correct": false,
+        "reason": "Douching can disrupt vaginal flora and is not a recommended treatment.",
+        "label": "C"
+      },
+      {
+        "text": "Recommend the antifungal because all vaginal discharge has the same cause.",
+        "correct": false,
+        "reason": "This ignores important differences and can delay effective treatment.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Avoid diagnosing or treating solely by a familiar symptom. Obtain the appropriate evaluation and provide nonjudgmental, cause-specific teaching.",
+    "answer": "B"
+  },
+  {
+    "id": 53,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Pharmacology",
+      "Safety",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM",
+      "C7"
+    ],
+    "stem": "A patient at 10 weeks of pregnancy has confirmed vulvovaginal candidiasis. A prescription for oral fluconazole is entered. Which action should the nurse take?",
+    "options": [
+      {
+        "text": "Administer the oral dose because topical medications are contraindicated in pregnancy.",
+        "correct": false,
+        "reason": "This reverses the pregnancy-specific recommendation.",
+        "label": "A"
+      },
+      {
+        "text": "Withhold all treatment until birth because every antifungal harms the fetus.",
+        "correct": false,
+        "reason": "Appropriate topical treatment is available during pregnancy.",
+        "label": "B"
+      },
+      {
+        "text": "Clarify the prescription and discuss the recommended seven-day topical azole treatment during pregnancy.",
+        "correct": true,
+        "reason": "Pregnancy guidance recommends topical azoles for seven days and advises against oral fluconazole.",
+        "label": "C"
+      },
+      {
+        "text": "Substitute oral metronidazole without contacting the prescriber.",
+        "correct": false,
+        "reason": "Metronidazole does not treat candidiasis, and the nurse should not independently substitute a prescription.",
+        "label": "D"
+      }
+    ],
+    "rationale": "A familiar drug for nonpregnant patients may be inappropriate during pregnancy. Clarify rather than administering or independently substituting medication.",
+    "answer": "C"
+  },
+  {
+    "id": 54,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Teaching",
+      "Assessment",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "A patient collecting a semen specimen reports that the first portion was spilled and asks whether to add tap water to restore the expected volume. What is the best nursing response?",
+    "options": [
+      {
+        "text": "Add enough tap water to reach the mark on the container.",
+        "correct": false,
+        "reason": "Dilution invalidates concentration and motility assessment.",
+        "label": "A"
+      },
+      {
+        "text": "Do not add anything; report the lost portion to the laboratory and follow its recollection instructions.",
+        "correct": true,
+        "reason": "Incomplete collection can alter results, especially if the sperm-rich initial fraction was lost.",
+        "label": "B"
+      },
+      {
+        "text": "Submit it without mentioning the loss because only the color is important.",
+        "correct": false,
+        "reason": "Volume, concentration, and motility are clinically relevant; collection errors must be reported.",
+        "label": "C"
+      },
+      {
+        "text": "Use an ordinary lubricated condom to collect more semen into the same container.",
+        "correct": false,
+        "reason": "Unapproved lubricants or condoms can interfere with sperm testing and do not correct the original collection error.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Accurate diagnostic results depend on collection quality. Follow the laboratory's instructions for abstinence, collection, transport, and any repeat sample.",
+    "answer": "B"
+  },
+  {
+    "id": 55,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Teaching",
+      "Assessment",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "A patient trying to conceive shows a chart with a sustained small rise in basal temperature after midcycle. The patient says, \"I wait for three high readings before starting intercourse because that predicts ovulation is about to happen.\" Which response is best?",
+    "options": [
+      {
+        "text": "\"Your chart proves that infertility is caused by your partner.\"",
+        "correct": false,
+        "reason": "A temperature chart does not establish the cause of infertility.",
+        "label": "A"
+      },
+      {
+        "text": "\"The sustained rise usually reflects ovulation that has already occurred; let's review ways to identify the fertile window earlier.\"",
+        "correct": true,
+        "reason": "Progesterone-related temperature rise is mainly retrospective, so waiting for it can miss the most fertile days.",
+        "label": "B"
+      },
+      {
+        "text": "\"Temperature should be measured after exercise to make the ovulation rise easier to see.\"",
+        "correct": false,
+        "reason": "Basal measurements require consistent conditions before activity; exercise confounds the result.",
+        "label": "C"
+      },
+      {
+        "text": "\"Three high readings guarantee that fertilization has occurred.\"",
+        "correct": false,
+        "reason": "A postovulatory temperature rise does not diagnose pregnancy.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Correct the timing misconception without blame. Fertility assessment and counseling may involve both partners and additional methods beyond temperature charting.",
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Teaching"
+    ],
+    "refs": [
+      "N4",
+      "MC"
+    ],
+    "stem": "A 58-year-old patient who has had no menstrual periods for four years reports new vaginal spotting. A cervical screening result last year was normal. Which response is most appropriate?",
+    "options": [
+      {
+        "text": "Arrange prompt diagnostic evaluation of the bleeding even though the previous screening was normal.",
+        "correct": true,
+        "reason": "Postmenopausal bleeding warrants evaluation; cervical screening does not rule out every cause, including endometrial disease.",
+        "label": "A"
+      },
+      {
+        "text": "Reassure the patient that normal cervical screening excludes gynecologic cancer.",
+        "correct": false,
+        "reason": "Screening has a specific purpose and cannot exclude all sources of bleeding.",
+        "label": "B"
+      },
+      {
+        "text": "Advise waiting until bleeding becomes heavy enough to cause dizziness.",
+        "correct": false,
+        "reason": "Investigation should not be delayed until major blood loss occurs.",
+        "label": "C"
+      },
+      {
+        "text": "Recommend doubling any hormone dose to stop the bleeding before assessment.",
+        "correct": false,
+        "reason": "Unassessed bleeding should not be treated with an unprescribed dose change.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Distinguish screening in an asymptomatic person from diagnostic evaluation of a new symptom. The new bleeding changes the priority.",
+    "answer": "A"
+  },
+  {
+    "id": 57,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Therapeutic communication",
+      "Safety",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "During a pelvic examination, a patient becomes tearful, closes the legs, and says, \"Stop.\" The patient signed consent earlier. What should the nurse do first?",
+    "options": [
+      {
+        "text": "Ask the clinician to finish while the nurse uses distraction.",
+        "correct": false,
+        "reason": "Distraction is not a substitute for respecting withdrawal of consent.",
+        "label": "A"
+      },
+      {
+        "text": "Help stop the examination, provide privacy, and ask what the patient needs before discussing whether to continue.",
+        "correct": true,
+        "reason": "Consent is ongoing; the patient's request to stop must be respected.",
+        "label": "B"
+      },
+      {
+        "text": "Hold the patient's knees apart so the procedure can finish quickly.",
+        "correct": false,
+        "reason": "Restraint in this situation violates autonomy and can worsen trauma.",
+        "label": "C"
+      },
+      {
+        "text": "Remind the patient that the signed form requires completion of the examination.",
+        "correct": false,
+        "reason": "A signed form does not remove the right to withdraw consent.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Patient control and safety are essential to trauma-informed care. After stopping, offer choices, explain next steps, and obtain permission before proceeding.",
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "A patient previously treated for primary dysmenorrhea now reports progressively worse pain between periods, deep pain with intercourse, and difficulty conceiving. Which action is most appropriate?",
+    "options": [
+      {
+        "text": "Explain that pain outside menstruation proves the original treatment is working.",
+        "correct": false,
+        "reason": "Persistent noncyclic pain does not indicate therapeutic success.",
+        "label": "A"
+      },
+      {
+        "text": "Reassure the patient that infertility is unrelated to pelvic conditions.",
+        "correct": false,
+        "reason": "Conditions such as endometriosis or prior pelvic infection can affect fertility.",
+        "label": "B"
+      },
+      {
+        "text": "Advise taking multiple NSAID products together indefinitely.",
+        "correct": false,
+        "reason": "This increases adverse-effect risk without evaluating the cause.",
+        "label": "C"
+      },
+      {
+        "text": "Refer for evaluation of a secondary cause such as endometriosis rather than simply escalating self-treatment.",
+        "correct": true,
+        "reason": "The changed pattern and infertility suggest a cause beyond uncomplicated primary dysmenorrhea.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Reassess the diagnosis when the symptom pattern changes. Chronic pain deserves evaluation rather than dismissal or unsafe medication escalation.",
+    "answer": "D"
+  },
+  {
+    "id": 59,
+    "category": "GYN",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM",
+      "MC",
+      "C15"
+    ],
+    "stem": "A patient receiving injectable ovarian-stimulation medications reports rapid weight gain over two days, marked abdominal distention, decreased urine output, and new shortness of breath. What should the nurse advise?",
+    "options": [
+      {
+        "text": "Restrict all oral fluids without medical assessment.",
+        "correct": false,
+        "reason": "Fluid management requires evaluation; self-imposed complete restriction can worsen perfusion.",
+        "label": "A"
+      },
+      {
+        "text": "Obtain urgent evaluation for ovarian hyperstimulation and fluid-shift complications.",
+        "correct": true,
+        "reason": "These findings suggest a potentially serious treatment complication affecting perfusion and breathing.",
+        "label": "B"
+      },
+      {
+        "text": "Continue the next injection and report symptoms at the scheduled visit next week.",
+        "correct": false,
+        "reason": "Additional stimulation and delayed evaluation may worsen the condition.",
+        "label": "C"
+      },
+      {
+        "text": "Treat the symptoms as proof of a normal early pregnancy.",
+        "correct": false,
+        "reason": "The acute systemic findings are not a safe basis for routine reassurance.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Recognize an adverse treatment response rather than labeling every symptom as an expected fertility-treatment effect. Breathing changes increase urgency.",
+    "answer": "B"
+  },
+  {
+    "id": 60,
+    "category": "GYN",
+    "kind": "SATA",
+    "domains": [
+      "Teaching",
+      "Safety",
+      "Care management"
+    ],
+    "refs": [
+      "N4",
+      "AM"
+    ],
+    "stem": "A patient chooses a levonorgestrel IUD and wants to reduce STI risk. Which statements show accurate understanding of the combined prevention plan? Select all that apply.",
+    "options": [
+      {
+        "text": "\"I should use an internal condom and an external condom at the same time.\"",
+        "correct": false,
+        "reason": "Using both together can increase friction and failure.",
+        "label": "A"
+      },
+      {
+        "text": "\"Condoms completely eliminate transmission from all uncovered genital skin.\"",
+        "correct": false,
+        "reason": "Condoms reduce risk but do not cover every area involved in infections such as HSV or HPV.",
+        "label": "B"
+      },
+      {
+        "text": "\"Once the IUD is in place, new partners do not change my need for STI assessment.\"",
+        "correct": false,
+        "reason": "STI risk depends on exposure and behavior, not the presence of an IUD.",
+        "label": "C"
+      },
+      {
+        "text": "\"I should seek evaluation for new pelvic pain with fever or abnormal discharge.\"",
+        "correct": true,
+        "reason": "These findings need assessment for infection or another complication.",
+        "label": "D"
+      },
+      {
+        "text": "\"The IUD prevents pregnancy, but condoms are still important for STI risk reduction.\"",
+        "correct": true,
+        "reason": "An IUD does not protect against STIs.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Pregnancy prevention and STI prevention are distinct goals. Teach effective combination use without claiming complete protection.",
+    "answer": "D, E"
+  },
+  {
+    "id": 61,
+    "category": "Growth",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Safety",
+      "Priority"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "A child weighs 44 lb. An order reads 30 mg/kg/day of an antibiotic divided into three equal doses. A colleague calculates 600 mg per dose using a weight of 20 kg. Which action should the nurse take before administration?",
+    "options": [
+      {
+        "text": "Administer 1,320 mg because pounds should be used without conversion.",
+        "correct": false,
+        "reason": "The order is weight-based in kilograms, not pounds.",
+        "label": "A"
+      },
+      {
+        "text": "Hold the incorrect dose and clarify that the calculated dose is 200 mg.",
+        "correct": true,
+        "reason": "44/2.2 = 20 kg; 30 x 20 = 600 mg per day; 600/3 = 200 mg per dose.",
+        "label": "B"
+      },
+      {
+        "text": "Administer 66 mg because the daily amount should be divided by both 3 and 3 again.",
+        "correct": false,
+        "reason": "Dividing twice incorrectly reduces the dose.",
+        "label": "C"
+      },
+      {
+        "text": "Administer 600 mg because the weight conversion is correct.",
+        "correct": false,
+        "reason": "The weight is correct, but the daily dose was not divided into three doses.",
+        "label": "D"
+      }
+    ],
+    "rationale": "A correct weight conversion does not guarantee a correct dose. Distinguish mg/kg/day from mg/kg/dose, then verify the safe range and available concentration before administration.",
+    "answer": "B"
+  },
+  {
+    "id": 62,
+    "category": "Growth",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "At a well-child visit, which report requires the most prompt developmental follow-up?",
+    "options": [
+      {
+        "text": "A 10-month-old who previously sat independently now repeatedly falls over and no longer reaches for toys.",
+        "correct": true,
+        "reason": "Loss of previously acquired skills is a concerning change requiring assessment.",
+        "label": "A"
+      },
+      {
+        "text": "An 18-month-old who needs a hand held while using stairs.",
+        "correct": false,
+        "reason": "Assisted stair use is compatible with this developmental period.",
+        "label": "B"
+      },
+      {
+        "text": "A 12-month-old who plays beside another child instead of sharing a cooperative game.",
+        "correct": false,
+        "reason": "Mature cooperative play is not expected at this age.",
+        "label": "C"
+      },
+      {
+        "text": "A 10-month-old who pulls to stand but does not walk independently.",
+        "correct": false,
+        "reason": "Independent walking is not expected of every 10-month-old.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Regression is more concerning than failure to perform a skill expected at an older age. Assess the whole developmental pattern rather than one rigid cutoff.",
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "category": "Growth",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Safety"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "The nurse selects activities for an alert 12-month-old admitted for observation. Which choices are developmentally appropriate and safe with supervision? Select all that apply.",
+    "options": [
+      {
+        "text": "A peekaboo game using a familiar caregiver's face.",
+        "correct": true,
+        "reason": "This supports object permanence and familiar social interaction.",
+        "label": "A"
+      },
+      {
+        "text": "Large washable blocks that cannot fit into the child's mouth.",
+        "correct": true,
+        "reason": "Large blocks support manipulation and purposeful play without small-part choking risk.",
+        "label": "B"
+      },
+      {
+        "text": "A sorting game with loose button batteries used as counters.",
+        "correct": false,
+        "reason": "Button batteries can cause catastrophic injury if swallowed.",
+        "label": "C"
+      },
+      {
+        "text": "A sturdy board book shared with a caregiver.",
+        "correct": true,
+        "reason": "Books support language, interaction, and exploration at this age.",
+        "label": "D"
+      },
+      {
+        "text": "Large nesting cups without detachable small parts.",
+        "correct": true,
+        "reason": "Cups permit safe grasping, placing, and removing objects.",
+        "label": "E"
+      },
+      {
+        "text": "A toy with a long cord tied around the crib rail for easy access.",
+        "correct": false,
+        "reason": "Long accessible cords create strangulation risk.",
+        "label": "F"
+      }
+    ],
+    "rationale": "Match both the developmental task and the safety features. A toy can be intellectually interesting yet unsafe because of its parts or attachment.",
+    "answer": "A, B, D, E"
+  },
+  {
+    "id": 64,
+    "category": "Growth",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Safety"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "A hospitalized 10-month-old cries intensely when the caregiver leaves. The caregiver must go home briefly and asks how to reduce distress. Which plan is best?",
+    "options": [
+      {
+        "text": "Discourage the caregiver from returning until the infant stops crying.",
+        "correct": false,
+        "reason": "Withholding contact is not an appropriate response to normal separation distress.",
+        "label": "A"
+      },
+      {
+        "text": "Use a predictable, brief goodbye and maintain consistent comforting care and familiar routines while the caregiver is away.",
+        "correct": true,
+        "reason": "Predictability and responsive care support trust during separation anxiety.",
+        "label": "B"
+      },
+      {
+        "text": "Have the caregiver leave secretly whenever the infant looks away.",
+        "correct": false,
+        "reason": "Unexplained disappearance can undermine predictability and does not teach security.",
+        "label": "C"
+      },
+      {
+        "text": "Place the infant alone and avoid comforting to prevent dependence.",
+        "correct": false,
+        "reason": "Responsive comfort is appropriate in infancy and supports trust.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Separation anxiety is developmentally expected. The nursing response should support attachment and predictable care rather than punish distress.",
+    "answer": "B"
+  },
+  {
+    "id": 65,
+    "category": "Growth",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Safety"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "A 2-year-old requires an oral medication and becomes upset whenever the nurse enters. Which approaches support cooperation and safe care? Select all that apply.",
+    "options": [
+      {
+        "text": "Explain in simple words immediately before administration and allow comforting caregiver participation.",
+        "correct": true,
+        "reason": "Toddlers respond to concrete, immediate explanations and familiar support.",
+        "label": "A"
+      },
+      {
+        "text": "Ask, \"Do you want your medicine?\" when refusing is not an available option.",
+        "correct": false,
+        "reason": "This offers a false choice and increases conflict.",
+        "label": "B"
+      },
+      {
+        "text": "Describe the medicine as candy so the child accepts it.",
+        "correct": false,
+        "reason": "Calling medication candy creates poisoning risk and undermines honest teaching.",
+        "label": "C"
+      },
+      {
+        "text": "Mix the dose into a full bottle and assume the entire dose was taken.",
+        "correct": false,
+        "reason": "Incomplete intake makes the delivered dose uncertain.",
+        "label": "D"
+      },
+      {
+        "text": "Offer two acceptable choices, such as taking the medicine with the caregiver or with the nurse.",
+        "correct": true,
+        "reason": "Limited real choices support autonomy without making necessary treatment optional.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Support autonomy within safe limits. Honest explanations, limited choices, and an accurate dose are more useful than coercion or deception.",
+    "answer": "A, E"
+  },
+  {
+    "id": 66,
+    "category": "Growth",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "A 4-year-old awaiting a procedure says, \"My arm got hurt because I was mean to my brother.\" Which nursing response is best?",
+    "options": [
+      {
+        "text": "Explain that the injury was not punishment and use a doll to show what will happen during care.",
+        "correct": true,
+        "reason": "Preschool magical thinking can link illness to behavior; concrete play helps correct the misconception.",
+        "label": "A"
+      },
+      {
+        "text": "Confirm that better behavior will make the arm heal faster.",
+        "correct": false,
+        "reason": "This reinforces guilt and an inaccurate cause of illness.",
+        "label": "B"
+      },
+      {
+        "text": "Provide a detailed discussion of cellular inflammation and ask for a written summary.",
+        "correct": false,
+        "reason": "This is not matched to preschool cognitive abilities.",
+        "label": "C"
+      },
+      {
+        "text": "Avoid discussing the procedure because preschoolers cannot understand any explanation.",
+        "correct": false,
+        "reason": "Simple truthful preparation and play can reduce fear.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Address the child's actual belief. Developmentally appropriate preparation includes reassurance about causation and concrete demonstration.",
+    "answer": "A"
+  },
+  {
+    "id": 67,
+    "category": "Growth",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "A hospitalized 10-year-old says, \"Everyone else can do things. I am bad at everything now.\" Which care plan best supports the child's developmental needs?",
+    "options": [
+      {
+        "text": "Teach a manageable self-care skill, recognize progress, and help maintain appropriate school and peer contact.",
+        "correct": true,
+        "reason": "Achievable tasks and connection support industry and competence.",
+        "label": "A"
+      },
+      {
+        "text": "Compare the child's progress with a faster-recovering roommate.",
+        "correct": false,
+        "reason": "Competitive comparison can intensify feelings of inferiority.",
+        "label": "B"
+      },
+      {
+        "text": "Explain that peers are unimportant until adolescence.",
+        "correct": false,
+        "reason": "Peer relationships are already important in school-age development.",
+        "label": "C"
+      },
+      {
+        "text": "Complete every task for the child to avoid any possibility of failure.",
+        "correct": false,
+        "reason": "Removing all participation can reinforce inferiority and dependence.",
+        "label": "D"
+      }
+    ],
+    "rationale": "School-age children benefit from meaningful participation and achievable success, not loss of all responsibility or unfavorable comparison.",
+    "answer": "A"
+  },
+  {
+    "id": 68,
+    "category": "Growth",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Teaching",
+      "Safety"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "A caregiver says, \"My 2-year-old goes up stairs one step at a time while holding the railing, so I removed the stair gate and let the child practice alone.\" Which response is best?",
+    "options": [
+      {
+        "text": "Explain that emerging stair skills do not establish independent safety; continue close supervision and appropriate barriers.",
+        "correct": true,
+        "reason": "The skill can fit the developmental period, but judgment, balance, and hazard awareness remain immature.",
+        "label": "A"
+      },
+      {
+        "text": "Agree that one successful climb means supervision is no longer needed.",
+        "correct": false,
+        "reason": "Demonstrating a skill once does not eliminate fall risk.",
+        "label": "B"
+      },
+      {
+        "text": "Diagnose a developmental delay because alternating feet are required at age 2.",
+        "correct": false,
+        "reason": "Alternating-foot stair use develops later; this description alone does not establish delay.",
+        "label": "C"
+      },
+      {
+        "text": "Tell the caregiver to discourage all climbing until school age.",
+        "correct": false,
+        "reason": "Safe supervised practice supports development; complete avoidance is unnecessary.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Developmental ability and safety readiness are not identical. Teach protection while allowing appropriate supervised learning.",
+    "answer": "A"
+  },
+  {
+    "id": 69,
+    "category": "Growth",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Safety"
+    ],
+    "refs": [
+      "N5",
+      "AC",
+      "C8",
+      "C9"
+    ],
+    "stem": "The nurse reviews two healthy patients with no vaccine contraindications. A 4-year-old received all routine doses through 18 months but none of the 4-6-year boosters. An 18-year-old entering a college residence hall received MenACWY only at age 11. Which plans are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Plan the 4-year-old's final routine IPV dose after checking minimum intervals.",
+        "correct": true,
+        "reason": "The final routine IPV dose is given at age 4 years or older with the required interval.",
+        "label": "A"
+      },
+      {
+        "text": "Plan the 4-year-old's second MMR and varicella doses.",
+        "correct": true,
+        "reason": "These are routine 4-6-year doses for a child with the stated earlier series.",
+        "label": "B"
+      },
+      {
+        "text": "Use a MenB dose as a substitute for the college student's missing MenACWY booster.",
+        "correct": false,
+        "reason": "MenB and MenACWY cover different serogroups and are not interchangeable.",
+        "label": "C"
+      },
+      {
+        "text": "Plan a MenACWY dose for the college student.",
+        "correct": true,
+        "reason": "A dose given only at age 11 does not provide the recommended later adolescent booster coverage.",
+        "label": "D"
+      },
+      {
+        "text": "Plan the 4-year-old's DTaP booster after verifying the documented doses and intervals.",
+        "correct": true,
+        "reason": "The routine DTaP series includes a 4-6-year booster when the earlier doses were given as described.",
+        "label": "E"
+      },
+      {
+        "text": "Restart the 4-year-old's completed hepatitis B series because kindergarten is approaching.",
+        "correct": false,
+        "reason": "A completed valid series is not restarted merely for school entry.",
+        "label": "F"
+      }
+    ],
+    "rationale": "Reconcile actual records before vaccinating. Age, prior valid doses, and intervals determine the plan; MenB counseling is a separate decision from completing MenACWY protection.",
+    "answer": "A, B, D, E"
+  },
+  {
+    "id": 70,
+    "category": "Growth",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N5",
+      "AC"
+    ],
+    "stem": "During anticipatory guidance for a 10-year-old, which caregiver statement most clearly requires correction?",
+    "options": [
+      {
+        "text": "\"We use a helmet on every bicycle ride, including short rides.\"",
+        "correct": false,
+        "reason": "Consistent helmet use supports injury prevention.",
+        "label": "A"
+      },
+      {
+        "text": "\"We review an emergency contact plan before allowing time at home without me.\"",
+        "correct": false,
+        "reason": "Planning and assessment of readiness support safer independence.",
+        "label": "B"
+      },
+      {
+        "text": "\"We check who supervises swimming rather than assuming another adult is watching.\"",
+        "correct": false,
+        "reason": "Defined active supervision reduces water-injury risk.",
+        "label": "C"
+      },
+      {
+        "text": "\"My child wears a seat belt correctly, so the front passenger seat is as safe as the back seat.\"",
+        "correct": true,
+        "reason": "Children younger than 13 should ride in the back seat; proper belt fit does not eliminate front-airbag risk.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Independence should increase with development while evidence-based protection remains in place. Correct the specific unsafe practice rather than discouraging all autonomy.",
+    "answer": "D"
+  },
+  {
+    "id": 71,
+    "category": "Skin",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Pharmacology"
+    ],
+    "refs": [
+      "N7",
+      "AC"
+    ],
+    "stem": "A child with localized impetigo has used prescribed topical mupirocin for two days. Today the lesions are spreading, the surrounding skin is warm and tender, and the child has fever. What should the nurse advise?",
+    "options": [
+      {
+        "text": "Stop all antibiotics because crusting means the infection has resolved.",
+        "correct": false,
+        "reason": "Spreading lesions and fever contradict resolution.",
+        "label": "A"
+      },
+      {
+        "text": "Replace the antibiotic with a potent topical steroid to suppress redness.",
+        "correct": false,
+        "reason": "Steroid monotherapy does not treat the infection and can mask progression.",
+        "label": "B"
+      },
+      {
+        "text": "Arrange prompt reassessment for spreading infection and possible need for systemic therapy.",
+        "correct": true,
+        "reason": "New systemic symptoms and expanding inflammation suggest that the original localized-treatment plan may be inadequate.",
+        "label": "C"
+      },
+      {
+        "text": "Increase the topical amount without contacting the prescriber.",
+        "correct": false,
+        "reason": "Dose escalation alone does not evaluate spreading infection or determine whether systemic treatment is needed.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Treatment response must be evaluated by the whole clinical trend. New fever and spreading inflammation require a revised assessment.",
+    "answer": "C"
+  },
+  {
+    "id": 72,
+    "category": "Skin",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Pharmacology",
+      "Care management"
+    ],
+    "refs": [
+      "N7",
+      "AC",
+      "C10"
+    ],
+    "stem": "A child was treated for head lice yesterday with a product that specifies repeat treatment on day 9. No live crawling lice are seen, but attached nits remain. The caregiver asks to apply the product twice daily until every nit is gone. Which response is best?",
+    "options": [
+      {
+        "text": "Follow the product's retreatment schedule, remove nits as directed, and reassess for live lice rather than overapplying medication.",
+        "correct": true,
+        "reason": "Retreatment timing is product-specific; remaining nits alone do not justify excessive dosing.",
+        "label": "A"
+      },
+      {
+        "text": "Apply two different lice products together to overcome presumed resistance.",
+        "correct": false,
+        "reason": "Combining products can increase toxicity and should not be done without clinical guidance.",
+        "label": "B"
+      },
+      {
+        "text": "Stop checking the hair permanently because one treatment always kills all eggs.",
+        "correct": false,
+        "reason": "Products differ in egg activity, and follow-up may still be needed.",
+        "label": "C"
+      },
+      {
+        "text": "Use household insecticide spray on the child's scalp between doses.",
+        "correct": false,
+        "reason": "Environmental insecticide sprays are unsafe for treating a child's scalp.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Avoid mistaking residual nits for proof of immediate treatment failure. Use the actual product instructions and assess living lice before escalating treatment.",
+    "answer": "A"
+  },
+  {
+    "id": 73,
+    "category": "Skin",
+    "kind": "SATA",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Pharmacology"
+    ],
+    "refs": [
+      "N7",
+      "AC",
+      "C11"
+    ],
+    "stem": "A child with scabies has prescribed permethrin treatment. Several household members have itching, and others have no symptoms. Which instructions should the nurse include? Select all that apply.",
+    "options": [
+      {
+        "text": "Treat household furniture with pesticide foggers while the child remains in the home.",
+        "correct": false,
+        "reason": "Fumigants are not recommended and create unnecessary toxic exposure.",
+        "label": "A"
+      },
+      {
+        "text": "Reapply the medication every few hours whenever any itching remains.",
+        "correct": false,
+        "reason": "Itching can persist after successful treatment; excessive application increases harm.",
+        "label": "B"
+      },
+      {
+        "text": "Arrange treatment of household and close contacts together as directed, including eligible contacts without symptoms.",
+        "correct": true,
+        "reason": "Symptoms may be delayed, and untreated contacts can cause reinfestation.",
+        "label": "C"
+      },
+      {
+        "text": "Wash recently used clothing, towels, and bedding with hot washing and drying, or seal unwashable items for the recommended interval.",
+        "correct": true,
+        "reason": "Environmental measures reduce re-exposure from recently used items.",
+        "label": "D"
+      },
+      {
+        "text": "Apply the child's prescribed product to the instructed areas for the full instructed contact time.",
+        "correct": true,
+        "reason": "Coverage, age-specific application, and duration affect treatment success.",
+        "label": "E"
+      },
+      {
+        "text": "Report new burrows, worsening lesions, or signs of skin infection after treatment.",
+        "correct": true,
+        "reason": "These findings can indicate ongoing infestation or a complication requiring reassessment.",
+        "label": "F"
+      }
+    ],
+    "rationale": "Successful scabies control combines correct medication use, contact management, and practical cleaning. Persistent itch alone does not prove that mites survived.",
+    "answer": "C, D, E, F"
+  },
+  {
+    "id": 74,
+    "category": "Skin",
+    "kind": "MC",
+    "domains": [
+      "Care management",
+      "Pharmacology",
+      "Assessment"
+    ],
+    "refs": [
+      "N7",
+      "AC"
+    ],
+    "stem": "A child with atopic dermatitis has very dry skin and worsening itch. The caregiver gives long hot baths and applies a prescribed topical corticosteroid over the entire body every day, including clear skin. Which teaching is most appropriate?",
+    "options": [
+      {
+        "text": "Stop all moisturizers so that inflamed areas can dry completely.",
+        "correct": false,
+        "reason": "Drying worsens barrier dysfunction and itching.",
+        "label": "A"
+      },
+      {
+        "text": "Scrub with an antibacterial brush before each steroid application.",
+        "correct": false,
+        "reason": "Friction and harsh cleansing can worsen inflammation and skin injury.",
+        "label": "B"
+      },
+      {
+        "text": "Increase the steroid strength without evaluation when the child scratches.",
+        "correct": false,
+        "reason": "Potency, location, age, and duration must be considered by the prescribing clinician.",
+        "label": "C"
+      },
+      {
+        "text": "Use brief lukewarm bathing, apply emollient promptly, and use the corticosteroid only as prescribed for affected areas.",
+        "correct": true,
+        "reason": "This supports the skin barrier while limiting unnecessary corticosteroid exposure.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Control eczema by restoring the barrier and using targeted anti-inflammatory treatment. More heat, friction, or steroid is not automatically better care.",
+    "answer": "D"
+  },
+  {
+    "id": 75,
+    "category": "Skin",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management"
+    ],
+    "refs": [
+      "N7",
+      "MC"
+    ],
+    "stem": "An adolescent with psoriasis says the plaques are improving but reports new persistent swelling and stiffness in several finger joints. Which action is most appropriate?",
+    "options": [
+      {
+        "text": "Apply the skin cream directly over the joints as the only intervention.",
+        "correct": false,
+        "reason": "Topical skin treatment does not adequately evaluate or manage inflammatory joint disease.",
+        "label": "A"
+      },
+      {
+        "text": "Report the joint symptoms and arrange evaluation for possible psoriatic arthritis.",
+        "correct": true,
+        "reason": "Psoriasis can involve joints even when the skin appears to improve.",
+        "label": "B"
+      },
+      {
+        "text": "Reassure the adolescent that joint symptoms cannot be related to a skin disorder.",
+        "correct": false,
+        "reason": "This dismisses a recognized extra-cutaneous manifestation.",
+        "label": "C"
+      },
+      {
+        "text": "Recommend avoiding school because psoriasis is contagious.",
+        "correct": false,
+        "reason": "Psoriasis is not contagious, and unnecessary exclusion adds stigma.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Evaluate the patient beyond visible lesions. Improvement in one part of a chronic condition does not exclude progression elsewhere.",
+    "answer": "B"
+  },
+  {
+    "id": 76,
+    "category": "GI",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority"
+    ],
+    "refs": [
+      "N6",
+      "AC"
+    ],
+    "stem": "A 5-week-old has progressive nonbilious projectile vomiting, weight loss, and a palpable olive-like abdominal mass. Potassium is 2.9 mEq/L and bicarbonate is elevated. Pyloromyotomy is planned. Which preoperative priority should the nurse expect?",
+    "options": [
+      {
+        "text": "Give an oral potassium dose and send the infant directly to surgery without reassessment.",
+        "correct": false,
+        "reason": "The route and stabilization plan must account for vomiting, hydration, and safe electrolyte correction.",
+        "label": "A"
+      },
+      {
+        "text": "Feed concentrated formula to restore weight rapidly before transfer to the operating room.",
+        "correct": false,
+        "reason": "Oral feeding worsens vomiting and aspiration risk before correction of the obstruction.",
+        "label": "B"
+      },
+      {
+        "text": "Maintain NPO status and correct dehydration and electrolyte abnormalities with the prescribed IV plan before anesthesia.",
+        "correct": true,
+        "reason": "Pyloric obstruction causes losses that must be stabilized for safer surgery.",
+        "label": "C"
+      },
+      {
+        "text": "Delay IV access because metabolic alkalosis is a normal infant finding.",
+        "correct": false,
+        "reason": "Hypokalemic metabolic alkalosis and dehydration are clinically important complications.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Definitive surgery is necessary, but the physiologic deficits require correction first when clinically feasible. A surgical diagnosis does not erase resuscitation priorities.",
+    "answer": "C"
+  },
+  {
+    "id": 77,
+    "category": "GI",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Care management"
+    ],
+    "refs": [
+      "N6",
+      "AC"
+    ],
+    "stem": "A child awaiting appendectomy reports sudden relief of right-lower-quadrant pain. Thirty minutes later, the abdomen is rigid, pain is generalized, and the pulse is rising. Which action has priority?",
+    "options": [
+      {
+        "text": "Offer a meal because the original focal pain has improved.",
+        "correct": false,
+        "reason": "Oral intake is unsafe with a potential surgical emergency.",
+        "label": "A"
+      },
+      {
+        "text": "Notify the surgical team immediately about possible perforation and support the prescribed NPO, IV, and antibiotic plan.",
+        "correct": true,
+        "reason": "Transient relief followed by generalized peritoneal findings suggests progression, not recovery.",
+        "label": "B"
+      },
+      {
+        "text": "Apply a heating pad to reduce abdominal muscle tension.",
+        "correct": false,
+        "reason": "Heat is not appropriate for suspected appendiceal perforation and may delay definitive care.",
+        "label": "C"
+      },
+      {
+        "text": "Give a cleansing enema before reassessing the abdomen.",
+        "correct": false,
+        "reason": "Enemas can worsen risk in suspected appendicitis and are not appropriate treatment.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Interpret pain changes over time. Sudden relief can precede worsening peritonitis; it is not automatically a successful outcome.",
+    "answer": "B"
+  },
+  {
+    "id": 78,
+    "category": "GI",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Care management",
+      "Priority"
+    ],
+    "refs": [
+      "N6",
+      "AC"
+    ],
+    "stem": "A stable 9-month-old with confirmed intussusception is being prepared for air-enema reduction. Before transfer, the child becomes lethargic, febrile, and hypotensive, with a rigid abdomen. What should the nurse do?",
+    "options": [
+      {
+        "text": "Proceed with the enema because it was ordered before the assessment changed.",
+        "correct": false,
+        "reason": "Orders must be reconsidered when the patient's condition changes materially.",
+        "label": "A"
+      },
+      {
+        "text": "Stop the routine transfer plan and urgently notify the team about possible perforation or peritonitis while supporting circulation.",
+        "correct": true,
+        "reason": "New instability and peritoneal signs may make enema reduction unsafe and require urgent surgical management.",
+        "label": "B"
+      },
+      {
+        "text": "Give an oral rehydration solution and repeat vital signs after the procedure.",
+        "correct": false,
+        "reason": "Shock and a possible perforation require IV resuscitation and reassessment before the procedure.",
+        "label": "C"
+      },
+      {
+        "text": "Wait for currant-jelly stool to confirm that intussusception is serious.",
+        "correct": false,
+        "reason": "The classic stool can be late or absent; current shock is sufficient reason to escalate.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Reassess suitability immediately before an intervention. A treatment appropriate for a stable child may be unsafe after deterioration.",
+    "answer": "B"
+  },
+  {
+    "id": 79,
+    "category": "GI",
+    "kind": "MC",
+    "domains": [
+      "Assessment",
+      "Priority",
+      "Safety"
+    ],
+    "refs": [
+      "N6",
+      "AC",
+      "C12"
+    ],
+    "stem": "The pediatric nurse receives four GI-related reports. Which child requires the first bedside assessment?",
+    "options": [
+      {
+        "text": "A child with treated constipation who passes a soft stool without blood and has normal vital signs.",
+        "correct": false,
+        "reason": "This suggests a response to the current plan rather than acute deterioration.",
+        "label": "A"
+      },
+      {
+        "text": "An infant with uncomplicated reflux who is gaining weight and sleeps supine on a firm, flat surface.",
+        "correct": false,
+        "reason": "Growth and safe sleep are reassuring in this report; reflux does not require prone or inclined sleep.",
+        "label": "B"
+      },
+      {
+        "text": "An infant with Hirschsprung disease who now has fever, increasing distention, explosive diarrhea, and poor perfusion.",
+        "correct": true,
+        "reason": "This suggests Hirschsprung-associated enterocolitis with possible sepsis; diarrhea does not exclude obstructive disease.",
+        "label": "C"
+      },
+      {
+        "text": "A child after successful intussusception reduction who is alert, pain-free, and has normal perfusion.",
+        "correct": false,
+        "reason": "Continued monitoring is required, but this report is stable compared with suspected enterocolitis.",
+        "label": "D"
+      }
+    ],
+    "rationale": "Prioritize systemic illness and impaired perfusion over diagnostic labels. In Hirschsprung disease, new diarrhea can be a danger sign rather than relief of constipation.",
+    "answer": "C"
+  },
+  {
+    "id": 80,
+    "category": "GI",
+    "kind": "SATA",
+    "domains": [
+      "Care management",
+      "Safety",
+      "Pharmacology",
+      "Priority"
+    ],
+    "refs": [
+      "N6",
+      "AC",
+      "C13"
+    ],
+    "stem": "A caregiver calls after finding a toddler beside an open acetaminophen bottle. The amount and time of possible ingestion are uncertain; the child is currently awake and breathing normally. Which instructions or anticipated care are appropriate? Select all that apply.",
+    "options": [
+      {
+        "text": "Seek emergency help immediately if the child becomes difficult to awaken, has a seizure, or develops breathing difficulty.",
+        "correct": true,
+        "reason": "These findings require emergency services and stabilization.",
+        "label": "A"
+      },
+      {
+        "text": "Expect the evaluation to consider timed acetaminophen levels and N-acetylcysteine when indicated.",
+        "correct": true,
+        "reason": "Levels and the exposure history guide care; N-acetylcysteine is the antidote for acetaminophen toxicity.",
+        "label": "B"
+      },
+      {
+        "text": "Give syrup of ipecac now to empty the stomach before symptoms begin.",
+        "correct": false,
+        "reason": "Induced vomiting is not recommended and can cause harm or delay effective treatment.",
+        "label": "C"
+      },
+      {
+        "text": "Wait for abdominal pain or jaundice before calling because the child appears well.",
+        "correct": false,
+        "reason": "Significant acetaminophen toxicity can initially cause few symptoms.",
+        "label": "D"
+      },
+      {
+        "text": "Contact Poison Control promptly with the bottle, possible amount, timing, and child's weight, and follow its urgent evaluation instructions.",
+        "correct": true,
+        "reason": "Early symptoms may be absent despite a toxic exposure; expert guidance should not be delayed.",
+        "label": "E"
+      }
+    ],
+    "rationale": "Assess and act on exposure risk, not appearance alone. Activated charcoal, when indicated, is a separate decontamination treatment and is not the antidote.",
+    "answer": "A, B, E"
+  }
+]

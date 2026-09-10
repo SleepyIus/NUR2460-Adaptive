@@ -1,0 +1,1275 @@
+@@ e201|Pregnancy|followup|2|MC|Assessment, Care management, Priority|Hyperemesis gravidarum|10
+A patient at 12 weeks has persistent vomiting, a 4-kg weight loss, pulse 118/min, dry mucosa, and minimal urine output. Which plan should the nurse prioritize?
++ Obtain IV access, check electrolytes, and begin prescribed rehydration. || Findings indicate volume depletion and possible electrolyte disturbance, requiring stabilization.
+- Teach the patient to drink an entire glass of fluid with each meal. || Large volumes may worsen vomiting and do not address current dehydration.
+- Arrange routine nutrition counseling for next month. || Counseling is useful after the immediate physiologic problem is addressed.
+- Reassure the patient that all vomiting resolves without treatment. || Weight loss and oliguria exceed uncomplicated nausea of pregnancy.
+CLUE: Vomiting is accompanied by objective dehydration and weight loss.
+WHY: Stabilize fluid and electrolyte balance, administer prescribed antiemetics, and reassess urine output before advancing oral intake as tolerated.
+
+@@ e202|Pregnancy|bleeding|3|MC|Care management, Priority, Safety|Spontaneous abortion|4
+Following an incomplete pregnancy loss at 14 weeks, a patient passes large clots and becomes pale. BP is 88/50 mmHg. Another nurse is notifying the obstetric team. What should the primary nurse do first?
++ Initiate hemorrhage measures and prepare for urgent uterine evacuation as ordered. || Retained tissue can sustain bleeding; shock requires resuscitation and definitive treatment.
+- Ask the patient to walk to the bathroom to measure the next blood loss. || Walking during shock increases fall risk and delays stabilization.
+- Complete bereavement paperwork before starting treatment. || Emotional support continues, but paperwork cannot delay circulation support.
+- Wait for the hemoglobin result before starting prescribed fluids. || Hemoglobin may initially underestimate acute blood loss.
+CLUE: Active bleeding plus hypotension indicates a circulation emergency.
+WHY: Act on clinical deterioration. Obtain IV access, quantify bleeding, prepare blood and ordered treatment, and support the patient without delaying resuscitation.
+
+@@ e203|Pregnancy|followup|2|SATA|Care management, Teaching, Safety|Iron-deficiency anemia|20
+A pregnant patient prescribed oral iron says, "The tablets make me constipated, so I stopped them." Which responses support safe treatment? Select all that apply.
++ Discuss fluid, fiber, and an ordered bowel regimen. || Managing adverse effects can improve adherence.
++ Explain that darker stools can occur with iron. || This expected effect differs from symptomatic gastrointestinal bleeding.
++ Review taking iron apart from calcium supplements. || Calcium can reduce iron absorption.
+- Advise doubling the dose whenever fatigue occurs. || Dosing changes require a prescribed plan; fatigue has multiple causes.
+- Recommend stopping prenatal follow-up once energy improves. || Follow-up laboratory testing is needed to assess correction.
+CLUE: A manageable adverse effect has interrupted treatment.
+WHY: Address the barrier, reinforce correct administration, and monitor the response rather than using symptoms alone to change dosing.
+
+@@ e204|Pregnancy|followup|3|MC|Assessment, Care management, Priority|Cardiac disease|16
+A pregnant patient with cardiac disease reports new shortness of breath at rest and inability to lie flat. The nurse hears bilateral crackles. Which response is most appropriate?
++ Position upright, assess oxygenation, and obtain urgent evaluation for decompensation. || Rest dyspnea, orthopnea, and crackles suggest pulmonary congestion.
+- Encourage a liter of oral fluid to support the increased blood volume of pregnancy. || Additional fluid may worsen congestion.
+- Schedule a discussion of exercise tolerance at the next visit. || Symptoms at rest require current assessment, not routine follow-up.
+- Place the patient flat and reassure that breathlessness is expected. || Supine positioning can worsen breathing and minimizes warning findings.
+CLUE: Symptoms occur at rest and include crackles.
+WHY: Suspect cardiac decompensation. Support breathing, escalate promptly, and avoid automatic fluid loading while the team assesses the cause.
+
+@@ e205|Pregnancy|followup|2|MC|Care management, Teaching, Safety|Epilepsy during pregnancy|notes
+A patient with epilepsy stopped prescribed antiseizure medication after a positive pregnancy test because of concern about fetal harm. Which response is best?
++ Arrange prompt prescriber review and explain that uncontrolled seizures also threaten maternal and fetal oxygenation. || An individualized medication plan weighs seizure control against fetal medication risks.
+- Confirm that stopping all seizure medicines is the safest pregnancy plan. || Abrupt withdrawal can provoke seizures and injury.
+- Instruct the patient to restart at twice the old dose. || The nurse should not independently prescribe a replacement regimen.
+- Explain that any seizure in pregnancy will be treated as eclampsia. || Epilepsy and eclampsia have different causes and management.
+CLUE: The patient stopped therapy without an individualized pregnancy plan.
+WHY: Support an informed medication review urgently. Do not endorse abrupt withdrawal or independently change doses.
+
+@@ e206|Pregnancy|followup|2|SATA|Teaching, Safety, Care management|Cytomegalovirus|23
+A pregnant daycare worker asks how to reduce cytomegalovirus exposure while caring for toddlers. Which instructions are appropriate? Select all that apply.
++ Wash hands after diaper changes and contact with saliva. || Urine and saliva are important exposure routes.
++ Avoid sharing toddlers' cups and utensils. || Shared utensils can transfer saliva.
++ Clean toys and surfaces contaminated with body fluids. || Environmental hygiene reduces contact with infectious secretions.
+- Take a routine CMV vaccine during this pregnancy. || No routine licensed CMV vaccine is available for this purpose.
+- Wear gloves instead of performing hand hygiene. || Gloves do not replace handwashing after contact or removal.
+CLUE: Toddlers' urine and saliva are relevant exposures.
+WHY: Reduce contact with body fluids through practical hygiene. A blanket instruction to use droplet precautions alone would miss important transmission opportunities.
+
+@@ e207|Pregnancy|hypertension|3|MC|Assessment, Priority, Safety|Hypertensive disorders|13–15
+A patient discharged after a pregnancy complicated by hypertension calls on postpartum day 5 about a severe headache and flashing lights. Which instruction has priority?
++ Seek urgent obstetric or emergency evaluation now. || Postpartum preeclampsia and neurologic complications remain possible after delivery.
+- Wait until the routine postpartum appointment if swelling has improved. || Improvement in swelling does not make neurologic symptoms safe.
+- Take a sleep aid and reassess the symptoms tomorrow. || Sedation can mask deterioration and delay evaluation.
+- Stop prescribed antihypertensive medication because the placenta has delivered. || Medication changes need assessment; delivery does not immediately remove risk.
+CLUE: Severe headache and visual symptoms are danger signs even after birth.
+WHY: Recognize postpartum deterioration promptly. The date of delivery is not a safety cutoff for hypertensive emergencies.
+
+@@ e208|Pregnancy|glucose|2|MC|Teaching, Care management, Safety|Gestational diabetes|19
+At discharge after a pregnancy with gestational diabetes, the patient says, "My glucose is normal now, so I never need testing again." Which response is best?
++ Explain the need for scheduled postpartum glucose testing and ongoing screening. || Normal immediate postpartum values do not eliminate future diabetes risk.
+- Agree because all diabetes risk ends when the placenta delivers. || Pregnancy-related insulin resistance falls, but later diabetes risk persists.
+- Advise continuing the full pregnancy insulin dose indefinitely. || Postpartum medication needs must be reassessed and may decrease markedly.
+- Recommend screening only if the patient develops weight loss. || Diabetes can be present without obvious symptoms.
+CLUE: Resolution of pregnancy-related hyperglycemia is not lifelong protection.
+WHY: Reinforce the ordered postpartum testing plan and long-term follow-up. Do not automatically continue or discontinue medication without the care plan.
+
+@@ e209|Pregnancy|followup|2|MC|Care management, Teaching, Priority|Adolescent pregnancy|2
+A pregnant adolescent misses two high-risk follow-up visits. Privately, the patient explains that transportation is unreliable. Which action best addresses the immediate barrier?
++ Collaborate with care management on transportation and a workable appointment plan. || This targets the stated access problem while maintaining needed surveillance.
+- Document the adolescent as unwilling to care for the fetus. || A judgmental label does not address access and can damage trust.
+- Give a longer explanation of complications without discussing transportation. || More information alone will not solve this barrier.
+- Cancel monitoring until the patient proves reliability. || Withholding needed follow-up increases risk.
+CLUE: The patient has identified a concrete access barrier.
+WHY: High-risk pregnancy care includes removing practical obstacles. Ask about needs and coordinate resources without assuming motivation or family circumstances.
+
+@@ e210|Labor|labor_medications|2|MC|Pharmacology, Safety, Care management|Oxytocin administration|10
+The nurse is preparing an oxytocin induction. Which setup should be corrected before starting the infusion?
++ Oxytocin is attached as a gravity-controlled secondary infusion. || Oxytocin requires precise pump control and the ability to stop delivery immediately.
+- The medication tubing is connected at a port close to the patient. || This supports prompt control when the infusion is stopped.
+- Uterine activity and fetal heart rate will be monitored continuously. || Ongoing surveillance identifies tachysystole and fetal compromise.
+- The concentration and rate are independently verified according to policy. || High-alert medication verification reduces dosing error.
+CLUE: A high-alert uterotonic is not being precisely controlled.
+WHY: Verify the ordered concentration, pump, line configuration, and monitoring before administration. Uncontrolled flow can rapidly cause harm.
+
+@@ e211|Labor|labor_medications|3|MC|Pharmacology, Priority, Safety|Cervical ripening|10
+During cervical ripening with a removable dinoprostone vaginal insert, contractions become nearly continuous and recurrent late decelerations appear. Help is already being summoned. What should the nurse do?
++ Remove the insert per protocol and initiate intrauterine resuscitative measures. || Removing the ongoing stimulus is an immediate action for excessive uterine activity with fetal compromise.
+- Begin the planned oxytocin infusion to shorten labor. || Adding a uterotonic can worsen tachysystole and hypoxemia.
+- Leave the insert until its full scheduled duration is complete. || An adverse response overrides routine timing.
+- Ask the patient to push with every contraction. || Pushing does not address the cause and may be inappropriate for dilation.
+CLUE: The uterotonic source is removable and the fetus is showing intolerance.
+WHY: Stop the causative stimulation, reposition, assess, and escalate under protocol. Do not treat the prescribed duration as mandatory during deterioration.
+
+@@ e212|Labor|labor_medications|2|SATA|Pharmacology, Teaching, Safety|Magnesium sulfate|3
+A patient at 29 weeks receives magnesium sulfate for fetal neuroprotection before anticipated preterm birth. Which nursing actions are appropriate? Select all that apply.
++ Trend respiratory rate and level of consciousness. || Respiratory depression and increasing sedation may indicate toxicity.
++ Assess deep tendon reflexes and urine output. || Reflex depression and impaired renal clearance are important safety signals.
++ Ensure the ordered antidote is readily available. || Calcium gluconate is used for clinically significant magnesium toxicity.
+- Explain that magnesium is being given to mature fetal lungs. || Corticosteroids, not magnesium, promote fetal lung maturity.
+- Increase the infusion independently whenever contractions recur. || The neuroprotection order is not an unrestricted tocolysis titration order.
+CLUE: The indication is neuroprotection, but maternal toxicity monitoring still applies.
+WHY: Distinguish the purpose of magnesium from betamethasone while applying the same careful respiratory, neurologic, and renal monitoring.
+
+@@ e213|Labor|labor_medications|3|MC|Pharmacology, Priority, Safety|Tocolytics|3
+Before the next prescribed nifedipine dose for preterm contractions, the patient reports dizziness. BP is 82/46 mmHg. Which action is best?
++ Hold the dose, support safe positioning, and notify the prescriber promptly. || Significant symptomatic hypotension requires reassessment before more vasodilating medication.
+- Give the dose early because dizziness often occurs during labor. || This could worsen hypotension and uteroplacental perfusion.
+- Have the patient walk to determine whether the dizziness resolves. || Orthostasis increases the risk of a fall.
+- Document the finding and reassess after the dose. || The abnormal assessment should inform administration before harm occurs.
+CLUE: The preadministration assessment reveals symptomatic hypotension.
+WHY: Medication safety depends on the patient's current response, not simply the dosing time. Assess fetal status and follow the escalation plan.
+
+@@ e214|Labor|labor_medications|2|MC|Pharmacology, Teaching, Care management|Preterm labor medications|3
+A patient receiving antenatal betamethasone has insulin-treated diabetes. Which additional monitoring is most important to coordinate?
++ More frequent glucose assessment and a prescriber-directed insulin plan. || Corticosteroids can raise glucose and alter medication requirements.
+- Discontinuation of all glucose checks until labor begins. || Steroid-related hyperglycemia can occur before delivery.
+- Daily testing for urine protein as the only medication assessment. || Protein testing does not evaluate the main steroid-related concern here.
+- Routine reduction of insulin by half without an order. || Insulin requirements may increase; unsupervised reductions are unsafe.
+CLUE: A corticosteroid is being administered to a patient with diabetes.
+WHY: Anticipate treatment effects on existing disease and coordinate monitoring and orders instead of withholding indicated fetal therapy automatically.
+
+@@ e215|Labor|labor_assessment|2|MC|Care management, Priority, Safety|Preterm labor|3
+At 31 weeks, a patient calls about new pelvic pressure, a constant low backache, and watery vaginal discharge. What should the nurse recommend?
++ Come for prompt obstetric assessment of possible preterm labor or membrane rupture. || These subtle symptoms warrant evaluation before labor progresses.
+- Wait for severe abdominal pain before seeking care. || Preterm labor can present without severe pain.
+- Perform a home digital examination to check dilation. || Self-examination is unreliable and introduces infection risk.
+- Assume normal discharge because the fetus is moving. || Fetal movement does not exclude labor or membrane rupture.
+CLUE: Several early warning signs occur before term.
+WHY: Early recognition creates time for assessment and appropriate therapies. Do not require classic term-labor pain before responding.
+
+@@ e216|Labor|labor_assessment|3|MC|Care management, Priority, Safety|Amniotomy|10
+An amniotomy is proposed for a laboring patient whose fetal head remains high and unengaged. What is the nurse's best response?
++ Clarify the plan and discuss the increased risk of cord prolapse. || A presenting part that does not fill the inlet leaves room for the cord to descend.
+- Prepare the instruments without mentioning station because the cervix is dilated. || Dilation does not eliminate prolapse risk from an unengaged head.
+- Explain that rupturing membranes prevents all variable decelerations. || Rupture can permit cord compression and prolapse.
+- Reposition the patient and independently rupture the membranes. || Amniotomy is not an independent nursing intervention.
+CLUE: Fetal station affects the safety of membrane rupture.
+WHY: Communicate a specific risk before the procedure. Confirm the obstetric plan and readiness to assess fetal status immediately afterward.
+
+@@ e217|Labor|labor_assessment|2|SATA|Care management, Safety, Interprofessional collaboration|Amniotomy|10
+Immediately after an uncomplicated amniotomy, which information should the nurse assess and document? Select all that apply.
++ Fetal heart rate and any new decelerations. || Sudden changes can signal cord compression or prolapse.
++ Time and characteristics of the amniotic fluid. || Color, amount, and odor help establish a baseline and identify concerns.
++ Maternal temperature trends during ongoing labor. || Membrane rupture increases the importance of infection surveillance.
+- Only the cervical dilation; fetal monitoring can stop. || Dilation does not substitute for assessment after rupture.
+- A fixed diagnosis of infection whenever the fluid is clear. || Clear fluid alone is not evidence of infection.
+CLUE: Membrane rupture changes immediate cord risk and ongoing infection risk.
+WHY: Combine immediate fetal assessment with fluid documentation and continued maternal surveillance rather than recording the procedure alone.
+
+@@ e218|Labor|labor_assessment|3|MC|Care management, Priority, Safety|Amnioinfusion|10
+During an ordered amnioinfusion, the uterus becomes firm between contractions, resting pressure rises, and almost no infused fluid returns. Which action has priority?
++ Stop the infusion and promptly report possible uterine overdistension. || Retained fluid and elevated resting tone suggest a dangerous response.
+- Increase the rate until fluid appears on the pad. || More fluid may worsen overdistension and compromise perfusion.
+- Continue because absent return means the fetus absorbed the fluid. || Fetal absorption is not an explanation for ignoring rising uterine pressure.
+- Remove the intrauterine pressure catheter and restart blindly. || Catheter management requires assessment and an authorized plan.
+CLUE: Infused fluid is not returning and uterine resting tone is rising.
+WHY: Assess both infusion input and return. Stop a treatment producing a harmful physiologic response and obtain immediate obstetric review.
+
+@@ e219|Labor|labor_assessment|1|MC|Teaching, Care management|Dysfunctional labor|6
+A laboring patient with an occiput-posterior fetal position reports intense low back pain. Fetal status is reassuring. Which nursing intervention is reasonable to try?
++ Assist into hands-and-knees positioning if tolerated. || This may reduce back pressure and encourage fetal rotation.
+- Insist the patient remain flat and motionless. || This restricts a useful comfort and positioning intervention without indication.
+- Begin forceful fundal pressure with each contraction. || Fundal pressure is not an appropriate response to posterior-position discomfort.
+- Tell the patient that back pain proves uterine rupture. || Reassuring findings and known malposition do not establish rupture.
+CLUE: Stable maternal-fetal status permits a supportive positioning intervention.
+WHY: Match intervention intensity to assessment. Continue surveillance while helping the patient try a position that can improve comfort.
+
+@@ e220|Labor|labor_assessment|2|MC|Care management, Teaching, Interprofessional collaboration|Multifetal pregnancy|6
+After vaginal birth of the first twin, the family asks why ultrasound and fetal monitoring are continuing. Which explanation is best?
++ The second fetus can change position after the first birth, so presentation and well-being must be reassessed. || The new uterine space can alter presentation and the delivery plan.
+- The second twin must automatically be delivered by cesarean. || Route depends on current assessment and obstetric circumstances.
+- No more monitoring is needed once the first twin is healthy. || Each fetus needs separate assessment.
+- Monitoring is only for documentation and cannot change care. || Findings can lead to urgent changes in management.
+CLUE: Delivery of one twin changes the conditions for the remaining fetus.
+WHY: Coordinate reassessment and keep the team prepared for a different delivery approach if indicated.
+
+@@ e221|Labor|labor_surgery|2|SATA|Care management, Safety, Interprofessional collaboration|Cesarean preoperative care|14
+A stable patient is preparing for a scheduled cesarean birth. Which actions belong in the nursing safety check? Select all that apply.
++ Verify consent and identify any unanswered questions for the surgeon. || The nurse verifies completion and advocates for informed understanding.
++ Confirm antibiotic prophylaxis and allergies according to protocol. || Appropriate perioperative prophylaxis reduces infection risk.
++ Apply ordered sequential compression devices. || Mechanical prophylaxis helps reduce perioperative venous thromboembolism risk.
+- Give a full meal immediately before transfer to the operating room. || This conflicts with the prescribed anesthesia fasting plan.
+- Skip fetal assessment because surgery is scheduled. || Scheduled delivery still requires assessment of current maternal-fetal status.
+CLUE: A scheduled procedure still requires a complete safety check.
+WHY: Prevent predictable surgical risks while identifying concerns before anesthesia and incision.
+
+@@ e222|Labor|labor_surgery|3|MC|Care management, Priority, Safety|Cesarean postoperative care|14
+Forty minutes after cesarean delivery, a patient's pulse rises to 126/min and BP falls to 86/48 mmHg. The abdomen is increasingly distended but the external dressing has little drainage. What should the nurse suspect and act on first?
++ Possible concealed hemorrhage requiring urgent surgical assessment and resuscitation. || Minimal external drainage does not exclude internal blood loss.
+- Normal postoperative gas requiring ambulation. || Gas does not account for shock findings.
+- Adequate circulation because the dressing is dry. || External dressing appearance cannot establish hemodynamic stability.
+- Anxiety best treated with a sedative before further assessment. || Sedation could mask deterioration and delay hemorrhage treatment.
+CLUE: Hemodynamic deterioration is more important than a relatively clean dressing.
+WHY: Assess for internal as well as external bleeding after surgery. Escalate immediately and support circulation under the hemorrhage protocol.
+
+@@ e223|Labor|labor_surgery|2|MC|Care management, Teaching, Safety|Cesarean postoperative care|14
+On postoperative day 1 after cesarean birth, a stable patient avoids coughing because the incision hurts. Which response is best?
++ Coordinate analgesia, teach incision splinting, and support breathing exercises and mobility. || Pain control makes pulmonary hygiene and early movement more feasible.
+- Recommend complete bed rest until the incision no longer hurts. || Prolonged immobility increases pulmonary and thromboembolic risk.
+- Withhold analgesia so the patient will stay alert enough to cough. || Untreated pain itself limits breathing and movement.
+- Explain that pulmonary complications occur only after general anesthesia. || Reduced ventilation and immobility can create risk after any abdominal surgery.
+CLUE: Pain is interfering with necessary recovery activities.
+WHY: Combine comfort measures with prevention instead of making pain relief and safe mobilization competing goals.
+
+@@ e224|Labor|labor_surgery|3|MC|Assessment, Priority, Safety|Cesarean complications|13–14
+Two days after cesarean delivery, a patient develops sudden pleuritic chest pain, dyspnea, and oxygen saturation 88%. Which response has priority?
++ Activate emergency evaluation, support oxygenation, and assess for pulmonary embolism. || Acute hypoxemia and chest pain after surgery are emergency findings.
+- Massage the calves to improve circulation. || Massage is unsafe when venous thrombosis is possible.
+- Encourage walking to resolve postoperative gas pain. || Exertion can worsen an unstable respiratory condition.
+- Reassess at the next scheduled set of vital signs. || Delay is inappropriate with acute hypoxemia.
+CLUE: Sudden respiratory compromise occurs during a high-risk postoperative period.
+WHY: Respond to airway and breathing deterioration immediately while the team evaluates the cause. Do not assume routine postoperative discomfort.
+
+@@ e225|Labor|labor_surgery|2|MC|Care management, Safety, Interprofessional collaboration|Trial of labor after cesarean|15
+A patient requests a trial of labor after cesarean birth. The abdominal skin scar is transverse, but the prior operative report is unavailable. What should the nurse do?
++ Help obtain the operative report to confirm the uterine incision and discuss eligibility with the obstetric team. || The skin incision does not reliably identify the uterine incision.
+- Record a low-transverse uterine incision based on the skin scar. || This would substitute an assumption for operative evidence.
+- Promise that prior cesarean birth cannot increase rupture risk. || Uterine rupture is an important TOLAC risk.
+- Decide independently that all repeat births require cesarean surgery. || Eligibility depends on individualized obstetric assessment and patient preference.
+CLUE: The visible skin scar does not establish the prior uterine surgery.
+WHY: Verify the relevant record before using it to support a delivery decision. Facilitate informed discussion without promising an outcome.
+
+@@ e226|Labor|labor_emergencies|3|MC|Priority, Safety, Interprofessional collaboration|Amniotic fluid embolism|21
+Immediately after birth, a patient suddenly becomes profoundly hypoxemic and hypotensive and begins oozing from IV sites. What is the nurse's priority?
++ Activate the emergency response and support ventilation and circulation with the team. || Cardiopulmonary collapse with coagulopathy requires immediate resuscitative care.
+- Wait for definitive confirmation of amniotic fluid embolism before intervening. || Resuscitation cannot wait for diagnostic certainty.
+- Document a panic attack and offer paced breathing alone. || Shock and abnormal bleeding are not explained by uncomplicated anxiety.
+- Transfer the patient to routine postpartum care for observation. || This patient needs emergency-level monitoring and treatment.
+CLUE: Abrupt respiratory and circulatory collapse occurs with a bleeding disorder.
+WHY: AFE is one possible cause, but the immediate priority is resuscitation and hemorrhage support while clinicians evaluate alternatives.
+
+@@ e227|Labor|labor_emergencies|3|SATA|Care management, Priority, Interprofessional collaboration|Umbilical cord prolapse|19
+A nurse is manually lifting the fetal presenting part off a prolapsed cord while the team prepares emergency birth. Which actions should the team support? Select all that apply.
++ Maintain relief of pressure during transfer until another qualified clinician takes over or birth occurs. || Releasing pressure prematurely can restore cord compression.
++ Continue fetal monitoring when feasible without delaying emergency delivery. || Monitoring informs the team but must not obstruct definitive care.
++ Cover an exposed cord with sterile saline-moistened gauze. || This helps protect the cord from drying while minimizing manipulation.
+- Push the cord repeatedly back through the cervix. || Handling and repositioning the cord can worsen vasospasm and injury.
+- Ask the nurse to remove the hand to finish the chart before transfer. || Documentation cannot interrupt the pressure-relieving intervention.
+CLUE: Pressure relief is a continuous bridge to expedited birth.
+WHY: Coordinate roles so preparation, communication, monitoring, and cord protection occur without sacrificing the action preserving fetal perfusion.
+
+@@ e228|Labor|labor_emergencies|3|MC|Priority, Safety, Care management|Shoulder dystocia|18
+During shoulder dystocia, a staff member prepares to apply fundal pressure. Which action should the nurse take?
++ Stop the proposed fundal pressure and assist with the directed McRoberts maneuver and suprapubic pressure. || Fundal pressure can worsen impaction; these directed maneuvers address the obstruction.
+- Encourage stronger fundal pressure because the fetal head has delivered. || This can worsen injury without freeing the impacted shoulder.
+- Pull firmly on the newborn's head to complete delivery. || Excessive traction risks brachial plexus injury.
+- Delay all maneuvers until a family member consents again. || The team must promptly manage the recognized obstetric emergency.
+CLUE: The proposed maneuver may worsen the shoulder impaction.
+WHY: Advocate in real time against a harmful action and support the established emergency sequence with clear communication.
+
+@@ e229|Labor|labor_emergencies|2|MC|Care management, Interprofessional collaboration, Safety|Shoulder dystocia documentation|18
+During an obstetric emergency, the team leader assigns one nurse to record events. Which documentation is most useful after shoulder dystocia?
++ Time of head and body birth, personnel present, maneuvers performed, and maternal-newborn responses. || A precise timeline and response record support continuity and review.
+- Only the final Apgar score because the emergency has ended. || This omits essential events and maternal findings.
+- A guessed timeline completed before checking the actual times. || Estimates presented as facts undermine accuracy.
+- Blame statements about who caused the obstruction. || Objective findings and actions are clinically useful; speculation is not.
+CLUE: The record should preserve sequence, interventions, and response.
+WHY: Accurate team documentation supports handoff and follow-up assessment without distracting clinicians from assigned emergency roles.
+
+@@ e230|Labor|labor_assessment|3|MC|Priority, Safety, Care management|Prolonged labor|6
+A patient with prolonged labor is exhausted and frightened. Contractions are weak, but the fetal tracing now shows recurrent late decelerations with minimal variability. What should the nurse address first?
++ Initiate measures to improve fetal tolerance and obtain urgent obstetric reassessment. || A deteriorating tracing takes priority over routine augmentation of weak contractions.
+- Start oxytocin immediately because weak contractions are the main problem. || Augmentation can worsen fetal compromise before assessment and stabilization.
+- Focus exclusively on relaxation techniques until the patient sleeps. || Emotional support is helpful but cannot replace response to abnormal fetal findings.
+- Encourage continuous pushing regardless of dilation. || Pushing is not a treatment for impaired placental oxygen exchange.
+CLUE: An abnormal fetal trend changes the priority of an otherwise reasonable labor plan.
+WHY: Reassess before escalation of uterine stimulation. The plan must respond to the current condition of both patients.
+
+@@ e231|Labor|labor_medications|2|MC|Pharmacology, Safety, Care management|Oxytocin calculation|10
+Oxytocin 20 units is mixed in 1,000 mL of lactated Ringer's. The verified order is 6 milliunits/min. Which pump rate delivers the ordered dose?
++ 18 mL/hr. || 20,000 milliunits/1,000 mL = 20 milliunits/mL; 6 × 60 / 20 = 18 mL/hr.
+- 3 mL/hr. || This does not convert the ordered minute-based dose to the hourly pump rate correctly.
+- 180 mL/hr. || This is ten times the calculated rate.
+- 30 mL/hr. || At this concentration, 30 mL/hr delivers 10 milliunits/min.
+CLUE: The order uses milliunits per minute and the pump uses mL per hour.
+WHY: Convert units first, then time. Independently verify high-alert medication calculations and pump programming according to policy.
+
+@@ e232|Labor|labor_medications|3|MC|Pharmacology, Priority, Safety|Magnesium sulfate monitoring|3
+A patient receiving magnesium sulfate has respirations 16/min and present reflexes, but urine output has fallen to 15 mL/hr for two hours. Which response is best?
++ Promptly report reduced clearance and clarify whether the infusion should be held or adjusted under protocol. || Magnesium can accumulate when renal clearance falls, even before respiratory depression appears.
+- Wait for absent reflexes before contacting the team. || Waiting for late toxicity signs misses an opportunity to prevent harm.
+- Double maintenance fluid without reviewing the clinical condition. || Fluid loading may be harmful, especially with preeclampsia.
+- Ignore the urine output because the respiratory rate is currently normal. || A normal respiratory rate does not rule out evolving accumulation.
+CLUE: An early change in clearance precedes overt toxicity.
+WHY: Trend renal output and clinical findings together. Escalate the risk now rather than waiting for a severe adverse effect.
+
+@@ e233|Labor|labor_assessment|2|SATA|Care management, Teaching, Safety|PPROM|4
+A stable patient is being observed after PPROM at 30 weeks. Which findings should be reported promptly? Select all that apply.
++ A temperature increase with new uterine tenderness. || This raises concern for intraamniotic infection.
++ New foul-smelling vaginal fluid. || A change in odor can indicate infection.
++ Sudden reduction in fetal movement or an abnormal fetal heart rate pattern. || These may indicate fetal compromise.
+- Clear fluid continuing without a change in maternal or fetal status. || Expected leakage still needs documentation but alone does not indicate new deterioration.
+- Questions about the neonatal unit. || Education is important but is not an acute physiologic warning sign.
+CLUE: Expectant management depends on recognizing infection or fetal compromise early.
+WHY: Teach specific changes that trigger immediate reassessment; observation is active surveillance, not an absence of treatment.
+
+@@ e234|Labor|labor_surgery|3|MC|Care management, Priority, Safety|Operative vaginal birth|11
+After an assisted vaginal birth, the uterus remains firm and midline, but a continuous bright-red trickle persists and blood loss is increasing. Which action should the nurse prioritize?
++ Notify the obstetric clinician for prompt evaluation of genital tract trauma while continuing hemorrhage assessment. || Persistent bleeding with a well-contracted uterus suggests a nonatony source such as laceration.
+- Continue forceful fundal massage as the only intervention. || A firm uterus does not need repeated forceful massage instead of evaluation of another source.
+- Reassess the pad in one hour because uterine tone is reassuring. || Increasing ongoing blood loss warrants current action.
+- Insert a urinary catheter solely to treat presumed bladder distension. || The uterus is midline and firm; the findings do not make bladder distension the leading issue.
+CLUE: Continued bleeding despite good uterine tone points beyond uterine atony.
+WHY: Prioritize assessment of the bleeding source and circulation, and prepare for indicated repair instead of repeating an intervention that does not address the findings.
+
+@@ e235|Labor|labor_surgery|2|MC|Care management, Teaching, Interprofessional collaboration|Operative vaginal birth|11
+Following a vacuum-assisted birth, which information is especially important in the handoff to the newborn nurse?
++ The assisted-birth details and the need to monitor scalp swelling, perfusion, and jaundice. || Vacuum-associated injuries can evolve after the initial newborn assessment.
+- Only the mother's pain score and preferred feeding method. || These do not communicate the newborn's specific trauma risk.
+- A guarantee that initial crying excludes all birth injury. || Vigorous behavior does not exclude evolving hemorrhage or bruising-related jaundice.
+- Instructions to avoid further scalp assessment so the infant can rest. || Appropriate ongoing assessment helps detect deterioration.
+CLUE: The delivery method creates a specific newborn surveillance need.
+WHY: A targeted handoff connects the intrapartum event to subsequent monitoring instead of transmitting only routine information.
+
+@@ e236|Labor|labor_emergencies|3|MC|Care management, Priority, Safety|Precipitous labor|22
+A patient suddenly says, "The baby is coming," and the fetal head is visible. The provider has been called. Which action has priority?
++ Stay with the patient, call additional help, and prepare to support a controlled birth within nursing scope. || Imminent birth requires immediate attendance and readiness for both maternal and newborn care.
+- Leave to obtain the admission paperwork. || The patient and newborn would be unattended during delivery.
+- Forcefully hold the head inside until the provider arrives. || Forceful obstruction risks injury.
+- Send the patient walking to the delivery room. || Transfer on foot during crowning is unsafe.
+CLUE: Birth is imminent, so leaving or obstructing it creates harm.
+WHY: Mobilize help while remaining present. Support the delivery safely and anticipate neonatal support and maternal bleeding assessment.
+
+@@ e237|Labor|labor_assessment|2|MC|Assessment, Safety, Interprofessional collaboration|Preterm labor assessment|3
+A fetal fibronectin specimen is ordered for a patient with symptoms of preterm labor. A digital cervical examination is also planned. What should the nurse clarify?
++ Collect the ordered specimen before the digital examination according to collection instructions. || Cervical manipulation can interfere with test interpretation.
+- Perform repeated digital examinations first to improve the specimen. || Manipulation does not improve diagnostic validity.
+- Tell the patient a positive result proves delivery will occur today. || A risk marker does not establish a certain timing of birth.
+- Omit clinical assessment if the test result is negative. || Testing supplements, rather than replaces, clinical assessment.
+CLUE: The order of assessment can affect the validity of the specimen.
+WHY: Protect diagnostic quality while explaining the limitations of prediction. Follow the assay's collection criteria and the clinical plan.
+
+@@ e238|Labor|labor_assessment|3|MC|Care management, Priority, Safety|Induction contraindications|9
+A patient at 39 weeks arrives for induction and reports new painful genital lesions. The nurse observes lesions consistent with active herpes. What is the priority response?
++ Notify the obstetric clinician and clarify the delivery plan before starting induction. || Active genital lesions can change the safest delivery approach because of neonatal exposure risk.
+- Begin induction and mention the lesions after delivery. || Delayed communication may expose the newborn to avoidable risk.
+- Cover the lesions with a dressing and continue without review. || A dressing does not establish safety for vaginal birth.
+- Assume lesions are irrelevant because the pregnancy is term. || Gestational age does not remove neonatal infection risk.
+CLUE: A new assessment finding changes the risk of the planned route of birth.
+WHY: Reassess suitability before implementing a previously appropriate plan. Communicate the current finding, not only the scheduled indication.
+
+@@ e239|Labor|labor_emergencies|3|SATA|Care management, Priority, Interprofessional collaboration|Uterine rupture|20
+During TOLAC, persistent fetal bradycardia develops with loss of fetal station and maternal hypotension. Which actions are appropriate while urgent surgery is organized? Select all that apply.
++ Stop oxytocin if it is infusing. || Additional uterine stimulation is unsafe with suspected rupture.
++ Activate hemorrhage preparation and ensure large-bore IV access. || Maternal blood loss may rapidly become life-threatening.
++ Give a concise handoff including prior uterine surgery and the abrupt changes. || The team needs the risk history and evidence of current deterioration.
+- Wait for visible heavy vaginal bleeding before escalating. || Significant bleeding can be internal.
+- Continue coached pushing to regain the lost station. || Pushing cannot repair the uterine disruption.
+CLUE: Fetal compromise, loss of station, and maternal shock occur together after uterine surgery.
+WHY: Treat suspected rupture as an obstetric emergency. Coordinated maternal resuscitation and rapid definitive delivery take priority over continued labor.
+
+@@ e240|Newborn|newborn_stability|3|MC|Assessment, Priority, Care management|Neonatal sepsis|21
+A 14-hour-old infant has become difficult to arouse, feeds poorly, and has an axillary temperature of 35.8°C. Maternal membranes were ruptured for 25 hours. Which action has priority?
++ Assess breathing and perfusion and notify the neonatal team immediately for possible sepsis. || Hypothermia and behavior change can be early neonatal infection signs.
+- Delay evaluation until the infant develops a fever. || Neonatal infection can cause hypothermia rather than fever.
+- Feed a large bottle and leave the infant to sleep. || Poor arousal raises feeding-safety concerns and requires assessment.
+- Reassure the family that sleepiness excludes serious infection. || Lethargy is a warning finding in a newborn.
+CLUE: A new behavior change and low temperature occur after prolonged membrane rupture.
+WHY: Newborn infection may present subtly. Support physiologic stability and obtain prompt evaluation before deterioration becomes advanced.
+
+@@ e241|Newborn|newborn_stability|2|SATA|Assessment, Care management, Interprofessional collaboration|Neonatal sepsis|21
+Cultures and IV antibiotics are ordered for a newborn with suspected sepsis. Which actions are appropriate? Select all that apply.
++ Obtain ordered cultures promptly before antibiotics when this will not delay urgent treatment. || Cultures help identify the organism, but an unstable infant still needs timely therapy.
++ Monitor glucose, urine output, perfusion, and respiratory status. || Sepsis can disrupt multiple organ systems and glucose regulation.
++ Use meticulous hand hygiene and aseptic line care. || Preventing additional exposure remains essential during treatment.
+- Postpone antibiotics until cultures identify the organism. || Empiric treatment should not wait for final culture results.
+- Give oral antibiotics instead because the infant looks quieter. || Quiet behavior may indicate worsening illness and does not authorize a route change.
+CLUE: Diagnostic specimens and treatment must be coordinated without unsafe delay.
+WHY: Combine timely antimicrobial care with close reassessment and infection prevention.
+
+@@ e242|Newborn|newborn_stability|3|MC|Assessment, Priority, Care management|Respiratory distress syndrome|12
+A 30-week infant has grunting, retractions, increasing oxygen needs, and fatigue. Which nursing plan should be prioritized?
++ Support prescribed respiratory therapy and suspend oral feeding while the team reassesses stability. || Respiratory distress and fatigue make oral feeding unsafe.
+- Offer a full bottle to increase energy for breathing. || Feeding increases work and aspiration risk during respiratory compromise.
+- Remove monitoring to reduce stimulation. || Continuous assessment is needed during instability.
+- Delay respiratory support until cyanosis is visible. || Visible cyanosis is not required before treating respiratory deterioration.
+CLUE: Work of breathing is increasing while the infant tires.
+WHY: Airway and breathing support precede oral nutrition. Use the prescribed alternative nutrition plan after stabilization.
+
+@@ e243|Newborn|newborn_stability|2|MC|Pharmacology, Assessment, Care management|Surfactant therapy|12
+After prescribed surfactant administration, a preterm infant's oxygen saturation rises above the ordered target on unchanged respiratory settings. What should the nurse do?
++ Notify the respiratory/neonatal team and titrate support only within the ordered protocol. || Improved lung function can change oxygen and ventilation needs quickly.
+- Maintain the same oxygen concentration for the entire shift regardless of saturation. || Continuing excessive oxygen exposure may cause harm.
+- Stop all support immediately because the medication cured prematurity. || Surfactant does not eliminate the need for reassessment or ongoing support.
+- Increase oxygen until saturation remains 100%. || A universal 100% target is not appropriate for preterm oxygen management.
+CLUE: Treatment response can make previously necessary settings excessive.
+WHY: Reassess after therapy and use the prescribed oxygen target. Collaborative adjustment balances hypoxemia prevention against excessive exposure.
+
+@@ e244|Newborn|newborn_stability|2|MC|Assessment, Care management, Safety|Thermoregulation|4
+A preterm infant in a radiant warmer becomes cool and jittery after a prolonged procedure. Which paired assessments are most important now?
++ Recheck temperature and blood glucose while restoring a neutral thermal environment. || Cold stress increases glucose and oxygen use.
+- Assess only the stool color and daily length. || These do not address the immediate metabolic risk.
+- Stop monitoring once a blanket is applied. || Intervention effectiveness and possible hypoglycemia still need evaluation.
+- Assume the infant is hungry and feed without assessing breathing. || Jitteriness has several causes and feeding requires physiologic stability.
+CLUE: Heat loss and jitteriness can signal linked thermal and metabolic stress.
+WHY: Correct heat loss and evaluate its consequences. Temperature management is an active component of respiratory and glucose stability.
+
+@@ e245|Newborn|newborn_stability|1|MC|Assessment, Care management, Safety|Infant of a diabetic mother|22–23
+A term infant of a parent with diabetes has a birth weight appropriate for gestational age. The infant appears well. Which plan is appropriate?
++ Follow the risk-based glucose screening and feeding protocol despite the average birth weight. || Maternal diabetes creates glucose risk even when the newborn is not macrosomic.
+- Omit glucose checks because only large newborns develop hypoglycemia. || Size alone does not exclude the risk.
+- Give IV dextrose automatically without checking glucose or the protocol. || Treatment should reflect the assessment and risk-based plan.
+- Delay all feeding for 12 hours to prevent glucose fluctuations. || Unnecessary fasting can worsen hypoglycemia risk.
+CLUE: Risk depends on maternal history as well as newborn size.
+WHY: Apply the screening indication accurately and support early feeding when the infant can safely feed.
+
+@@ e246|Newborn|newborn_stability|3|MC|Assessment, Priority, Care management|Newborn hypoglycemia|23
+A newborn being managed under a hypoglycemia protocol remains below the protocol's treatment threshold after feeding and prescribed dextrose gel. The infant is now less responsive. What should the nurse do?
++ Obtain immediate neonatal reassessment and prepare IV glucose as ordered. || Persistent low glucose with neurologic change requires escalation beyond repeated feeding.
+- Repeat oral feedings indefinitely because less-invasive care is always preferred. || Minimal invasiveness must not override effectiveness or swallowing safety.
+- Stop glucose checks because treatment was already given. || Response to treatment must be verified.
+- Wait for a seizure to confirm that hypoglycemia is significant. || A seizure is a severe complication to prevent, not a diagnostic prerequisite.
+CLUE: The initial treatment failed and the clinical condition has worsened.
+WHY: Escalate treatment based on response. Protect airway safety while correcting a potentially dangerous metabolic problem.
+
+@@ e247|Newborn|newborn_stability|2|SATA|Assessment, Care management, Safety|Necrotizing enterocolitis|13
+A preterm infant is placed NPO for suspected necrotizing enterocolitis. Which ongoing assessments are priorities? Select all that apply.
++ Abdominal distension, discoloration, and tenderness. || These trends can signal worsening intestinal injury.
++ Apnea, perfusion, temperature, and overall activity. || NEC can progress to systemic infection and shock.
++ Stool appearance and gastric drainage as ordered. || Blood and changing output contribute to evaluation.
+- Tolerance of a larger oral feeding at each assessment. || Suspected NEC requires bowel rest, not feeding challenges.
+- Repeated forceful abdominal massage to move gas. || Manipulation is not a treatment for ischemic bowel and can cause harm.
+CLUE: Bowel injury can produce both local and systemic deterioration.
+WHY: Monitor more than abdominal size. Escalate changes promptly while maintaining decompression, IV support, and antibiotics as prescribed.
+
+@@ e248|Newborn|newborn_stability|3|MC|Priority, Care management, Safety|Meconium and resuscitation|19–20
+A newborn is born through meconium-stained fluid. After initial warming, positioning, and stimulation, the infant remains apneic with a heart rate of 80/min. There is no evidence of airway obstruction. What has priority?
++ Begin effective positive-pressure ventilation under the neonatal resuscitation protocol. || Apnea and heart rate below 100/min require ventilation.
+- Delay ventilation for routine endotracheal suctioning. || Meconium alone does not justify delaying ventilation when there is no obstruction.
+- Begin chest compressions before providing ventilation. || Ventilation is the initial priority at this heart rate.
+- Wait five minutes for spontaneous breathing. || Prolonged delay worsens hypoxia.
+CLUE: The infant needs ventilation, not routine suction solely because meconium is present.
+WHY: Current AHA/AAP guidance prioritizes effective ventilation. This corrects older lecture wording that could imply routine deep suction before resuscitation.
+
+@@ e249|Newborn|newborn_stability|3|MC|Assessment, Priority, Interprofessional collaboration|Neonatal resuscitation|19
+A newborn's heart rate remains 50/min despite at least 30 seconds of ventilation that visibly moves the chest. The resuscitation team is present. Which next step should the nurse anticipate?
++ Coordinated chest compressions with ventilation and the advanced airway/oxygen plan in the neonatal protocol. || Persistent heart rate below 60/min after effective ventilation indicates compressions.
+- Stop ventilation and provide compressions alone. || Newborn resuscitation requires coordinated ventilation and circulation support.
+- Return the infant to routine skin-to-skin care. || Severe persistent bradycardia requires advanced resuscitation.
+- Give an oral glucose feed before continuing. || Oral feeding is unsafe and does not treat this resuscitation emergency.
+CLUE: Severe bradycardia persists after effective lung ventilation.
+WHY: Escalate through the neonatal algorithm as a trained team. Reassess effectiveness rather than repeating an ineffective step without correction.
+
+@@ e250|Newborn|newborn_trauma|2|MC|Assessment, Care management, Safety|Cephalohematoma|18
+A stable newborn has a firm scalp swelling that does not cross suture lines. Which follow-up is most important to include?
++ Monitor the swelling and assess bilirubin risk as the blood collection resolves. || Breakdown of collected blood can increase bilirubin.
+- Repeatedly compress the swelling to empty the blood. || Compression is not an appropriate treatment and can injure tissue.
+- Reassure that this finding makes jaundice impossible. || Blood breakdown increases, rather than eliminates, jaundice risk.
+- Arrange emergency surgery solely because a stable cephalohematoma is present. || Management depends on assessment; stability does not support that automatic action.
+CLUE: A localized blood collection can create a later metabolic consequence.
+WHY: Continue assessment of perfusion and jaundice while avoiding manipulation. Escalate enlargement or systemic changes.
+
+@@ e251|Newborn|newborn_trauma|2|MC|Assessment, Care management, Safety|Facial nerve injury|18
+After a forceps-assisted birth, one side of a newborn's face does not move with crying, and the eyelid on that side does not close completely. What should the nurse prioritize in the care plan?
++ Assess feeding and protect the exposed eye using the prescribed plan. || Facial weakness can affect effective feeding and corneal protection.
+- Tape both eyes shut continuously without an order. || Unprescribed occlusion is not an individualized eye-care plan.
+- Avoid reporting the finding because most injuries improve. || Possible recovery does not remove current care needs or assessment obligations.
+- Massage the affected eye vigorously every feeding. || This can damage the eye and does not restore nerve function.
+CLUE: Incomplete eyelid closure creates a preventable injury risk.
+WHY: Connect the observed deficit to functional safety needs while the neonatal team evaluates the injury.
+
+@@ e252|Newborn|newborn_congenital|2|SATA|Care management, Safety, Interprofessional collaboration|Cleft palate feeding|28
+A newborn with an unrepaired cleft palate tires during feeds. Which interventions should be included? Select all that apply.
++ Use the prescribed specialized feeding system and assess milk flow. || The infant may be unable to create normal suction.
++ Hold the infant upright with head support and offer frequent burping. || This supports feeding and reduces swallowed-air discomfort.
++ Track intake and weight and consult feeding specialists. || Feeding effectiveness and growth require ongoing evaluation.
+- Enlarge the nipple opening without evaluating flow. || Uncontrolled flow increases choking and aspiration risk.
+- Feed supine to use gravity to fill the mouth. || This increases aspiration risk.
+CLUE: A structural gap interferes with suction and coordinated intake.
+WHY: Adapt equipment and technique to the infant's anatomy and endurance, with objective monitoring of nutrition.
+
+@@ e253|Newborn|newborn_congenital|3|MC|Assessment, Priority, Safety|Esophageal atresia and TEF|29
+At the first feed, a newborn coughs, becomes cyanotic, and has excessive frothy secretions. Which action should the nurse take first?
++ Stop feeding, support the airway, and obtain urgent neonatal assessment for possible esophageal atresia/TEF. || Feeding-related respiratory compromise can indicate an abnormal connection or obstruction.
+- Change to a faster-flow nipple and continue. || More flow can worsen aspiration.
+- Refeed the regurgitated milk slowly. || Refeeding does not correct the structural concern.
+- Wait until the infant has failed three feedings before reporting. || Repeated exposure creates preventable respiratory risk.
+CLUE: Choking and cyanosis begin with feeding.
+WHY: Remove the immediate aspiration exposure, maintain NPO pending evaluation, and prepare prescribed suction and IV support.
+
+@@ e254|Newborn|newborn_congenital|2|MC|Care management, Safety, Interprofessional collaboration|Omphalocele|30
+A newborn has an omphalocele with an intact sac. Which proposed action should the nurse question?
++ Press the organs firmly into the abdomen before surgical evaluation. || Uncontrolled reduction may injure tissue and compromise circulation or ventilation.
+- Protect the sac with the prescribed sterile covering. || Protection reduces injury, contamination, and fluid or heat loss.
+- Maintain warmth and monitor fluid status. || Exposed abdominal structures create significant loss risks.
+- Keep the infant NPO and prepare ordered decompression. || These measures support stabilization before repair.
+CLUE: The visible defect needs protection, not bedside forceful reduction.
+WHY: Preserve the sac and physiologic stability while the surgical team determines management.
+
+@@ e255|Newborn|newborn_congenital|3|MC|Assessment, Priority, Care management|Myelomeningocele|32
+While caring for an infant with an unrepaired myelomeningocele, the nurse sees new clear drainage from the sac dressing. What should the nurse do?
++ Protect the defect, minimize pressure, and promptly notify the neonatal/surgical team. || Drainage may indicate sac leakage and raises infection and tissue-injury concerns.
+- Place the infant supine to press the leak closed. || Direct pressure can injure exposed neural tissue.
+- Apply alcohol to dry the sac. || Alcohol can damage delicate tissue.
+- Remove precautions because clear drainage is harmless. || Clear fluid may be cerebrospinal fluid and requires evaluation.
+CLUE: A change in the integrity of the neural-tube sac requires escalation.
+WHY: Maintain the prescribed sterile protective care and positioning. Do not attempt to seal or dry the defect independently.
+
+@@ e256|Newborn|newborn_congenital|2|MC|Assessment, Care management, Safety|Hydrocephalus|33
+An infant with hydrocephalus has head circumference measured each shift. Which practice provides the most useful trend?
++ Use a consistent technique and landmarks, record the measurement, and compare with neurologic findings. || Reliable serial measurement supports detection of changing head growth and pressure signs.
+- Change tape placement each time to avoid skin contact. || Inconsistent landmarks can create misleading trends.
+- Interpret one measurement without comparing prior values. || A single value loses important progression information.
+- Use the measurement instead of assessing alertness and fontanels. || Circumference cannot replace a neurologic assessment.
+CLUE: Trend reliability depends on consistent measurement and clinical correlation.
+WHY: Combine head-growth data with feeding, behavior, fontanel, and eye findings when assessing possible progression.
+
+@@ e257|Newborn|newborn_congenital|2|SATA|Care management, Safety, Teaching|Pavlik harness|34
+The caregiver of an infant in a Pavlik harness demonstrates home care. Which actions are appropriate? Select all that apply.
++ Inspect skin and feet regularly for pressure injury and circulation changes. || Early detection prevents unnoticed skin or neurovascular injury.
++ Place diapers beneath the straps as taught. || This supports hygiene without changing therapeutic alignment.
++ Leave strap adjustments to the prescribed orthopedic plan. || Altered tension can reduce effectiveness or cause harm.
+- Bind the legs tightly together during swaddling. || Forced adduction conflicts with therapeutic hip positioning.
+- Stop using the harness whenever the infant cries. || Unplanned removal can interrupt correction; evaluate the cause of distress.
+CLUE: Routine care must preserve prescribed hip alignment.
+WHY: Teach caregivers practical observation and handling skills, including when to call for urgent circulation or skin concerns.
+
+@@ e258|Newborn|newborn_congenital|3|MC|Assessment, Priority, Safety|Clubfoot casting|35
+Several hours after a new serial cast for clubfoot, an infant has swollen, cool toes and delayed capillary refill. What is the priority response?
++ Obtain urgent orthopedic assessment for possible cast-related neurovascular compromise. || Coolness and delayed refill can signal threatened perfusion.
+- Tell the caregiver this is expected until the next weekly cast change. || Waiting risks tissue injury.
+- Insert scissors inside the cast and cut blindly. || Uncontrolled cast manipulation can injure the infant.
+- Give a bottle and reassess tomorrow if crying stops. || Comfort does not establish restored circulation.
+CLUE: Distal perfusion changed after casting.
+WHY: Recognize neurovascular compromise promptly. Follow the urgent cast-assessment protocol rather than waiting for a routine visit.
+
+@@ e259|Newborn|newborn_trauma|3|MC|Assessment, Priority, Care management|Pathologic jaundice|26
+A jaundiced newborn becomes difficult to feed and develops a high-pitched cry with intermittent arching. Which action has priority?
++ Obtain immediate neonatal evaluation for possible bilirubin neurotoxicity. || Neurologic change in a jaundiced infant is an emergency warning sign.
+- Reassure that sleepiness always improves after a longer nap. || Poor arousal and abnormal posture require assessment.
+- Stop bilirubin testing because skin color appears slightly lighter. || Visual appearance cannot replace biochemical and neurologic assessment.
+- Offer water to dilute the bilirubin. || Water does not treat bilirubin toxicity and is not an appropriate neonatal feeding intervention.
+CLUE: Jaundice is now accompanied by abnormal neurologic behavior.
+WHY: Escalate signs of possible acute bilirubin encephalopathy immediately and prepare intensified treatment under the neonatal plan.
+
+@@ e260|Newborn|newborn_trauma|2|SATA|Assessment, Care management, Safety|Phototherapy|26
+A newborn receives prescribed phototherapy for hyperbilirubinemia. Which nursing actions are appropriate? Select all that apply.
++ Use eye protection appropriate to the device and verify placement. || Correct protection reduces light exposure to the eyes without obstructing breathing.
++ Monitor temperature, feeding, output, and bilirubin response. || Treatment effectiveness and hydration/thermal effects require reassessment.
++ Follow the device instructions for exposure and positioning. || Effective delivery depends on the equipment and ordered treatment plan.
+- Apply lotion to improve light penetration. || Unprescribed skin products are not required and may be harmful.
+- Stop therapy independently when the skin looks less yellow. || Discontinuation depends on measured levels and the treatment plan.
+CLUE: Effective light treatment still needs safety and response monitoring.
+WHY: Do not substitute visual impression for bilirubin measurements or neglect feeding and fluid status during therapy.
+
+@@ e261|Newborn|newborn_family|2|MC|Care management, Interprofessional collaboration, Safety|Neonatal opioid withdrawal|24–25
+A newborn treated for opioid withdrawal cannot sleep or feed adequately despite swaddling, a quiet environment, and caregiver soothing. What should the nurse do next?
++ Report persistent functional impairment and coordinate reassessment of the medication and supportive-care plan. || Inadequate eating, sleeping, and consolability may require treatment adjustment.
+- Stop all caregiver contact to prevent dependence on soothing. || Supportive contact is therapeutic, not a cause of withdrawal.
+- Give naloxone to reverse withdrawal. || Naloxone can precipitate severe withdrawal and is not treatment for it.
+- Assume the family caused the treatment failure and restrict visits. || Blame is unsupported and can undermine effective family care.
+CLUE: The infant is not functioning adequately despite appropriate first measures.
+WHY: Reassess treatment effectiveness using the unit's withdrawal tool and functional measures, while continuing nonjudgmental caregiver support.
+
+@@ e262|Newborn|newborn_family|3|MC|Pharmacology, Assessment, Priority|Neonatal withdrawal medication|25
+An infant receiving prescribed oral morphine for opioid withdrawal is markedly sedated and has a new respiratory rate of 18/min. The next dose is due. What should the nurse do?
++ Hold the dose and obtain immediate neonatal assessment while supporting breathing. || Sedation with respiratory depression is a medication-safety emergency.
+- Give the dose because the infant is no longer crying. || Reduced crying may reflect excessive sedation, not safe symptom control.
+- Increase the dose to prevent a rebound cry. || Additional opioid could worsen respiratory depression.
+- Record successful withdrawal treatment without reassessment. || Functional improvement requires safe breathing and feeding, not sedation alone.
+CLUE: The treatment response has crossed into respiratory compromise.
+WHY: Prioritize breathing and urgent medication reassessment. Do not automatically administer a scheduled opioid after concerning pre-dose findings.
+
+@@ e263|Newborn|newborn_family|2|MC|Care management, Interprofessional collaboration, Safety|NICU discharge preparation|10
+A medically stable infant will go home with prescribed oxygen. A caregiver cannot demonstrate the equipment setup or explain what to do if breathing worsens. What is the best response?
++ Arrange additional supervised practice and resolve equipment and emergency-plan gaps before discharge. || Home readiness includes caregiver capability, not only physiologic stability.
+- Discharge because the caregiver watched the nurse once. || Observation alone does not verify a safety-critical skill.
+- Remove prescribed oxygen to simplify home care. || The nurse cannot discontinue necessary therapy for convenience.
+- Ask the caregiver to learn from social media after arriving home. || This does not establish a reliable care or emergency plan.
+CLUE: A necessary home-care skill has not yet been demonstrated.
+WHY: Use teach-back and return demonstration, coordinate supplies and follow-up, and verify a workable plan before transition home.
+
+@@ e264|Newborn|newborn_family|1|MC|Care management, Interprofessional collaboration|Family bonding in the NICU|9
+A parent stands away from the incubator and says, "I am afraid I will hurt her." The infant is stable enough for supported contact. Which response is best?
++ Offer to demonstrate safe touch and help the parent participate at a comfortable pace. || Guided involvement supports confidence and the relationship.
+- Interpret hesitation as lack of attachment without asking further. || Fear and unfamiliar equipment may explain the behavior.
+- Require the parent to hold the infant immediately. || Coercion can increase distress and ignores readiness.
+- Tell the parent to wait until discharge to provide care. || This misses safe opportunities to build competence.
+CLUE: Fear, rather than refusal of the infant, is the stated barrier.
+WHY: Assess the parent's concern and provide graded, supported involvement while respecting clinical stability and family preferences.
+
+@@ e265|Newborn|newborn_family|2|SATA|Care management, Interprofessional collaboration, Safety|Neonatal loss|36
+After a neonatal death, which nursing actions support individualized family care? Select all that apply.
++ Offer opportunities to hold the infant without pressuring the family. || Families should be able to choose what feels appropriate.
++ Ask about cultural, spiritual, and personal preferences. || Preferences cannot be inferred from appearance or background.
++ Offer keepsakes and bereavement resources. || Tangible memories and support may help the grieving process.
+- Insist that another pregnancy will replace this loss. || This minimizes the infant and the family's grief.
+- Remove the infant immediately regardless of the family's wishes and available policy options. || Unnecessary urgency can deny meaningful choices.
+CLUE: Support should offer choices rather than impose one way to grieve.
+WHY: Provide presence and practical options without false reassurance. Coordinate privacy and follow-up support.
+
+@@ e266|Newborn|newborn_congenital|2|MC|Care management, Pharmacology, Safety|Congenital hypothyroidism|notes
+A newborn's screening result suggests congenital hypothyroidism. The family says the infant looks normal and wants to wait several months. Which response is best?
++ Explain the need for prompt confirmatory evaluation and treatment if indicated to protect development. || Early signs may be subtle while untreated hormone deficiency can harm development.
+- Agree that treatment is unnecessary until growth slows visibly. || Waiting for obvious signs can delay preventive treatment.
+- Suggest replacing follow-up with an over-the-counter iodine supplement. || This is not a substitute for diagnosis and prescribed hormone therapy.
+- State that screening alone proves permanent disability. || Screening requires confirmation and does not establish a fixed outcome.
+CLUE: An apparently well newborn can still have a time-sensitive screening abnormality.
+WHY: A screening program works only when abnormal findings lead to prompt evaluation and appropriate therapy.
+
+@@ e267|Newborn|newborn_family|2|MC|Assessment, Care management, Interprofessional collaboration|Preterm developmental follow-up|10
+A caregiver of an infant born at 28 weeks asks why developmental follow-up is needed after discharge. Which explanation is most useful?
++ Follow-up tracks development in the context of prematurity and connects the infant with early support if concerns emerge. || Ongoing assessment can identify needs that were not evident during hospitalization.
+- A normal discharge examination guarantees normal development. || A single assessment cannot predict every later outcome.
+- All preterm infants will have severe disability. || Outcomes vary, and this prediction is unsupported.
+- Development should be judged without considering gestational history. || Prematurity affects how early development is interpreted.
+CLUE: Discharge stability and long-term developmental monitoring serve different purposes.
+WHY: Explain follow-up as supportive surveillance rather than a prediction of impairment. Help the family keep appointments and report concerns.
+
+@@ e268|Newborn|newborn_stability|2|MC|Assessment, Care management, Safety|Energy conservation|6–7
+During clustered care, a preterm infant begins extending the limbs, hiccupping, and desaturating. What should the nurse do?
++ Pause nonessential stimulation, support physiologic recovery, and adjust the care pacing. || Stress cues indicate the infant is not tolerating the current workload.
+- Complete every task quickly despite the desaturation. || Clustering should conserve energy, not override signs of intolerance.
+- Add bright light and vigorous handling to improve alertness. || Additional stimulation can increase stress and oxygen demand.
+- Label the response as behavioral manipulation. || These are physiologic stress signals, not intentional misbehavior.
+CLUE: The infant's cues show that the care schedule is exceeding current tolerance.
+WHY: Individualize clustered care to the infant's response. Reassess cardiorespiratory status before continuing necessary tasks.
+
+@@ e269|Newborn|newborn_family|2|SATA|Care management, Interprofessional collaboration, Safety|Bronchopulmonary dysplasia and discharge|10–12
+A former preterm infant with chronic lung disease is preparing for home care. Which elements should the nurse coordinate? Select all that apply.
++ A feeding plan that accounts for fatigue and prescribed nutritional needs. || Respiratory effort can compete with feeding endurance and growth.
++ Demonstration of prescribed medication and oxygen equipment use. || Safe home care depends on correct technique.
++ Clear follow-up arrangements and signs that require urgent evaluation. || Families need a specific response plan for deterioration.
+- Instructions to increase oxygen freely whenever the infant cries. || Oxygen changes must follow the prescribed plan.
+- Cancellation of growth monitoring once discharge weight is reached. || Ongoing nutrition and growth assessment remain important.
+CLUE: Respiratory support, feeding, and caregiver readiness must fit together.
+WHY: Discharge planning is a coordinated care process, not simply delivery of equipment.
+
+@@ e270|GYN|gyn_contraception|2|MC|Teaching, Pharmacology, Safety|Contraception emergency methods|5
+A patient reports unprotected intercourse four days ago and wants to avoid pregnancy. Which response is best?
++ Arrange prompt counseling about emergency contraception options that may still be effective. || Options remain within a five-day window; choice depends on circumstances and access.
+- Explain that every emergency contraceptive method becomes ineffective after 72 hours. || This older blanket cutoff excludes effective options.
+- Tell the patient to wait for a missed period before discussing prevention. || Waiting loses a time-sensitive opportunity.
+- Recommend taking several unrelated hormonal tablets without a prescribed regimen. || Unsupervised dosing is not appropriate emergency contraception counseling.
+CLUE: Four days does not mean the opportunity for emergency contraception has passed.
+WHY: Current CDC guidance includes options through five days. Discuss them promptly, without treating emergency contraception as treatment for an established pregnancy.
+
+@@ e271|GYN|gyn_contraception|2|MC|Teaching, Pharmacology, Safety|Contraception ulipristal|5
+A patient takes ulipristal emergency contraception and plans to restart combined oral contraceptive pills immediately. Which teaching is most appropriate?
++ Wait at least five days before restarting hormonal pills and use barrier protection as instructed during the transition. || Starting progestin-containing contraception too soon can reduce ulipristal's effect.
+- Restart immediately because ulipristal and levonorgestrel have identical restart instructions. || Their recommendations differ.
+- Stop all pregnancy prevention until the next annual examination. || This unnecessarily leaves ongoing pregnancy risk.
+- Explain that ulipristal protects every later act of intercourse that month. || Emergency contraception does not provide ongoing protection for later intercourse.
+CLUE: The emergency contraceptive used was ulipristal, not levonorgestrel.
+WHY: CDC advises restarting hormonal contraception no sooner than five days after ulipristal, with subsequent backup as directed. Confirm the individualized instructions and follow-up testing plan.
+
+@@ e272|GYN|gyn_contraception|3|MC|Assessment, Pharmacology, Safety|Contraception estrogen risk|4
+A patient using a combined hormonal contraceptive develops a new migraine preceded by flashing lights and a blind spot. What is the nurse's best response?
++ Arrange prompt evaluation and review whether an estrogen-containing method remains appropriate. || New aura warrants assessment and changes contraceptive eligibility because of stroke risk.
+- Reassure that neurologic symptoms are an expected sign of effective contraception. || New focal symptoms require assessment.
+- Advise doubling estrogen to stabilize the cycle. || Increasing estrogen may increase risk and is not a nursing dose adjustment.
+- Focus only on whether pills were taken at the same time each day. || Adherence does not address the new safety concern.
+CLUE: New neurologic aura changes the risk-benefit assessment.
+WHY: Evaluate new headache patterns and focal symptoms promptly. Contraceptive counseling must incorporate current conditions, not only the original prescription.
+
+@@ e273|GYN|gyn_contraception|3|MC|Priority, Safety, Pharmacology|Contraception thromboembolism|4
+A patient using an estrogen-containing patch calls with sudden chest pain and shortness of breath. Which instruction has priority?
++ Seek emergency evaluation now for possible thromboembolism or another acute cardiopulmonary cause. || Sudden chest pain and dyspnea require urgent assessment.
+- Remove the patch and wait until symptoms resolve before calling again. || Removing exposure alone does not treat a possible embolism.
+- Apply a second patch to prevent withdrawal symptoms. || Additional estrogen is inappropriate and could increase risk.
+- Schedule a routine discussion of a different contraceptive next month. || The immediate problem is potentially life-threatening.
+CLUE: Acute breathing symptoms outweigh routine contraceptive counseling.
+WHY: Triage the physiologic emergency first. Method changes can be addressed after urgent evaluation.
+
+@@ e274|GYN|gyn_contraception|2|SATA|Assessment, Teaching, Safety|Contraception IUD warning signs|6
+A patient with a recently inserted IUD asks what should prompt contact with the clinician. Which findings should the nurse include? Select all that apply.
++ Fever with worsening pelvic pain. || This may indicate infection and needs prompt assessment.
++ A positive pregnancy test, especially with unilateral pain or dizziness. || Pregnancy with an IUD requires evaluation of location and possible complications.
++ New inability to feel previously palpable strings or feeling the device itself. || Expulsion or displacement should be assessed; use backup pending advice.
+- Mild cramping that steadily improves after insertion. || This can be expected; severity and progression guide concern.
+- Awareness that condoms are still needed for STI risk reduction. || This is correct teaching, not a device complication.
+CLUE: Fever, pregnancy symptoms, and possible displacement are different warning pathways.
+WHY: Teach actionable symptoms and follow-up instead of implying that all post-insertion sensations represent an emergency.
+
+@@ e275|GYN|gyn_contraception|2|MC|Teaching, Pharmacology, Safety|Contraception missed combined pills|4
+A patient missed two consecutive active combined oral contraceptive pills in the first week of a new pack and had unprotected intercourse yesterday. What is the best nursing response?
++ Review the missed-pill instructions, backup contraception, and the need to consider emergency contraception now. || Early-pack missed active pills plus recent intercourse create pregnancy risk.
+- Tell the patient to wait for bleeding before resuming any pills. || This extends the hormone-free interval and can increase risk.
+- Explain that missed active pills never affect protection if the previous pack was completed. || Extending the hormone-free interval can reduce suppression of ovulation.
+- Give the same instructions used for any brand of progestin-only pill without checking the product. || Missed-pill guidance differs by formulation.
+CLUE: The missed doses are active combined pills early in the pack with recent intercourse.
+WHY: Use the correct formulation-specific algorithm. Address today's pregnancy risk as well as restoring ongoing contraception.
+
+@@ e276|GYN|gyn_contraception|1|MC|Teaching, Safety, Care management|Contraception sterilization|7
+After vasectomy, a patient says, "We can stop backup contraception immediately." Which response is best?
++ Continue backup until the clinician confirms success through the prescribed semen-testing follow-up. || Sperm may remain after the procedure; immediate sterility is not assured.
+- Agree because interruption of the vas deferens removes all sperm instantly. || Residual sperm can remain downstream.
+- Explain that vasectomy prevents STI transmission. || Sterilization does not prevent sexually transmitted infection.
+- Recommend skipping follow-up if there is no postoperative pain. || Absence of pain does not establish contraceptive success.
+CLUE: Completion of the procedure is not the same as confirmed contraceptive effectiveness.
+WHY: Reinforce the follow-up plan and temporary backup rather than relying on symptoms or elapsed time alone.
+
+@@ e277|GYN|gyn_contraception|2|MC|Assessment, Teaching, Safety|Contraception lactational amenorrhea|2
+A patient relying on lactational amenorrhea for contraception reports that menstruation has returned and formula now replaces several feeds. What is the best response?
++ Discuss another contraceptive method because the criteria for this approach are no longer met. || Return of menses and reduced exclusive breastfeeding reduce reliability.
+- Reassure that any breastfeeding prevents ovulation for a full year. || This overstates protection and ignores required criteria.
+- Recommend waiting until another pregnancy occurs before changing methods. || Counseling should address current pregnancy prevention needs.
+- State that breastfeeding must stop before any contraception can be used. || Several contraceptive options can be compatible with breastfeeding.
+CLUE: The patient's current feeding and menstrual pattern no longer supports the chosen method.
+WHY: Reassess method suitability when circumstances change and offer acceptable options without requiring unnecessary feeding changes.
+
+@@ e278|GYN|gyn_contraception|2|SATA|Teaching, Safety, Care management|Contraception barrier methods|3
+Which condom-use statements indicate understanding? Select all that apply.
++ "I will use a new condom for each act of intercourse." || Reuse increases failure and exposure risk.
++ "I will choose lubricant compatible with the condom material." || Oil-based products can damage latex condoms.
++ "Condoms reduce STI risk but do not eliminate every skin-to-skin infection risk." || Uncovered skin can still transmit some infections.
+- "Using an internal and an external condom together is always safer." || Friction between devices can increase failure risk.
+- "An IUD makes condoms unnecessary even when STI exposure is possible." || IUDs prevent pregnancy but do not reduce STI transmission.
+CLUE: Correct technique and realistic protection expectations matter together.
+WHY: Teach practical risk reduction without promising complete protection or combining barrier devices in a way that can increase breakage.
+
+@@ e279|GYN|gyn_assessment|2|MC|Therapeutic communication, Teaching, Care management|Contraception choice|2
+A patient declines an implant after counseling and prefers another medically eligible method. Which response best supports patient-centered care?
++ Explore the patient's priorities and help implement the preferred eligible method. || Acceptability and informed preference are important to sustained use.
+- Continue pressuring the patient until the implant is accepted. || Coercion undermines reproductive autonomy.
+- Refuse further contraception counseling. || Disagreement with one option does not justify withholding care.
+- Ask the patient's partner to override the decision. || The patient's informed choice governs care.
+CLUE: The preference is informed and the alternative is medically eligible.
+WHY: Support shared decision-making without treating clinician preference as consent.
+
+@@ e280|GYN|gyn_infection|3|MC|Pharmacology, Safety, Interprofessional collaboration|Syphilis during pregnancy|17
+A pregnant patient diagnosed with syphilis reports a documented immediate penicillin allergy. Which plan should the nurse anticipate clarifying with the team?
++ Penicillin desensitization followed by the indicated penicillin regimen in an appropriate setting. || Penicillin is the established effective treatment to prevent fetal infection; allergy requires coordinated management.
+- Substitute leftover tetracycline from home. || This is not an appropriate pregnancy syphilis treatment plan.
+- Delay all treatment until after birth. || Untreated maternal infection threatens the fetus.
+- Use topical treatment of any visible lesion as definitive therapy. || Local treatment does not eradicate systemic infection.
+CLUE: Pregnancy and penicillin allergy require a specific treatment pathway.
+WHY: Coordinate safe desensitization and indicated therapy rather than choosing an unproven substitute or delaying fetal protection.
+
+@@ e281|GYN|gyn_infection|2|SATA|Teaching, Pharmacology, Safety|Trichomoniasis|25
+A patient prescribed treatment for trichomoniasis asks how to prevent reinfection. Which instructions are appropriate? Select all that apply.
++ Complete the prescribed oral regimen. || Treatment must follow the ordered course even if symptoms improve.
++ Ensure current sexual partners receive treatment. || Untreated partners can cause reinfection.
++ Avoid intercourse until the patient and partners complete treatment and symptoms resolve. || This reduces transmission during treatment.
+- Treat only the patient because trichomoniasis is never sexually transmitted. || It is an STI.
+- Replace prescribed therapy with vaginal douching. || Douching does not cure infection and can cause harm.
+CLUE: Treatment success depends on addressing partner exposure as well as the patient's symptoms.
+WHY: Reinforce the current prescribed regimen and follow-up plan. Older blanket single-dose teaching should not replace current regimen-specific guidance.
+
+@@ e282|GYN|gyn_infection|3|MC|Assessment, Priority, Care management|Pelvic inflammatory disease|18
+A patient receiving outpatient therapy for PID returns after 72 hours with persistent fever and worsening pelvic pain. What is the priority response?
++ Arrange prompt reevaluation for treatment failure, complications, or another diagnosis. || Lack of improvement within this interval requires escalation and possible inpatient therapy.
+- Reassure that worsening symptoms prove the antibiotics are working. || Persistent deterioration is not an expected therapeutic goal.
+- Advise waiting until all remaining tablets are finished before reassessment. || This can delay recognition of abscess or other serious disease.
+- Recommend stopping all treatment and taking analgesics alone. || Symptom suppression does not address infection.
+CLUE: The expected early clinical improvement has not occurred.
+WHY: Evaluate the response to the plan, not just whether it was prescribed. Worsening findings require reassessment.
+
+@@ e283|GYN|gyn_infection|2|MC|Teaching, Care management, Safety|Chlamydia during pregnancy|15
+A pregnant patient treated for chlamydia feels well and asks why another test was scheduled about four weeks later. Which explanation is best?
++ The test checks that treatment cleared the infection because persistent infection can affect the pregnancy and newborn. || Pregnancy warrants a test of cure after treatment.
+- Testing is unnecessary unless visible genital lesions develop. || Chlamydia can persist without symptoms or lesions.
+- The repeat test proves the patient was unfaithful. || Follow-up has a clinical purpose and does not establish behavior.
+- Antibiotic treatment always causes infertility, so testing checks fertility. || This is inaccurate and confuses the purpose of follow-up.
+CLUE: Symptom resolution does not substitute for the pregnancy-specific test of cure.
+WHY: Explain follow-up nonjudgmentally and reinforce partner treatment and reinfection prevention.
+
+@@ e284|GYN|gyn_infection|2|MC|Teaching, Safety, Therapeutic communication|Genital herpes|20
+A patient with recurrent genital herpes says, "Antivirals cured it, so I cannot pass it on." Which response is most accurate?
++ Antivirals help control episodes and reduce transmission risk, but they do not eradicate latent infection. || Recurrence and asymptomatic shedding remain possible.
+- Confirm that transmission occurs only with a visible open sore. || Viral shedding can occur without visible lesions.
+- Explain that antibiotics permanently eliminate the virus. || Antibacterial drugs do not cure HSV.
+- Recommend avoiding all future relationships. || This is stigmatizing and not evidence-based risk counseling.
+CLUE: Symptom control has been confused with eradication of the virus.
+WHY: Provide realistic prevention teaching and support disclosure and informed choices without stigma.
+
+@@ e285|GYN|gyn_infection|1|MC|Teaching, Safety, Care management|HPV prevention|19
+A patient asks whether HPV vaccination means cervical screening will never be needed. Which response is best?
++ Continue screening according to the recommended age and risk-based plan even after vaccination. || Vaccination does not eliminate all cervical cancer risk or replace screening.
+- Agree that one vaccine dose permanently replaces all screening. || Vaccination and screening serve complementary purposes.
+- Explain that the vaccine treats an already abnormal cervical biopsy. || Vaccination is preventive, not treatment of existing lesions.
+- Recommend screening only when pain develops. || Precancerous changes may be asymptomatic.
+CLUE: Prevention does not remove the need for appropriate surveillance.
+WHY: Clarify the role of vaccination while encouraging recommended follow-up for the patient's history.
+
+@@ e286|GYN|gyn_infection|3|MC|Assessment, Priority, Safety|Toxic shock syndrome|26
+A patient using a high-absorbency tampon has sudden fever, vomiting, diffuse rash, dizziness, and BP 80/42 mmHg. Which action has priority?
++ Initiate emergency assessment and circulatory support for possible toxic shock syndrome. || Shock with systemic symptoms requires urgent treatment and source management.
+- Recommend changing tampon brands and resting at home. || Product counseling alone does not address current shock.
+- Treat as an uncomplicated local yeast infection. || Hypotension and systemic illness exceed localized vaginitis.
+- Delay care until a culture confirms the organism. || Resuscitation cannot wait for microbiologic confirmation.
+CLUE: The patient has systemic illness and shock, not merely vaginal discomfort.
+WHY: Stabilize first and coordinate prompt antimicrobial and source-control care as ordered.
+
+@@ e287|GYN|gyn_assessment|3|MC|Assessment, Priority, Care management|Abnormal uterine bleeding|5
+A patient reports soaking pads hourly for several hours and becomes dizzy when standing. The pulse is 122/min. Which assessment takes priority?
++ Hemodynamic status, current bleeding, and the need for urgent stabilization. || Tachycardia and orthostatic symptoms suggest clinically significant blood loss.
+- Detailed preferred-brand history for menstrual products. || Product choice is not the immediate threat.
+- A routine discussion of long-term cycle tracking only. || Cycle information does not replace assessment of current perfusion.
+- Reassurance based solely on the patient's young age. || Age does not exclude dangerous bleeding.
+CLUE: The amount of bleeding is accompanied by perfusion-related symptoms.
+WHY: Address acute instability before investigating every chronic cause of abnormal bleeding.
+
+@@ e288|GYN|gyn_assessment|2|MC|Assessment, Safety, Care management|Secondary amenorrhea|2
+A previously menstruating patient reports two missed periods and asks for medication to "restart the cycle." Which step should come first?
++ Assess the possibility of pregnancy before pursuing other causes or treatment. || Pregnancy is a common cause of secondary amenorrhea and changes management.
+- Begin hormone treatment without obtaining a history. || Treatment may be inappropriate before excluding pregnancy and other causes.
+- Diagnose menopause solely from the missed periods. || Two missed periods do not establish that diagnosis.
+- Recommend weight loss regardless of nutrition and exercise history. || Unfocused weight advice may be harmful and does not evaluate the cause.
+CLUE: A potentially pregnant patient requests treatment before the cause is assessed.
+WHY: Start with a relevant history and pregnancy evaluation, then investigate endocrine, nutritional, medication, and other causes as indicated.
+
+@@ e289|GYN|gyn_assessment|2|MC|Assessment, Teaching, Safety|Menopausal symptoms and bleeding|topic
+A patient using menopausal hormone therapy reports new unexplained vaginal bleeding. Which response is best?
++ Arrange clinical evaluation rather than assuming all bleeding is a harmless hormone effect. || New unexplained bleeding warrants assessment for treatment effects and underlying disease.
+- Double the estrogen dose until bleeding stops. || The nurse should not adjust therapy without evaluation and an order.
+- Recommend waiting a year before reporting the symptom. || This can delay recognition of significant pathology.
+- Explain that hormone therapy eliminates endometrial disease risk. || Hormone use does not make unexplained bleeding irrelevant.
+CLUE: A new symptom requires assessment despite a possible medication explanation.
+WHY: Avoid premature reassurance. Report the pattern, amount, associated symptoms, and treatment history for evaluation.
+
+@@ e290|GYN|gyn_assessment|2|MC|Pharmacology, Safety, Teaching|Menopause hormone therapy|topic
+A patient with an intact uterus asks why a progestogen is included with prescribed systemic estrogen therapy. Which explanation is best?
++ It helps protect the endometrium from the effects of unopposed systemic estrogen. || Endometrial protection is an important reason for combined therapy when the uterus is present.
+- It guarantees protection from breast cancer. || Combined therapy does not provide that guarantee and has its own risks.
+- It permanently stops all cardiovascular risk. || Risk assessment remains individualized.
+- It makes all future vaginal bleeding safe to ignore. || New or unexplained bleeding still needs evaluation.
+CLUE: The patient has a uterus and is receiving systemic estrogen.
+WHY: Relate the medication purpose to anatomy while preserving realistic risk and monitoring expectations.
+
+@@ e291|GYN|gyn_assessment|3|MC|Assessment, Priority, Safety|Ovarian cyst complications|topic
+A patient with a known ovarian cyst develops sudden severe unilateral pelvic pain with nausea and vomiting. Which response is most appropriate?
++ Arrange urgent evaluation for torsion, rupture, or another acute pelvic cause. || Sudden severe unilateral pain can threaten ovarian perfusion or indicate bleeding.
+- Recommend only the patient's usual menstrual heat pack until next week. || A new acute pattern requires assessment.
+- Diagnose uncomplicated PMS because the patient menstruates. || The severity and sudden unilateral onset are not explained safely by that assumption.
+- Reassure that a previous benign cyst means no emergency can occur. || Benign pathology can still cause acute complications.
+CLUE: A known condition now has a new, abrupt, severe symptom pattern.
+WHY: Recognize the change in urgency and facilitate prompt evaluation instead of relying on the prior label.
+
+@@ e292|GYN|gyn_fertility|2|MC|Therapeutic communication, Care management|Infertility psychosocial care|27–32
+After another unsuccessful fertility treatment, a patient says, "My body keeps failing us." Which response is most therapeutic?
++ "This has been painful. What part of this experience feels hardest right now?" || This acknowledges distress and invites the patient's perspective.
+- "You just need to relax and it will happen." || This assigns blame and promises an unsupported outcome.
+- "At least you can try adoption." || Redirecting immediately may minimize the current loss and bypass the patient's preferences.
+- "Your partner must be disappointed in you." || This assumes another person's feelings and reinforces self-blame.
+CLUE: The patient is expressing grief and self-blame rather than requesting a new treatment schedule.
+WHY: Attend to emotional needs before offering solutions. Explore support and counseling when the patient is ready.
+
+@@ e293|GYN|gyn_fertility|2|MC|Assessment, Care management, Teaching|Semen analysis|28–30
+A couple has been trying to conceive and the patient asks why the partner needs testing when menstrual cycles seem irregular. Which explanation is best?
++ Both partners can contribute to infertility, so evaluation may proceed for both rather than assuming a single cause. || A comprehensive assessment avoids delay and unsupported attribution.
+- An irregular cycle proves the partner's fertility is normal. || One person's findings do not determine the other's reproductive function.
+- Semen testing is punishment for not conceiving. || Testing identifies potential contributing factors, not fault.
+- Male factors are impossible if the partner has fathered a child before. || Prior fertility does not exclude a current problem.
+CLUE: An identified possible factor does not exclude additional factors.
+WHY: Frame assessment as a shared clinical process, not an assignment of blame.
+
+@@ e294|GYN|gyn_fertility|3|MC|Assessment, Safety, Care management|Infertility diagnostic procedures|29
+A patient scheduled for hysterosalpingography reports fever and new purulent vaginal discharge on arrival. Which action is best?
++ Notify the clinician and clarify whether the procedure should be deferred for infection evaluation. || Possible active pelvic infection changes the safety of uterine/tubal instrumentation.
+- Proceed because the appointment was scheduled before symptoms began. || A prior plan must be reconsidered when new findings emerge.
+- Give a sedative and avoid mentioning the symptoms until afterward. || Sedation does not treat the infection risk.
+- Explain that discharge confirms normal tubal patency. || Symptoms cannot establish that finding.
+CLUE: Possible infection is present before an invasive diagnostic procedure.
+WHY: Use the preprocedure assessment to prevent harm and coordinate evaluation before proceeding.
+
+@@ e295|GYN|gyn_fertility|3|MC|Pharmacology, Assessment, Safety|Ovulation-induction therapy|32
+A patient taking prescribed clomiphene reports new blurred vision and flashes of light. What is the safest response?
++ Advise withholding further doses pending prompt prescriber evaluation of the visual symptoms. || Visual disturbance is an important adverse effect that requires assessment.
+- Encourage driving to work to see whether symptoms clear with activity. || Visual disturbance creates an immediate safety risk.
+- Explain that blurred vision proves ovulation occurred. || It is not a safe measure of treatment success.
+- Recommend doubling the next dose to shorten treatment. || Increasing exposure can worsen adverse effects and is not authorized.
+CLUE: New visual symptoms occur during ovulation-induction medication use.
+WHY: Do not dismiss a potentially serious medication effect as a sign of successful therapy. Coordinate prompt assessment and avoid unsafe activities.
+
+@@ e296|GYN|gyn_breast|2|MC|Assessment, Priority, Care management|Breast cancer assessment|11
+A patient reports a persistent new breast lump despite a screening mammogram described as normal six months ago. What should the nurse recommend?
++ Arrange diagnostic evaluation of the new finding. || A prior normal screening study does not rule out a subsequently noticed abnormality.
+- Wait until the next routine screening interval before reporting it. || New symptoms require evaluation outside routine screening intervals.
+- Assume the lump is benign because it is painless. || Lack of pain does not exclude malignancy.
+- Diagnose cancer immediately without examination or testing. || A lump needs assessment; the nurse should not declare an unsupported diagnosis.
+CLUE: Screening history does not negate a new persistent symptom.
+WHY: Distinguish routine screening from diagnostic evaluation and support timely follow-up without premature certainty.
+
+@@ e297|GYN|gyn_breast|2|SATA|Care management, Teaching, Safety|Breast surgery and lymphatic care|11–13
+After axillary lymph-node surgery, which teaching supports safe recovery? Select all that apply.
++ Report new arm swelling, redness, warmth, or fever. || These may indicate lymphatic complications or infection.
++ Follow the prescribed gradual movement and exercise plan. || Appropriate movement supports function without ignoring surgical restrictions.
++ Protect the skin and seek guidance for cuts or signs of infection. || Skin care reduces avoidable complications.
+- Keep the affected arm completely immobile for life. || Permanent immobility is not an appropriate routine recovery plan.
+- Ignore increasing swelling if the incision has closed. || Wound closure does not exclude lymphatic problems.
+CLUE: The surgery creates ongoing functional and lymphatic care needs.
+WHY: Teach monitoring and rehabilitation without rigid unsupported prohibitions or minimizing new symptoms.
+
+@@ e298|GYN|gyn_breast|2|MC|Therapeutic communication, Care management, Teaching|Breast reconstruction decisions|11–13
+Before mastectomy, a patient says, "Everyone assumes I want reconstruction, but I am not sure." Which response is best?
++ Offer information about the options and ask what matters most to the patient without pressing for a particular choice. || The decision should reflect informed personal goals and preferences.
+- Tell the patient reconstruction is necessary to feel normal again. || This imposes a value judgment and unsupported psychological outcome.
+- Ask the partner to select the final surgical plan. || The patient's informed preferences remain central.
+- Avoid the topic because uncertainty means the patient is not coping. || Uncertainty is a reason for supportive discussion, not withdrawal of care.
+CLUE: The patient needs space for an informed preference, not a predetermined answer.
+WHY: Support autonomy and realistic information while coordinating questions for the surgical team.
+
+@@ e299|GYN|gyn_assessment|2|MC|Pharmacology, Assessment, Safety|Dysmenorrhea therapy|3
+A patient self-treating menstrual cramps with frequent ibuprofen reports black, tarry stools and lightheadedness. What is the priority response?
++ Arrange prompt evaluation for possible gastrointestinal bleeding and review further NSAID use. || Tarry stools and systemic symptoms are concerning medication-associated findings.
+- Advise taking more ibuprofen because cramping is ongoing. || Additional NSAID exposure may worsen bleeding.
+- Explain that tarry stools are an expected harmless effect of all pain medicines. || This is not safe reassurance.
+- Focus only on a heating-pad technique at the next visit. || Comfort teaching cannot replace current safety assessment.
+CLUE: Self-treatment is accompanied by possible bleeding and reduced perfusion.
+WHY: Recognize complications of symptom management. Assess the medication history and escalate concerning bleeding signs.
+
+@@ e300|Growth|growth_safety|2|MC|Assessment, Care management|Pediatric assessment sequence|notes
+A sleeping 8-month-old is due for a routine assessment. Which approach is most likely to obtain accurate respiratory data while minimizing distress?
++ Observe respirations for a full minute before touching or waking the infant. || Observation during quiet breathing reduces distortion from crying and captures irregularity.
+- Begin with the throat examination to finish the most stressful task first. || Distress can alter subsequent respiratory and cardiac findings.
+- Count chest movement for five seconds and assume the pattern is regular. || Very brief counts can miss irregular breathing.
+- Wake the infant and wait for vigorous crying before counting. || Crying changes the resting respiratory pattern.
+CLUE: A calm infant provides an opportunity for less intrusive assessment first.
+WHY: Adapt assessment order to developmental needs rather than automatically following an adult head-to-toe sequence.
+
+@@ e301|Growth|growth_safety|2|MC|Assessment, Care management, Priority|Pain assessment in children|notes
+A postoperative 2-year-old cannot use a numeric scale reliably. The child grimaces, guards the incision, and is difficult to console. What should the nurse do?
++ Use an appropriate behavioral pain tool, provide ordered relief, and reassess the response. || Behavior and context support structured pain assessment when numeric self-report is unreliable.
+- Record zero pain because the child cannot provide a number. || Inability to quantify pain does not mean absence of pain.
+- Delay analgesia until the child understands a ten-point scale. || Developmental limitations should not prevent treatment.
+- Treat the behavior only as disobedience. || This dismisses plausible pain after surgery.
+CLUE: The assessment tool must match the child's communication ability.
+WHY: Use developmentally appropriate assessment and evaluate treatment effectiveness with a consistent method.
+
+@@ e302|Growth|growth_infant|1|MC|Care management, Safety|Trust versus mistrust|notes
+A parent asks whether responding to a young infant's hunger and distress will "spoil" the infant. Which response is most appropriate?
++ Consistent, responsive care helps the infant develop trust and a sense of safety. || Meeting basic needs supports early psychosocial development.
+- Withhold feeding until the infant stops signaling hunger. || Ignoring basic needs does not teach appropriate infant independence.
+- Use punishment to reduce crying. || Punishment is inappropriate for infant distress communication.
+- Avoid holding the infant during illness. || Comfort and responsive care remain important during illness.
+CLUE: The infant depends on caregivers to meet basic needs.
+WHY: Frame crying as communication and support responsive care, while helping caregivers obtain rest and practical assistance.
+
+@@ e303|Growth|growth_infant|3|MC|Assessment, Priority, Care management|Growth trends and failure to thrive|notes
+An infant's weight has crossed downward through several growth-chart percentile lines over two visits. The caregiver reports prolonged feeds and fatigue. What is the best next step?
++ Assess feeding effectiveness and health status and coordinate evaluation of the growth trend. || Declining trajectory and feeding fatigue warrant assessment for intake and medical causes.
+- Reassure based solely on the infant still being above the fifth percentile. || The trend can be concerning before reaching a single cutoff.
+- Recommend a concentrated formula recipe without checking the prescribed preparation. || Incorrect concentration can cause fluid and electrolyte harm.
+- Diagnose neglect without further assessment. || Many feeding, medical, and access factors can contribute.
+CLUE: Trajectory and feeding function matter more than one isolated percentile.
+WHY: Use serial measurements with a nonjudgmental feeding history and clinical assessment to guide support and referral.
+
+@@ e304|Growth|growth_infant|2|SATA|Safety, Care management|Safe sleep|notes
+Which home sleep plans for a 3-month-old should the nurse reinforce? Select all that apply.
++ Place the infant on the back for sleep. || Supine placement is the recommended initial sleep position.
++ Use a firm, flat, noninclined approved sleep surface with a fitted sheet. || This avoids soft surfaces and positional airway hazards.
++ Keep pillows, loose blankets, and stuffed toys out of the sleep space. || These create suffocation hazards.
+- Use a wedge to hold the infant on the side after feeds. || Inclined devices and side positioning are not routine safe-sleep solutions.
+- Sleep with the infant on a sofa if the caregiver is tired. || Sofas are especially hazardous shared sleep surfaces.
+CLUE: Comfort products can introduce hazards into an infant's sleep space.
+WHY: Keep sleep recommendations simple and consistent, including for infants who spit up. Follow individualized medical instructions when a specific clinical exception exists.
+
+@@ e305|Growth|growth_toddler|2|MC|Assessment, Care management|Toilet-training readiness|notes
+A caregiver wants to start toilet training, but the 18-month-old cannot communicate the need to void and rarely stays dry between diaper changes. Which advice is best?
++ Watch for readiness cues and introduce a supportive routine without punishment. || Readiness includes physiologic and communication skills, not age alone.
+- Require prolonged toilet sitting until the child produces urine. || Coercive prolonged sitting can create distress and resistance.
+- Restrict fluids severely so the diaper stays dry. || This creates dehydration risk and does not establish readiness.
+- Shame the child for each wet diaper. || Shame undermines autonomy and does not teach continence.
+CLUE: The child is missing readiness cues despite the caregiver's goal.
+WHY: Match expectations to development and support gradual learning rather than imposing an arbitrary deadline.
+
+@@ e306|Growth|growth_toddler|1|MC|Assessment, Care management|Parallel play|notes
+Two hospitalized 2-year-olds sit beside each other using separate sets of blocks but rarely share a common game. What is the most appropriate interpretation?
++ This can be developmentally expected parallel play. || Toddlers commonly play alongside peers without organized cooperative goals.
+- This alone proves a social developmental disorder. || A diagnosis cannot be based on an age-expected play pattern.
+- The nurse should require a competitive board game instead. || Formal rules and competition are not the best match for this stage.
+- The children should be separated because all side-by-side play is harmful. || Safe peer proximity can support normal play opportunities.
+CLUE: The children are toddlers engaged in similar but separate activities.
+WHY: Recognize expected play and provide safe materials without forcing a more advanced social task.
+
+@@ e307|Growth|growth_toddler|2|MC|Safety, Care management|Temper tantrums and autonomy|notes
+A toddler screams and kicks when a caregiver sets a limit. No injury or medical distress is apparent. Which coaching is most appropriate?
++ Maintain a calm, consistent limit, protect safety, and reconnect when the child settles. || Consistent boundaries with safety support developing self-regulation.
+- Change the limit every time the child screams. || Inconsistent reinforcement can increase the behavior.
+- Respond with a threat of abandonment. || This undermines security and does not teach safe regulation.
+- Use physical restraint as routine punishment. || Restrictive measures are not a routine behavioral teaching strategy.
+CLUE: This is a limit-setting situation without evidence of acute illness.
+WHY: Support autonomy through predictable limits and simple choices when possible, while avoiding shame or threats.
+
+@@ e308|Growth|growth_toddler|2|SATA|Assessment, Safety, Care management|Toddler nutrition and choking prevention|notes
+A caregiver reports that a healthy toddler eats small amounts at meals and wants snacks. Which guidance is appropriate? Select all that apply.
++ Offer planned small meals and nutritious snacks. || Small portions can fit toddler appetite and activity patterns.
++ Provide safe textures and supervise eating while the child is seated. || Movement and hazardous food shapes increase choking risk.
++ Assess the overall diet and growth trend rather than one meal. || Intake varies; longitudinal assessment is more meaningful.
+- Offer whole grapes and popcorn as ideal unsupervised snacks. || These are choking hazards.
+- Force the child to finish an adult-sized plate. || This ignores developmental portions and hunger cues.
+CLUE: Normal appetite variation still requires structure and food safety.
+WHY: Support nutrition without coercion, and distinguish normal variation from poor growth or feeding dysfunction.
+
+@@ e309|Growth|growth_safety|2|MC|Assessment, Safety, Care management|Immunization screening|notes
+Before vaccination, a caregiver reports the child had trouble breathing and required emergency treatment immediately after a prior dose of the same vaccine. What should the nurse do?
++ Hold administration and obtain clinician review of a possible severe allergic reaction. || A suspected serious reaction to a previous dose requires evaluation before repeat exposure.
+- Give the dose quickly while the child is calm. || Convenience does not override a potential contraindication.
+- Dismiss the event because it happened several months ago. || The reaction history remains relevant.
+- Give half the dose without discussing the history. || Unprescribed dose reduction does not resolve the allergy concern.
+CLUE: The pre-vaccination history identifies a potentially serious prior reaction.
+WHY: Use screening to identify contraindications and precautions. Verify the reaction and current vaccine guidance before proceeding.
+
+@@ e310|Growth|growth_preschool|2|MC|Care management, Safety|Preschool body image and procedures|notes
+A 4-year-old fears that "all my blood will fall out" after a small blood draw. Which intervention best addresses this concern?
++ Give a concrete explanation, show where the small dressing will go, and allow safe medical play. || Preschoolers may have poorly defined body boundaries and benefit from concrete reassurance.
+- Explain blood volume using only percentages and abstract physiology. || Abstract detail may not address the child's developmental fear.
+- Promise the procedure will not hurt at all. || False reassurance can undermine trust.
+- Tell the child the fear is silly. || Dismissal increases distress and blocks communication.
+CLUE: The concern reflects the child's understanding of bodily integrity.
+WHY: Address the actual fear with honest, developmentally appropriate preparation rather than more technical detail.
+
+@@ e311|Growth|growth_school|2|MC|Assessment, Care management|Concrete operational learning|notes
+A school-age child will help with a simple home dressing change. Which teaching strategy best evaluates readiness?
++ Demonstrate the steps, then ask the child to show them back with caregiver supervision. || Concrete demonstration and return demonstration assess practical understanding.
+- Assume the child understands because a handout was provided. || Information delivery alone does not demonstrate skill.
+- Teach only through hypothetical analogies. || Concrete steps are more useful for this task and developmental stage.
+- Exclude the caregiver once the child names the supplies. || Naming equipment does not establish independent safe performance.
+CLUE: A hands-on care task requires observed performance, not only verbal recall.
+WHY: Support age-appropriate participation while maintaining the supervision needed for safety.
+
+@@ e312|Growth|growth_adolescent|2|MC|Assessment, Care management, Safety|Adolescent self-management|notes
+A 14-year-old with a chronic condition understands the treatment but misses doses during activities with friends. Which approach is best?
++ Collaborate on a workable routine that fits peer activities and assess barriers without blame. || Knowledge alone may not solve adherence challenges related to daily life and identity.
+- Repeat the same lecture and avoid asking why doses are missed. || More information may not address the actual obstacle.
+- Transfer all responsibility to the adolescent immediately because of age. || Independence should reflect demonstrated readiness and support needs.
+- Forbid all peer contact indefinitely. || This ignores an important developmental need and may undermine collaboration.
+CLUE: The problem is implementation in daily life, not simply lack of knowledge.
+WHY: Build self-management skills with the adolescent and caregiver as appropriate, balancing autonomy and safety.
+
+@@ e313|Growth|growth_adolescent|2|MC|Assessment, Safety, Care management|Adolescent health assessment|notes
+A caregiver answers every question during an adolescent health visit. What is the best nursing approach for a sensitive risk assessment?
++ Arrange appropriate private discussion and explain confidentiality and its safety-related limits. || Privacy can support honest disclosure, while limits should be clear and consistent with policy and law.
+- Promise absolute secrecy regardless of immediate danger. || Some safety concerns require protective action.
+- Ask sensitive questions loudly in the hallway. || This does not protect privacy.
+- Skip the adolescent's own account because the caregiver already answered. || The adolescent's perspective is essential to assessment.
+CLUE: A meaningful risk assessment requires the adolescent's own voice.
+WHY: Create a respectful private setting and avoid making confidentiality promises that cannot be kept.
+
+@@ e314|Growth|growth_safety|2|MC|Assessment, Safety, Care management|Car-seat safety|notes
+A caregiver wants to move a toddler from rear-facing to forward-facing because the child's feet touch the vehicle seat. The child remains within the rear-facing height and weight limits. Which response is best?
++ Follow the seat manufacturer's rear-facing limits rather than using foot contact alone as the reason to turn the seat. || Leg position alone does not establish that the child has outgrown rear-facing protection.
+- Turn the seat because any bent knee causes serious injury. || This is not the appropriate criterion.
+- Use a booster seat without a harness to create legroom. || This does not match the toddler's restraint needs.
+- Place the rear-facing seat in front of an active passenger airbag. || This exposes the child to severe airbag injury risk.
+CLUE: Fit within the manufacturer's limits matters more than a comfort assumption.
+WHY: Use age-appropriate restraints correctly and keep young children in the back seat, following both vehicle and restraint instructions.
+
+@@ e315|Growth|growth_safety|2|SATA|Safety, Care management|Drowning prevention|notes
+Which caregiver plans reduce drowning risk for a toddler? Select all that apply.
++ Use close, attentive supervision around water, including bathtubs. || Toddlers can drown quickly in small amounts of water.
++ Maintain a barrier separating the pool from the house and play area. || A physical barrier reduces unintended access.
++ Empty buckets and other water containers after use. || Standing water creates a hazard beyond pools.
+- Rely on swimming lessons instead of supervision. || Swimming ability does not remove the need for close supervision.
+- Allow an older child to be the sole bathtub supervisor. || A responsible adult should provide supervision.
+CLUE: Prevention must address access and supervision in ordinary home environments.
+WHY: Layer practical protections instead of relying on one skill or one piece of equipment.
+
+@@ e316|Growth|growth_safety|2|MC|Safety, Care management|Poison prevention|notes
+A grandparent keeps medicines in an unlocked purse because the bottles have child-resistant caps. Which teaching has priority?
++ Store medicines locked and out of sight and reach; child-resistant does not mean childproof. || Children may open resistant packaging or access unsecured doses.
+- Teach the toddler to identify pills by color as the only safeguard. || Developmental ability and curiosity make this unreliable prevention.
+- Transfer pills to a candy container for easier counting. || This increases confusion and removes labeling.
+- Leave the purse on a higher chair. || A mobile toddler can climb or pull it down.
+CLUE: Packaging is being treated as complete access protection.
+WHY: Reduce access with secure storage while retaining original labels and keeping emergency contact information available.
+
+@@ e317|Growth|growth_safety|3|MC|Assessment, Safety, Care management|Pediatric medication calculation|notes
+A 22-kg child is prescribed 30 mg/kg/day of a medication in three equal doses. The bottle contains 100 mg/5 mL. What volume should the nurse prepare for each dose after verifying the order?
++ 11 mL. || 22 × 30 = 660 mg/day; 660/3 = 220 mg/dose; 220 × 5/100 = 11 mL.
+- 33 mL. || This gives the entire calculated daily volume as one dose.
+- 3.7 mL. || This divides the already divided dose again.
+- 22 mL. || This is twice the ordered dose volume.
+CLUE: The prescription states mg/kg/day, not mg/kg per dose.
+WHY: Separate the daily calculation from each administration and verify the concentration before converting to volume.
+
+@@ e318|Growth|growth_infant|2|MC|Assessment, Safety, Care management|Infant nutrition|notes
+A caregiver of a 4-month-old is diluting formula with extra water to make the supply last. What is the best nursing response?
++ Explain safe preparation, assess the infant, and connect the family with immediate nutrition resources. || Over-dilution can cause inadequate nutrition and electrolyte problems; access must also be addressed.
+- Recommend continuing dilution if the infant appears content. || Appearance alone does not establish adequate intake or electrolyte safety.
+- Provide preparation instructions without discussing the lack of formula. || Teaching alone leaves the stated resource barrier unresolved.
+- Suggest replacing all feeds with plain water. || This is nutritionally inadequate and unsafe.
+CLUE: A feeding-safety problem is driven by an access problem.
+WHY: Combine assessment and correct teaching with practical support, avoiding blame while ensuring a safe feeding plan.
+
+@@ e319|Growth|growth_infant|2|MC|Assessment, Care management|Stranger anxiety and examination|notes
+A 9-month-old cries as an unfamiliar nurse approaches for a nonurgent examination. Which approach is most appropriate?
++ Begin with observation while the caregiver holds the infant, then proceed gradually. || Caregiver proximity and less invasive steps support security and cooperation.
+- Separate the infant from the caregiver immediately. || Unnecessary separation can intensify distress.
+- Diagnose pain solely because the infant cries on approach. || Crying must be interpreted with context and assessment.
+- Abandon all needed assessment because fear is expected. || Developmental adaptation allows assessment to continue appropriately.
+CLUE: Distress begins with an unfamiliar person's approach, not a specific painful maneuver.
+WHY: Account for stranger anxiety without dismissing other causes of distress or omitting necessary care.
+
+@@ e320|Skin|skin_infection|2|SATA|Assessment, Care management, Pharmacology|Impetigo treatment|5
+A child has localized impetigo and prescribed topical mupirocin. Which instructions should the nurse include? Select all that apply.
++ Use the medication for the prescribed course. || Improvement does not justify an unplanned early stop.
++ Perform hand hygiene and avoid sharing towels. || Contact with drainage and contaminated items can spread infection.
++ Report spreading redness, increasing pain, or fever. || These may indicate a worsening or deeper infection.
+- Scrub lesions until they bleed before every dose. || Traumatizing skin can worsen injury and spread infection.
+- Use leftover corticosteroid cream as the only treatment. || Corticosteroids do not eradicate the bacterial infection.
+CLUE: Treatment and transmission prevention are both needed.
+WHY: Combine appropriate antimicrobial use with skin protection and recognition of deterioration.
+
+@@ e321|Skin|skin_infection|2|MC|Assessment, Pharmacology, Care management|Head lice treatment|7
+After correctly applying a head-lice treatment, a caregiver plans to use three other pediculicides on the same evening because nits remain visible. What is the best response?
++ Advise against combining products and review the product-specific combing and retreatment instructions. || Extra or mixed treatments can cause harm; visible nits alone do not justify repeated dosing that evening.
+- Recommend all three products to cover every stage at once. || Combining therapies without guidance increases adverse-effect risk.
+- Spray household insecticide directly onto the scalp. || Household insecticide is not an appropriate scalp treatment.
+- Stop inspecting household contacts because treatment was started. || Contact assessment remains relevant to reinfestation control.
+CLUE: Persistent nits are prompting unsafe medication escalation.
+WHY: Use the correct product as directed and evaluate possible failure or reinfestation with a clinician rather than adding uncontrolled exposure.
+
+@@ e322|Skin|skin_infection|2|MC|Assessment, Pharmacology, Care management|Scabies treatment|6
+A family treats one child's scabies correctly, but close household contacts remain untreated. The child later develops new burrows. Which issue should the nurse address first?
++ Coordinate evaluation and simultaneous treatment of close contacts according to the care plan. || Ongoing exposure can cause reinfestation even after correct individual treatment.
+- Assume itching proves a new drug allergy without reassessing exposure. || Itching has multiple explanations and new burrows suggest ongoing infestation.
+- Recommend daily scabicide indefinitely without a prescription. || Excessive treatment can irritate skin and does not replace contact management.
+- Tell the family only people with visible burrows can harbor mites. || Contacts may require treatment before symptoms appear.
+CLUE: Correct treatment of one person did not address the exposure network.
+WHY: Distinguish reinfestation from residual itching and medication failure. Review contacts, timing, and environmental measures.
+
+@@ e323|Skin|skin_infection|2|MC|Assessment, Pharmacology, Care management|Tinea capitis|11
+A child has diagnosed tinea capitis with patchy hair loss. The caregiver plans to use only an antifungal body cream instead of the prescribed oral medication. Which response is best?
++ Explain that scalp hair-follicle infection generally requires systemic antifungal treatment as prescribed. || A topical body cream alone may not adequately treat infection involving hair shafts and follicles.
+- Agree that any antifungal product works equally at every body site. || Treatment differs by site and depth.
+- Recommend sharing hairbrushes to build immunity. || Shared hair-care items can spread infection.
+- Advise stopping all treatment when the itching briefly decreases. || Symptom relief does not establish eradication.
+CLUE: The site is the scalp, not a small ringworm patch on the body.
+WHY: Connect the formulation to the infection location and reinforce the ordered course and transmission precautions.
+
+@@ e324|Skin|skin_dermatitis|2|MC|Assessment, Pharmacology, Care management|Diaper dermatitis and candidiasis|2
+Despite frequent diaper changes and barrier ointment, an infant has a persistent bright-red rash involving skin folds with small satellite lesions. Which plan should the nurse anticipate?
++ Evaluation for candidal involvement and an appropriate prescribed antifungal in addition to skin care. || Fold involvement and satellite lesions suggest more than simple irritant dermatitis.
+- Use vigorous scrubbing and alcohol wipes to remove the rash. || Irritating measures can worsen skin breakdown.
+- Apply high-potency steroid under the diaper without an order. || Occlusion and infant skin increase adverse-effect risk.
+- Stop changing wet diapers to avoid touching the skin. || Prolonged moisture worsens dermatitis.
+CLUE: The pattern and poor response to barrier care suggest a second process.
+WHY: Reassess persistent dermatitis rather than repeating only the initial intervention. Continue gentle cleansing and moisture control.
+
+@@ e325|Skin|skin_dermatitis|3|MC|Assessment, Pharmacology, Care management|Isotretinoin safety|4
+An adolescent taking isotretinoin reports a positive home pregnancy test. Which response has priority?
++ Stop further doses and arrange immediate contact with the prescriber for pregnancy evaluation and counseling. || Isotretinoin is highly teratogenic and pregnancy requires urgent specialist management.
+- Continue medication until the next routine dermatology appointment. || Continued exposure can cause harm.
+- Reduce the dose by half and monitor acne. || Dose reduction is not an appropriate response to pregnancy.
+- Promise that fetal effects are either certain or impossible. || Individual outcome cannot be determined from this information.
+CLUE: A known teratogenic medication is being used during a possible pregnancy.
+WHY: Prevent additional exposure and coordinate prompt, nonjudgmental evaluation without predicting an individual outcome.
+
+@@ e326|Skin|skin_burns|3|MC|Assessment, Care management, Priority|Burn emergency airway assessment|12
+A child rescued from an enclosed-space fire has facial burns, soot near the mouth, and increasing hoarseness. Which action has priority?
++ Escalate for urgent airway evaluation while providing prescribed oxygen and close respiratory monitoring. || Airway swelling can progress rapidly after inhalation injury.
+- Complete a detailed burn-size calculation before assessing breathing. || Airway risk precedes detailed surface-area estimation.
+- Apply topical ointment before calling the emergency team. || Wound care does not address impending airway compromise.
+- Give oral fluids despite worsening hoarseness. || Swallowing and airway safety require assessment first.
+CLUE: Enclosed-space exposure and changing voice suggest inhalation injury.
+WHY: Anticipate airway deterioration early. Do not wait for complete obstruction before mobilizing airway expertise.
+
+@@ e327|Skin|skin_burns|3|MC|Assessment, Care management, Priority|Burn fluid resuscitation|12
+A 20-kg child receiving ordered burn resuscitation has urine output 8 mL/hr, rising pulse, and cool extremities. The IV catheter appears patent. Which response is best?
++ Report signs of inadequate perfusion and reassess the fluid plan and output measurement with the team. || Low urine output plus poor perfusion suggests insufficient effective circulating volume or another complication.
+- Assume the calculated starting rate guarantees adequate resuscitation. || Formulas provide a starting point; response guides ongoing care.
+- Give a diuretic without clarifying the cause of oliguria. || Diuresis does not correct hypovolemia and may worsen it.
+- Stop all fluids because the burned skin looks swollen. || Tissue edema does not prove adequate intravascular volume.
+CLUE: Clinical response suggests perfusion is inadequate despite a running infusion.
+WHY: Trend urine output with circulation findings and reassess therapy rather than relying on the initial calculation alone.
+
+@@ e328|Skin|skin_burns|2|MC|Assessment, Care management|Burn depth and pain|12
+A child has a dry, leathery burn with a pale center and little pain in that central area. A caregiver says, "It cannot be serious if it does not hurt." Which response is best?
++ Explain that deep burns can damage nerve endings, so little pain does not mean a minor injury. || Loss of sensation can accompany full-thickness tissue injury.
+- Agree and recommend no further assessment. || Pain intensity alone cannot determine burn severity.
+- Repeatedly scratch the center until pain occurs. || This causes additional injury and is not necessary assessment.
+- Judge depth only from how loudly the child cries. || Behavior is not a reliable single measure of tissue depth.
+CLUE: A leathery, relatively insensate center can indicate deeper injury.
+WHY: Assess depth, extent, location, and systemic effects together while treating pain in surrounding and injured tissue appropriately.
+
+@@ e329|Skin|skin_burns|2|SATA|Assessment, Care management|Burn healing and rehabilitation|12
+A child is recovering from a major burn after stabilization. Which care measures support healing and function? Select all that apply.
++ Coordinate adequate protein and calorie intake. || Healing and recovery increase nutritional needs.
++ Plan pain relief before ordered wound care and therapy. || Anticipatory analgesia improves tolerance and participation.
++ Follow prescribed positioning and range-of-motion plans. || Rehabilitation helps prevent contractures while respecting graft precautions.
+- Keep every joint immobile throughout the entire recovery regardless of orders. || Unnecessary prolonged immobility can worsen loss of function.
+- Ignore new wound odor, redness, or fever if the dressing is intact. || Dressings do not exclude infection.
+CLUE: Recovery requires nutrition, comfort, and function as well as wound coverage.
+WHY: Coordinate care across disciplines and reassess for complications while following the individualized wound and graft plan.
+
+@@ e330|GI|gi_motility|2|MC|Care management, Safety, Teaching|Infant reflux and sleep|2
+A caregiver of an infant with reflux plans to use an inclined sleeper after feeds. The infant has no individualized medical positioning exception. What should the nurse recommend?
++ Use a firm, flat sleep surface and place the infant on the back for sleep. || Reflux alone does not justify inclined or prone sleep positioning.
+- Use the incline because reflux always outweighs sleep-related breathing risk. || Inclined sleep can create airway hazards.
+- Let the infant sleep in a car seat whenever indoors. || Sitting devices are not routine sleep spaces outside their travel purpose.
+- Place pillows around the infant to prevent movement. || Pillows introduce suffocation risk.
+CLUE: A feeding condition is being used to justify unsafe sleep equipment.
+WHY: Separate supervised feeding positioning from sleep positioning. Current AAP guidance supports supine, flat sleep for most infants with reflux.
+
+@@ e331|GI|gi_motility|2|SATA|Care management, Pharmacology, Safety|Constipation and encopresis|4
+A school-age child has chronic constipation with stool leakage. Which interventions fit an effective care plan? Select all that apply.
++ Explain that overflow soiling can occur around retained stool. || Leakage is not necessarily intentional behavior or simple diarrhea.
++ Implement the prescribed disimpaction and maintenance bowel regimen. || Clearing retention and preventing recurrence are both important.
++ Offer regular relaxed toilet opportunities and appropriate fiber and fluids. || Consistent habits support bowel function.
+- Punish accidents to increase the child's motivation. || Shame can worsen withholding and distress.
+- Give an antidiarrheal solely because liquid stool is leaking. || This can worsen retention when overflow is the cause.
+CLUE: Leakage coexists with longstanding stool retention.
+WHY: Treat the constipation mechanism and support the child without blame. Evaluate response over time rather than stopping at the first soft stool.
+
+@@ e332|GI|gi_nutrition|2|MC|Care management, Teaching, Safety|Celiac disease|14
+A child with celiac disease receives a lunch tray. Which meal is the best choice after verifying ingredients and avoiding cross-contact?
++ Plain rice, unbreaded chicken, and steamed vegetables. || These foods can be gluten-free when prepared without contaminating ingredients.
+- Barley soup with a wheat roll. || Barley and wheat contain gluten.
+- Breaded chicken with ordinary wheat pasta. || Breading and standard pasta commonly contain gluten.
+- Rye crackers with wheat-based gravy. || Rye and wheat are incompatible with a gluten-free diet.
+CLUE: Ingredient verification matters beyond a food's general name.
+WHY: Teach reliable label checking and preparation practices. A food is not safe solely because the main ingredient appears gluten-free.
+
+@@ e333|GI|gi_nutrition|3|MC|Assessment, Priority, Care management|Acute infectious diarrhea|18
+A toddler with diarrhea is lethargic, tachycardic, and has cool mottled extremities with very little urine. What is the priority plan?
++ Obtain urgent assessment and begin prescribed isotonic IV resuscitation for poor perfusion. || These findings suggest severe dehydration or shock, beyond routine home oral rehydration.
+- Offer only juice and reassess tomorrow. || Juice is not an appropriate substitute for resuscitation in a poorly perfused child.
+- Give a large solid meal before treating fluid loss. || Perfusion takes priority over routine nutrition.
+- Delay escalation until a stool culture returns. || Treatment of circulatory compromise cannot wait for the cause to be confirmed.
+CLUE: The child shows systemic poor perfusion, not only increased stool frequency.
+WHY: Match fluid support to severity and reassess the response closely. Address the immediate circulation problem while investigating the illness.
+
+@@ e334|GI|gi_emergency|3|MC|Assessment, Priority, Care management|Meckel diverticulum|8
+A child being evaluated for painless rectal bleeding becomes pale and tachycardic. Which action is most important?
++ Assess circulation, quantify bleeding, and prepare prescribed IV and laboratory support. || Painless bleeding can still cause significant blood loss.
+- Reassure because absence of pain excludes a serious GI problem. || Meckel diverticulum and other causes can bleed substantially without pain.
+- Wait for the scheduled scan before checking vital signs again. || New deterioration requires current assessment.
+- Give an enema to identify the color of retained stool. || This does not address perfusion and is not indicated without an order.
+CLUE: Hemodynamic change establishes urgency even when the bleeding is painless.
+WHY: Prioritize blood-loss assessment and stabilization rather than using pain as the only marker of severity.
+
+@@ e335|GI|gi_nutrition|2|MC|Assessment, Care management, Priority|Inflammatory bowel disease|9
+An adolescent with inflammatory bowel disease reports fatigue, frequent bloody stools, reduced intake, and missed school. Which assessment best guides the next care plan?
++ Evaluate hydration, anemia risk, nutrition, and the effect of symptoms on daily functioning. || The illness affects physiologic status and participation, both relevant to treatment.
+- Focus only on whether the adolescent is following school rules. || This misses disease burden and immediate health needs.
+- Assume all abdominal symptoms are caused by anxiety. || Objective bleeding requires medical assessment.
+- Recommend stopping prescribed therapy once one stool is normal. || Isolated improvement does not establish sustained disease control.
+CLUE: The pattern includes blood loss, nutritional risk, and disrupted functioning.
+WHY: Assess the full impact and coordinate ongoing GI and nutritional care without minimizing the adolescent's concerns.
+
+@@ e336|GI|gi_motility|3|MC|Care management, Safety, Priority|Gastrostomy tube care|notes
+A gastrostomy tube placed three days ago is accidentally pulled out. What is the nurse's priority response?
++ Stop feeds, protect the site, and obtain urgent specialist guidance without blind reinsertion. || A new tract may not be mature; blind replacement can enter the peritoneal cavity.
+- Insert any available tube and restart the feeding immediately. || This risks malposition and leakage into the abdomen.
+- Wait until the next scheduled feeding to report it. || Prompt assessment is needed and the tract can close.
+- Give the feeding through the open site with a syringe. || This is unsafe and does not confirm access to the stomach.
+CLUE: This is a newly created, potentially immature tract.
+WHY: Tube-displacement management depends on tract maturity and the prescribed replacement protocol. Protect the patient while obtaining qualified assistance.
+
+@@ e337|GI|gi_emergency|3|MC|Assessment, Priority, Safety|Corrosive ingestion|notes
+A toddler has swallowed a household cleaner and is drooling with a hoarse voice and difficulty swallowing. Which action has priority?
++ Obtain emergency airway assessment and contact poison specialists while avoiding forced oral intake. || Airway injury and impaired swallowing make this an emergency.
+- Induce vomiting to remove the chemical. || Re-exposure can worsen corrosive injury.
+- Give an acid or base to neutralize the cleaner. || Chemical neutralization can generate heat and worsen burns.
+- Force a large glass of water despite difficulty swallowing. || This can cause aspiration in a child with impaired airway protection.
+CLUE: Drooling and voice change suggest airway or swallowing injury.
+WHY: Airway and breathing take priority. Follow poison-specific guidance without improvising vomiting, neutralization, or unsafe oral treatment.
+
+@@ e338|GI|gi_emergency|2|MC|Care management, Pharmacology, Safety|Lead poisoning|19
+A child has received prescribed chelation for lead poisoning but will return to a home with an unresolved lead source. Which discharge action is most important?
++ Coordinate removal from ongoing exposure and a safe housing/environmental follow-up plan. || Treatment cannot prevent renewed exposure if the source remains accessible.
+- Explain that chelation makes future lead exposure harmless. || Chelation does not create immunity.
+- Cancel repeat lead testing because medication was administered. || Follow-up is needed to assess response and possible re-exposure.
+- Recommend dry sanding peeling old paint while the child is present. || This can spread contaminated dust and increase exposure.
+CLUE: A successful medication course does not remove the environmental source.
+WHY: Integrate medical follow-up with exposure prevention and appropriate environmental services.
+
+@@ e339|GI|gi_emergency|3|MC|Assessment, Pharmacology, Priority|Salicylate poisoning|21
+An adolescent with a possible aspirin overdose has rapid deep breathing, sweating, vomiting, and altered attention. Which action is most appropriate?
++ Arrange immediate toxicology/emergency treatment with acid-base, glucose, electrolyte, and renal assessment. || Salicylate toxicity can produce serious metabolic and neurologic deterioration.
+- Give a sedative solely to slow the breathing before assessment. || Suppressing compensatory ventilation can worsen the physiologic disturbance.
+- Wait for jaundice to confirm poisoning. || Jaundice is not required to act on suspected salicylate toxicity.
+- Assume hyperventilation proves an uncomplicated panic attack. || Exposure history and systemic findings require urgent evaluation.
+CLUE: Rapid breathing may reflect toxic metabolic disturbance, not simply anxiety.
+WHY: Recognize the poisoning pattern and support prompt specialist-directed management rather than suppressing a compensatory sign.
