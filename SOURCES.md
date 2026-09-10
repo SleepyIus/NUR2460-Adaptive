@@ -2,7 +2,7 @@
 
 This repository contains original educational scenarios and rationales, not copied ATI questions, NCLEX items, instructor examination questions, or textbook chapters. All patient cases are fictional. Source documents were supplied for private study and are not redistributed here.
 
-The bank is not independently reviewed or validated by a nursing educator. Review date means an authoring/source check, not clinical certification. Report a disputed answer with its item ID, the scenario, and a supporting source. In actual care, follow current guidance, patient-specific orders, scope of practice, and institutional protocols.
+The bank is not independently reviewed or validated by a nursing educator. The version 3 author check is dated September 10, 2026; it is not clinical certification. Report a disputed answer with its item ID and revision, the scenario, and a supporting source. In actual care, follow current guidance, patient-specific orders, scope of practice, and institutional protocols.
 
 ## Primary course sources
 
@@ -40,7 +40,7 @@ No separate growth-and-development lecture deck was identified among the supplie
 - ATI RN Pharmacology for Nursing, Review Module edition 8.0: selected medication safety and calculation content.
 - Maternal Child Nursing Care, seventh edition, 2022: selected reproductive health, infertility, breast care, congenital, and pediatric content.
 
-Other supplied books remain available course resources but are not claimed as consulted for every item. Per-question citations are bibliographic pointers, not links to redistributed copies. ATI and NCLEX are referenced to describe question style; this project has no official affiliation or endorsement.
+Other supplied books remain available course resources but are not claimed as consulted for every item. Version 3 adds locatable note headings and lecture slide numbers where supported by the extracted text, plus verified book chapter titles as supplemental reading pointers. A chapter-level pointer is not a claim that every detail of the case was checked in that chapter; the version 3 pass did not re-read every cited book chapter or visually inspect every lecture image. Per-question labels distinguish primary notes, lecture topic locators, supplemental reading, and public clinical guidance. ATI and NCLEX describe question style only; this project has no official affiliation or endorsement.
 
 ## Selected clinical clarifications
 
@@ -58,5 +58,7 @@ Medication regimens, immunization recommendations, procedural thresholds, and lo
 ## Authorship history
 
 Version 2 contains 240 items: 80 original questions from the earlier locally prepared practice PDF, 21 original pregnancy-pilot additions, and 139 original expansion scenarios. The retained 80 were not copied from a commercial question bank. Related conditions recur through different care decisions; this is targeted practice, not 240 unrelated diagnoses.
+
+Version 3 contains those 240 revised items plus 12 new cases (252 current questions). Each received an explicit reasoning-based difficulty judgment. The pass also separated duplicated clues from explanations, added source locators, and corrected q47 to specify levonorgestrel emergency contraception rather than mixing product-dependent restart instructions. The 240 archived version 2 items are retained only for historical answers and unfinished older exams; they are not 240 additional current-bank questions. The original ambiguous q47 is visibly flagged when an archived rationale is reviewed.
 
 Some prior items are reused deliberately so study progress can distinguish fresh from repeated encounters. The bank is finite. Three times the topic counts does not guarantee three entirely nonoverlapping exams: format, skill, and difficulty requirements can require repeated items across sessions.

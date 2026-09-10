@@ -1,0 +1,253 @@
+# ID | estimated level | reason for the rating (not a clinical rationale)
+q1|2|Connect painless bleeding and unknown placental location to a procedure-specific safety decision despite reassuring vital signs.
+q2|2|Recognize an explicit shock pattern in a known ectopic pregnancy and select circulation support; alternatives do not compete closely.
+q3|2|Evaluate several independent organ-system warnings and separate them from expected pregnancy changes.
+q4|3|Reconcile scant visible blood with maternal shock, uterine findings, and fetal deterioration to identify concealed hemorrhage.
+q5|2|Apply a coordinated DIC care plan to a clearly stated coagulation pattern; SATA format alone does not make this advanced.
+q6|2|Correct a symptom-based decision to stop surveillance by relating hCG testing to persistent tissue.
+q7|2|Apply the diabetes plan across maternal treatment, newborn risk, and postpartum follow-up.
+q8|1|Recall that rubella nonimmunity is not active infection and prenatal MMR is not routine prevention.
+q9|2|Compare four calls using a current fetal warning sign rather than routine pregnancy discomforts.
+q10|3|Resolve conflicting fluid and respiratory needs and recognize that a conditional standing order no longer applies.
+q11|2|Apply procedure screening and emergency-readiness requirements across several proposed actions.
+q12|2|Identify the timing of late decelerations and connect reduced variability to escalation.
+q13|2|Use consciousness, swallowing safety, and glucose to select the appropriate treatment route and reassessment interval.
+q14|2|Distinguish cerclage complications from unsupported blanket activity restrictions.
+q15|3|Integrate hepatic and platelet abnormalities despite absent dipstick protein and a non-severe-range BP.
+p101|1|Recognize the distinguishing uterine finding in abruption versus previa.
+p102|2|Apply surveillance and hemorrhage readiness to a currently stable patient without allowing false reassurance.
+p103|3|Interpret a worsening coagulation trend during resuscitation and coordinate definitive treatment with blood support.
+p104|1|Identify the basic evaluation used to establish pregnancy location when ectopic pregnancy is possible.
+p105|2|Apply treatment-specific follow-up and emergency return precautions after methotrexate.
+p106|2|Recognize that transportation changes the feasibility of treatment and choose coordinated support.
+p107|2|Recognize post-treatment rupture warnings and override a scheduled routine appointment.
+p108|2|Select parallel stabilization measures for an explicitly unstable ectopic-pregnancy case.
+p109|1|Recognize headache and visual disturbance as neurologic warning signs.
+p110|2|Apply renal, neurologic, and respiratory monitoring to magnesium safety.
+p111|2|Sequence immediate seizure safety ahead of diagnostics; the unsafe alternatives are readily distinguishable.
+p112|1|Recognize a typical hypoglycemia symptom pair and choose the relevant bedside measurement.
+p113|1|Distinguish a maternal screening test from diagnostic testing and fetal disease.
+p114|2|Combine vomiting, ketones, and abnormal respirations to identify urgent metabolic deterioration.
+p115|3|Reconcile fasting hyperglycemia with meal-related hypoglycemia and avoid a uniform dose change.
+p116|1|Explain the basic purpose and limitations of a nonstress test.
+p117|2|Apply gestational-age-specific acceleration criteria to numeric tracing findings.
+p118|2|Prioritize a current movement change over a previous reassuring test.
+p119|1|Identify the surveillance marker after molar-pregnancy evacuation.
+p120|2|Distinguish several cerclage warning reports from nonurgent clarification requests.
+p121|2|Address both an unsafe vaccine plan and a possible exposure; no competing medication regimen is specified.
+e201|2|Link vomiting and perfusion findings to rehydration before routine teaching.
+e202|2|Respond to explicit hemodynamic instability after pregnancy loss rather than wait for laboratory confirmation.
+e203|2|Address a treatment barrier while separating expected iron effects from unsafe dose changes.
+e204|2|Interpret orthopnea and crackles in cardiac disease and avoid added fluid loading.
+e205|2|Balance medication concerns with seizure risk and select prescriber review rather than independent dosing.
+e206|1|Apply standard CMV exposure-prevention facts to several routine hygiene choices.
+e207|2|Recognize that the postpartum time point does not remove hypertensive warning-sign urgency.
+e208|1|Recall that normal postpartum glucose does not eliminate future screening needs.
+e209|1|Identify the stated practical barrier and the matching care-management resource.
+q16|2|Link excessive contractions and abnormal fetal response to stopping the causative infusion.
+q17|2|Recognize the classic magnesium toxicity cluster and act before laboratory confirmation.
+q18|3|Change the PPROM management goal when infection emerges and coordinate treatment and birth readiness.
+q19|2|Use membrane rupture and a high presenting part to select the time-sensitive fetal assessment.
+q20|2|Prioritize explicit respiratory depression over routine recovery tasks despite reassuring uterine findings.
+q21|2|Apply the emergency-birth plan when delivery is already imminent.
+q22|2|Select the immediate decompression action after cord prolapse is identified and help is activated.
+q23|3|Distinguish expected tachycardia from a combined cardiopulmonary adverse response to terbutaline.
+q24|3|Reconcile severe focal pain and tachycardia with a firm fundus and scant lochia to detect concealed trauma.
+q25|2|Separate postpartum emergency symptoms from expected recovery findings across multiple statements.
+q26|1|Distinguish the purpose of antenatal corticosteroids from tocolysis and infection treatment.
+q27|2|Perform two unit conversions for a high-alert infusion with the starting assessments already verified.
+q28|2|Apply an expectant PPROM plan while rejecting invasive routine examinations and overreassurance.
+q29|2|Select coordinated shoulder-dystocia maneuvers after the diagnosis has been announced.
+q30|3|Integrate prior uterine surgery, fetal station, shock, and bradycardia into an urgent handoff.
+e210|1|Recognize a clearly unsafe high-alert infusion setup.
+e211|2|Identify a harmful response to a removable ripening agent and stop the exposure.
+e212|2|Distinguish magnesium's indication from lung maturation while applying toxicity surveillance.
+e213|2|Apply current hypotension to a scheduled vasodilator dose.
+e214|2|Anticipate a steroid effect on an existing metabolic condition and coordinate monitoring.
+e215|2|Combine subtle preterm-labor and membrane-rupture symptoms to choose prompt assessment.
+e216|2|Identify a procedure-related cord-prolapse risk before amniotomy.
+e217|1|Recall the routine immediate and ongoing assessment checklist after amniotomy.
+e218|3|Integrate infusion balance and resting uterine tone to recognize treatment-related overdistension.
+e219|1|Select a basic comfort intervention for an explicitly identified fetal position.
+e220|1|Explain why presentation and well-being require reassessment after the first twin's birth.
+e221|1|Recall routine preoperative cesarean safety checks in a stable patient.
+e222|3|Interpret shock and abdominal enlargement despite little external drainage after surgery.
+e223|2|Combine pain control with prevention of postoperative pulmonary and mobility complications.
+e224|2|Recognize an explicit postoperative respiratory emergency before routine recovery interventions.
+e225|2|Distinguish skin-incision information from the uterine-incision evidence needed for a delivery decision.
+e226|2|Prioritize resuscitation for explicit cardiopulmonary collapse without waiting for a definitive cause.
+e227|2|Maintain a critical bedside action while coordinating transfer and team responsibilities.
+e228|1|Identify fundal pressure as an unsafe maneuver during an already diagnosed shoulder dystocia.
+e229|1|Identify the essential elements of event documentation after a specified emergency.
+e230|3|Resolve competing labor-progress and fetal-tolerance concerns before increasing stimulation.
+e231|2|Convert concentration and time units into an oxytocin pump rate.
+e232|3|Use falling renal clearance to anticipate toxicity despite currently reassuring respiration and reflexes.
+e233|2|Select changes that invalidate a stable PPROM observation plan.
+e234|3|Use a firm uterus and continuing bleeding to redirect assessment toward trauma rather than atony.
+e235|2|Connect an assisted-birth exposure to specific newborn surveillance in handoff.
+e236|2|Prioritize safe imminent birth over transfer and admission tasks.
+e237|1|Recall specimen collection sequencing that protects fetal fibronectin test validity.
+e238|2|Reassess a scheduled induction when a new infectious finding changes delivery safety.
+e239|3|Integrate scar history, station change, and shock into parallel surgical and resuscitation preparation.
+q31|3|Choose a treatment route using severe hypoglycemia and unsafe oral feeding, not a least-invasive rule alone.
+q32|3|Differentiate potentially benign scalp anatomy from an expanding lesion with systemic blood-loss signs.
+q33|2|Apply an individualized metabolic feeding plan without eliminating necessary nutrition.
+q34|2|Prioritize actual respiratory compromise over expected postterm physical findings.
+q35|2|Connect cold stress to metabolic and respiratory risks in an at-risk infant.
+q36|2|Apply tissue protection, positioning, and associated-deficit assessment before defect repair.
+q37|2|Use new neurovascular findings to challenge a proposed device adjustment.
+q38|2|Recognize a typical shunt-dysfunction symptom cluster and select urgent evaluation.
+q39|3|Integrate age in hours and hemolysis risk while rejecting a positive-test-only treatment threshold.
+q40|2|Use persistent functional impairment after supportive care to select collaborative reassessment.
+q41|2|Stop an ongoing feeding exposure when airway and oxygenation deteriorate.
+q42|2|Apply the initial NEC response to a clearly described gastrointestinal and systemic pattern.
+q43|2|Interpret an asymmetric movement pattern without letting preserved grasp exclude injury.
+q44|2|Recognize postoperative bleeding and prioritize airway assessment before feeding.
+q45|2|Choose coordinated protection and stabilization for an exposed bowel defect.
+e240|2|Connect infection risk with subtle neonatal deterioration rather than requiring fever.
+e241|2|Sequence cultures and timely antibiotics while monitoring systemic response.
+e242|2|Prioritize explicit respiratory failure over oral feeding demands.
+e243|2|Evaluate response after surfactant and apply ordered oxygen targets.
+e244|2|Connect a heat-loss event to glucose assessment and controlled warming.
+e245|1|Recognize a glucose-screening indication independent of birth-weight category.
+e246|3|Escalate treatment after failed initial measures and declining responsiveness rather than repeat the same route.
+e247|2|Monitor systemic as well as abdominal deterioration during NEC treatment.
+e248|2|Apply the neonatal ventilation algorithm and reject routine suction for meconium alone.
+e249|2|Apply the next resuscitation step after effective ventilation has been explicitly established.
+e250|1|Connect a stable cephalohematoma to bilirubin surveillance without invasive treatment.
+e251|2|Translate facial weakness into feeding and eye-protection needs.
+e252|2|Apply coordinated feeding adaptations for anatomy, endurance, and growth.
+e253|2|Identify aspiration during a first feed and interrupt it before diagnostic confirmation.
+e254|1|Identify an unsafe bedside action for a known abdominal wall defect.
+e255|2|Recognize new lesion drainage as a change requiring protective care and escalation.
+e256|1|Identify consistent measurement technique and its role in trend interpretation.
+e257|1|Recall routine harness handling and monitoring instructions.
+e258|2|Identify a neurovascular complication after casting rather than wait for routine follow-up.
+e259|2|Recognize neurologic deterioration in an already jaundiced newborn.
+e260|1|Recall core phototherapy device, feeding, temperature, and laboratory monitoring requirements.
+e261|2|Evaluate inadequate functional response after optimized withdrawal support.
+e262|2|Reassess a scheduled opioid dose in the presence of explicit sedation and bradypnea.
+e263|2|Use a failed return demonstration to identify unresolved discharge readiness.
+e264|1|Select supportive caregiver involvement in response to an explicitly stated fear.
+e265|1|Recognize respectful, individualized bereavement support without coercion.
+e266|2|Distinguish an abnormal screening result from visible disease while preserving timely follow-up.
+e267|1|Explain the purpose of developmental follow-up after prematurity.
+e268|2|Change care pacing based on physiologic intolerance rather than finishing a task cluster.
+e269|2|Coordinate several home-care requirements for an infant with continuing health needs.
+q46|2|Apply method-specific eligibility to multiple independent histories and vital signs.
+q47|3|Integrate missed-pill timing, recent intercourse, selected emergency contraception, and backup duration.
+q48|2|Balance daily-use difficulty, autonomy, and STI protection in individualized counseling.
+q49|3|Interpret falling drain output alongside increasing wound swelling rather than treating output alone as improvement.
+q50|3|Avoid anchoring on an STI history when pregnancy and serious pelvic disease remain competing explanations.
+q51|2|Coordinate treatment completion, partner care, abstinence, and delayed retesting.
+q52|2|Differentiate a new discharge pattern from a previously treated cause without diagnosing from symptoms alone.
+q53|2|Apply pregnancy-specific medication safety to a familiar treatment choice.
+q54|1|Recognize a compromised specimen and follow the laboratory's recollection process.
+q55|1|Distinguish retrospective ovulation evidence from prediction of a future fertile window.
+q56|2|Recognize that a new symptom requires diagnostics despite prior normal screening.
+q57|1|Recognize the patient's request to stop as withdrawal of ongoing permission.
+q58|2|Use a changed symptom pattern to reassess a previously assigned diagnosis.
+q59|2|Recognize the stated severe fluid-shift pattern after ovarian stimulation.
+q60|2|Separate pregnancy prevention from STI risk reduction and unsafe barrier combinations.
+e270|1|Recognize that emergency contraception options can remain available after 72 hours.
+e271|2|Apply the ulipristal-specific delay rather than a different product's restart instructions.
+e272|2|Use new aura symptoms to reassess estrogen eligibility.
+e273|2|Prioritize acute cardiopulmonary symptoms before a routine contraceptive change.
+e274|2|Separate IUD warning signs from improving expected post-insertion effects.
+e275|3|Combine missed-pill location and intercourse timing to address both present risk and ongoing protection.
+e276|1|Recall the need for backup until post-vasectomy success is confirmed.
+e277|2|Reassess lactational amenorrhea eligibility after two circumstances change.
+e278|1|Recall correct condom-use principles and their protection limits.
+e279|1|Respect a stated preference among medically eligible methods.
+e280|2|Apply a pregnancy-specific treatment requirement despite a penicillin-allergy history.
+e281|1|Recall treatment completion and partner management for reinfection prevention.
+e282|2|Evaluate failure to improve at the stated PID follow-up interval.
+e283|1|Explain the purpose of a pregnancy-specific test of cure.
+e284|1|Distinguish viral suppression from eradication of latent infection.
+e285|1|Recall that vaccination does not replace recommended cervical screening.
+e286|2|Recognize systemic shock after a relevant exposure and prioritize stabilization.
+e287|2|Use bleeding and perfusion symptoms to prioritize acute assessment over chronic history.
+e288|1|Identify pregnancy assessment as an initial step in secondary amenorrhea.
+e289|2|Recognize the need to assess a new symptom rather than attribute it automatically to hormones.
+e290|1|Connect uterine anatomy to the purpose of prescribed progestogen.
+e291|2|Recognize a time-sensitive change in a patient with a previously known pelvic condition.
+e292|1|Select an open, validating response over reassurance or unsolicited solutions.
+e293|1|Explain why fertility evaluation can involve both partners.
+e294|2|Use new infection symptoms to reassess a planned invasive procedure.
+e295|2|Recognize an important medication adverse effect and withhold further exposure pending review.
+e296|2|Separate routine breast screening from evaluation of a persistent new finding.
+e297|2|Combine monitoring, skin protection, and gradual rehabilitation after lymph-node surgery.
+e298|1|Support an explicitly expressed preference and uncertainty without imposing reconstruction.
+e299|2|Connect an analgesic exposure to new bleeding symptoms and escalate evaluation.
+q61|3|Audit another calculation across weight conversion and daily-versus-per-dose units before administration.
+q62|2|Compare developmental reports and prioritize actual loss of an acquired skill.
+q63|2|Evaluate both developmental suitability and separate choking or entanglement risks.
+q64|2|Adapt a care plan to an expected separation response while preserving caregiver attachment.
+q65|2|Balance toddler autonomy with honest administration and complete medication dosing.
+q66|2|Interpret the child's stated causal belief and choose developmentally matched preparation.
+q67|1|Match school-age industry needs with achievable participation and recognition.
+q68|2|Distinguish an emerging motor skill from independent safety readiness.
+q69|3|Reconcile two different vaccine histories, age windows, and noninterchangeable vaccine products.
+q70|1|Identify the single unsafe transportation statement among routine prevention plans.
+q71|2|Evaluate worsening systemic and local findings despite initial infection treatment.
+q72|2|Distinguish residual nits from treatment failure and apply the specified product schedule.
+q73|2|Combine contact management and environmental care while distinguishing residual itch from new infestation.
+q74|2|Address both barrier damage and inappropriate medication exposure in the stated skin-care routine.
+q75|2|Reconcile improved skin symptoms with new joint involvement requiring assessment.
+q76|3|Sequence definitive surgery after correction of dehydration and electrolyte deficits relevant to anesthesia.
+q77|3|Interpret a changing pain sequence followed by systemic deterioration instead of assuming improvement.
+q78|3|Reassess a previously appropriate reduction procedure after shock and peritoneal signs develop.
+q79|2|Prioritize systemic enterocolitis signs over three stable gastrointestinal reports.
+q80|2|Select exposure-based poison care and emergency triggers despite an initially well appearance.
+e300|1|Recall a low-distress sequence for measuring infant respirations.
+e301|2|Match assessment to developmental ability and evaluate the treatment response.
+e302|1|Connect responsive infant care to trust and safety.
+e303|3|Integrate serial growth change and feeding function rather than anchor on one percentile cutoff.
+e304|1|Recall the standard safe-sleep environment without a medical exception.
+e305|2|Use readiness cues rather than chronological age alone for toilet-training advice.
+e306|1|Identify developmentally expected parallel play from a simple observation.
+e307|1|Select consistent, nonpunitive limit setting after medical distress has been excluded.
+e308|2|Balance variable toddler intake, growth assessment, and choking prevention.
+e309|2|Apply a prior severe reaction to a planned medication administration.
+e310|1|Match a preschooler's explicit fear to concrete preparation.
+e311|1|Identify return demonstration as the direct way to assess a taught practical skill.
+e312|2|Adapt a treatment routine to stated social barriers without transferring all responsibility at once.
+e313|1|Identify privacy and honest confidentiality limits as the foundation of adolescent interviewing.
+e314|2|Use product height and weight limits rather than an irrelevant visual cue to guide restraint choice.
+e315|1|Recognize layered routine drowning-prevention measures.
+e316|1|Distinguish child-resistant packaging from secure medication storage.
+e317|3|Convert a weight-based daily amount to a divided dose and then to volume using the available concentration.
+e318|2|Address both unsafe formula preparation and the resource barrier causing it.
+e319|1|Select a standard low-distress approach to expected stranger anxiety.
+e320|1|Recall routine topical treatment, hygiene, and return precautions for localized impetigo.
+e321|2|Identify inappropriate repeated exposure rather than infer treatment failure from nits alone.
+e322|2|Relate new burrows to untreated contacts rather than residual itch alone.
+e323|1|Connect scalp infection location to the need for the prescribed systemic route.
+e324|2|Use distribution, satellite lesions, and initial treatment failure to reassess diaper dermatitis.
+e325|2|Recognize a pregnancy-related contraindication and stop ongoing exposure without predicting an outcome.
+e326|2|Recognize an inhalation-injury warning pattern and prioritize airway evaluation.
+e327|3|Evaluate resuscitation effectiveness using multiple perfusion trends despite a patent infusion.
+e328|1|Explain why burn depth can reduce pain rather than establish a minor injury.
+e329|2|Coordinate nutrition, analgesia, and prescribed movement in burn recovery.
+e330|1|Recall that uncomplicated reflux does not change routine infant sleep positioning.
+e331|2|Connect overflow leakage to retained stool and select coordinated maintenance care.
+e332|1|Identify gluten-free food ingredients after preparation safety has been verified.
+e333|2|Recognize explicit poor perfusion and choose a route appropriate to severity.
+e334|2|Prioritize blood-loss assessment despite the absence of pain.
+e335|2|Integrate symptoms and functioning into a multidimensional chronic-illness assessment.
+e336|2|Apply tract age to the safe response after a recently placed tube is displaced.
+e337|2|Recognize an unsafe airway and swallowing state before poison-specific oral interventions.
+e338|2|Identify continuing environmental exposure as an unresolved discharge barrier after treatment.
+e339|2|Interpret the poisoning pattern without suppressing a possible compensatory breathing response.
+v301|1|Identify removal of a known contact irritant rather than confuse symptom relief with decontamination.
+v302|1|Distinguish the named antidote from a decontamination agent and antidotes for other exposures.
+v303|1|Explain the mechanism of a specified emergency maneuver rather than choose between competing emergencies.
+v304|3|Integrate maternal and fetal trends despite absent external bleeding and a deceptively normal-range systolic BP.
+v305|3|Use recent bladder and uterine assessments to distinguish concealed trauma from common alternative postpartum explanations.
+v306|3|Reassess a previously effective treatment route when recurrent symptoms and unsafe feeding change the care requirements.
+v307|3|Reconcile conflicting product instructions across hormonal restart, future exposure, and follow-up testing.
+v308|3|Resolve conflicting self-report and behavior while addressing fear without dismissing the child or giving false reassurance.
+v309|3|Distinguish technical competence from reliable implementation and negotiate competing independence and safety goals.
+v310|3|Interpret a longitudinal response and completed contact treatment despite residual symptoms, avoiding both overtreatment and false certainty.
+v311|3|Separate improved resuscitation targets from ongoing fluid loss and choose reassessment rather than automatic retreatment or cessation.
+v312|3|Reconcile conflicting visual, laboratory, and functional findings while separating a risk marker from a treatment indication.

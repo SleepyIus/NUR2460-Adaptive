@@ -1,0 +1,142 @@
+# IDs | instructor-note section (searchable heading) | lecture slide, - if no matching text locator
+q1,p102|Placenta previa|8
+q4,p101,v304|Abruptio placentae|8
+q5,p103|Disseminated Intravascular Coagulation (DIC)|17
+e202|Spontaneous abortion|3-4
+q2,p104,p105,p106,p107,p108|Ectopic pregnancy|6
+q3,q10,p109,p110|Preeclampsia; Care of patients with severe gestational hypertension and severe preeclampsia|13-14
+q15|HELLP Syndrome|15
+p111|Eclampsia|14
+e207|Preeclampsia: risks continue postpartum|13-14
+q7,q13,p112,p113,p114,p115,e208|Diabetes Mellitus; Management of Diabetes Mellitus|18-19
+q6,p119|Gestational trophoblastic disease|7
+q8,p121|Infections during pregnancy: Rubella|23
+q9,p116,p117,p118|Preeclampsia: fetal assessment and monitoring of fetal activity|bonus:6,15
+q11|L&D: Obstetric Procedures: External cephalic version|labor:8
+q12|Preeclampsia: fetal assessment; Abruptio placentae: fetal heart rate findings|bonus:15
+q14,p120|Cervical insufficiency|5
+e201|Hyperemesis Gravidarum|10
+e203|Iron deficiency anemia|20
+e204|Cardiac Disease|16
+e205|Epilepsy (not eclampsia)|-
+e206|Infections during pregnancy: Cytomegalovirus (CMV)|23
+e209|Adolescent pregnancy: Support and access to resources|2
+q16,q27,e210,e231|Oxytocin (Pitocin)|10
+q17,e232|Preterm Labor: Magnesium sulfate; Pregnancy notes: magnesium toxicity|3
+q23,q26,e212,e213,e214,e215,e237|Preterm Labor|3
+q18,q28,e233|Premature rupture of membranes; Chorioamnionitis|4
+q19,e216,e217|Amniotomy; Umbilical cord prolapse|10,19
+q20,e221,e222,e223,e224|Cesarean birth: complications and care management|13-14
+q24,e234,e235,v305|Operative vaginal birth: trauma, lacerations and hematoma|11
+q25|Cesarean birth: postoperative postpartum; Pregnancy notes: postpartum hypertensive risks|14
+q21,e236|Precipitate labor|22
+q22,e227,v303|Umbilical cord prolapse|19
+q29,e228,e229|Shoulder dystocia|18
+q30,e239|Uterine rupture|20
+e211|Cervical ripening methods|10
+e218|Amnioinfusion|-
+e219,e230|Dysfunctional labor (dystocia)|6
+e220|Problems with the passenger: Multifetal pregnancy|6
+e225|Vaginal birth after cesarean (VBAC)|15
+e238|Induction of labor: contraindications; Cesarean birth: Active herpes|9,13
+e226|Anaphylactoid Syndrome or Amniotic Fluid Embolism (AFE)|21
+q31,e245,e246,v306|Infants of Mothers with Diabetes; Hypoglycemia|22-23
+q32,q43,e250,e251|Birth trauma|18
+q33,e266|Newborn Screening for Disease|-
+q34|Postterm Infants; Meconium aspiration|14,20
+q35,e244|Preterm Infants: thermoregulation and hypoglycemia risks|4,15,23
+q36,e255|Neural tube defects, myelomeningocele|32
+q37,e257|Development Dysplasia of the Hip|34
+q38,e256|Hydrocephalus|33
+q39,e259,e260,v312|Hemolytic disorders; kernicterus and encephalopathy|26
+q40,e261,e262|Maternal substance abuse: Opioids; Newborn Abstinence Syndrome|24-25
+q41,e242,e243|Preterm Infants: Respiratory distress syndrome and nutrition|3,7,12
+q42,e247|Necrotizing enterocolitis|13
+q44,e252|Cleft lip and palate|28
+q45,e254|Omphalocele, gastroschisis|30
+e240,e241|Infection: Sepsis|21
+e248,e249|Postterm Infants: Meconium aspiration; Neonatal resuscitation procedure|19-20
+e253|Esophageal atresia, tracheoesophageal fistula|29
+e258|Clubfoot|35
+e263,e269|Discharge planning and home care; Bronchopulmonary dysplasia|10,12
+e264|Care of the High Risk Newborn & Family: Family support and involvement|9
+e265|Neonatal Loss|36
+e267,e268|Care of the High Risk Newborn & Family: Developmental outcomes; Energy conservation|6,10
+q46,e272,e273|Caution using combination hormone oral contraceptives|contraception:4
+q47,e270,e271,e275,v307|Emergency contraception; Hormonal methods|contraception:4-5
+q48,e279|Management of care: Contraceptive choice; Adolescents|contraception:2
+q49,e297,e298|Breast Disorders: Therapeutic management; Nursing care|11
+q50,e282|Pelvic inflammatory disease (PID)|-
+q51,e283|Chlamydia|15
+q52|Bacterial vaginosis|23
+q53|Candidiasis|24
+q54,e293|Male factors of infertility: Semen analysis|28,30
+q55|Detection of ovulation; Basal body temperature method|29
+q56,e289|Menopause; Disorders of the reproductive tract: symptoms that must always have follow-up|-
+q57|General Women's Health Promotion & Maintenance: Pelvic exam; Informed consent|-
+q58|Secondary dysmenorrhea; Endometriosis|3
+q59,e292,e294,e295|Infertility: Medical therapy; Nursing Actions; Hysterosalpingography|29,32
+q60,e274|IUD; Protection from STIs|contraception:6
+e276|Sterilization: Vasectomy|contraception:7
+e277|Contraception: Breastfeeding; Considerations when choosing a method|contraception:2
+e278|Barrier methods|contraception:3
+e280|Syphilis|-
+e281|Trichomoniasis|25
+e284|Herpes simplex virus (HSV)|20
+e285|Human papillomavirus (HPV)|19
+e286|Toxic shock syndrome|-
+e287|Abnormal uterine bleeding (AUB)|5
+e288|Amenorrhea|2
+e290|Menopause hormone therapy|-
+e291|Disorders of the reproductive tract: Ovarian cysts|-
+e296|General Women's Health Promotion & Maintenance: Breast cancer; Breast Disorders|11
+e299|Dysmenorrhea: medication comfort measures; GI notes: Peptic Ulcer Disease|-
+q61,e317|General Approaches Toward Examining a Child; medication calculation supplemental practice|-
+q62,e303|Developmental milestones; Growth measurements; Failure to Thrive|-
+q63|Infants: Play; Play Types table|-
+q64,e319|Infants: Separation anxiety, stranger fear; Preparation of the child|-
+q65|Toddlers: Skills of independence; Piaget teaching table|-
+q66,e310|Preschoolers: Development of body image; Play therapy|-
+q67,e311|School-Age Child: Psychosocial development; Piaget teaching table|-
+q68,e314|General Safety promotion and injury prevention; Developmental milestones table|-
+q69,e309|Immunizations: contraindications and precautions|-
+q70|School-Age Child: Injury prevention; General Safety promotion and injury prevention|-
+e300|Vital Signs: sequence and full-minute assessment|-
+e301,v308|Pain Assessment & Management in Children; Preparation of the child|-
+e302|Erikson's Stages of Psychosocial Development: Trust vs Mistrust|-
+e304|Infants: Sleep and activity|-
+e305|Toddlers: Toilet training|-
+e306|Toddlers: Parallel play; Play Types table|-
+e307|Toddlers: Temper tantrums and negativism|-
+e308|Toddlers: Nutrition; Choking prevention|-
+e312,e313,v309|Adolescents: Promoting health during adolescence; Health concerns of adolescents|-
+e315|Drowning Prevention|-
+e316|Poisoning prevention and treatment|-
+e318|Infants: Nutrition; Failure to Thrive; Interprofessional care|-
+q71,e320|Impetigo; Signs of Wound Infection|5
+q72,e321|Pediculosis (Lice)|7
+q73,e322,v310|Scabies and Pediculosis|6
+q74|Atopic dermatitis (AD) (Eczema)|2
+q75|Skin Lesions: systemic disease (course context); lecture Psoriasis|3
+e323|Skin Infections: Fungal and Dermatophytosis|11
+e324|Diaper dermatitis|2
+e325|Acne vulgaris: Isotretinoin|4
+e326,e327|Burns: Nursing care in an emergency|12
+e328|Burns: full thickness and nerve damage|12
+e329|Burns: Nurse care in the acute phase|12
+v301|Contact Dermatitis; Poison Ivy, Oak and Sumac|2
+q76|Hypertrophic pyloric stenosis|10
+q77|Appendicitis: Peritonitis|7
+q78|Intussusception|11
+q79|Hirschsprung's disease: Potential for enterocolitis|12
+q80,v302|Injurious Agents/Poisons: Acetaminophen|20
+e330|Gastroesophageal reflux disease (GERD)|2
+e331|Constipation and encopresis|4
+e332|Celiac disease|14
+e333,v311|Acute infectious diarrhea; Infectious gastroenteritis|18
+e334|Meckel Diverticulum|8
+e335|Inflammatory bowel disease|9
+e336|Care of the child with the gastrostomy tube|-
+e337|Corrosives; Clinical Judgement: Take action|-
+e338|Lead poisoning|19
+e339|Acetylsalicylic acid (aspirin)|21

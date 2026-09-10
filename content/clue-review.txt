@@ -1,0 +1,65 @@
+q16|Excessive contraction frequency accompanies recurrent late decelerations while maternal oxygen saturation is normal.
+q17|Respiratory depression, absent reflexes, and low urine output appear during magnesium administration.
+q18|A previously expectant PPROM situation now includes fever, uterine tenderness, foul fluid, and fetal tachycardia.
+q19|Membranes rupture while the presenting part remains high and unengaged.
+q20|The patient is difficult to awaken with severe bradypnea and hypoxemia, despite reassuring fundal findings.
+q21|Crowning makes birth imminent; admission tasks cannot change that timing.
+q22|A pulsating cord is below the presenting part, and the fetal heart rate is 70/min.
+q23|Chest tightness and new crackles accompany the pulse increase after terbutaline.
+q24|Deep pressure, unilateral pain, and tachycardia occur with a firm uterus and scant lochia.
+q25|The statements must distinguish time-sensitive postpartum warning signs from expected recovery discomforts.
+q26|The order is for fetal benefit before possible preterm birth, not for control of contractions.
+q27|The concentration is 60 milliunits/mL; the order is expressed in milliunits per minute.
+q28|The patient is currently stable, but ruptured membranes create continuing infection and fetal risks.
+q29|The head has delivered but the shoulders are impacted, and the clinician has announced the emergency.
+q30|Prior uterine surgery, loss of station, persistent bradycardia, and maternal shock occur together.
+q31|Severe hypoglycemia accompanies apnea and a weak suck, making oral feeding unsafe.
+q32|The swelling is expanding and is accompanied by pallor, tachycardia, and increasing head size.
+q33|A metabolic team has already prescribed measured nutrition rather than complete protein avoidance.
+q34|One infant has current work of breathing and low oxygen saturation; the others have stable findings.
+q35|A cold, jittery infant has limited reserves and linked thermal, glucose, and respiratory risks.
+q36|The neural defect is open and vulnerable to pressure, drying, contamination, and associated deficits.
+q37|A newly cool, pale foot with reduced movement suggests a complication of the treatment device.
+q38|Vomiting, unusual sleepiness, and a tense fontanel are new findings in an infant with a shunt.
+q39|Jaundice begins in the first day, and a positive antiglobulin test adds a hemolysis risk marker.
+q40|Eating, sleeping, and consoling remain impaired despite initial supportive measures.
+q41|The infant becomes dusky and coughs during the feeding, with saturation falling to 82%.
+q42|Abdominal change and bloody stool occur alongside lethargy and temperature instability in a preterm infant.
+q43|Shoulder and elbow movement are reduced after a difficult birth, even though grasp remains intact.
+q44|Fresh oral blood, repeated swallowing, and rising pulse follow palate surgery.
+q45|The exposed bowel has no protective sac and can lose heat and fluid or become compressed.
+q46|The histories include estrogen-related thrombotic, neurologic, cardiovascular, and cancer risks.
+q47|The missed pills extend the hormone-free interval, and recent intercourse requires an emergency-contraception plan.
+q48|The patient identifies difficulty with daily pills and asks to retain control over the decision.
+q49|Drain output stops while tightness and swelling increase; a stable BP does not resolve that conflict.
+q50|Fever and worsening pelvic symptoms coexist with a late period, so pregnancy cannot be assumed absent.
+q51|Treatment completion, partner treatment, and reinfection testing serve different purposes.
+q52|The current discharge pattern differs from the patient's prior yeast episode.
+q53|The patient is pregnant, which changes the recommended treatment route and regimen.
+q54|Part of the specimen was lost; adding another substance would create further collection error.
+q55|The sustained temperature rise follows ovulation rather than predicting that it is still ahead.
+q56|New bleeding occurs years after menses stopped; a prior cervical screen does not evaluate this symptom.
+q57|The patient explicitly asks to stop during the examination.
+q58|Pain now occurs outside menstruation and includes dyspareunia and difficulty conceiving.
+q59|Rapid weight gain, distention, reduced urine, and dyspnea develop during ovarian stimulation.
+q60|The chosen IUD addresses pregnancy prevention, not exposure to sexually transmitted infections.
+q61|The order is a total daily amount divided into three doses, not that amount at every administration.
+q62|One infant has lost a previously acquired skill rather than simply not yet performing a later-age task.
+q63|An infant explores with the mouth, so developmental appeal does not eliminate choking or cord hazards.
+q64|Distress follows separation from the caregiver during an age when attachment-related anxiety is expected.
+q65|The toddler needs limited control, but the prescribed dose must still be delivered accurately and honestly.
+q66|The preschooler interprets the injury as punishment for a prior action.
+q67|The child expresses loss of competence and comparison with peers.
+q68|An emerging stair skill does not establish the judgment needed for unsupervised safety.
+q69|Two patients have different age-based vaccine gaps, and MenACWY and MenB are not interchangeable.
+q70|Correct seat-belt fit does not make the front and back passenger positions equally safe for a child.
+q71|Fever and spreading tenderness appear despite topical treatment.
+q72|Only nits remain after treatment, and the product specifies when to repeat the dose.
+q73|Successful scabies care requires contact management as well as correct medication application.
+q74|The routine combines drying heat with widespread steroid exposure, including unaffected skin.
+q75|New persistent joint symptoms appear even though the skin plaques are improving.
+q76|Vomiting has produced dehydration, low potassium, and alkalosis before planned anesthesia.
+q77|Brief relief of focal pain is followed by generalized rigidity and a rising pulse.
+q78|A stable procedure candidate has developed hypotension and peritoneal signs before transfer.
+q79|Fever, distention, diarrhea, and poor perfusion occur in an infant at risk for enterocolitis.
+q80|The ingestion amount and timing are uncertain, and a normal early appearance does not exclude toxicity.

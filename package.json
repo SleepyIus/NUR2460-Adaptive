@@ -1,6 +1,6 @@
 {
   "name": "nur2460-adaptive",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "engines": {
     "node": ">=22.13.0"
@@ -11,6 +11,8 @@
     "build": "vinext build",
     "build:html": "vite build --config vite.standalone.config.ts && node scripts/export-html.mjs",
     "test:quiz": "node --experimental-strip-types --test tests/quiz.test.mjs",
+    "verify:release": "node scripts/verify-release.mjs",
+    "check": "pnpm build:bank && pnpm test:quiz && tsc --noEmit && pnpm build:html && pnpm verify:release",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt"

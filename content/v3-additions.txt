@@ -1,0 +1,109 @@
+@@ v301|Skin|skin_dermatitis|1|MC|Care management, Assessment|Contact Dermatitis|notes
+A school-age child develops itchy streaks on the forearms after clearing vines. The child is breathing comfortably, and the clinician identifies poison-ivy contact dermatitis. Which home-care action best prevents continued contact with the irritant?
++ Wash exposed skin gently and clean contaminated clothing and equipment. || Urushiol remaining on skin or objects can cause further exposure. Gentle cleansing removes it without adding skin injury.
+- Cover the contaminated gardening gloves with a towel and reuse them tomorrow. || Covering the gloves does not remove the oil. Clean contaminated equipment before reuse.
+- Scrub the rash until all blisters are open. || Opening blisters damages the barrier and increases secondary-infection risk; blister fluid is not the source of urushiol.
+- Apply the prescribed anti-itch medicine but leave the clothing unwashed. || Symptom relief does not remove residual irritant from clothing.
+CLUE: The rash followed contact with vines, and contaminated objects can retain the irritant.
+WHY: Separate removing the cause from relieving the symptoms. Gently wash exposed areas and contaminated items, then follow the prescribed symptom-care plan. Report infection signs or a severe reaction.
+
+@@ v302|GI|gi_emergency|1|MC|Pharmacology, Safety|Acetaminophen|notes
+A child with a potentially toxic acetaminophen ingestion has already reached the emergency department. Poison specialists recommend an antidote under the hospital protocol. Which medication should the nurse recognize as the acetaminophen antidote?
++ N-acetylcysteine. || N-acetylcysteine supports detoxification of the toxic acetaminophen metabolite and is the antidote used when indicated.
+- Activated charcoal. || Charcoal is selected gastrointestinal decontamination in some exposures; it is not the acetaminophen antidote.
+- Naloxone. || Naloxone reverses opioid effects, not acetaminophen toxicity.
+- Calcium gluconate. || Calcium gluconate is used for selected electrolyte and toxicologic indications, including magnesium toxicity, not as the acetaminophen antidote.
+CLUE: The question asks for the antidote, not a decontamination treatment.
+WHY: Recognize the purpose of the medication before preparing it. The poison team determines whether treatment is needed using the exposure history, timing, laboratory findings, and clinical state. Do not wait for symptoms before evaluating a potentially toxic ingestion.
+
+@@ v303|Labor|labor_emergencies|1|MC|Care management, Safety|Umbilical cord prolapse|19
+During orientation, a nurse asks why the presenting part is manually elevated when an umbilical cord prolapse occurs. Which explanation best describes the purpose of this temporary bedside maneuver?
++ Relieve pressure on the cord so fetal blood flow can continue while urgent birth is arranged. || Compression can interrupt fetal circulation. Decompression is a bridge to definitive delivery, not a treatment that eliminates the emergency.
+- Push the cord back into the uterus so normal labor can resume. || The goal is pressure relief, not repeatedly manipulating or replacing the cord.
+- Increase uterine contractions to shorten the first stage of labor. || Increasing contractions can worsen cord compression and is not the purpose of elevation.
+- Stop maternal blood loss by compressing the placenta. || Cord prolapse primarily threatens fetal circulation through cord compression, not placental bleeding that this maneuver would control.
+CLUE: A compressed cord threatens the fetal circulation.
+WHY: Understanding the mechanism explains why relief must be maintained during emergency preparation and transfer until a safe handoff or birth. The team prepares definitive delivery in parallel.
+
+@@ v304|Pregnancy|bleeding|3|MC|Priority, Care management, Safety|Abruptio placentae|8
+A patient at 34 weeks is admitted after blunt abdominal trauma. BP is 110/70 mmHg, compared with 138/86 on arrival; pulse has risen from 88 to 116/min. The patient reports constant abdominal pain, the uterus stays firm, and recurrent late decelerations have appeared. No vaginal bleeding is seen. A colleague suggests waiting for ultrasound before activating hemorrhage resources. Which response is best?
++ Escalate the clinical pattern now and prepare maternal resuscitation and urgent obstetric care while diagnostic assessment proceeds. || Relative BP decline, tachycardia, uterine findings, and fetal deterioration suggest concealed abruption. Visible bleeding and imaging confirmation are not required before escalation.
+- Continue monitoring until the systolic BP is below 90 mmHg, then activate hemorrhage resources. || Waiting for an absolute hypotension cutoff ignores a concerning trend and can delay care while compensation is failing.
+- Prioritize ultrasound confirmation before IV preparation because the current systolic BP is within the usual range. || Imaging can inform care but must not delay assessment and resuscitation for clinical deterioration.
+- Address the late decelerations with position change alone and postpone maternal reassessment until the tracing improves. || Repositioning can occur promptly, but the concurrent maternal pattern requires coordinated reassessment and preparation, not fetal-only treatment.
+CLUE: Several trends deteriorate together despite absent vaginal bleeding and a systolic BP still above 90.
+WHY: Prioritize the combined maternal-fetal pattern. Concealed hemorrhage can be substantial before profound hypotension or visible blood appears. Activate the appropriate team, ensure IV readiness, and reassess response while clinicians determine definitive management.
+
+@@ v305|Labor|labor_surgery|3|MC|Priority, Assessment, Care management|Operative vaginal birth|11
+After an assisted vaginal birth, a patient reports increasing deep perineal pressure. The fundus is firm, a straight catheter has just drained the bladder, and lochia remains small. Pulse rises from 82 to 112/min. Another nurse offers a choice of interventions. Which should the primary nurse prioritize?
++ Assess the perineum and perfusion and promptly notify the obstetric clinician about possible concealed genital-tract bleeding. || Focal pressure and an increasing pulse despite a firm uterus and empty bladder suggest a hematoma or other trauma-related bleeding.
+- Repeat bladder catheterization because urinary retention is the most likely cause of postpartum pressure. || The bladder was just emptied. Repeating the intervention does not address the new pain and circulation trend.
+- Massage the fundus continuously while waiting to see whether the pressure improves. || A firm uterus makes atony less likely. Fundal massage alone will not treat a concealed hematoma.
+- Give the next prescribed oral analgesic and reassess only after its expected peak effect. || Analgesia may be needed, but waiting for its effect would delay evaluation of a possible hemorrhagic complication.
+CLUE: The usual atony and bladder explanations do not fit the stated assessments.
+WHY: Reassess the likely source when findings conflict with the routine postpartum pathway. Evaluate pain location, tissue swelling, and perfusion while obtaining prompt obstetric review and preparing indicated hemorrhage care.
+
+@@ v306|Newborn|newborn_stability|3|MC|Priority, Assessment, Care management|Hypoglycemia|23
+A 3-hour-old infant of a parent with diabetes is receiving glucose surveillance. The initial low glucose improved after feeding, but the infant now has recurrent apnea and a weak suck with a repeat value of 28 mg/dL. Airway support is underway. A standing feeding order remains on the chart. What should the nurse advocate for next?
++ Immediate neonatal reassessment and IV glucose treatment under protocol, with oral feeding withheld until safe. || Recurrent severe hypoglycemia with apnea and weak suck changes both urgency and route. Prior response to feeding does not establish present feeding safety.
+- Repeat a full oral feed because feeding improved the earlier glucose result. || The infant's current airway and feeding status differ from the earlier state. Repeating an unsafe route risks aspiration and delays correction.
+- Wait for a laboratory glucose to return before requesting any treatment change. || Confirmatory testing can proceed, but symptomatic deterioration requires prompt protocol-directed treatment.
+- Give dextrose gel and transfer to routine care once the next bedside value improves, without another functional assessment. || A single improved value would not resolve the need to evaluate recurrent apnea, feeding safety, and ongoing glucose stability.
+CLUE: The infant's condition changed after an initially successful treatment.
+WHY: Evaluate treatment response and current function together. Stabilization and glucose correction proceed promptly, with serial reassessment and investigation of contributing problems. Do not automatically follow an oral-feeding order when the infant can no longer feed safely.
+
+@@ v307|GYN|gyn_contraception|3|SATA|Teaching, Pharmacology, Safety|Contraception emergency contraception|notes
+A patient took ulipristal today after unprotected intercourse four days ago. The patient has not yet restarted combined oral contraceptive pills and brings instructions written for levonorgestrel emergency contraception. Which corrections should the nurse make? Select all that apply.
++ Explain that hormonal pills should not restart until at least five days after ulipristal. || Restarting progestin-containing contraception too soon may reduce ulipristal's ovulation-delaying effect.
++ Plan condoms or abstinence during the delay and for seven days after combined pills restart. || Ulipristal does not protect later intercourse, and the restarted combined method requires backup during establishment of protection.
++ Review pregnancy testing if no withdrawal bleed occurs within three weeks. || CDC guidance includes testing when there is no withdrawal bleed within three weeks after emergency contraceptive pills.
+- Apply the immediate hormonal restart instruction from the levonorgestrel handout unchanged. || Restart timing differs between the two products. This is the specific mismatch that requires correction.
+- Count days without pills as part of the seven consecutive days of active combined pills needed for backup. || Days before restart do not count as active-pill use.
+CLUE: The instructions belong to a different emergency contraceptive product.
+WHY: Use one internally consistent, product-specific plan. Ulipristal requires a delay before restarting hormonal contraception, protection from subsequent intercourse, and appropriate follow-up testing. Clarify the written instructions with the prescribing team.
+
+@@ v308|Growth|growth_preschool|3|MC|Assessment, Care management, Safety|Pain Assessment & Management in Children|notes
+A 4-year-old who was calm before surgery now guards the incision and refuses to move. The child says, "I am fine," after hearing an adult say that another injection might be needed for pain. A caregiver asks the nurse to leave because the child "already said it does not hurt." Which approach best guides care?
++ Clarify the child's fear using concrete language, assess with an appropriate self-report or behavioral tool, and provide and reassess ordered relief. || The denial may be influenced by fear. Combine the child's account with behavior and developmentally appropriate assessment rather than dismiss either source.
+- Accept the verbal denial as the only valid pain measure and stop the assessment. || The discrepancy between behavior and words warrants clarification, not automatic dismissal of observable pain cues.
+- Ignore all verbal responses because preschoolers cannot contribute to pain assessment. || Developmentally appropriate self-report may be useful. Age alone does not justify excluding the child's account.
+- Promise that no needle will ever be used and then reassess willingness to report pain. || A promise outside the nurse's control can damage trust. Give honest, concrete information about the actual plan.
+CLUE: The child's words conflict with new pain behavior and a stated threat associated with reporting pain.
+WHY: Assess the reason for conflicting information before assuming absence of pain or dishonesty. Tailor the tool and explanation to the child, involve the caregiver constructively, and reassess after treatment. Honest preparation supports both safety and trust.
+
+@@ v309|Growth|growth_adolescent|3|MC|Care management, Safety, Assessment|Promoting health during adolescence|notes
+A 15-year-old demonstrates the steps of a daily treatment correctly but repeatedly misses it at overnight visits with friends. The caregiver proposes taking over all care, while the adolescent asks for complete independence. No acute symptoms are present. Which plan best addresses the evidence?
++ Privately explore the missed-dose situations, agree on a practical reminder and access plan, and use shared follow-up to increase independence as reliability develops. || Correct demonstration establishes a skill, not consistent use in a different setting. A negotiated plan addresses the context while retaining proportionate safety support.
+- Transfer all responsibility now because the return demonstration proves readiness for independent care. || Readiness includes reliably performing care in daily life, not only performing the steps once in the clinic.
+- Have the caregiver complete every treatment indefinitely because any missed dose disproves future readiness. || This removes opportunities to build self-management and does not explore the specific social barrier.
+- Repeat the technical demonstration without asking about the overnight visits. || The adolescent already demonstrates the technique. More of the same teaching may not address the demonstrated barrier.
+CLUE: Technical understanding is intact, but reliable use in a particular social setting is not.
+WHY: Separate knowledge, practical ability, and consistent implementation. Collaborate on a feasible plan with appropriate caregiver support and reassessment. Developmental independence should grow with demonstrated reliability, not be granted or removed solely by age.
+
+@@ v310|Skin|skin_infection|3|MC|Assessment, Care management, Pharmacology|Scabies and Pediculosis|notes
+Two weeks after scabies treatment, a child's original lesions are healing and itching is less intense. No new burrows are seen. All close contacts were treated together, and the prescribed repeat application was completed. The caregiver requests daily permethrin because itching has not completely stopped. Which response best uses the available findings?
++ Explain that itching can persist after successful treatment, avoid unprescribed daily dosing, and arrange reassessment if new lesions appear or symptoms persist beyond the expected course. || Improving lesions without new burrows after correct contact treatment fit residual symptoms more than obvious reinfestation. Monitor the trend rather than escalating exposure automatically.
+- Diagnose reinfestation solely from the continued itching and recommend daily applications. || Itching alone does not establish live mites. Excessive treatment can irritate the skin and complicate assessment.
+- Declare permanent cure and advise that no future symptom needs review. || Current improvement is reassuring but not a guarantee. New lesions or prolonged symptoms need reassessment.
+- Prescribe treatment only for household members who develop visible burrows from now on. || Contact management is not limited to visible disease. This proposal also fails to address the child's current improving course.
+CLUE: Correct treatment, treated contacts, healing lesions, and no new burrows point in the same direction despite residual itch.
+WHY: Evaluate response using the whole course. Post-treatment itching may last several weeks. Follow the actual product and clinician plan, avoid repeated unprescribed scabicide exposure, and seek reassessment for new burrows, new rash, infection signs, or persistent symptoms.
+
+@@ v311|GI|gi_nutrition|3|MC|Assessment, Care management, Priority|Acute infectious diarrhea|notes
+A toddler admitted with diarrhea has received prescribed isotonic IV resuscitation. The child is now alert with warm extremities and improved capillary refill but continues to pass loose stools. The caregiver asks whether the remaining diarrhea means the bolus failed. Which response and plan are best?
++ Explain that circulation has improved, then continue reassessment and replace ongoing losses using the prescribed plan and an appropriate route. || Resuscitation targets perfusion, not immediate cessation of diarrhea. Ongoing loss and oral tolerance guide subsequent care.
+- Repeat large rapid boluses until no further stool occurs, regardless of perfusion findings. || Stool frequency alone is not an indication for repeated boluses; unnecessary fluid can cause harm.
+- Stop all fluid replacement because improved capillary refill proves that further dehydration cannot occur. || Continued losses can cause renewed deficits. Improvement requires ongoing monitoring, not abandonment of the plan.
+- Switch to unrestricted fruit juice because any oral fluid replaces electrolytes equally well. || The composition and tolerance of replacement matter; use the prescribed oral rehydration or IV plan rather than substituting juice.
+CLUE: The treatment target improved, but the underlying source of fluid loss continues.
+WHY: Distinguish initial resuscitation from replacement of continuing losses. Trend mental status, perfusion, urine output, weight, intake, and losses while reassessing the route and amount of fluid under the clinical plan.
+
+@@ v312|Newborn|newborn_trauma|3|SATA|Assessment, Care management, Priority|Hemolytic Disorders|notes
+A 38-week infant has a positive direct antiglobulin test and receives phototherapy using the neonatal team's age-in-hours and risk-adjusted plan. The infant's skin appears less yellow, but the repeat bilirubin has risen. Feeding has weakened since the previous assessment. Which actions are appropriate? Select all that apply.
++ Report the bilirubin trend and feeding change promptly to the neonatal team. || Treatment response and new functional changes require reassessment and may indicate a need to intensify care.
++ Check device setup, prescribed exposure, temperature, intake, and output while continuing ordered treatment. || Delivery of therapy and physiologic support should be evaluated alongside the laboratory trend.
+- Stop phototherapy because improved skin color is a more direct measure than serum bilirubin. || Visual appearance does not replace objective measurements or the treatment plan.
+- Prepare an exchange transfusion solely because the direct antiglobulin test is positive, without considering bilirubin, age, or clinical status. || The test suggests a mechanism; it does not independently establish an exchange-transfusion indication.
+- Delay reassessment until the next morning because phototherapy has already begun. || A rising bilirubin and weaker feeding are current changes, not a reason to wait for a routine interval.
+CLUE: Visual improvement conflicts with the measured bilirubin trend and new feeding difficulty.
+WHY: Evaluate objective response and the infant's clinical state together. A risk marker is not an automatic treatment threshold, and a change in skin appearance is not evidence that treatment can stop. Follow the neonatal team's escalation plan promptly.
