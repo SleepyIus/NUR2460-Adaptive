@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import ts from "typescript";
 import {
   areaSignals,
   chooseNext,
@@ -14,6 +15,47 @@ import {
   validateState,
 } from "../lib/quiz-engine.ts";
 const bank = JSON.parse(fs.readFileSync(new URL("../data/bank.json", import.meta.url), "utf8"));
+test("secondary quiz sections stay inside one closed native disclosure", () => {
+  const source = ts.createSourceFile(
+    "QuizApp.tsx",
+    fs.readFileSync(new URL("../components/QuizApp.tsx", import.meta.url), "utf8"),
+    ts.ScriptTarget.Latest,
+    true,
+    ts.ScriptKind.TSX,
+  );
+  const wrappers = [];
+  const visit = (node) => {
+    if (
+      ts.isJsxElement(node) &&
+      node.openingElement.attributes.properties.some(
+        (attr) =>
+          ts.isJsxAttribute(attr) &&
+          attr.name.getText(source) === "className" &&
+          attr.initializer &&
+          ts.isStringLiteral(attr.initializer) &&
+          attr.initializer.text === "rail-tools",
+      )
+    )
+      wrappers.push(node);
+    ts.forEachChild(node, visit);
+  };
+  visit(source);
+  assert.equal(wrappers.length, 1);
+  const wrapper = wrappers[0];
+  assert.equal(wrapper.openingElement.tagName.getText(source), "details");
+  assert.ok(
+    !wrapper.openingElement.attributes.properties.some(
+      (attr) => ts.isJsxAttribute(attr) && attr.name.getText(source) === "open",
+    ),
+  );
+  const children = wrapper.children.filter(ts.isJsxElement);
+  assert.equal(children[0].openingElement.tagName.getText(source), "summary");
+  assert.ok(children[0].getText(source).includes("Progress & quiz info"));
+  assert.equal(
+    children.filter((child) => child.openingElement.tagName.getText(source) === "details").length,
+    5,
+  );
+});
 const q = (id) => bank.questions.find((q) => q.id === id);
 const correct = (item) => item.options.filter((o) => o.correct).map((o) => o.id);
 const wrong = (item) => [item.options.find((o) => !o.correct).id];

@@ -491,136 +491,139 @@ export default function QuizApp() {
           <p className="save-status" role="status">
             {saveStatus}
           </p>
-          <details className="rail-details">
-            <summary>How adaptation works</summary>
-            <p>
-              Each area begins at intermediate level. Two spaced successes on different cases at or
-              above the current target can raise it. Easier answers alone cannot. Confidence guides
-              follow-up but does not block advancement.
-            </p>
-            <p>
-              One miss requests another check. Two different, spaced misses at or below the target
-              can lower it. The quiz separates related cases with other questions when possible.
-            </p>
-            <p>
-              Same-day repeats do not advance a level. A repeat after at least 24 hours can support
-              retention evidence, but it is never counted as a fresh question. Two distinct cases
-              are still required.
-            </p>
-            <p>
-              These are practice signals, not mastery certification. The selector uses the closest
-              available case when a level has limited coverage.
-            </p>
-          </details>
-          <details className="rail-details">
-            <summary>Your practice areas</summary>
-            {showSignals ? (
-              signals &&
-              Object.entries(signals).map(([key, s]) => (
-                <div className="area-signal" key={key}>
-                  <span>{bank.areas[key]}</span>
-                  <strong>{s.label}</strong>
-                  <span>
-                    {s.correct}/{s.answered} fully correct · target: {LEVELS[s.level]}
-                  </span>
-                  {s.missedChoices + s.extraChoices > 0 && (
+          <details className="rail-tools">
+            <summary>Progress & quiz info</summary>
+            <details className="rail-details">
+              <summary>How adaptation works</summary>
+              <p>
+                Each area begins at intermediate level. Two spaced successes on different cases at
+                or above the current target can raise it. Easier answers alone cannot. Confidence
+                guides follow-up but does not block advancement.
+              </p>
+              <p>
+                One miss requests another check. Two different, spaced misses at or below the target
+                can lower it. The quiz separates related cases with other questions when possible.
+              </p>
+              <p>
+                Same-day repeats do not advance a level. A repeat after at least 24 hours can
+                support retention evidence, but it is never counted as a fresh question. Two
+                distinct cases are still required.
+              </p>
+              <p>
+                These are practice signals, not mastery certification. The selector uses the closest
+                available case when a level has limited coverage.
+              </p>
+            </details>
+            <details className="rail-details">
+              <summary>Your practice areas</summary>
+              {showSignals ? (
+                signals &&
+                Object.entries(signals).map(([key, s]) => (
+                  <div className="area-signal" key={key}>
+                    <span>{bank.areas[key]}</span>
+                    <strong>{s.label}</strong>
                     <span>
-                      SATA: {s.missedChoices} missed correct choices · {s.extraChoices} extra
-                      incorrect choices
+                      {s.correct}/{s.answered} fully correct · target: {LEVELS[s.level]}
                     </span>
-                  )}
-                  {s.laterReviews > 0 && <span>{s.laterReviews} later-day review attempts</span>}
-                </div>
-              ))
-            ) : (
-              <p>Results are hidden until this exam is complete.</p>
-            )}
-          </details>
-          <details className="rail-details">
-            <summary>Your nursing skills</summary>
-            {!showSignals ? (
-              <p>Results are hidden until this exam is complete.</p>
-            ) : Object.keys(skills).length ? (
-              Object.entries(skills).map(([name, s]) => (
-                <div className="area-signal" key={name}>
-                  <span>{name}</span>
-                  <strong>
-                    {s.correct}/{s.answered} fully correct
-                  </strong>
-                </div>
-              ))
-            ) : (
-              <p>Skill totals appear after your first response.</p>
-            )}
-            <p>
-              Questions can practice more than one skill, so these counts overlap. Totals include
-              review attempts.
-            </p>
-          </details>
-          <details className="rail-details">
-            <summary>Blueprint & sources</summary>
-            <p>Every 80-question exam uses these exact topic counts.</p>
-            <ul>
-              {Object.entries(bank.topics).map(([id, t]) => (
-                <li key={id}>
-                  {t.label}: {t.count} exam questions /{" "}
-                  {bank.questions.filter((q) => q.topic === id).length} in bank
-                </li>
-              ))}
-            </ul>
-            <p>
-              Instructor notes define the course emphasis. Lecture locators and selected clinical
-              updates accompany the rationales. Supplemental reading is described in the
-              repository’s Sources document. Image-only slide details have not all been verified.
-            </p>
-            <p>
-              {bank.questions.length} original educational scenarios, including 12 new version 3
-              cases. These are not official ATI or NCLEX items. Independent nursing-educator review
-              is still needed.
-            </p>
-            <p>
-              Exam mode uses intermediate and advanced items with 56 single-answer and 24 SATA
-              questions. This format mix is a practice design choice, not a supplied instructor
-              requirement. It does not adapt or show results during the exam.
-            </p>
-          </details>
-          <details className="rail-details">
-            <summary>Saving, scoring & randomization</summary>
-            <p>
-              Progress stays in this browser on this device. Reopen this website, or the same
-              offline HTML file, in the same browser. Clearing browser data or moving an offline
-              file can disconnect the save. Export backups regularly. Nothing is sent to a class
-              results database.
-            </p>
-            <p>
-              Every new question attempt shuffles its options. A resumed or submitted attempt keeps
-              its exact order. Letters, answer checking, and explanations stay matched. A repeated
-              order or short run of the same correct letter can occur by chance.
-            </p>
-            <p>
-              One practice point requires the whole answer to be correct, including every required
-              SATA choice and no extras. Partial feedback identifies missed and extra choices; this
-              is not official NCLEX scoring.
-            </p>
-            <p>
-              Versioned answer keys preserve older attempts. Older content revisions do not supply
-              evidence for advancement in a revised area. An unfinished version 2 exam uses its
-              original bank until completion.
-            </p>
-            <p>
-              Educational practice only: no official affiliation, validated difficulty, or pass
-              prediction. Follow patient-specific orders and institutional protocols in clinical
-              care.
-            </p>
-            {storageBlocked && (
-              <Button
-                variant="outline"
-                className={actionClass}
-                onClick={() => setReplaceCorrupt(true)}
-              >
-                Enable saving for this session
-              </Button>
-            )}
+                    {s.missedChoices + s.extraChoices > 0 && (
+                      <span>
+                        SATA: {s.missedChoices} missed correct choices · {s.extraChoices} extra
+                        incorrect choices
+                      </span>
+                    )}
+                    {s.laterReviews > 0 && <span>{s.laterReviews} later-day review attempts</span>}
+                  </div>
+                ))
+              ) : (
+                <p>Results are hidden until this exam is complete.</p>
+              )}
+            </details>
+            <details className="rail-details">
+              <summary>Your nursing skills</summary>
+              {!showSignals ? (
+                <p>Results are hidden until this exam is complete.</p>
+              ) : Object.keys(skills).length ? (
+                Object.entries(skills).map(([name, s]) => (
+                  <div className="area-signal" key={name}>
+                    <span>{name}</span>
+                    <strong>
+                      {s.correct}/{s.answered} fully correct
+                    </strong>
+                  </div>
+                ))
+              ) : (
+                <p>Skill totals appear after your first response.</p>
+              )}
+              <p>
+                Questions can practice more than one skill, so these counts overlap. Totals include
+                review attempts.
+              </p>
+            </details>
+            <details className="rail-details">
+              <summary>Blueprint & sources</summary>
+              <p>Every 80-question exam uses these exact topic counts.</p>
+              <ul>
+                {Object.entries(bank.topics).map(([id, t]) => (
+                  <li key={id}>
+                    {t.label}: {t.count} exam questions /{" "}
+                    {bank.questions.filter((q) => q.topic === id).length} in bank
+                  </li>
+                ))}
+              </ul>
+              <p>
+                Instructor notes define the course emphasis. Lecture locators and selected clinical
+                updates accompany the rationales. Supplemental reading is described in the
+                repository’s Sources document. Image-only slide details have not all been verified.
+              </p>
+              <p>
+                {bank.questions.length} original educational scenarios, including 12 new version 3
+                cases. These are not official ATI or NCLEX items. Independent nursing-educator
+                review is still needed.
+              </p>
+              <p>
+                Exam mode uses intermediate and advanced items with 56 single-answer and 24 SATA
+                questions. This format mix is a practice design choice, not a supplied instructor
+                requirement. It does not adapt or show results during the exam.
+              </p>
+            </details>
+            <details className="rail-details">
+              <summary>Saving, scoring & randomization</summary>
+              <p>
+                Progress stays in this browser on this device. Reopen this website, or the same
+                offline HTML file, in the same browser. Clearing browser data or moving an offline
+                file can disconnect the save. Export backups regularly. Nothing is sent to a class
+                results database.
+              </p>
+              <p>
+                Every new question attempt shuffles its options. A resumed or submitted attempt
+                keeps its exact order. Letters, answer checking, and explanations stay matched. A
+                repeated order or short run of the same correct letter can occur by chance.
+              </p>
+              <p>
+                One practice point requires the whole answer to be correct, including every required
+                SATA choice and no extras. Partial feedback identifies missed and extra choices;
+                this is not official NCLEX scoring.
+              </p>
+              <p>
+                Versioned answer keys preserve older attempts. Older content revisions do not supply
+                evidence for advancement in a revised area. An unfinished version 2 exam uses its
+                original bank until completion.
+              </p>
+              <p>
+                Educational practice only: no official affiliation, validated difficulty, or pass
+                prediction. Follow patient-specific orders and institutional protocols in clinical
+                care.
+              </p>
+              {storageBlocked && (
+                <Button
+                  variant="outline"
+                  className={actionClass}
+                  onClick={() => setReplaceCorrupt(true)}
+                >
+                  Enable saving for this session
+                </Button>
+              )}
+            </details>
           </details>
         </aside>
         <section className="question-sheet">

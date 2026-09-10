@@ -2,6 +2,8 @@
 
 Author/source check: September 10, 2026. Independent nursing-educator review and psychometric calibration remain pending.
 
+Layout-only follow-up: the five secondary sidebar sections now sit inside one closed-by-default native “Progress & quiz info” disclosure, with reduced internal spacing and placement below the question on narrow screens. A structural regression test checks the native disclosure, its collapsed default, and retention of all five sections. This brings the test suite to 20 tests; no question data, scoring, save schema, or adaptive logic changed. This follow-up was checked by source inspection, the automated suite, type checking, lint, and the production build, without a new interactive browser walkthrough.
+
 ## Content changes
 
 - 252 current original items: 195 MC and 57 SATA, with 1,072 individual option explanations.

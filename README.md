@@ -8,6 +8,8 @@ An offline-capable, interactive nursing quiz with **252 original ATI-/NCLEX-styl
 
 Select an answer and confidence level, then submit. Answers lock on submission. Press Continue when ready. Each learner's progress stays in their own browser; scores are not sent to the repository owner or shared with other learners.
 
+Optional statistics, adaptation help, sources, and scoring details are tucked into **Progress & quiz info**, collapsed by default. It sits below the question on smaller screens so it does not crowd the quiz.
+
 For offline use, open [`index.html`](index.html) on GitHub and choose **Download raw file**, or download and extract the repository ZIP. Open the downloaded `index.html` in a full browser such as Safari, Chrome, Edge, or Firefox. GitHub's ordinary file view displays source; it does not run the quiz.
 
 The HTML contains its own question bank, CSS, and JavaScript. The online version needs internet access to load; the downloaded version requires no account, AI API, server, or internet connection to practice. Optional clinical-reference links need internet access. The GitHub Actions release workflow tests and builds changes on `main` before publishing only the standalone website artifact to GitHub Pages.
