@@ -33,7 +33,8 @@ Tests used disposable local-browser progress, not a learner's production account
 - Verified MC radio keyboard navigation, SATA Space-key selection, required confidence, locked submitted inputs, and focus advancing to question/feedback headings.
 - Reloaded an unanswered SATA item: its option order, selected choices, and confidence were unchanged. Feedback correctly distinguished missed and extra selections, with letter-matched option explanations.
 - Inspected a 390 × 844 viewport: readable wrapped options and no horizontal overflow. Restored the viewport afterward.
-- Exported the completed local test history to JSON and checked its valid version/session structure. The automated Chrome file-chooser restore was blocked by the extension's file-URL permission, so this record does not claim that picker path passed. Engine-level export/restore and migrations did pass.
+- Exported the completed Chrome test history to JSON, then restored its 95 responses into the disposable in-app preview through the file picker and explicit replacement confirmation. The completed exam retained its score and 80-answer state. The Chrome automation file-chooser path was blocked by the extension's file-URL permission; the in-app picker, engine-level export/restore, and migrations passed. No app console warnings/errors appeared in that restore check.
+- Opened a second local in-app tab and started a new study session. The first tab visibly paused saving and offered export/reload guidance rather than overwriting the newer save.
 
 ## Release gate and remaining limits
 
