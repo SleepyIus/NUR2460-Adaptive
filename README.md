@@ -4,11 +4,13 @@ An offline-capable, interactive nursing quiz with **240 original ATI-/NCLEX-styl
 
 ## Open the quiz
 
-1. Open [`index.html`](index.html) on GitHub and choose **Download raw file**. Alternatively, download the repository ZIP and extract it.
-2. Open the downloaded `index.html` in a full browser such as Safari, Chrome, Edge, or Firefox. GitHub's ordinary file view displays source; it does not run the quiz.
-3. Select an answer and confidence level, then submit. Answers lock on submission. Press Continue when ready.
+**[Take the quiz online](https://sleepyius.github.io/NUR2460-Adaptive/)** — no GitHub account or download required. Share this website link with other learners, rather than the repository's `index.html` file view.
 
-The HTML contains its own question bank, CSS, and JavaScript. No account, AI API, server, or internet connection is required to practice. Only optional clinical-reference links need internet access. Uploading this repository does not automatically enable GitHub Pages, and Pages has not been enabled as part of this upload.
+Select an answer and confidence level, then submit. Answers lock on submission. Press Continue when ready. Each learner's progress stays in their own browser; scores are not sent to the repository owner or shared with other learners.
+
+For offline use, open [`index.html`](index.html) on GitHub and choose **Download raw file**, or download and extract the repository ZIP. Open the downloaded `index.html` in a full browser such as Safari, Chrome, Edge, or Firefox. GitHub's ordinary file view displays source; it does not run the quiz.
+
+The HTML contains its own question bank, CSS, and JavaScript. The online version needs internet access to load; the downloaded version requires no account, AI API, server, or internet connection to practice. Optional clinical-reference links need internet access. GitHub Pages publishes the root of the `main` branch at the website link above.
 
 ## Two session modes
 
