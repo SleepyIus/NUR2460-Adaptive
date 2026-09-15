@@ -91,7 +91,8 @@ export function beginSession(previous, settings, bank, rng=random) {
   if (![10,20,40].includes(settings.limit)) throw Error('Choose a valid session length.');
   if (settings.focus && !bank.questions.some(q=>q.track===settings.focus && (settings.topic==='All'||q.topic===settings.topic))) throw Error('Choose a focus within the selected topic.');
   const state=structuredClone(previous);
-  state.session={id:crypto.randomUUID(),start:state.history.length,topic:settings.topic,focus:settings.focus||'',limit:settings.limit,done:false,current:null,endedReason:''};
+  const topic=settings.focus && settings.topic==='All' ? bank.questions.find(q=>q.track===settings.focus).topic : settings.topic;
+  state.session={id:crypto.randomUUID(),start:state.history.length,topic,focus:settings.focus||'',limit:settings.limit,done:false,current:null,endedReason:''};
   state.session.current=chooseQuestion(state,bank,rng);
   if (!state.session.current) {state.session.done=true;state.session.endedReason='No spaced cases remain for this topic right now. Try a different topic before returning.';}
   return touched(state);
@@ -152,6 +153,7 @@ export function validateState(raw,bank) {
     if(!exactKeys(s,['id','start','topic','focus','limit','done','current','endedReason']) || typeof s.id!=='string' || !s.id.length || s.id.length>100
       || !Number.isSafeInteger(s.start) || s.start<0 || s.start>raw.history.length || ![10,20,40].includes(s.limit)
       || !(s.topic==='All'||Object.hasOwn(bank.topics,s.topic)) || typeof s.focus!=='string'
+      || (s.focus && s.topic==='All')
       || (s.focus && !bank.questions.some(q=>q.track===s.focus && (s.topic==='All'||q.topic===s.topic)))
       || typeof s.done!=='boolean' || typeof s.endedReason!=='string' || s.endedReason.length>300) fail();
     const answered=raw.history.slice(s.start), families=new Set();

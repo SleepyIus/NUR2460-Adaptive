@@ -78,7 +78,7 @@ function setupHtml() {
   return `<section class="panel setup" aria-labelledby="setup-title"><p class="eyebrow">Make room for clinical reasoning</p><h1 id="setup-title" tabindex="-1">One decision at a time.</h1>
     <p class="lede">Practice the reviewed Exam 2 questions. Submit your answer, understand the rationale, and return to concepts that need attention.</p>
     <div class="form-grid"><label for="topic">Content area<select id="topic"><option value="All">All Exam 2 content</option>${Object.entries(bank.topics).map(([id,t])=>`<option value="${id}" ${id===settings.topic?'selected':''}>${escapeHtml(t.label)}</option>`).join('')}</select></label>
-    <label for="focus">Optional focus<select id="focus"><option value="">Varied practice within this area</option>${tracks.map(id=>`<option value="${id}" ${id===settings.focus?'selected':''}>${escapeHtml(bank.tracks[id])}</option>`).join('')}</select></label>
+    <label for="focus">Optional focus<select id="focus"><option value="">Varied practice within this area</option>${tracks.map(id=>`<option value="${id}" ${id===settings.focus?'selected':''}>${settings.topic==='All'?escapeHtml(bank.topics[topicQuestions.find(q=>q.track===id).topic].label)+' · ':''}${escapeHtml(bank.tracks[id])}</option>`).join('')}</select></label>
     <label for="length">Session goal<select id="length">${[10,20,40].map(n=>`<option value="${n}" ${n===settings.limit?'selected':''}>Up to ${n} questions</option>`).join('')}</select></label></div>
     <p class="coverage">${topicQuestions.length} questions here · ${counts}<br>Sessions can finish early when distinct, spaced cases run out.</p>
     <div class="actions">${button('start','Start studying','primary',!canAct())}${state.session&&!state.session.done?button('back-session','Return to current question','secondary',!canAct()):''}</div>
@@ -129,7 +129,7 @@ function render() {
 function on(id,event,fn){document.getElementById(id)?.addEventListener(event,fn);}
 function bind() {
   on('topic','change',e=>{settings.topic=e.target.value;settings.focus='';render();document.getElementById('topic')?.focus();});
-  on('focus','change',e=>{settings.focus=e.target.value;});
+  on('focus','change',e=>{settings.focus=e.target.value;if(settings.focus&&settings.topic==='All'){settings.topic=bank.questions.find(q=>q.track===settings.focus).topic;render();document.getElementById('focus')?.focus();}});
   on('length','change',e=>{settings.limit=Number(e.target.value);});
   on('start','click',async()=>{
     if(state.session&&!state.session.done&&!confirm('Start a new session? Submitted responses stay in your history. The current question and any unsubmitted selection will be replaced.'))return;

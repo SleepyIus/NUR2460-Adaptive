@@ -90,6 +90,7 @@ test('200 simulated topic sessions enforce topic, distinct families, spacing, sc
 });
 test('focused practice starts in the requested track, spaces it, and does not leave the selected topic',()=>{
   const q=bank.questions.find(q=>q.topic==='Pregnancy');let s=start(seed(11),{topic:q.topic,focus:q.track,limit:20});
+  const allFocused=start(seed(11),{topic:'All',focus:q.track,limit:20});assert.equal(allFocused.session.topic,q.topic);assert.deepEqual(validateState(allFocused,bank),allFocused);
   assert.equal(findQuestion(bank,s.session.current).track,q.track);
   s=answer(s,false);s=nextQuestion(s,bank,seed(12));if(s.session.current){assert.notEqual(findQuestion(bank,s.session.current).track,q.track);assert.equal(findQuestion(bank,s.session.current).topic,q.topic);}
 });
