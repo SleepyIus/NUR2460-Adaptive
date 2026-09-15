@@ -1,0 +1,14 @@
+{
+  "version": "exam2-study-checkpoint-1.0.0",
+  "mode": "study-only",
+  "questions": 261,
+  "bankSha256": "a436b33779d99e230499ea3014afce5862085ef7ce81a65a56ce886f08cd6789",
+  "originalCommit": "4f11237a8b8f5cc4275a4a07f4f0175b519694b5",
+  "originalHtmlSha256": "ed596931eaa530fb78de257b5df3dfb363dd9b022f48faaa353d485313d990af",
+  "originalBankSha256": "fe778451de38bb4616cfc0bce655a02c7006a7e0f71a117abed5dbd1a4ed7af4",
+  "legacyBankSha256": "3d5a43da7ad54c03b268bba62b7408ad049ff8d3ef9f69ff2f8f4dc505d8ed4b",
+  "storageNamespace": "nur2460-study-checkpoint-1",
+  "independentEducatorReview": "pending",
+  "difficultyCalibration": "not calibrated",
+  "hardOnly80": false
+}

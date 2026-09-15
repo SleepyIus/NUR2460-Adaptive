@@ -40,3 +40,4 @@ next-env.d.ts
 *.tsbuildinfo
 .pnpm-store/
 *study-progress*.json
+.checkpoint-original.html
