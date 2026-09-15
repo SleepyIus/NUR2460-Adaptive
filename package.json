@@ -12,7 +12,9 @@
     "build:html": "vite build --config vite.standalone.config.ts && node scripts/export-html.mjs",
     "test:quiz": "node --experimental-strip-types --test tests/quiz.test.mjs",
     "verify:release": "node scripts/verify-release.mjs",
-    "check": "pnpm build:bank && pnpm test:quiz && tsc --noEmit && pnpm build:html && pnpm verify:release",
+    "test:checkpoint": "node --test tests/checkpoint.test.mjs",
+    "build:checkpoint": "node scripts/build-checkpoint.mjs",
+    "check": "node scripts/preserve-checkpoint-root.mjs && pnpm build:bank && pnpm test:quiz && tsc --noEmit && pnpm build:html && pnpm verify:release && pnpm test:checkpoint && pnpm build:checkpoint",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt"
