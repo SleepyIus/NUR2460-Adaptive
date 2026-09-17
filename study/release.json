@@ -1,0 +1,42 @@
+{
+  "version": "exam2-complete-1.1.1",
+  "mode": "adaptive-study-and-hard80",
+  "questions": 349,
+  "bankSha256": "ab56b8d1a491a9fe3f41906277e086a02018a062bb1af86d8eec2715b69f8716",
+  "storageNamespace": "nur2460-study-weeks-2",
+  "saveSchema": "nur2460-study-weeks-save-2",
+  "examStorageNamespace": "nur2460-complete-hard80-2",
+  "examSaveSchema": "nur2460-complete-hard80-save-2",
+  "weekMappingVersion": "fall-2026-exam2-weeks-2",
+  "weekMappingSha256": "9f16c01675e108138fad7ba08b1b3ec609e0f262afc8798953cf31e99be42300",
+  "weekCounts": {
+    "4": 61,
+    "5": 129,
+    "6": 110,
+    "7": 49,
+    "All": 349
+  },
+  "hard80Enabled": true,
+  "hard80Questions": 80,
+  "hard80TopicQuotas": {
+    "Pregnancy": 15,
+    "Labor": 15,
+    "Newborn": 15,
+    "GYN": 15,
+    "Growth": 10,
+    "Skin": 5,
+    "GI": 5
+  },
+  "legacyMigration": false,
+  "independentEducatorReview": "pending",
+  "difficultyCalibration": "AI estimate; not empirically calibrated",
+  "status": "private bounded combined-QA repair pending independent affected-gate retest; no publication approval",
+  "preserved": {
+    "index.html": "ed596931eaa530fb78de257b5df3dfb363dd9b022f48faaa353d485313d990af",
+    "data/bank.json": "fe778451de38bb4616cfc0bce655a02c7006a7e0f71a117abed5dbd1a4ed7af4",
+    "data/legacy-bank-v2.json": "3d5a43da7ad54c03b268bba62b7408ad049ff8d3ef9f69ff2f8f4dc505d8ed4b",
+    "checkpoint/bank.json": "a436b33779d99e230499ea3014afce5862085ef7ce81a65a56ce886f08cd6789",
+    "checkpoint/engine.mjs": "3acf4f31978cc56c1dc161389637192819e375c553ce68f61906537c93ae78a8",
+    "checkpoint/app.mjs": "5e8ea23efd77b4ce9389b6e3942e56bc16c143baa9e5b555537b7d873a9e250c"
+  }
+}
