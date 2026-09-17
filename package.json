@@ -19,8 +19,9 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "test:complete": "node --test tests/complete-release.test.mjs",
-    "build:complete": "node scripts/build-study.mjs && node scripts/package-complete.mjs",
-    "check:complete": "pnpm test:complete && pnpm build:complete"
+    "build:complete": "node scripts/build-study.mjs && node scripts/build-expanded.mjs && node scripts/package-complete.mjs",
+    "test:expanded": "node --test tests/expanded-release.test.mjs",
+    "check:complete": "pnpm test:complete && pnpm test:expanded && pnpm build:complete && node scripts/verify-expanded-package.mjs"
   },
   "dependencies": {
     "react": "19.2.6",
