@@ -2,7 +2,9 @@
 
 ## Current release: Exam 2 Complete 1.1.1
 
-[Open the current quiz](https://sleepyius.github.io/NUR2460-Adaptive/). The previously shared [study-checkpoint link](https://sleepyius.github.io/NUR2460-Adaptive/study-checkpoint/) opens this same release.
+[Open the main quiz · 349 questions](https://sleepyius.github.io/NUR2460-Adaptive/). This version and its saved progress are preserved.
+
+**[Open the expanded quiz · 445 questions](https://sleepyius.github.io/NUR2460-Adaptive/study-checkpoint/)** for 96 additional reviewed, source-bounded practice questions. It includes Weeks 4–7 filters, clearer references and answer markers, and the same exact Hard 80. This separate version has its own Study and Hard 80 saves; main-version backups stay with the main quiz. [Expanded source and build notes](expanded/README.md).
 
 The current app has **349 original practice questions**, adaptive Study with **Weeks 4–7 filters**, and a separate **Hard 80 exam**. Its exact blueprint is Pregnancy 15, Labor 15, Newborn 15, GYN 15, Growth 10, Skin 5, and GI 5 (58 MC, 22 SATA). Study gives immediate explanations; Hard 80 reveals answers and all-option rationales only after explicit completion. Answer markers distinguish correct selections, incorrect selections, and missed correct answers with text, symbols, and color.
 
