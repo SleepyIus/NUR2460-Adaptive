@@ -1,5 +1,21 @@
 # NUR2460 Adaptive · Exam 2
 
+## Current release: Exam 2 Complete 1.1.1
+
+[Open the current quiz](https://sleepyius.github.io/NUR2460-Adaptive/). The previously shared [study-checkpoint link](https://sleepyius.github.io/NUR2460-Adaptive/study-checkpoint/) opens this same release.
+
+The current app has **349 original practice questions**, adaptive Study with **Weeks 4–7 filters**, and a separate **Hard 80 exam**. Its exact blueprint is Pregnancy 15, Labor 15, Newborn 15, GYN 15, Growth 10, Skin 5, and GI 5 (58 MC, 22 SATA). Study gives immediate explanations; Hard 80 reveals answers and all-option rationales only after explicit completion. Answer markers distinguish correct selections, incorrect selections, and missed correct answers with text, symbols, and color.
+
+Difficulty is an AI author/reviewer estimate, not calibrated NCLEX difficulty. Independent nursing-educator review remains pending; this is not official ATI/NCLEX material or certified full-topic coverage.
+
+Progress stays in this browser. Study and Hard 80 have separate saves. Earlier saves are not automatically migrated or deleted: use **Earlier versions** in the header to access the original quiz or checkpoint with their original progress. Use **Download progress** for a compatible backup before clearing storage or changing devices.
+
+The release pipeline runs `pnpm check` and publishes only `dist/site`. For an offline copy of the current app, build the project and copy that directory, or save the current published page; the repository-root `index.html` is deliberately the preserved original quiz, not the current release. See [current source and build notes](study/README.md).
+
+## Historical reference: the preserved original quiz
+
+The remaining sections describe the earlier 252-question version, available under [Earlier versions → Original quiz](https://sleepyius.github.io/NUR2460-Adaptive/earlier/). Its counts, session modes, save rules and source layout do not describe the current 349-question release above.
+
 An offline-capable, interactive nursing quiz with **252 original ATI-/NCLEX-style practice questions**, option-level rationales, and source references. Educational practice only, with no official affiliation, calibrated difficulty, or pass prediction. The bank needs independent nursing-educator review before use beyond personal study.
 
 ## Open the quiz

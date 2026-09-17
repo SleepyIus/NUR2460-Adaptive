@@ -1,0 +1,90 @@
+{
+  "schema": "nur2460-week-mapping-2",
+  "mappingVersion": "fall-2026-exam2-weeks-2",
+  "status": "private_patch_bound_to_exam2_complete_1_1_1",
+  "source": {
+    "scheduleFile": "Theory - Fall 2026-1.docx",
+    "scheduleSha256": "2d24b3514b5cfb70ec3d4e0b6ad07944d17d2ed6d22ad31cb6c01a713d16f2fa",
+    "retainedMappingVersion": "fall-2026-exam2-weeks-1",
+    "retainedMappingSha256": "da78a9af9a662287811839eee60c964a6c08da0f269e443f27cad4ac6f5cac56",
+    "decision": "The verified topic-to-week schedule decision is retained; only the immutable bank binding and truthful 349-question counts advance."
+  },
+  "validWeeks": [
+    "All",
+    4,
+    5,
+    6,
+    7
+  ],
+  "topicToWeek": {
+    "Pregnancy": 4,
+    "Labor": 5,
+    "Newborn": 5,
+    "GYN": 6,
+    "Growth": 6,
+    "Skin": 7,
+    "GI": 7
+  },
+  "weeks": [
+    {
+      "week": 4,
+      "mappedTopics": [
+        "Pregnancy"
+      ],
+      "questionCount": 61
+    },
+    {
+      "week": 5,
+      "mappedTopics": [
+        "Labor",
+        "Newborn"
+      ],
+      "questionCount": 129
+    },
+    {
+      "week": 6,
+      "mappedTopics": [
+        "GYN",
+        "Growth"
+      ],
+      "questionCount": 110
+    },
+    {
+      "week": 7,
+      "mappedTopics": [
+        "Skin",
+        "GI"
+      ],
+      "questionCount": 49
+    }
+  ],
+  "bankCoverage": {
+    "bankVersion": "exam2-complete-1.1.1",
+    "bankSha256": "ab56b8d1a491a9fe3f41906277e086a02018a062bb1af86d8eec2715b69f8716",
+    "questionCount": 349,
+    "mappedQuestionCount": 349,
+    "unmappedQuestionCount": 0,
+    "topicCounts": {
+      "Pregnancy": 61,
+      "Labor": 65,
+      "Newborn": 64,
+      "GYN": 64,
+      "Growth": 46,
+      "Skin": 24,
+      "GI": 25
+    },
+    "weekCounts": {
+      "4": 61,
+      "5": 129,
+      "6": 110,
+      "7": 49,
+      "All": 349
+    }
+  },
+  "policy": {
+    "exactVersionAndDigestRequired": true,
+    "questionRule": "Map by the reviewed topic because each of the seven current topics belongs to exactly one verified course week.",
+    "citationDatesAreNotWeekEvidence": true,
+    "futureChangesRequireNewImmutableVersion": true
+  }
+}
