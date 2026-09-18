@@ -1,6 +1,8 @@
 import { SAVE_KEY, LEVEL_NAMES, blankState, beginSession, selectOption, setConfidence, submitAnswer, nextQuestion, validateState, findQuestion, score, summarize, trackEstimate, activeProvenance, historyContext, assertImmutableLedger } from './engine.mjs';
 import { HARD80_SAVE_KEY, blankHard80State, beginHard80Exam, selectHard80Option, nextHard80Question, completeHard80Exam, hard80Summary, hard80QuestionView, validateHard80State } from './hard80.mjs';
 import { allowedTopicsForWeek, cancelReplacement, reconcileWeekDraft, trackTopic, weekLabel } from './week-mapping.mjs';
+import { summarizeLearning, learningPracticeSettings } from './learning.mjs';
+import { learningDashboardHtml } from './learning-view.mjs';
 import bank from './bank.json' with { type: 'json' };
 
 const root=document.getElementById('app');
@@ -8,6 +10,7 @@ const escapeHtml=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 let state=blankState(bank), baseRaw=null, blocked=false, memoryOnly=false, warning='', showSetup=false, reviewIndex=null;
 let examState=blankHard80State(bank), examBaseRaw=null, examBlocked=false, examMemoryOnly=false, examWarning='', examReviewIndex=null;
 let busy=false, mode='study';
+let learningOpen=false, learningWeek='All', learningFilter='all';
 let settings={week:'All',topic:'All',focus:'',limit:20}, setupStatus='';
 try {
   baseRaw=localStorage.getItem(SAVE_KEY);
@@ -236,16 +239,18 @@ function render() {
   const activeWarning=mode==='hard80'?examWarning:warning,activeBlocked=mode==='hard80'?examBlocked:blocked;
   const examAttempt=examState.attempt;
   const examContent=examReviewIndex!==null?hard80ReviewHtml():!examAttempt?hard80SetupHtml():examAttempt.completedAt===null?hard80QuestionHtml():hard80SummaryHtml();
-  const studyContent=reviewIndex!==null?historyHtml():showSetup||!state.session?setupHtml():state.session.done?summaryHtml():questionHtml();
+  const learningContent=learningOpen?(blocked?'<section class="panel" aria-labelledby="learning-title"><h1 id="learning-title" tabindex="-1">My Learning is paused</h1><p>Study progress could not be read safely or changed in another tab. Resolve the notice above before viewing estimates. Your saved answers have not been replaced.</p></section>':learningDashboardHtml(summarizeLearning(state,bank),{week:learningWeek,filter:learningFilter,disabled:!canAct()})):'';
+  const studyContent=learningOpen?learningContent:reviewIndex!==null?historyHtml():showSetup||!state.session?setupHtml():state.session.done?summaryHtml():questionHtml();
   root.innerHTML=`<a class="skip" href="#main">Skip to learning content</a><header class="site-header"><a class="brand" href="./" aria-label="NUR2460 Exam 2 Expanded 445"><img src="icons/favicon.svg" width="38" height="38" alt=""><span>NUR2460 <small>Exam 2 · Expanded</small></span></a></header>
-    <main id="main"><nav class="mode-tabs" aria-label="Learning mode">${button('mode-study','Adaptive Study',mode==='study'?'primary':'secondary',busy)}${button('mode-hard80','Hard 80 exam',mode==='hard80'?'primary':'secondary',busy)}</nav>
-    <div class="utility"><span>${mode==='study'?`${bank.questions.length} reviewed questions <span class="divider">/</span> ${total.answered} studied`:`${examAttempt?examAttempt.completedAt?'80 answered · complete':`${examAttempt.index} of 80 locked answers`:'No Hard 80 attempt started'}`}</span><div>${mode==='study'&&active?button('change-session','Change session','text-button',!canAct()):''}${button('export','Download progress','text-button')}${button('import','Restore backup','text-button',busy)}</div></div>
+    <main id="main"><nav class="mode-tabs" aria-label="Learning mode">${button('mode-study','Adaptive Study',mode==='study'&&!learningOpen?'primary':'secondary',busy)}${button('mode-learning','My Learning',learningOpen?'primary':'secondary',busy)}${button('mode-hard80','Hard 80 exam',mode==='hard80'?'primary':'secondary',busy)}</nav>
+    <div class="utility"><span>${mode==='study'?`${bank.questions.length} reviewed questions <span class="divider">/</span> ${total.answered} studied`:`${examAttempt?examAttempt.completedAt?'80 answered · complete':`${examAttempt.index} of 80 locked answers`:'No Hard 80 attempt started'}`}</span><div>${mode==='study'&&active&&!learningOpen?button('change-session','Change session','text-button',!canAct()):''}${button('export','Download progress','text-button')}${button('import','Restore backup','text-button',busy)}</div></div>
     ${activeWarning?`<section id="notice" class="notice ${activeBlocked?'blocked':''}" tabindex="-1" role="status"><p>${escapeHtml(activeWarning)}</p>${activeBlocked?`<div class="actions">${button('reload-save','Load saved version','secondary')}${button('raw-export','Download stored data','secondary')}</div>`:''}</section>`:''}
     ${mode==='hard80'?examContent:studyContent}
     <details class="about"><summary>About this quiz & progress</summary><p>This expanded quiz contains 445 course-aligned questions based primarily on Exam 2 instructor notes, supplied texts, lectures, and bounded current guidance. Review and difficulty work was AI-assisted; difficulty is not empirically calibrated or a nursing-educator certification. It is not official ATI/NCLEX material or clinical advice.</p>
     <p>Adaptive Study supports All weeks and Weeks 4–7, retains immutable session labels for historical review, keeps every selection stage inside the effective week/content pool, and preserves per-track estimates, related-case spacing, exact-match scoring, immediate learning feedback and honest early exhaustion. Hard 80 is separate: it always uses the complete 80-question blueprint, requires all answers, and reveals scoring, clues, sources, keys and all-option rationales only after explicit completion.</p>
     <p>Study and Hard 80 use distinct new save namespaces. Neither mode reads, writes, deletes, imports, converts, or regrades original, checkpoint, Study First or stage-1 Complete progress. Both preserve stable question and option IDs, displayed order, selections and completion state on reload. Invalid or foreign backups are rejected without changing them. Web Locks and compare-before-write protect cooperating tabs; storage failures fall back to memory with an export warning.</p>
     <details><summary>Find older saved progress</summary><p>The main and previously shared study link now open this same 445-question quiz. Progress from that expanded quiz is unchanged. Older backups and saved attempts stay in their original versions; they are not automatically combined.</p><ul><li><a href="earlier/complete/">Earlier 349-question quiz and its progress</a></li><li><a href="earlier/study-checkpoint/">Original 261-question checkpoint and its progress</a></li><li><a href="earlier/">Original 252-question quiz and its progress</a></li></ul></details>
+    <p>My Learning summarizes existing Adaptive Study answers by week, topic focus and skill tag. It separates coverage from conservative understanding indicators and labels sparse evidence. It does not change difficulty estimates or scoring, include Hard 80 responses, or certify mastery.</p>
     <p>The client-side standalone HTML necessarily contains answer-key data, so Hard 80 is not a secure proctored exam and makes no anti-cheating secrecy claim. No accounts, analytics, cloud score storage, readiness probability, or mastery certification is provided.</p>
     ${mode==='study'&&state.history.length?reviewList(state.history,0):''}<p class="fine">Expanded 445 · AI-assisted content review; independent nursing-educator review pending. Source-bounded coverage is not a guarantee of every possible exam topic.</p></details>
     <footer>Small sessions or a complete form. Thoughtful decisions. <span>${(mode==='hard80'?examMemoryOnly:memoryOnly)?'In-memory progress—download before closing':'Saved only in this browser'}</span></footer></main><input id="backup-file" type="file" accept="application/json,.json" hidden>`;
@@ -253,10 +258,18 @@ function render() {
 }
 function on(id,event,fn){document.getElementById(id)?.addEventListener(event,fn);}
 function bind() {
-  on('mode-study','click',()=>{mode='study';examReviewIndex=null;render();focusModeLanding(showSetup||!state.session?'setup-title':state.session.done?'summary-title':'question-title');});
-  on('return-study','click',()=>{mode='study';examReviewIndex=null;render();focusModeLanding(showSetup||!state.session?'setup-title':state.session.done?'summary-title':'question-title');});
-  on('mode-hard80','click',()=>{mode='hard80';reviewIndex=null;render();focusModeLanding(examState.attempt?examState.attempt.completedAt?'exam-summary-title':'exam-question-title':'exam-setup-title');});
-  on('open-hard80','click',()=>{mode='hard80';reviewIndex=null;render();focusModeLanding(examState.attempt&&examState.attempt.completedAt===null?'exam-question-title':'exam-setup-title');});
+  on('mode-study','click',()=>{mode='study';learningOpen=false;examReviewIndex=null;render();focusModeLanding(reviewIndex!==null?'review-title':showSetup||!state.session?'setup-title':state.session.done?'summary-title':'question-title');});
+  on('mode-learning','click',()=>{mode='study';learningOpen=true;render();focusModeLanding('learning-title');});
+  on('return-study','click',()=>{mode='study';learningOpen=false;examReviewIndex=null;render();focusModeLanding(showSetup||!state.session?'setup-title':state.session.done?'summary-title':'question-title');});
+  on('mode-hard80','click',()=>{mode='hard80';learningOpen=false;reviewIndex=null;render();focusModeLanding(examState.attempt?examState.attempt.completedAt?'exam-summary-title':'exam-question-title':'exam-setup-title');});
+  on('open-hard80','click',()=>{mode='hard80';learningOpen=false;reviewIndex=null;render();focusModeLanding(examState.attempt&&examState.attempt.completedAt===null?'exam-question-title':'exam-setup-title');});
+  on('learning-week-filter','change',e=>{learningWeek=e.target.value==='All'?'All':Number(e.target.value);render();document.getElementById('learning-week-filter')?.focus();});
+  on('learning-status-filter','change',e=>{learningFilter=e.target.value;render();document.getElementById('learning-status-filter')?.focus();});
+  root.querySelectorAll('[data-learning-week]').forEach(b=>b.addEventListener('click',()=>{learningWeek=Number(b.dataset.learningWeek);render();document.getElementById('learning-week-filter')?.focus();}));
+  root.querySelectorAll('[data-learning-practice]').forEach(b=>b.addEventListener('click',()=>{
+    if(!canAct())return;
+    try{settings=learningPracticeSettings(bank,b.dataset.learningPractice);learningOpen=false;showSetup=true;reviewIndex=null;setupStatus='Focus selected from My Learning. Start studying when ready; your current session has not changed.';render();document.getElementById('setup-title')?.focus();}catch(error){showError(error);}
+  }));
   on('week','change',e=>{
     const result=reconcileWeekDraft(settings,e.target.value==='All'?'All':Number(e.target.value),bank);settings=result.settings;setupStatus=result.visibleStatus;
     render();document.getElementById('week')?.focus();
@@ -300,11 +313,11 @@ function bind() {
         if(!confirm(`Restore ${candidate.history.length} submitted responses? This replaces only Exam 2 Expanded 445 Study progress. Earlier-version and Hard 80 progress are not affected.`))return;
         if(blocked) {try {baseRaw=localStorage.getItem(SAVE_KEY);}catch {memoryOnly=true;}}
         candidate.revision=Math.max(candidate.revision,state.revision)+1;candidate.token=crypto.randomUUID();
-        if(await commit(candidate,{restore:true})) {if(state.session){const filter=activeProvenance(state).filter;settings={week:filter.week,topic:filter.topic,focus:filter.focus,limit:filter.limit};}else settings={week:'All',topic:'All',focus:'',limit:20};setupStatus='';showSetup=false;reviewIndex=null;render();focusAfterCommit(!state.session?'setup-title':state.session.done?'summary-title':state.session.current.submitted?'feedback':'question-title');}
+        if(await commit(candidate,{restore:true})) {if(state.session){const filter=activeProvenance(state).filter;settings={week:filter.week,topic:filter.topic,focus:filter.focus,limit:filter.limit};}else settings={week:'All',topic:'All',focus:'',limit:20};setupStatus='';showSetup=false;reviewIndex=null;learningOpen=false;render();focusAfterCommit(!state.session?'setup-title':state.session.done?'summary-title':state.session.current.submitted?'feedback':'question-title');}
       }
     }catch(error){showError(error instanceof SyntaxError?Error('This file is not valid JSON. Current progress was not changed.'):error);}
   });
-  root.querySelectorAll('[data-review]').forEach(b=>b.addEventListener('click',()=>{reviewIndex=Number(b.dataset.review);render();document.getElementById('review-title')?.focus();}));
+  root.querySelectorAll('[data-review]').forEach(b=>b.addEventListener('click',()=>{learningOpen=false;reviewIndex=Number(b.dataset.review);render();document.getElementById('review-title')?.focus();}));
   on('close-review','click',()=>{reviewIndex=null;render();document.getElementById(state.session?.done?'summary-title':'question-title')?.focus();});
   root.querySelectorAll('[data-exam-review]').forEach(button=>button.addEventListener('click',()=>{examReviewIndex=Number(button.dataset.examReview);render();document.getElementById('exam-review-title')?.focus();}));
   on('close-exam-review','click',()=>{examReviewIndex=null;render();document.getElementById('exam-summary-title')?.focus();});

@@ -1,0 +1,38 @@
+import { LEARNING_LABELS } from './learning.mjs';
+
+const learningEscape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const learningFraction = (correct, count) => count ? `${correct} / ${count}` : 'Not assessed';
+
+export function learningDashboardHtml(model, { week = 'All', filter = 'all', disabled = false } = {}) {
+  const matches = track => filter === 'attention' ? track.attention : filter === 'unassessed' ? !track.casesSeen : filter === 'consistent' ? track.status === 'consistent' : true;
+  const badge = track => `<span class="learning-badge learning-${track.status}">${LEARNING_LABELS[track.status]}</span>${track.limited ? '<span class="learning-badge learning-limited">Limited evidence</span>' : ''}`;
+  const practice = track => `<button class="secondary learning-practice" data-learning-practice="${learningEscape(track.id)}" ${disabled ? 'disabled' : ''} aria-label="Practice ${learningEscape(track.label)}">Practice this topic</button>`;
+  const trackHtml = track => `<li class="learning-focus"><div class="learning-focus-heading"><h4>${learningEscape(track.label)}</h4><div class="learning-badges">${badge(track)}</div></div>
+    <p>${learningEscape(track.reason)}</p><dl class="learning-measures"><div><dt>Different cases practiced</dt><dd>${track.casesSeen} / ${track.availableCases}</dd></div><div><dt>First-attempt correct</dt><dd>${learningFraction(track.firstCorrect, track.casesSeen)}</dd></div><div><dt>Latest different cases correct</dt><dd>${learningFraction(track.recentCorrect, track.recentCount)}</dd></div></dl>
+    ${track.casesSeen ? `<p class="fine">${learningEscape(track.trend)} · ${track.reviewAttempts} repeat response${track.reviewAttempts === 1 ? '' : 's'} · Last practiced ${learningEscape(new Date(track.lastAt).toLocaleDateString())}</p>` : ''}
+    ${track.bankLimited ? '<p class="fine">This focus has fewer than 3 different case groups in the bank. Strong mastery claims are not supported; repeats are review, not new evidence.</p>' : ''}
+    <div class="actions">${practice(track)}</div></li>`;
+  const selectedWeeks = model.weeks.filter(w => week === 'All' || w.week === week);
+  const sections = selectedWeeks.map(w => {
+    const topicHtml = w.topics.map(topic => {
+      const tracks = topic.tracks.filter(matches).sort((a, b) => Number(b.attention) - Number(a.attention) || a.label.localeCompare(b.label));
+      if (!tracks.length) return '';
+      return `<details class="learning-topic"><summary>${learningEscape(topic.label)}<span>${topic.practiced} / ${topic.total} focuses practiced · ${topic.attention} to revisit</span></summary><ul class="learning-focus-list">${tracks.map(trackHtml).join('')}</ul></details>`;
+    }).join('');
+    return topicHtml ? `<section class="learning-week" aria-labelledby="learning-week-${w.week}"><h2 id="learning-week-${w.week}">Week ${w.week}</h2>${topicHtml}</section>` : '';
+  }).join('');
+  return `<section class="panel learning-panel" aria-labelledby="learning-title"><p class="eyebrow">Exam 2 · Your study evidence</p><h1 id="learning-title" tabindex="-1">My Learning</h1>
+    <p class="lede">See what you have covered, what needs another look, and where the evidence is still thin.</p>
+    <p class="learning-scope">Based on Adaptive Study answers saved in this browser. Hard 80 stays separate. These are practice indicators—not a mastery certification or an exam-readiness score.</p>
+    <div class="learning-overview"><div><strong>${model.practiced} <small>/ ${model.total}</small></strong><span>Topic focuses practiced</span></div><div><strong>${model.attention}</strong><span>Focuses to revisit</span></div><div><strong>${model.consistent}</strong><span>Consistent on review</span></div></div>
+    ${!model.attempts ? '<p class="notice">Your tracker starts with your first submitted Adaptive Study answer. Untouched topics are not weaknesses. Choose a week below to get started.</p>' : ''}
+    <h2>Coverage by week</h2><p class="fine">Coverage counts practiced focuses in this question bank—not a percentage of material mastered.</p>
+    <div class="learning-week-cards">${model.weeks.map(w => `<button class="learning-week-card ${week === w.week ? 'active' : ''}" data-learning-week="${w.week}" aria-pressed="${week === w.week}"><strong>Week ${w.week}</strong><span>${w.practiced} / ${w.total} focuses practiced</span><progress value="${w.practiced}" max="${Math.max(w.total, 1)}" aria-label="Week ${w.week} practice coverage"></progress><span>${w.attention} to revisit · ${w.limited} with limited evidence</span></button>`).join('')}</div>
+    <div class="learning-filters"><label for="learning-week-filter">Week<select id="learning-week-filter">${['All', 4, 5, 6, 7].map(value => `<option value="${value}" ${week === value ? 'selected' : ''}>${value === 'All' ? 'All weeks' : 'Week ' + value}</option>`).join('')}</select></label><label for="learning-status-filter">Show<select id="learning-status-filter">${[['all', 'All topic focuses'], ['attention', 'Needs another look'], ['unassessed', 'Not assessed'], ['consistent', 'Consistent on review']].map(([value, label]) => `<option value="${value}" ${filter === value ? 'selected' : ''}>${label}</option>`).join('')}</select></label></div>
+    <p id="learning-filter-status" role="status" class="fine">${week === 'All' ? 'All weeks' : 'Week ' + week} · ${model.tracks.filter(t => (week === 'All' || t.week === week) && matches(t)).length} matching topic focuses. Open a content area for details.</p>
+    ${sections || '<p class="notice">No focuses match this view. This does not establish mastery of unassessed topics. Choose another filter.</p>'}
+    <p class="fine">Practice buttons open session setup. Your current question is kept until you explicitly start a replacement session. If no fresh case remains, practice is review.</p>
+    <details class="learning-skills"><summary>Nursing-skill patterns · all weeks</summary><p>First attempts on different cases tagged with each skill. One case can have several tags; these figures do not establish why an answer was missed. Small samples are limited evidence.</p><ul>${model.skills.map(skill => `<li><span>${learningEscape(skill.label)}</span><span>${learningFraction(skill.correct, skill.seen)}${skill.seen ? ' first attempts correct' : ''}${skill.seen > 0 && skill.seen < 3 ? ' · Limited evidence' : ''}</span></li>`).join('')}</ul></details>
+    <details><summary>How these indicators work</summary><p>Not assessed means no submitted Study answers. Developing means some practice evidence. Needs practice requires at least 3 different case groups and misses in at least 2 of the latest 5 groups. A single mistake is a reason to check again, not a weakness diagnosis.</p><p>Consistent on review requires at least 3 different case groups, correct and confident latest responses in up to 5 groups, and correct reviews of at least 2 groups in different sessions at least 24 hours after their first attempt. Confidence alone earns nothing. These thresholds are transparent study heuristics, not validated measures of mastery.</p><p>Linked variants and repeats count as one case group. First-attempt accuracy never increases from repeating a question. Later answers can show retention or improvement on seen cases, not proof of transfer to unfamiliar situations. Limited evidence stays visible below 3 case groups; the bank may not contain enough cases for a stronger label.</p><p>Dates use your device clock. The tracker does not change your grades, adaptive difficulty or saved answers, and sends no progress to a server. Existing compatible Study history is used automatically; earlier-version progress is not imported.</p></details>
+  </section>`;
+}
