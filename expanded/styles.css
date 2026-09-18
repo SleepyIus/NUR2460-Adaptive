@@ -30,6 +30,7 @@
 @media(min-width:760px){.form-grid label:last-child{grid-column:auto;max-width:none}}
 @media(forced-colors:active){.option.graded-option{background:Canvas;color:CanvasText;border-color:CanvasText;box-shadow:none}.option-note,.reasons h4,.result-correct,.result-incorrect{color:CanvasText}.option.correct-selected,.option.wrong-selected{border-left-width:4px}.option.missed-correct{border-style:dashed}}
 .learning-scope{font-size:.85rem;color:var(--muted);max-width:42rem}
+.classic-link{display:flex;align-items:center;flex-wrap:wrap;gap:0 .8rem;margin:-.4rem 0 1rem;font-size:.78rem;color:var(--muted)}.classic-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600}.classic-link span{font-size:.72rem}@media print{.classic-link{display:none}}
 .learning-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.8rem 0 2.2rem}
 .learning-overview>div{border-left:3px solid #a8c8be;padding-left:1rem}.learning-overview strong{display:block;font-size:1.9rem;line-height:1.4}.learning-overview small{font-size:1rem;font-weight:500;color:var(--muted)}.learning-overview span{display:block;font-size:.8rem;color:var(--muted)}
 .learning-week-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:1.2rem 0 1.6rem}

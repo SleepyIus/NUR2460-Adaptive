@@ -4,6 +4,8 @@ Published at the main homepage `/`. The previously shared `/study-checkpoint/` l
 
 This reviewed source-bounded expansion adds 96 original questions, retaining the exact original349 question objects and the exact80 hard items (15/15/15/15/10/5/5 by topic). It is not a claim of covering every possible exam fact. Difficulty is AI-estimated and independent nursing-educator review remains pending. This is not official ATI/NCLEX material or medical advice.
 
+The compact “Original quiz (classic layout)” link near the top opens `/earlier/` in a separate tab. This is the original252 interface with 15-question study and an80-question exam, not the349 version. Its existing saved progress stays separate; the current session is not replaced.
+
 `bank.json`, mapping and selection logic are the accepted445 application inputs. The technical bank version and isolated save keys retain their pre-release `exam2-coverage-private-3` identities intentionally; this preserves the tested backup contract. The public name is Expanded445. Main and earlier-version saves are not read, migrated, regraded or deleted. Restore only compatible Expanded445 backups here. No raw course documents, textbooks, private audit files or learner records are included.
 
 ## My Learning
