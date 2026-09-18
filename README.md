@@ -1,18 +1,16 @@
 # NUR2460 Adaptive · Exam 2
 
-## Current release: Exam 2 Complete 1.1.1
+## One current quiz · 445 questions
 
-[Open the main quiz · 349 questions](https://sleepyius.github.io/NUR2460-Adaptive/). This version and its saved progress are preserved.
+**[Open the quiz](https://sleepyius.github.io/NUR2460-Adaptive/)**. The previously shared [study-checkpoint link](https://sleepyius.github.io/NUR2460-Adaptive/study-checkpoint/) automatically opens this same quiz. Either link works; share the main homepage going forward.
 
-**[Open the expanded quiz · 445 questions](https://sleepyius.github.io/NUR2460-Adaptive/study-checkpoint/)** for 96 additional reviewed, source-bounded practice questions. It includes Weeks 4–7 filters, clearer references and answer markers, and the same exact Hard 80. This separate version has its own Study and Hard 80 saves; main-version backups stay with the main quiz. [Expanded source and build notes](expanded/README.md).
+The current app has **445 original practice questions**, adaptive Study with **Weeks 4–7 filters**, and a separate **Hard 80 exam**. Its exact blueprint is Pregnancy15, Labor15, Newborn15, GYN15, Growth10, Skin5 and GI5 (58MC,22SATA). Study gives immediate explanations; Hard80 reveals answers and all-option rationales only after explicit completion. Answer markers distinguish correct selections, incorrect selections and missed correct answers.
 
-The current app has **349 original practice questions**, adaptive Study with **Weeks 4–7 filters**, and a separate **Hard 80 exam**. Its exact blueprint is Pregnancy 15, Labor 15, Newborn 15, GYN 15, Growth 10, Skin 5, and GI 5 (58 MC, 22 SATA). Study gives immediate explanations; Hard 80 reveals answers and all-option rationales only after explicit completion. Answer markers distinguish correct selections, incorrect selections, and missed correct answers with text, symbols, and color.
+Existing expanded-quiz progress is unchanged: both links use the same browser origin and save keys. Older349 progress is not merged or deleted; use **About this quiz & progress → Find older saved progress** to reopen that version or the original/checkpoint versions. Study and Hard80 backups remain version-specific. Download progress before clearing browser storage or changing devices.
 
-Difficulty is an AI author/reviewer estimate, not calibrated NCLEX difficulty. Independent nursing-educator review remains pending; this is not official ATI/NCLEX material or certified full-topic coverage.
+Difficulty is an AI estimate, not calibrated NCLEX difficulty. Independent nursing-educator review remains pending; this is not official ATI/NCLEX material or a guarantee of all possible exam topics.
 
-Progress stays in this browser. Study and Hard 80 have separate saves. Earlier saves are not automatically migrated or deleted: use **Earlier versions** in the header to access the original quiz or checkpoint with their original progress. Use **Download progress** for a compatible backup before clearing storage or changing devices.
-
-The release pipeline runs `pnpm check` and publishes only `dist/site`. For an offline copy of the current app, build the project and copy that directory, or save the current published page; the repository-root `index.html` is deliberately the preserved original quiz, not the current release. See [current source and build notes](study/README.md).
+The pipeline runs `pnpm check` and publishes only `dist/site`. For offline use, copy that directory and open its `index.html`. The repository-root `index.html` is the preserved original quiz, not the current release. See [current source and build notes](expanded/README.md).
 
 ## Historical reference: the preserved original quiz
 
