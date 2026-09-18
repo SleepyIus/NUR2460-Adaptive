@@ -1,4 +1,5 @@
 import weekMapping from './week-mapping.json' with { type: 'json' };
+import { createStudyScopeFields, scopeAllowsQuestion, studyScope, validateStudyScopeFilter } from './blueprint-scope.mjs';
 
 export const CURRENT_WEEK_MAP_VERSION = 'fall-2026-exam2-coverage-private-3';
 export const CURRENT_WEEK_MAP_SHA256 = '6a241db16d1d06e79c301748cd0f6744a0caa2fec09449e76a9b6f7f6f3d002a';
@@ -56,7 +57,8 @@ export function trackTopic(bank, track) {
 export function questionFitsFilter(question, filter, bank) {
   const mapping = resolveWeekMap(filter.weekMapVersion, filter.weekMapArtifactSha256, bank);
   return (filter.week === 'All' || mapping.topicToWeek[question.topic] === filter.week)
-    && (filter.topic === 'All' || question.topic === filter.topic);
+    && (filter.topic === 'All' || question.topic === filter.topic)
+    && scopeAllowsQuestion(question, validateStudyScopeFilter(filter, bank), bank);
 }
 
 export function effectiveQuestions(bank, filter) {
@@ -68,6 +70,7 @@ export function createCurrentFilter(settings, bank) {
   const requestedTopic = settings?.topic;
   const focus = settings?.focus || '';
   const limit = settings?.limit;
+  const scopeFields = createStudyScopeFields(settings, bank);
   if (!WEEK_CHOICES.includes(week)) throw Error('Choose a valid week.');
   if (!(requestedTopic === 'All' || Object.hasOwn(bank.topics, requestedTopic))) throw Error('Choose a valid topic.');
   if (![10, 20, 40].includes(limit)) throw Error('Choose a valid session length.');
@@ -81,6 +84,9 @@ export function createCurrentFilter(settings, bank) {
   if (focus && (topic === 'All' || focusTopic !== topic || (week !== 'All' && TOPIC_TO_WEEK[focusTopic] !== week))) {
     throw Error('Choose a focus within the selected topic and week.');
   }
+  if (focus && !bank.questions.some(q => q.track === focus && scopeAllowsQuestion(q, studyScope(settings), bank))) {
+    throw Error('Choose a focus inside the selected Study scope.');
+  }
   return {
     week,
     topic,
@@ -89,6 +95,7 @@ export function createCurrentFilter(settings, bank) {
     weekMapVersion: CURRENT_WEEK_MAP_VERSION,
     weekMapArtifactSha256: CURRENT_WEEK_MAP_SHA256,
     bankVersion: bank.version,
+    ...scopeFields,
   };
 }
 

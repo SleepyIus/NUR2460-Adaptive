@@ -1,0 +1,124 @@
+{
+  "schema": "nur2460-blueprint-topics-1",
+  "version": "exam2-blueprint-topics-1",
+  "bankVersion": "exam2-coverage-private-3",
+  "bankSha256": "b8da63284f9bc8af08ac3b3520d995cc346926285af6fbb2f1c9ea634414e046",
+  "source": "User-supplied Exam 2 Blueprint: Content column. A study-scope interpretation, not instructor certification.",
+  "broadTopics": {
+    "Pregnancy": "HR Pregnancy",
+    "Labor": "HR L&D",
+    "Newborn": "HR Newborn",
+    "Growth": "Growth & Development",
+    "Skin": "Integumentary",
+    "GI": "Gastrointestinal Disorders"
+  },
+  "gynGroups": {
+    "Contraception": [
+      "sf1-q070",
+      "sf1-q071",
+      "sf1-q072",
+      "sf1-q073",
+      "sf1-q074",
+      "sf1-q075",
+      "sf1-q076",
+      "sf1-q077",
+      "sf1-q078",
+      "sf1-q079",
+      "sf1-q206",
+      "sf1-q207",
+      "sf1-q208",
+      "sf1-q220",
+      "sf1-q247",
+      "sf1-q255",
+      "sf1-q269",
+      "h80-q032",
+      "cov1-gyn-014",
+      "cov1-gyn-017"
+    ],
+    "Infertility": [
+      "sf1-q092",
+      "sf1-q093",
+      "sf1-q094",
+      "sf1-q095",
+      "sf1-q214",
+      "sf1-q215",
+      "sf1-q219",
+      "h80-q008",
+      "h80-q012",
+      "h80-q014",
+      "cov1-gyn-016"
+    ],
+    "STI care and prevention": [
+      "sf1-q080",
+      "sf1-q081",
+      "sf1-q082",
+      "sf1-q083",
+      "sf1-q084",
+      "sf1-q085",
+      "sf1-q210",
+      "sf1-q211",
+      "sf1-q270",
+      "sf1-q279",
+      "sf1-q282",
+      "h80-q003",
+      "h80-q015",
+      "h80-q031",
+      "cov1-gyn-006",
+      "cov1-gyn-007",
+      "cov1-gyn-008",
+      "cov1-gyn-011",
+      "cov1-gyn-012",
+      "cov1-gyn-013",
+      "cov1-gyn-015"
+    ]
+  },
+  "gynOutside": {
+    "General menstrual, bleeding, ovarian or pelvic-pain care without a directly tested fertility or contraceptive decision": [
+      "sf1-q087",
+      "sf1-q088",
+      "sf1-q091",
+      "sf1-q099",
+      "sf1-q218",
+      "h80-q001",
+      "h80-q025",
+      "h80-q030",
+      "cov1-gyn-001"
+    ],
+    "Menopause, bone health and pelvic-floor care": [
+      "sf1-q089",
+      "sf1-q090",
+      "sf1-q216",
+      "h80-q024",
+      "h80-q026",
+      "cov1-gyn-002",
+      "cov1-gyn-003"
+    ],
+    "Breast, cancer-risk and general preventive screening care": [
+      "sf1-q096",
+      "sf1-q097",
+      "sf1-q098",
+      "sf1-q209",
+      "sf1-q253",
+      "cov1-gyn-005",
+      "cov1-gyn-009",
+      "cov1-gyn-010",
+      "cov1-gyn-019"
+    ],
+    "Non-STI vaginal or tampon-associated infection care": [
+      "sf1-q086",
+      "sf1-q212",
+      "sf1-q213"
+    ],
+    "General pelvic-exam consent or abortion care not directly testing the named GYN topics": [
+      "sf1-q217",
+      "cov1-gyn-004",
+      "cov1-gyn-018"
+    ]
+  },
+  "notes": [
+    "Six broad blueprint headings retain their existing course-section pools; only the explicitly narrower GYN heading changes eligibility.",
+    "An incidental mention, distractor or rationale-only fact does not qualify a broader GYN case.",
+    "Keep fertility-directed fibroid/endometriosis decisions, contraception during perimenopause, PID sequelae, HPV counseling and STI-related hepatitis/Zika prevention.",
+    "Broader GYN questions remain available under Full course coverage. Excluded is not a claim that a question is off the real exam."
+  ]
+}

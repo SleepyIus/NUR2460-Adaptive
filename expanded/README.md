@@ -6,6 +6,14 @@ This reviewed source-bounded expansion adds 96 original questions, retaining the
 
 The compact “Original quiz (classic layout)” link near the top opens `/earlier/` in a separate tab. This is the original252 interface with 15-question study and an80-question exam, not the349 version. Its existing saved progress stays separate; the current session is not replaced.
 
+## Optional Blueprint-only Study scope
+
+Session setup offers Full course coverage (445, unchanged default) and Blueprint-only topics (414). The supplied blueprint names six broad sections, so they keep their current questions; GYN narrows to52 questions directly testing infertility, contraception or STI care/prevention. The31 remaining GYN questions are not deleted or declared off-exam. Eligibility is explicit and reviewable in `blueprint-scope.json`, including mixed-case rules and every GYN inclusion/exclusion. Topic filtering is not exam weighting and does not change the separate Hard80 form.
+
+The scope composes with Week, Content area and Optional focus, including all spacing/fallback selections. An incompatible draft focus is cleared visibly. No active session changes until the learner confirms a replacement. Restricted sessions pin `scope`, `scopeMapVersion` and `scopeMapSha256` in immutable provenance; full/older sessions retain their exact original filter shape and interpret missing scope as full. History and unfinished selections validate against their own original scope, never today's dropdown. Unknown mappings and out-of-scope saved questions fail closed. Existing save keys and schemas stay unchanged; an older cached app may need refreshing to read new restricted-session backups. Do not rewrite older session provenance or downgrade restricted saves.
+
+My Learning continues to reflect all Study history. Its practice links preserve Blueprint-only when possible; choosing a broader focus visibly switches the setup to Full course coverage. No old answers are regraded or removed.
+
 `bank.json`, mapping and selection logic are the accepted445 application inputs. The technical bank version and isolated save keys retain their pre-release `exam2-coverage-private-3` identities intentionally; this preserves the tested backup contract. The public name is Expanded445. Main and earlier-version saves are not read, migrated, regraded or deleted. Restore only compatible Expanded445 backups here. No raw course documents, textbooks, private audit files or learner records are included.
 
 ## My Learning

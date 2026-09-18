@@ -3,6 +3,7 @@ import { HARD80_SAVE_KEY, blankHard80State, beginHard80Exam, selectHard80Option,
 import { allowedTopicsForWeek, cancelReplacement, reconcileWeekDraft, trackTopic, weekLabel } from './week-mapping.mjs';
 import { summarizeLearning, learningPracticeSettings } from './learning.mjs';
 import { learningDashboardHtml } from './learning-view.mjs';
+import { scopeAllowsQuestion, studyScope, studyScopeLabel, reconcileScopeDraft } from './blueprint-scope.mjs';
 import bank from './bank.json' with { type: 'json' };
 
 const root=document.getElementById('app');
@@ -11,7 +12,7 @@ let state=blankState(bank), baseRaw=null, blocked=false, memoryOnly=false, warni
 let examState=blankHard80State(bank), examBaseRaw=null, examBlocked=false, examMemoryOnly=false, examWarning='', examReviewIndex=null;
 let busy=false, mode='study';
 let learningOpen=false, learningWeek='All', learningFilter='all';
-let settings={week:'All',topic:'All',focus:'',limit:20}, setupStatus='';
+let settings={week:'All',topic:'All',focus:'',limit:20,scope:'full'}, setupStatus='';
 try {
   baseRaw=localStorage.getItem(SAVE_KEY);
   if(baseRaw!==null) state=validateState(JSON.parse(baseRaw),bank);
@@ -33,7 +34,7 @@ if(!navigator.locks) {
 }
 if(state.session) {
   const filter=activeProvenance(state).filter;
-  settings={week:filter.week,topic:filter.topic,focus:filter.focus,limit:filter.limit};
+  settings={week:filter.week,topic:filter.topic,focus:filter.focus,limit:filter.limit,scope:studyScope(filter)};
 }
 const canAct=()=>!(mode==='hard80'?examBlocked:blocked)&&!busy;
 function showError(error) {if(mode==='hard80')examWarning=error instanceof Error?error.message:String(error);else warning=error instanceof Error?error.message:String(error);render();document.getElementById('notice')?.focus();}
@@ -142,7 +143,7 @@ function feedbackHtml(q,c) {
 }
 function setupHtml() {
   const allowedTopics=allowedTopicsForWeek(settings.week);
-  const weekQuestions=bank.questions.filter(q=>allowedTopics.includes(q.topic));
+  const weekQuestions=bank.questions.filter(q=>allowedTopics.includes(q.topic)&&scopeAllowsQuestion(q,settings.scope,bank));
   const topicQuestions=weekQuestions.filter(q=>settings.topic==='All'||q.topic===settings.topic);
   const tracks=[...new Set(topicQuestions.map(q=>q.track))].sort((a,b)=>bank.tracks[a].localeCompare(bank.tracks[b]));
   const counts=coverageDescription(topicQuestions);
@@ -150,12 +151,15 @@ function setupHtml() {
   const estimate=settings.focus?trackEstimate(state,bank,settings.focus):null;
   return `<section class="panel setup" aria-labelledby="setup-title"><p class="eyebrow">Make room for clinical reasoning</p><h1 id="setup-title" tabindex="-1">One decision at a time.</h1>
     <p class="lede">Practice the reviewed Exam 2 questions. Submit your answer, understand the rationale, and return to concepts that need attention.</p>
+    <label class="study-scope-control" for="study-scope">Study scope<select id="study-scope" aria-describedby="study-scope-help"><option value="full" ${settings.scope==='full'?'selected':''}>Full course coverage · 445 questions</option><option value="blueprint" ${settings.scope==='blueprint'?'selected':''}>Blueprint-only topics · 414 questions</option></select></label>
+    <p id="study-scope-help" class="fine">${settings.scope==='blueprint'?'GYN is limited to infertility, contraception and STI care/prevention. The other six broad blueprint areas keep their existing questions. The 31 broader GYN questions remain in Full course coverage.':'Includes all reviewed course-note topics, including broader GYN material.'} This optional filter uses the blueprint headings; it is not a guarantee of what will be tested. Applies to Adaptive Study only; Hard 80 is unchanged.</p>
+    <details class="scope-details"><summary>What does Blueprint-only include?</summary><p>High-risk pregnancy, high-risk labor and delivery, high-risk newborn, GYN infertility/contraception/STIs, growth and development, integumentary, and gastrointestinal disorders.</p><p>The six broad areas retain their whole course-section pools. GYN cases qualify by the decision tested—not a passing mention. Fertility-directed fibroid/endometriosis care and contraception during perimenopause are included. General breast, cancer, menopause, menstrual, pelvic-floor and non-STI vaginal care remain in Full course coverage unless they directly test one of the named GYN topics.</p><p>Study difficulty still adapts within eligible topics. This filter does not apply the exam's question-count proportions. My Learning continues to summarize all your Study history, with no answers deleted or regraded.</p></details>
     <div class="form-grid"><label for="week">Week<select id="week"><option value="All" ${settings.week==='All'?'selected':''}>All weeks</option>${[4,5,6,7].map(week=>`<option value="${week}" ${week===settings.week?'selected':''}>Week ${week}</option>`).join('')}</select></label>
     <label for="topic">Content area<select id="topic"><option value="All">${settings.week==='All'?'All Exam 2 content':`All content in Week ${settings.week}`}</option>${allowedTopics.map(id=>`<option value="${id}" ${id===settings.topic?'selected':''}>${escapeHtml(bank.topics[id].label)}</option>`).join('')}</select></label>
     <label for="focus">Optional focus<select id="focus"><option value="">Varied practice within this area</option>${tracks.map(id=>`<option value="${id}" ${id===settings.focus?'selected':''}>${settings.topic==='All'?escapeHtml(bank.topics[topicQuestions.find(q=>q.track===id).topic].label)+' · ':''}${escapeHtml(bank.tracks[id])}</option>`).join('')}</select></label>
     <label for="length">Session goal<select id="length">${[10,20,40].map(n=>`<option value="${n}" ${n===settings.limit?'selected':''}>Up to ${n} questions</option>`).join('')}</select></label></div>
     <p id="setup-status" class="setup-status" role="status">${escapeHtml(setupStatus)}</p>
-    <p class="coverage">${topicQuestions.length} questions in ${weekLabel(settings.week)} · ${settings.topic==='All'?'all content':escapeHtml(bank.topics[settings.topic].label)} · ${counts}<br>Sessions can finish early when distinct, spaced cases inside the effective filters run out.</p>
+    <p class="coverage">${topicQuestions.length} questions in ${weekLabel(settings.week)} · ${settings.topic==='All'?'all content':escapeHtml(bank.topics[settings.topic].label)} · ${studyScopeLabel(settings)} · ${counts}<br>Sessions can finish early when distinct, spaced cases inside these filters run out. No questions outside your Study scope will be added.</p>
     ${settings.focus?`<p class="focus-coverage"><strong>${escapeHtml(bank.tracks[settings.focus])}</strong><br>${focused.length} questions · ${coverageDescription(focused)}<br>Current target: ${LEVEL_NAMES[estimate.level]} · ${estimate.observations} distinct practice observations.<br>Other tracks in this content area provide spacing between focus questions. Missing levels are not treated as mastered.</p>`:''}
     <div class="actions">${button('start','Start studying','primary',!canAct())}${state.session&&!state.session.done?button('back-session','Return to current question','secondary',!canAct()):''}</div>
     <p class="fine">Adaptive mixed-difficulty Study mode · AI-assisted review; independent educator review pending. Not official ATI/NCLEX material.</p>
@@ -166,7 +170,7 @@ function questionHtml() {
   const s=state.session,p=activeProvenance(state),filter=p.filter,c=s.current,q=findQuestion(bank,c),number=state.history.length-p.start+(c.submitted?0:1);
   return `<section class="panel question" aria-labelledby="question-title"><div class="question-top"><span>Question ${number} <span class="muted">of up to ${filter.limit}</span></span><span class="pill">${q.kind==='SATA'?'Select all that apply':'Choose one'}</span></div>
     <progress value="${state.history.length-p.start}" max="${filter.limit}" aria-label="Session progress"></progress>
-    <p class="eyebrow">${weekLabel(filter.week)} · ${escapeHtml(bank.topics[q.topic].label)} · ${escapeHtml(bank.tracks[q.track])}</p>
+    <p class="eyebrow">${studyScopeLabel(filter)} · ${weekLabel(filter.week)} · ${escapeHtml(bank.topics[q.topic].label)} · ${escapeHtml(bank.tracks[q.track])}</p>
     <h1 id="question-title" class="stem" tabindex="-1">${escapeHtml(q.stem)}</h1>
     <fieldset class="answers"><legend class="sr-only">${q.kind==='MC'?'Choose one answer':'Select all correct answers'}</legend>${optionsHtml(q,c,c.submitted)}</fieldset>
     ${!c.submitted?`<fieldset class="confidence"><legend>How confident are you?</legend>${[['sure','Confident'],['unsure','Unsure'],['guess','Guessing']].map(([id,label])=>`<label><input id="confidence-${id}" type="radio" name="confidence" value="${id}" ${c.confidence===id?'checked':''} ${!canAct()?'disabled':''}><span>${label}</span></label>`).join('')}</fieldset>
@@ -177,15 +181,15 @@ function questionHtml() {
 }
 function summaryHtml() {
   const s=state.session,p=activeProvenance(state),records=state.history.slice(p.start),stats=summarize(records,bank);
-  return `<section class="panel" aria-labelledby="summary-title"><p class="eyebrow">${weekLabel(p.filter.week)} · ${p.filter.topic==='All'?'All content':escapeHtml(bank.topics[p.filter.topic].label)}</p><h1 id="summary-title" tabindex="-1">Session complete.</h1><p class="lede">${stats.correct} / ${stats.answered} exact matches${stats.percent===null?'':` · ${stats.percent}%`}</p><p>${escapeHtml(s.endedReason)}</p><p class="muted">This is a practice score, not a prediction of your exam result.</p><div class="actions">${button('another','Choose your next session','primary',!canAct())}</div>${reviewList(records,p.start)}</section>`;
+  return `<section class="panel" aria-labelledby="summary-title"><p class="eyebrow">${studyScopeLabel(p.filter)} · ${weekLabel(p.filter.week)} · ${p.filter.topic==='All'?'All content':escapeHtml(bank.topics[p.filter.topic].label)}</p><h1 id="summary-title" tabindex="-1">Session complete.</h1><p class="lede">${stats.correct} / ${stats.answered} exact matches${stats.percent===null?'':` · ${stats.percent}%`}</p><p>${escapeHtml(s.endedReason)}</p><p class="muted">This is a practice score, not a prediction of your exam result.</p><div class="actions">${button('another','Choose your next session','primary',!canAct())}</div>${reviewList(records,p.start)}</section>`;
 }
 function reviewList(records,start) {
   if(!records.length)return '';
-  return `<details class="history"><summary>Review ${records.length} submitted response${records.length===1?'':'s'}</summary><ol>${records.map((a,i)=>{const context=historyContext(state,start+i,bank),q=context.question,filter=context.provenance.filter;return `<li><button class="review-button" data-review="${start+i}">${score(q,a.selected).exact?'Correct':'Review'} · ${weekLabel(filter.week)} · ${escapeHtml(bank.tracks[q.track])}<span>${escapeHtml(q.stem.slice(0,105))}${q.stem.length>105?'…':''}</span></button></li>`;}).join('')}</ol></details>`;
+  return `<details class="history"><summary>Review ${records.length} submitted response${records.length===1?'':'s'}</summary><ol>${records.map((a,i)=>{const context=historyContext(state,start+i,bank),q=context.question,filter=context.provenance.filter;return `<li><button class="review-button" data-review="${start+i}">${score(q,a.selected).exact?'Correct':'Review'} · ${studyScopeLabel(filter)} · ${weekLabel(filter.week)} · ${escapeHtml(bank.tracks[q.track])}<span>${escapeHtml(q.stem.slice(0,105))}${q.stem.length>105?'…':''}</span></button></li>`;}).join('')}</ol></details>`;
 }
 function historyHtml() {
   const context=historyContext(state,reviewIndex,bank),a=context.record,q=context.question,filter=context.provenance.filter;
-  return `<section class="panel"><p class="eyebrow">Saved response · ${weekLabel(filter.week)} · ${filter.topic==='All'?'All content':escapeHtml(bank.topics[filter.topic].label)} · ${escapeHtml(new Date(a.at).toLocaleDateString())}</p><p class="fine">Saved with ${escapeHtml(filter.weekMapVersion)}.</p><h1 id="review-title" class="stem" tabindex="-1">${escapeHtml(q.stem)}</h1><div class="answers">${optionsHtml(q,a,true)}</div>${feedbackHtml(q,a)}<div class="actions">${button('close-review','Back to practice','primary')}</div></section>`;
+  return `<section class="panel"><p class="eyebrow">Saved response · ${studyScopeLabel(filter)} · ${weekLabel(filter.week)} · ${filter.topic==='All'?'All content':escapeHtml(bank.topics[filter.topic].label)} · ${escapeHtml(new Date(a.at).toLocaleDateString())}</p><p class="fine">Saved with ${escapeHtml(filter.weekMapVersion)}${filter.scopeMapVersion?' · '+escapeHtml(filter.scopeMapVersion):''}.</p><h1 id="review-title" class="stem" tabindex="-1">${escapeHtml(q.stem)}</h1><div class="answers">${optionsHtml(q,a,true)}</div>${feedbackHtml(q,a)}<div class="actions">${button('close-review','Back to practice','primary')}</div></section>`;
 }
 function hard80OptionsHtml(view,review=false) {
   return view.options.map(option=>{const feedback=optionFeedback(option,option.selected,review);return `<label class="option ${feedback.className}">
@@ -269,8 +273,9 @@ function bind() {
   root.querySelectorAll('[data-learning-week]').forEach(b=>b.addEventListener('click',()=>{learningWeek=Number(b.dataset.learningWeek);render();document.getElementById('learning-week-filter')?.focus();}));
   root.querySelectorAll('[data-learning-practice]').forEach(b=>b.addEventListener('click',()=>{
     if(!canAct())return;
-    try{settings=learningPracticeSettings(bank,b.dataset.learningPractice);learningOpen=false;showSetup=true;reviewIndex=null;setupStatus='Focus selected from My Learning. Start studying when ready; your current session has not changed.';render();document.getElementById('setup-title')?.focus();}catch(error){showError(error);}
+    try{const priorScope=settings.scope;settings=learningPracticeSettings(bank,b.dataset.learningPractice,priorScope);learningOpen=false;showSetup=true;reviewIndex=null;setupStatus=(priorScope!==settings.scope?'This broader topic requires Full course coverage; Study scope was switched. ':'')+'Focus selected from My Learning. Start studying when ready; your current session has not changed.';render();document.getElementById('setup-title')?.focus();}catch(error){showError(error);}
   }));
+  on('study-scope','change',e=>{try{const result=reconcileScopeDraft(settings,e.target.value,bank);settings=result.settings;setupStatus=result.visibleStatus;render();document.getElementById('study-scope')?.focus();}catch(error){showError(error);}});
   on('week','change',e=>{
     const result=reconcileWeekDraft(settings,e.target.value==='All'?'All':Number(e.target.value),bank);settings=result.settings;setupStatus=result.visibleStatus;
     render();document.getElementById('week')?.focus();
@@ -314,7 +319,7 @@ function bind() {
         if(!confirm(`Restore ${candidate.history.length} submitted responses? This replaces only Exam 2 Expanded 445 Study progress. Earlier-version and Hard 80 progress are not affected.`))return;
         if(blocked) {try {baseRaw=localStorage.getItem(SAVE_KEY);}catch {memoryOnly=true;}}
         candidate.revision=Math.max(candidate.revision,state.revision)+1;candidate.token=crypto.randomUUID();
-        if(await commit(candidate,{restore:true})) {if(state.session){const filter=activeProvenance(state).filter;settings={week:filter.week,topic:filter.topic,focus:filter.focus,limit:filter.limit};}else settings={week:'All',topic:'All',focus:'',limit:20};setupStatus='';showSetup=false;reviewIndex=null;learningOpen=false;render();focusAfterCommit(!state.session?'setup-title':state.session.done?'summary-title':state.session.current.submitted?'feedback':'question-title');}
+        if(await commit(candidate,{restore:true})) {if(state.session){const filter=activeProvenance(state).filter;settings={week:filter.week,topic:filter.topic,focus:filter.focus,limit:filter.limit,scope:studyScope(filter)};}else settings={week:'All',topic:'All',focus:'',limit:20,scope:'full'};setupStatus='';showSetup=false;reviewIndex=null;learningOpen=false;render();focusAfterCommit(!state.session?'setup-title':state.session.done?'summary-title':state.session.current.submitted?'feedback':'question-title');}
       }
     }catch(error){showError(error instanceof SyntaxError?Error('This file is not valid JSON. Current progress was not changed.'):error);}
   });

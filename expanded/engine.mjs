@@ -8,6 +8,7 @@ import {
   resolveWeekMap,
   trackTopic,
 } from './week-mapping.mjs';
+import { STUDY_SCOPE_KEYS, studyScope, scopeAllowsQuestion, validateStudyScopeFilter } from './blueprint-scope.mjs';
 
 // Isolated successor. It never reads or migrates another version's saves.
 export const SAVE_KEY = 'nur2460-exam2-coverage-private-3-study';
@@ -289,16 +290,19 @@ function validateQuestionState(record, submitted, bank) {
 }
 
 function validateFilter(filter, bank) {
-  if (!exactKeys(filter, ['week', 'topic', 'focus', 'limit', 'weekMapVersion', 'weekMapArtifactSha256', 'bankVersion'])
+  const scopeKeys = filter && STUDY_SCOPE_KEYS.some(key => Object.hasOwn(filter, key)) ? STUDY_SCOPE_KEYS : [];
+  if (!exactKeys(filter, ['week', 'topic', 'focus', 'limit', 'weekMapVersion', 'weekMapArtifactSha256', 'bankVersion', ...scopeKeys])
     || !WEEK_CHOICES.includes(filter.week) || !(filter.topic === 'All' || Object.hasOwn(bank.topics, filter.topic))
     || typeof filter.focus !== 'string' || filter.focus.length > 200 || ![10, 20, 40].includes(filter.limit)
     || filter.bankVersion !== bank.version) studyFail('SESSION_FILTER_INVALID');
   const mapping = resolveWeekMap(filter.weekMapVersion, filter.weekMapArtifactSha256, bank);
+  validateStudyScopeFilter(filter, bank);
   if (filter.topic !== 'All' && filter.week !== 'All' && mapping.topicToWeek[filter.topic] !== filter.week) studyFail('FILTER_INCOMPATIBLE');
   if (filter.focus) {
     const focusTopic = trackTopic(bank, filter.focus);
     if (!focusTopic || filter.topic === 'All' || focusTopic !== filter.topic
       || (filter.week !== 'All' && mapping.topicToWeek[focusTopic] !== filter.week)) studyFail('FOCUS_INCOMPATIBLE');
+    if (!bank.questions.some(q => q.track === filter.focus && scopeAllowsQuestion(q, studyScope(filter), bank))) studyFail('FOCUS_OUTSIDE_SCOPE');
   }
   return mapping;
 }

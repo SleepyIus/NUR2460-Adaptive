@@ -14,6 +14,8 @@ assert.equal(sha(read('earlier/study-checkpoint/index.html')),earlier.htmlSha256
 const html=read('index.html').toString();
 assert(!html.includes('location.replace('));assert(html.includes('Exam 2 · Expanded'));
 assert(!html.includes('Other versions'));assert(html.includes('Find older saved progress'));
+assert.equal(main.studyScopes.blueprint,414);assert.equal(main.studyScopes.blueprintGyn,52);assert.equal(main.studyScopes.hard80Unaffected,true);
+assert(html.includes('id="study-scope"'));assert(html.includes('Blueprint-only topics'));assert(html.includes('Full course coverage'));
 for(const href of ['earlier/complete/','earlier/','earlier/study-checkpoint/'])assert(html.includes('href="'+href+'"'),href);
 const classicLink='<a href="earlier/" target="_blank" rel="noopener">Original quiz (classic layout) ↗</a>';
 assert(html.includes(classicLink),'Visible classic-layout link targets the original252 archive in a separate tab');

@@ -1,5 +1,6 @@
 import { score } from './engine.mjs';
 import { TOPIC_TO_WEEK } from './week-mapping.mjs';
+import { scopeAllowsQuestion } from './blueprint-scope.mjs';
 
 // Descriptive study indicators, not calibrated mastery or a pass prediction.
 // Derived from the existing validated Study ledger; never persisted or used to grade.
@@ -33,11 +34,12 @@ function learningRollup(tracks) {
   };
 }
 
-export function learningPracticeSettings(bank, track) {
+export function learningPracticeSettings(bank, track, scope = 'full') {
   const questions = bank.questions.filter(q => q.track === track);
   const topics = [...new Set(questions.map(q => q.topic))];
   if (!Object.hasOwn(bank.tracks, track) || topics.length !== 1 || !TOPIC_TO_WEEK[topics[0]]) throw Error('Choose an available practice focus.');
-  return { week: TOPIC_TO_WEEK[topics[0]], topic: topics[0], focus: track, limit: 10 };
+  const effectiveScope = questions.some(q => scopeAllowsQuestion(q, scope, bank)) ? scope : 'full';
+  return { week: TOPIC_TO_WEEK[topics[0]], topic: topics[0], focus: track, limit: 10, scope: effectiveScope };
 }
 
 export function summarizeLearning(state, bank) {

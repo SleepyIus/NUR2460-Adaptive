@@ -20,7 +20,7 @@
     "format": "oxfmt",
     "test:complete": "node --test tests/complete-release.test.mjs",
     "build:complete": "node scripts/build-study.mjs && node scripts/build-expanded.mjs && node scripts/package-complete.mjs",
-    "test:expanded": "node --test tests/expanded-release.test.mjs tests/learning.test.mjs",
+    "test:expanded": "node --test tests/expanded-release.test.mjs tests/learning.test.mjs tests/blueprint-scope.test.mjs",
     "check:complete": "pnpm test:complete && pnpm test:expanded && pnpm build:complete && node scripts/verify-expanded-package.mjs"
   },
   "dependencies": {
