@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; connect-src 'none'; img-src 'self' data:">
+  <title>NUR2460 Exam 2 — Lecture-Focused Study Preview</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#study-main">Skip to study question</a>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">NUR2460 Exam 2</p>
+      <h1>Lecture-focused Study preview</h1>
+      <p id="namespace-status" class="status-copy"></p>
+    </div>
+    <div class="prototype-badge">242-question lecture-focused preview</div>
+  </header>
+
+  <div class="layout">
+    <aside class="source-panel" aria-labelledby="attachment-heading">
+      <h2 id="attachment-heading">Local lecture sources</h2>
+      <p>Attach the exact course PDFs to open verified page links after submitting an answer. Verification stays in this browser session.</p>
+      <div id="attachment-controls"></div>
+      <p id="attachment-status" class="status-copy" role="status" aria-live="polite"></p>
+      <p id="attachment-alert" class="attachment-alert" role="alert" tabindex="-1" hidden></p>
+      <noscript>This study preview requires JavaScript. No source file is uploaded.</noscript>
+    </aside>
+
+    <main id="study-main" class="study-main" tabindex="-1">
+      <section class="availability" aria-labelledby="hard80-heading">
+        <h2 id="hard80-heading">Hard 80 status</h2>
+        <p id="hard80-status"></p>
+      </section>
+
+      <section class="filter-panel" aria-labelledby="filter-heading">
+        <h2 id="filter-heading">Study pool</h2>
+        <p id="filter-help">Select accepted Study questions by the existing course week map and topic. Each new-question batch contains at most 15 unseen questions. This pool is a hard selector boundary, while revision-keyed first-attempt history remains separate and is preserved across filter switches.</p>
+        <div class="filter-controls">
+          <label for="week-filter">Course week</label>
+          <select id="week-filter" aria-describedby="filter-help"></select>
+          <label for="topic-filter">Topic</label>
+          <select id="topic-filter" aria-describedby="filter-help"></select>
+          <button id="apply-filter" class="secondary-button" type="button">Start new-question batch</button>
+          <button id="review-seen" class="secondary-button" type="button">Review seen questions</button>
+        </div>
+        <p id="filter-status" class="status-copy" role="status" aria-live="polite"></p>
+        <p id="filter-alert" class="attachment-alert" role="alert" tabindex="-1" hidden></p>
+      </section>
+
+      <section class="adaptive-panel" aria-labelledby="adaptive-heading">
+        <h2 id="adaptive-heading">Bounded within-track selection</h2>
+        <p>After submission, request another unseen question from the same clinical track. Requested difficulty moves one accepted level using only first, unhinted responses to distinct question revisions. Hints and repeats do not count. Nearest-level fallback and track exhaustion are stated explicitly.</p>
+        <button id="adaptive-next" class="secondary-button" type="button">Next unseen question in this track</button>
+        <p id="adaptive-status" class="status-copy" role="status" aria-live="polite"></p>
+        <p id="adaptive-alert" class="attachment-alert" role="alert" tabindex="-1" hidden></p>
+        <p class="small-copy">This is a transparent conservative selection estimate, not psychometric calibration, mastery scoring, pass prediction, blueprint exam construction, or Hard 80.</p>
+      </section>
+
+      <section class="progress-panel" aria-labelledby="progress-heading">
+        <h2 id="progress-heading">Topic progress and practice evidence</h2>
+        <p>Each topic is shown as unattempted, insufficient evidence, or practice evidence. The numerator counts distinct question revisions answered without a clue on their first attempt; the denominator is the accepted question count—not an averaged percentage. Hints and repeats never inflate evidence.</p>
+        <p id="progress-status" class="status-copy" role="status" aria-live="polite"></p>
+        <h3>Topics</h3>
+        <div id="topic-progress" class="progress-grid"></div>
+        <h3>Course weeks</h3>
+        <div id="week-progress" class="week-grid"></div>
+        <p class="small-copy">Practice evidence requires at least two correct distinct unhinted first attempts within a topic. This is a transparent practice marker, not psychometric calibration, mastery certification, or pass prediction. One-item tracks cannot establish track mastery.</p>
+      </section>
+
+      <section class="persistence-panel" aria-labelledby="persistence-heading">
+        <h2 id="persistence-heading">Isolated progress</h2>
+        <p id="backup-help">Filtered pool and batch order, catalog-wide seen ledger, revision-keyed first-attempt history, hint use, current question revision, shuffled option order, selections, submission kind, and submitted state are saved only under this route's isolated catalog242 browser key. PDF files and attachment URLs are never saved; reload requires reattachment.</p>
+        <label for="backup-text">Synthetic JSON backup</label>
+        <textarea id="backup-text" class="backup-text" rows="5" aria-describedby="backup-help" spellcheck="false"></textarea>
+        <div class="persistence-actions">
+          <button id="export-progress" class="secondary-button" type="button">Export backup to text</button>
+          <button id="restore-progress" class="secondary-button" type="button">Validate and restore backup</button>
+          <button id="reload-saved-progress" class="secondary-button" type="button" hidden>Reload newer saved progress</button>
+          <button id="reset-progress" class="secondary-button" type="button">Reset this route's history</button>
+        </div>
+        <p id="persistence-status" class="status-copy" role="status" aria-live="polite"></p>
+        <p id="persistence-alert" class="attachment-alert" role="alert" tabindex="-1" hidden></p>
+        <p class="small-copy">If another tab saves after this tab loads, stale writes are refused and the reload control appears. Web Storage has no atomic compare-and-swap, so truly simultaneous writes before readback or a storage event are not guaranteed; use one active editing tab for strongest behavior.</p>
+      </section>
+
+      <nav class="question-nav" aria-label="Study question navigation">
+        <label for="question-picker">Open a specific question (seen items require review confirmation)</label>
+        <select id="question-picker"></select>
+        <button id="next-question" class="secondary-button" type="button">Next unseen question in batch</button>
+      </nav>
+
+      <div id="question-root" tabindex="-1"></div>
+    </main>
+  </div>
+
+  <footer>
+    Lecture-focused Study preview. Progress uses only this route's isolated catalog242 browser key; older and main-site progress are not read or migrated. PDFs are never persisted or uploaded. Hard 80 and blueprint exam construction remain unavailable; one provisional eligible Growth item is not an exam. This is educational practice, not official ATI or NCLEX material.
+  </footer>
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>

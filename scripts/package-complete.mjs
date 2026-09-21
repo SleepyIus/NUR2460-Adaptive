@@ -40,6 +40,18 @@ const files=new Map([
  ['earlier/complete/index.html',Buffer.from(archive)],['earlier/complete/release.json',Buffer.from(JSON.stringify(archiveRelease,null,2)+'\n')],
  ['earlier/index.html',read('dist/index.html')],['earlier/study-checkpoint/index.html',read('dist/study-checkpoint/index.html')],['earlier/study-checkpoint/release.json',read('dist/study-checkpoint/release.json')]
 ]);
+// Publish the lecture-focused preview as a separate route without replacing the
+// current 445-question homepage or its shared checkpoint alias.
+const lectureSource=path.join(root,'lecture-focused');
+const lectureRelease=JSON.parse(fs.readFileSync(path.join(lectureSource,'release.json')));
+assert.equal(lectureRelease.questions,242);
+assert.equal(lectureRelease.mainRoutePreserved,true);
+assert.equal(lectureRelease.hard80Enabled,false);
+const walkSource=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walkSource(path.join(d,e.name)):[path.relative(lectureSource,path.join(d,e.name)).replaceAll(path.sep,'/')]);
+for(const relative of walkSource(lectureSource)){
+ const bytes=fs.readFileSync(path.join(lectureSource,relative));
+ files.set(`lecture-focused/${relative}`,bytes);
+}
 for(const name of ['favicon.svg','favicon.ico','apple-touch-icon.png']){
  files.set('icons/'+name,read('dist/expanded/icons/'+name));
  files.set('study-checkpoint/icons/'+name,read('dist/expanded/icons/'+name));

@@ -1,5 +1,6 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';
 import vm from 'node:vm';
+import {pathToFileURL} from 'node:url';
 const root=path.resolve(import.meta.dirname,'..'),site=path.join(root,'dist/site');
 const read=name=>fs.readFileSync(path.join(site,name)),sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 const main=JSON.parse(read('release.json')),alias=JSON.parse(read('study-checkpoint/release.json')),earlier=JSON.parse(read('earlier/study-checkpoint/release.json')),archive=JSON.parse(read('earlier/complete/release.json'));
@@ -34,4 +35,20 @@ for(const source of ['engine.mjs','hard80.mjs','app.mjs']){
  const code=fs.readFileSync(path.join(root,'expanded',source),'utf8');
  assert(!/localStorage\.(?:getItem|setItem|removeItem)\(['"]nur2460-(?:study-weeks-2|complete-hard80-2)['"]/.test(code),'Main save access');
 }
+const lecture=JSON.parse(read('lecture-focused/release.json'));
+assert.equal(lecture.questions,242);
+assert.equal(lecture.sourceLinks,473);
+assert.equal(lecture.hard80Enabled,false);
+assert.equal(lecture.blueprintExamEnabled,false);
+assert.equal(lecture.mainRoutePreserved,true);
+const lectureHtml=read('lecture-focused/index.html').toString();
+assert(lectureHtml.includes('Lecture-focused Study preview'));
+assert(lectureHtml.includes('./app.mjs'));
+assert(!/\/Users\/|private-candidates\/|reviews\/parallel-planning\/|file:\/\//.test(lectureHtml));
+for(const source of fs.readdirSync(path.join(site,'lecture-focused'))){
+ const bytes=read(`lecture-focused/${source}`);
+ if(/\.(?:mjs|json|html|css|md)$/u.test(source))assert(!/\/Users\/|private-candidates\/|reviews\/parallel-planning\/|file:\/\//.test(bytes.toString()),`Lecture route private path: ${source}`);
+}
+const lectureCatalog=await import(pathToFileURL(path.join(site,'lecture-focused/catalog-runtime.mjs')).href);
+assert.equal(lectureCatalog.createBrowserStudyCatalog().size,242);
 console.log(JSON.stringify({status:'PASS',canonicalQuestions:445,hard80:80,sharedLinkRedirectCases:4,archive349OnlyNavigationChanged:true,earlierAppsUnchanged:true,canonicalHtmlSha256:main.htmlSha256,saveIsolation:true}));

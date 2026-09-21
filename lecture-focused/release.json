@@ -1,0 +1,23 @@
+{
+  "schema": "exam2-lecture-focused-preview-1",
+  "name": "NUR2460 Exam 2 Lecture-Focused Study Preview",
+  "version": "lecture-focused-c32-catalog242-preview-1",
+  "status": "published isolated study preview; AI-assisted content review complete; independent nursing-educator review pending",
+  "questions": 242,
+  "sourceLinks": 473,
+  "hard80Enabled": false,
+  "blueprintExamEnabled": false,
+  "mainRoutePreserved": true,
+  "sourcePdfsHosted": false,
+  "localPdfAttachmentRequired": true,
+  "browserMobileAccessibilityCertification": false,
+  "storageNamespace": "lecture-focused-private-c32-catalog242-synthetic",
+  "entrypoint": "./",
+  "mainEntrypoint": "../",
+  "notes": [
+    "This route is a lecture-focused study preview built from Exam 2 instructor notes and lecture-slide source pins.",
+    "Attach matching local PDFs to open verified question-to-passage links; PDFs and attachment URLs are not uploaded or persisted.",
+    "The existing main 445-question route and its saved progress are not replaced, migrated, or regraded.",
+    "Automated QA passed for catalog, scoring, shuffle, persistence isolation, source-link validation, and privacy; browser/mobile/accessibility certification was not performed."
+  ]
+}
