@@ -34,7 +34,7 @@ test('expanded week mapping retains the verified 445-question counts',()=>{
  for(const [week,count] of Object.entries({All:445,4:79,5:145,6:145,7:76}))assert.equal(effectiveQuestions(bank,createCurrentFilter({week:week==='All'?'All':Number(week),topic:'All',limit:10},bank)).length,count,week);
 });
 test('public labels and source references exclude private review language and locators',()=>{
- const app=read('expanded/app.mjs').toString();assert(app.includes('Exam 2 · Expanded'));assert(app.includes('Find older saved progress'));assert(!app.includes('Other versions'));
+ const app=read('expanded/app.mjs').toString();assert(app.includes('Exam 2 · Expanded'));assert(app.includes('Find older saved progress'));assert(app.includes('lecture-focused/'));assert(!app.includes('Other versions'));
  assert(!/Isolated preview|No publication approval|pending independent combined QA|Coverage Private 3/.test(app));
  for(const q of bank.questions)for(const ref of q.refs)assert(!/verified supplied-text locator|\blines?\s+\d+[–-]\d+|\b[PT]\d+[–-][PT]?\d+|\/Users\//u.test(ref.label),q.id);
 });
