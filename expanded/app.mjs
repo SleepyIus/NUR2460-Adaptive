@@ -149,6 +149,8 @@ function setupHtml() {
   const counts=coverageDescription(topicQuestions);
   const focused=settings.focus?topicQuestions.filter(q=>q.track===settings.focus):[];
   const estimate=settings.focus?trackEstimate(state,bank,settings.focus):null;
+  const seenIds=new Set(state.history.map(answer=>answer.id));
+  const unseenCount=topicQuestions.filter(q=>!seenIds.has(q.id)).length;
   return `<section class="panel setup" aria-labelledby="setup-title"><p class="eyebrow">Make room for clinical reasoning</p><h1 id="setup-title" tabindex="-1">One decision at a time.</h1>
     <p class="lede">Practice the reviewed Exam 2 questions. Submit your answer, understand the rationale, and return to concepts that need attention.</p>
     <label class="study-scope-control" for="study-scope">Study scope<select id="study-scope" aria-describedby="study-scope-help"><option value="full" ${settings.scope==='full'?'selected':''}>Full course coverage · 445 questions</option><option value="blueprint" ${settings.scope==='blueprint'?'selected':''}>Blueprint-only topics · 414 questions</option></select></label>
@@ -159,7 +161,7 @@ function setupHtml() {
     <label for="focus">Optional focus<select id="focus"><option value="">Varied practice within this area</option>${tracks.map(id=>`<option value="${id}" ${id===settings.focus?'selected':''}>${settings.topic==='All'?escapeHtml(bank.topics[topicQuestions.find(q=>q.track===id).topic].label)+' · ':''}${escapeHtml(bank.tracks[id])}</option>`).join('')}</select></label>
     <label for="length">Session goal<select id="length">${[10,20,40].map(n=>`<option value="${n}" ${n===settings.limit?'selected':''}>Up to ${n} questions</option>`).join('')}</select></label></div>
     <p id="setup-status" class="setup-status" role="status">${escapeHtml(setupStatus)}</p>
-    <p class="coverage">${topicQuestions.length} questions in ${weekLabel(settings.week)} · ${settings.topic==='All'?'all content':escapeHtml(bank.topics[settings.topic].label)} · ${studyScopeLabel(settings)} · ${counts}<br>Sessions can finish early when distinct, spaced cases inside these filters run out. No questions outside your Study scope will be added.</p>
+    <p class="coverage">${topicQuestions.length} questions in ${weekLabel(settings.week)} · ${settings.topic==='All'?'all content':escapeHtml(bank.topics[settings.topic].label)} · ${studyScopeLabel(settings)} · ${counts}<br>${unseenCount} unanswered question${unseenCount===1?'':'s'} remain in these filters. New sessions use unanswered questions first; review repeats are used only after eligible unseen questions are exhausted. No questions outside your Study scope will be added.</p>
     ${settings.focus?`<p class="focus-coverage"><strong>${escapeHtml(bank.tracks[settings.focus])}</strong><br>${focused.length} questions · ${coverageDescription(focused)}<br>Current target: ${LEVEL_NAMES[estimate.level]} · ${estimate.observations} distinct practice observations.<br>Other tracks in this content area provide spacing between focus questions. Missing levels are not treated as mastered.</p>`:''}
     <div class="actions">${button('start','Start studying','primary',!canAct())}${state.session&&!state.session.done?button('back-session','Return to current question','secondary',!canAct()):''}</div>
     <p class="fine">Adaptive mixed-difficulty Study mode · AI-assisted review; independent educator review pending. Not official ATI/NCLEX material.</p>

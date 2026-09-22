@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-import {SAVE_KEY,blankState,validateState} from '../expanded/engine.mjs';
+import {SAVE_KEY,blankState,beginSession,selectOption,setConfidence,submitAnswer,nextQuestion,findQuestion,validateState} from '../expanded/engine.mjs';
 import {HARD80_SAVE_KEY,blankHard80State,beginHard80Exam,validateHard80State} from '../expanded/hard80.mjs';
 import {validateCurrentWeekMapping,createCurrentFilter,effectiveQuestions} from '../expanded/week-mapping.mjs';
 import {blankState as mainStudy} from '../study/engine.mjs';
@@ -32,6 +32,24 @@ test('the expanded Hard80 keeps exact quotas and saved shuffled identities',()=>
 test('expanded week mapping retains the verified 445-question counts',()=>{
  validateCurrentWeekMapping(bank);
  for(const [week,count] of Object.entries({All:445,4:79,5:145,6:145,7:76}))assert.equal(effectiveQuestions(bank,createCurrentFilter({week:week==='All'?'All':Number(week),topic:'All',limit:10},bank)).length,count,week);
+});
+test('new adaptive sessions prefer globally unseen question IDs before review repeats',()=>{
+ const rng=()=>0.1;
+ const settings={week:'All',topic:'Labor',focus:'labor/pprom',limit:10,scope:'full'};
+ const answer=(state,index)=>{
+  const question=findQuestion(bank,state.session.current);
+  for(const option of question.options.filter(option=>option.correct))state=selectOption(state,option.id,bank);
+  state=setConfidence(state,'sure');
+  return submitAnswer(state,bank,new Date(Date.UTC(2026,0,1,0,index)).toISOString());
+ };
+ let state=beginSession(blankState(bank),settings,bank,rng);
+ const firstIds=new Set();
+ for(let index=0;index<10;index+=1){firstIds.add(state.session.current.id);state=nextQuestion(answer(state,index),bank,rng);}
+ let next=beginSession(state,settings,bank,rng);
+ for(let index=0;index<4;index+=1){
+  assert(!firstIds.has(next.session.current.id),`review repeat displaced an unseen question at batch item ${index+1}`);
+  next=nextQuestion(answer(next,index+10),bank,rng);
+ }
 });
 test('public labels and source references exclude private review language and locators',()=>{
  const app=read('expanded/app.mjs').toString();assert(app.includes('Exam 2 · Expanded'));assert(app.includes('Find older saved progress'));assert(app.includes('lecture-focused/'));assert(!app.includes('Other versions'));

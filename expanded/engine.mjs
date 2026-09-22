@@ -140,10 +140,15 @@ export function chooseQuestion(state, bank, rng = random) {
   const session = state.session;
   const provenance = activeProvenance(state);
   if (!session || !provenance || state.history.length - provenance.start >= provenance.filter.limit) return null;
-  const pool = eligiblePool(state, bank);
-  if (!pool.length) return null;
-  const seenFamilies = new Set(state.history.map(answer => family(findQuestion(bank, answer))));
+  const eligible = eligiblePool(state, bank);
+  if (!eligible.length) return null;
   const seenIds = new Set(state.history.map(answer => answer.id));
+  // A new session should discover unanswered question revisions before it
+  // returns to the review stream. Repeats remain available only after this
+  // exact week/topic/focus pool has no eligible unseen IDs left.
+  const unseen = eligible.filter(question => !seenIds.has(question.id));
+  const pool = unseen.length ? unseen : eligible;
+  const seenFamilies = new Set(state.history.map(answer => family(findQuestion(bank, answer))));
   const usedTracks = state.history.slice(provenance.start).map(answer => findQuestion(bank, answer).track);
   const lastAnswer = state.history.at(-1);
   const lastQuestion = lastAnswer ? findQuestion(bank, lastAnswer) : null;
@@ -171,6 +176,8 @@ export function chooseQuestion(state, bank, rng = random) {
   if (question.difficulty !== target) {
     reason += ` Estimated target: ${LEVEL_NAMES[target]}. No eligible spaced case at that level remains in this track; this is ${LEVEL_NAMES[question.difficulty].toLowerCase()} practice, not evidence of complete difficulty coverage.`;
   }
+  if (unseen.length) reason += ' An unanswered question was selected before eligible review questions.';
+  else reason += ' All currently eligible questions in these filters have been answered; this is a review question.';
   if (review) reason += ' This family has been seen before; it will not advance the difficulty estimate.';
   return {
     id: question.id,
